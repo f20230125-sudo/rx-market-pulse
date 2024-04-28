@@ -55,6 +55,12 @@ def test_unknown_company_keeps_its_own_name():
     assert parent_company("Krystal Biotech, Inc.") == "Krystal Biotech"
 
 
+def test_acronyms_keep_their_capitals():
+    assert parent_company("UCB, INC.") == "UCB"
+    assert parent_company("PTC THERAPEUTICS, INC.") == "PTC"
+    assert parent_company("Krystal Biotech, Inc.") == "Krystal Biotech"
+
+
 def test_prefix_matches_stop_at_a_word_boundary():
     assert parent_company("SUNOVION PHARMACEUTICALS INC.") != "Sun Pharma"
     assert parent_company("Sun Pharmaceutical Industries, Inc.") == "Sun Pharma"

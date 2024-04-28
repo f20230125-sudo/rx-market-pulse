@@ -63,6 +63,13 @@ PARENTS: list[tuple[tuple[str, ...], str]] = [
 ]
 _PARENTS = [(re.compile(r"^(?:" + "|".join(prefixes) + r")\b"), name) for prefixes, name in PARENTS]
 
+# Names that are acronyms stay upper case when a company falls back to its own (title-cased) name.
+_ACRONYMS = {"UCB", "PTC", "SK", "GE", "PAI", "GW", "BTG", "AMAG", "EMD", "ANI", "BD"}
+
+
+def _title(key: str) -> str:
+    return " ".join(t if t in _ACRONYMS else t.capitalize() for t in key.split())
+
 # Names that start like Merck & Co. but are other companies (Merck KGaA trades in the US as EMD Serono).
 _NOT_MSD = re.compile(r"\b(KGAA|SERONO|EMD)\b")
 
@@ -86,4 +93,4 @@ def parent_company(name: str | None) -> str | None:
             if parent == "Merck (MSD)" and _NOT_MSD.search(key):
                 break
             return parent
-    return key.title()
+    return _title(key)
