@@ -1,0 +1,27 @@
+table dim_area
+	lineageTag: 4658f118-4ebb-5aa2-87ff-fbeff9f8f851
+
+	column area
+		dataType: string
+		lineageTag: 9701030b-c8ed-5f13-a6a8-0c9329d9cdca
+		summarizeBy: none
+		sourceColumn: area
+
+	column sort
+		dataType: int64
+		formatString: 0
+		lineageTag: 936c188a-ce74-53b4-a450-15ff36ee52da
+		summarizeBy: none
+		sourceColumn: sort
+
+	partition dim_area = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_area.csv"), [Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"area", type text}, {"sort", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
