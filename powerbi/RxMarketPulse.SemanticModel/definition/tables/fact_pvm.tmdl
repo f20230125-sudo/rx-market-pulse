@@ -1,0 +1,50 @@
+table fact_pvm
+	lineageTag: 1fdbf1bf-1053-5818-9ae1-596a10965bbc
+
+	measure 'Bridge Change' = VAR sel = SELECTEDVALUE(dim_area[area], "All areas") VAR pr = SELECTEDVALUE(fact_pvm[pair], "2022-2025") RETURN CALCULATE(SUM(fact_pvm[value]), fact_pvm[segment] = sel, fact_pvm[pair] = pr)
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 2ca7cd4e-8064-5390-ab3d-a24d0c361c8a
+
+	column segment
+		dataType: string
+		lineageTag: 40000d13-1233-5537-a0cd-9a74e0b92bc6
+		summarizeBy: none
+		sourceColumn: segment
+
+	column pair
+		dataType: string
+		lineageTag: 0bc07b20-5660-5d0a-be9e-16c7304f4828
+		summarizeBy: none
+		sourceColumn: pair
+
+	column step
+		dataType: string
+		lineageTag: f80810e1-5dea-5cb9-b264-7a2267b2ddef
+		summarizeBy: none
+		sourceColumn: step
+
+	column step_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 6db24efd-68c8-5a14-9f61-90813512949a
+		summarizeBy: none
+		sourceColumn: step_order
+
+	column value
+		dataType: double
+		lineageTag: 5e8bf301-10c0-59c9-b217-a4ba223fd7de
+		summarizeBy: none
+		sourceColumn: value
+
+	partition fact_pvm = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_pvm.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"segment", type text}, {"pair", type text}, {"step", type text}, {"step_order", Int64.Type}, {"value", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+ref table dim_year
+ref table dim_area
+ref table dim_state
+ref table fact_product_year
+ref table dim_owner
+ref table fact_state_area_year
+ref table fact_state_year
+ref table fact_pvm
+ref table fact_loe
+ref table fact_erosion
+ref table fact_quality
+
+ref expression DataFolder

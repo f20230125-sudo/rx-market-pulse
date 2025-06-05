@@ -1,0 +1,1891 @@
+segment,pair,step,step_order,value
+All areas,2019-2020,More or fewer prescriptions,1,-3076608388.1095157
+All areas,2019-2020,Shift to costlier products,2,4536687213.965347
+All areas,2019-2020,Spend per prescription,3,2440832757.494172
+All areas,2019-2020,New products,4,812968943.62
+All areas,2019-2020,Discontinued products,5,-49570226.92999999
+Cardiovascular,2019-2020,More or fewer prescriptions,1,1744252.9924393273
+Cardiovascular,2019-2020,Shift to costlier products,2,246447763.7395795
+Cardiovascular,2019-2020,Spend per prescription,3,191681747.08798128
+Cardiovascular,2019-2020,New products,4,1364587.54
+Cardiovascular,2019-2020,Discontinued products,5,-51386.56
+Diabetes & obesity,2019-2020,More or fewer prescriptions,1,84933042.66490299
+Diabetes & obesity,2019-2020,Shift to costlier products,2,268368806.45262867
+Diabetes & obesity,2019-2020,Spend per prescription,3,486334027.42246825
+Diabetes & obesity,2019-2020,New products,4,118501221.78
+Diabetes & obesity,2019-2020,Discontinued products,5,-10868.13
+Endocrine & women's health,2019-2020,More or fewer prescriptions,1,18810452.890723106
+Endocrine & women's health,2019-2020,Shift to costlier products,2,-41749120.49142841
+Endocrine & women's health,2019-2020,Spend per prescription,3,73621669.35070539
+Endocrine & women's health,2019-2020,New products,4,1964090.4
+Endocrine & women's health,2019-2020,Discontinued products,5,-868748.0
+Eye & skin,2019-2020,More or fewer prescriptions,1,9661292.896092124
+Eye & skin,2019-2020,Shift to costlier products,2,35597759.83403474
+Eye & skin,2019-2020,Spend per prescription,3,8199428.609873071
+Eye & skin,2019-2020,New products,4,1497898.99
+Eye & skin,2019-2020,Discontinued products,5,0.0
+Gastroenterology,2019-2020,More or fewer prescriptions,1,23016003.06915787
+Gastroenterology,2019-2020,Shift to costlier products,2,-1646019.4850981492
+Gastroenterology,2019-2020,Spend per prescription,3,169179495.81594032
+Gastroenterology,2019-2020,New products,4,5591042.649999999
+Gastroenterology,2019-2020,Discontinued products,5,-12186.75
+HIV,2019-2020,More or fewer prescriptions,1,-221025849.6022812
+HIV,2019-2020,Shift to costlier products,2,244753034.8137652
+HIV,2019-2020,Spend per prescription,3,342428317.30851597
+HIV,2019-2020,New products,4,38490984.56
+HIV,2019-2020,Discontinued products,5,-891348.1399999999
+Hematology,2019-2020,More or fewer prescriptions,1,305087415.58005375
+Hematology,2019-2020,Shift to costlier products,2,-59920689.28923446
+Hematology,2019-2020,Spend per prescription,3,-74400112.87081936
+Hematology,2019-2020,New products,4,28196122.29
+Hematology,2019-2020,Discontinued products,5,0.0
+Immunology & inflammation,2019-2020,More or fewer prescriptions,1,-786854489.1403122
+Immunology & inflammation,2019-2020,Shift to costlier products,2,1899302007.2161114
+Immunology & inflammation,2019-2020,Spend per prescription,3,380522376.1242006
+Immunology & inflammation,2019-2020,New products,4,980992.6300000001
+Immunology & inflammation,2019-2020,Discontinued products,5,0.0
+Infectious disease (non-HIV),2019-2020,More or fewer prescriptions,1,-836202928.935538
+Infectious disease (non-HIV),2019-2020,Shift to costlier products,2,37398923.10593826
+Infectious disease (non-HIV),2019-2020,Spend per prescription,3,-43535737.37039994
+Infectious disease (non-HIV),2019-2020,New products,4,2178426.9000000004
+Infectious disease (non-HIV),2019-2020,Discontinued products,5,-153990.5
+Neurology & psychiatry,2019-2020,More or fewer prescriptions,1,312063505.3194535
+Neurology & psychiatry,2019-2020,Shift to costlier products,2,-391277799.1888499
+Neurology & psychiatry,2019-2020,Spend per prescription,3,351212163.37939674
+Neurology & psychiatry,2019-2020,New products,4,98911260.08000001
+Neurology & psychiatry,2019-2020,Discontinued products,5,-210370.45
+Oncology,2019-2020,More or fewer prescriptions,1,22342599.1351377
+Oncology,2019-2020,Shift to costlier products,2,474285504.9470916
+Oncology,2019-2020,Spend per prescription,3,1690819.4477707632
+Oncology,2019-2020,New products,4,98250868.88
+Oncology,2019-2020,Discontinued products,5,-7744.0199999999995
+"Other (vitamins, fluids, diagnostics)",2019-2020,More or fewer prescriptions,1,-10954866.924514761
+"Other (vitamins, fluids, diagnostics)",2019-2020,Shift to costlier products,2,-6738291.409361951
+"Other (vitamins, fluids, diagnostics)",2019-2020,Spend per prescription,3,104178381.40387678
+"Other (vitamins, fluids, diagnostics)",2019-2020,New products,4,6135208.37
+"Other (vitamins, fluids, diagnostics)",2019-2020,Discontinued products,5,0.0
+"Pain, addiction & anesthesia",2019-2020,More or fewer prescriptions,1,-165822381.288242
+"Pain, addiction & anesthesia",2019-2020,Shift to costlier products,2,204478555.8251138
+"Pain, addiction & anesthesia",2019-2020,Spend per prescription,3,361059656.43312806
+"Pain, addiction & anesthesia",2019-2020,New products,4,4738806.140000001
+"Pain, addiction & anesthesia",2019-2020,Discontinued products,5,-52221.31
+Rare & genetic disease,2019-2020,More or fewer prescriptions,1,325541417.51590484
+Rare & genetic disease,2019-2020,Shift to costlier products,2,287146255.89522433
+Rare & genetic disease,2019-2020,Spend per prescription,3,67983625.75887087
+Rare & genetic disease,2019-2020,New products,4,125006852.19
+Rare & genetic disease,2019-2020,Discontinued products,5,-3824125.59
+Respiratory & allergy,2019-2020,More or fewer prescriptions,1,-210857877.1498469
+Respiratory & allergy,2019-2020,Shift to costlier products,2,-108509366.39882585
+Respiratory & allergy,2019-2020,Spend per prescription,3,111266032.86867248
+Respiratory & allergy,2019-2020,New products,4,230409804.97
+Respiratory & allergy,2019-2020,Discontinued products,5,-149465.03
+Unclassified,2019-2020,More or fewer prescriptions,1,-674956946.2802773
+Unclassified,2019-2020,Shift to costlier products,2,13464257.232375722
+Unclassified,2019-2020,Spend per prescription,3,16691574.727901258
+Unclassified,2019-2020,New products,4,89417572.2
+Unclassified,2019-2020,Discontinued products,5,-53357046.460000016
+Urology & renal,2019-2020,More or fewer prescriptions,1,32320176.934072062
+Urology & renal,2019-2020,Shift to costlier products,2,59909046.23279312
+Urology & renal,2019-2020,Spend per prescription,3,-66372589.05686514
+Urology & renal,2019-2020,New products,4,367735.26
+Urology & renal,2019-2020,Discontinued products,5,0.0
+All areas,2019-2021,More or fewer prescriptions,1,199062284.72731426
+All areas,2019-2021,Shift to costlier products,2,6758710244.4127
+All areas,2019-2021,Spend per prescription,3,5303570183.129988
+All areas,2019-2021,New products,4,2726464755.149999
+All areas,2019-2021,Discontinued products,5,-153961283.74000007
+Cardiovascular,2019-2021,More or fewer prescriptions,1,81102142.39675924
+Cardiovascular,2019-2021,Shift to costlier products,2,574594818.4018633
+Cardiovascular,2019-2021,Spend per prescription,3,434147040.9413775
+Cardiovascular,2019-2021,New products,4,16650868.700000001
+Cardiovascular,2019-2021,Discontinued products,5,-1300989.8
+Diabetes & obesity,2019-2021,More or fewer prescriptions,1,341982338.187801
+Diabetes & obesity,2019-2021,Shift to costlier products,2,774369459.7556349
+Diabetes & obesity,2019-2021,Spend per prescription,3,1289093520.7865639
+Diabetes & obesity,2019-2021,New products,4,303792079.33
+Diabetes & obesity,2019-2021,Discontinued products,5,-10868.13
+Endocrine & women's health,2019-2021,More or fewer prescriptions,1,202874165.99824804
+Endocrine & women's health,2019-2021,Shift to costlier products,2,-73894752.34361106
+Endocrine & women's health,2019-2021,Spend per prescription,3,102521967.54536326
+Endocrine & women's health,2019-2021,New products,4,17219902.54
+Endocrine & women's health,2019-2021,Discontinued products,5,-1733219.3299999998
+Eye & skin,2019-2021,More or fewer prescriptions,1,96108976.38040957
+Eye & skin,2019-2021,Shift to costlier products,2,75404126.53309597
+Eye & skin,2019-2021,Spend per prescription,3,22932365.806494564
+Eye & skin,2019-2021,New products,4,13228829.510000002
+Eye & skin,2019-2021,Discontinued products,5,0.0
+Gastroenterology,2019-2021,More or fewer prescriptions,1,211131303.70874393
+Gastroenterology,2019-2021,Shift to costlier products,2,-33448092.017839707
+Gastroenterology,2019-2021,Spend per prescription,3,242682270.81909564
+Gastroenterology,2019-2021,New products,4,55021821.45
+Gastroenterology,2019-2021,Discontinued products,5,-225009.85
+HIV,2019-2021,More or fewer prescriptions,1,-458878278.4272307
+HIV,2019-2021,Shift to costlier products,2,387232571.03144366
+HIV,2019-2021,Spend per prescription,3,679761923.1457866
+HIV,2019-2021,New products,4,131123442.34
+HIV,2019-2021,Discontinued products,5,-1139513.0
+Hematology,2019-2021,More or fewer prescriptions,1,814707129.7250423
+Hematology,2019-2021,Shift to costlier products,2,-305526230.0836418
+Hematology,2019-2021,Spend per prescription,3,-48925746.59140075
+Hematology,2019-2021,New products,4,132373200.73000002
+Hematology,2019-2021,Discontinued products,5,-369876.68
+Immunology & inflammation,2019-2021,More or fewer prescriptions,1,40281026.57809573
+Immunology & inflammation,2019-2021,Shift to costlier products,2,3021461722.433928
+Immunology & inflammation,2019-2021,Spend per prescription,3,1092907292.9379756
+Immunology & inflammation,2019-2021,New products,4,28065803.93
+Immunology & inflammation,2019-2021,Discontinued products,5,0.0
+Infectious disease (non-HIV),2019-2021,More or fewer prescriptions,1,-497200811.46448946
+Infectious disease (non-HIV),2019-2021,Shift to costlier products,2,-415140289.2988636
+Infectious disease (non-HIV),2019-2021,Spend per prescription,3,-43374223.79664732
+Infectious disease (non-HIV),2019-2021,New products,4,14300415.200000001
+Infectious disease (non-HIV),2019-2021,Discontinued products,5,-147002.53999999998
+Neurology & psychiatry,2019-2021,More or fewer prescriptions,1,976285754.4090614
+Neurology & psychiatry,2019-2021,Shift to costlier products,2,-198734944.64352876
+Neurology & psychiatry,2019-2021,Spend per prescription,3,746473703.6844678
+Neurology & psychiatry,2019-2021,New products,4,605349680.5800002
+Neurology & psychiatry,2019-2021,Discontinued products,5,-267071.78
+Oncology,2019-2021,More or fewer prescriptions,1,183460061.4932299
+Oncology,2019-2021,Shift to costlier products,2,597675025.7696753
+Oncology,2019-2021,Spend per prescription,3,14446586.007095128
+Oncology,2019-2021,New products,4,433513974.19000006
+Oncology,2019-2021,Discontinued products,5,-246103.26
+"Other (vitamins, fluids, diagnostics)",2019-2021,More or fewer prescriptions,1,37631837.10725046
+"Other (vitamins, fluids, diagnostics)",2019-2021,Shift to costlier products,2,37226752.79256411
+"Other (vitamins, fluids, diagnostics)",2019-2021,Spend per prescription,3,46491513.60018551
+"Other (vitamins, fluids, diagnostics)",2019-2021,New products,4,14701368.61
+"Other (vitamins, fluids, diagnostics)",2019-2021,Discontinued products,5,-89.91999999999999
+"Pain, addiction & anesthesia",2019-2021,More or fewer prescriptions,1,42991315.42042368
+"Pain, addiction & anesthesia",2019-2021,Shift to costlier products,2,196775739.62730485
+"Pain, addiction & anesthesia",2019-2021,Spend per prescription,3,445497628.3522715
+"Pain, addiction & anesthesia",2019-2021,New products,4,39244778.68
+"Pain, addiction & anesthesia",2019-2021,Discontinued products,5,-2164598.4600000004
+Rare & genetic disease,2019-2021,More or fewer prescriptions,1,-179545287.7207218
+Rare & genetic disease,2019-2021,Shift to costlier products,2,1031996821.7601372
+Rare & genetic disease,2019-2021,Spend per prescription,3,153834289.5805844
+Rare & genetic disease,2019-2021,New products,4,562084804.1899999
+Rare & genetic disease,2019-2021,Discontinued products,5,-7660182.97
+Respiratory & allergy,2019-2021,More or fewer prescriptions,1,15714279.857747396
+Respiratory & allergy,2019-2021,Shift to costlier products,2,-79074751.26924762
+Respiratory & allergy,2019-2021,Spend per prescription,3,281319710.6115004
+Respiratory & allergy,2019-2021,New products,4,290394439.77
+Respiratory & allergy,2019-2021,Discontinued products,5,-3569154.7300000004
+Unclassified,2019-2021,More or fewer prescriptions,1,-830070315.6434968
+Unclassified,2019-2021,Shift to costlier products,2,-1553684.2720085755
+Unclassified,2019-2021,Spend per prescription,3,22266922.225505043
+Unclassified,2019-2021,New products,4,247615215.23
+Unclassified,2019-2021,Discontinued products,5,-186025946.82
+Urology & renal,2019-2021,More or fewer prescriptions,1,3877951.8105342234
+Urology & renal,2019-2021,Shift to costlier products,2,76666248.28175923
+Urology & renal,2019-2021,Spend per prescription,3,-100696971.78229342
+Urology & renal,2019-2021,New products,4,4257560.949999999
+Urology & renal,2019-2021,Discontinued products,5,-96301.13
+All areas,2019-2022,More or fewer prescriptions,1,2780719339.312032
+All areas,2019-2022,Shift to costlier products,2,9065026305.099495
+All areas,2019-2022,Spend per prescription,3,10114544047.628475
+All areas,2019-2022,New products,4,5320475112.369999
+All areas,2019-2022,Discontinued products,5,-256830895.66000012
+Cardiovascular,2019-2022,More or fewer prescriptions,1,89944612.20977864
+Cardiovascular,2019-2022,Shift to costlier products,2,814530632.8279954
+Cardiovascular,2019-2022,Spend per prescription,3,802242629.5122259
+Cardiovascular,2019-2022,New products,4,61082735.97999999
+Cardiovascular,2019-2022,Discontinued products,5,-1977011.87
+Diabetes & obesity,2019-2022,More or fewer prescriptions,1,562423365.8435737
+Diabetes & obesity,2019-2022,Shift to costlier products,2,1780652585.1766946
+Diabetes & obesity,2019-2022,Spend per prescription,3,2104227121.0897312
+Diabetes & obesity,2019-2022,New products,4,426790272.68000007
+Diabetes & obesity,2019-2022,Discontinued products,5,-177793.44999999998
+Endocrine & women's health,2019-2022,More or fewer prescriptions,1,183139414.71620116
+Endocrine & women's health,2019-2022,Shift to costlier products,2,-107054781.88314155
+Endocrine & women's health,2019-2022,Spend per prescription,3,275226710.1569404
+Endocrine & women's health,2019-2022,New products,4,54061175.33
+Endocrine & women's health,2019-2022,Discontinued products,5,-1919964.23
+Eye & skin,2019-2022,More or fewer prescriptions,1,98511359.69610187
+Eye & skin,2019-2022,Shift to costlier products,2,114950478.09262437
+Eye & skin,2019-2022,Spend per prescription,3,59938264.76127378
+Eye & skin,2019-2022,New products,4,34583310.550000004
+Eye & skin,2019-2022,Discontinued products,5,0.0
+Gastroenterology,2019-2022,More or fewer prescriptions,1,341806832.0831584
+Gastroenterology,2019-2022,Shift to costlier products,2,-41631918.86957482
+Gastroenterology,2019-2022,Spend per prescription,3,403279454.1164167
+Gastroenterology,2019-2022,New products,4,159323039.29999998
+Gastroenterology,2019-2022,Discontinued products,5,-2070237.2100000002
+HIV,2019-2022,More or fewer prescriptions,1,-601875326.5148529
+HIV,2019-2022,Shift to costlier products,2,455962827.3920091
+HIV,2019-2022,Spend per prescription,3,995182941.8828437
+HIV,2019-2022,New products,4,188024687.38
+HIV,2019-2022,Discontinued products,5,-4115368.06
+Hematology,2019-2022,More or fewer prescriptions,1,692739887.5958724
+Hematology,2019-2022,Shift to costlier products,2,-148922554.30747014
+Hematology,2019-2022,Spend per prescription,3,-114113761.86840197
+Hematology,2019-2022,New products,4,208501432.84999996
+Hematology,2019-2022,Discontinued products,5,-369876.68
+Immunology & inflammation,2019-2022,More or fewer prescriptions,1,621887262.3769604
+Immunology & inflammation,2019-2022,Shift to costlier products,2,4184718312.2263236
+Immunology & inflammation,2019-2022,Spend per prescription,3,2133722560.2567148
+Immunology & inflammation,2019-2022,New products,4,157393151.42000002
+Immunology & inflammation,2019-2022,Discontinued products,5,-31280.37
+Infectious disease (non-HIV),2019-2022,More or fewer prescriptions,1,208240543.04928827
+Infectious disease (non-HIV),2019-2022,Shift to costlier products,2,-788132275.8715857
+Infectious disease (non-HIV),2019-2022,Spend per prescription,3,-90006750.7477026
+Infectious disease (non-HIV),2019-2022,New products,4,39081674.02
+Infectious disease (non-HIV),2019-2022,Discontinued products,5,-4030457.6500000004
+Neurology & psychiatry,2019-2022,More or fewer prescriptions,1,1387259187.6665897
+Neurology & psychiatry,2019-2022,Shift to costlier products,2,161866028.30677062
+Neurology & psychiatry,2019-2022,Spend per prescription,3,1287342331.10664
+Neurology & psychiatry,2019-2022,New products,4,1513515085.69
+Neurology & psychiatry,2019-2022,Discontinued products,5,-1446397.0699999998
+Oncology,2019-2022,More or fewer prescriptions,1,146232864.4683538
+Oncology,2019-2022,Shift to costlier products,2,691803102.1227846
+Oncology,2019-2022,Spend per prescription,3,258026131.73886186
+Oncology,2019-2022,New products,4,813337630.2800002
+Oncology,2019-2022,Discontinued products,5,-10235948.010000002
+"Other (vitamins, fluids, diagnostics)",2019-2022,More or fewer prescriptions,1,39755205.8818879
+"Other (vitamins, fluids, diagnostics)",2019-2022,Shift to costlier products,2,72427624.05789518
+"Other (vitamins, fluids, diagnostics)",2019-2022,Spend per prescription,3,302740832.06021684
+"Other (vitamins, fluids, diagnostics)",2019-2022,New products,4,29410193.779999997
+"Other (vitamins, fluids, diagnostics)",2019-2022,Discontinued products,5,-89.91999999999999
+"Pain, addiction & anesthesia",2019-2022,More or fewer prescriptions,1,236050630.53302518
+"Pain, addiction & anesthesia",2019-2022,Shift to costlier products,2,28480924.31426225
+"Pain, addiction & anesthesia",2019-2022,Spend per prescription,3,996045777.472712
+"Pain, addiction & anesthesia",2019-2022,New products,4,181754651.88
+"Pain, addiction & anesthesia",2019-2022,Discontinued products,5,-2229074.6300000004
+Rare & genetic disease,2019-2022,More or fewer prescriptions,1,652307096.9026155
+Rare & genetic disease,2019-2022,Shift to costlier products,2,497265665.02610505
+Rare & genetic disease,2019-2022,Spend per prescription,3,331609596.8512796
+Rare & genetic disease,2019-2022,New products,4,948083205.23
+Rare & genetic disease,2019-2022,Discontinued products,5,-33403167.349999998
+Respiratory & allergy,2019-2022,More or fewer prescriptions,1,352299361.7333517
+Respiratory & allergy,2019-2022,Shift to costlier products,2,-192523256.49751967
+Respiratory & allergy,2019-2022,Spend per prescription,3,545226105.804168
+Respiratory & allergy,2019-2022,New products,4,489619814.71
+Respiratory & allergy,2019-2022,Discontinued products,5,-3191939.63
+Unclassified,2019-2022,More or fewer prescriptions,1,-992986900.9423987
+Unclassified,2019-2022,Shift to costlier products,2,30091935.36748381
+Unclassified,2019-2022,Spend per prescription,3,64807366.52491461
+Unclassified,2019-2022,New products,4,279301854.75000006
+Unclassified,2019-2022,Discontinued products,5,-337126643.15000004
+Urology & renal,2019-2022,More or fewer prescriptions,1,-98397374.04261838
+Urology & renal,2019-2022,Shift to costlier products,2,143383596.47817203
+Urology & renal,2019-2022,Spend per prescription,3,-142329712.2855537
+Urology & renal,2019-2022,New products,4,12777842.7
+Urology & renal,2019-2022,Discontinued products,5,-757146.15
+All areas,2019-2023,More or fewer prescriptions,1,4398314517.256028
+All areas,2019-2023,Shift to costlier products,2,10512185841.59339
+All areas,2019-2023,Spend per prescription,3,14600336042.660574
+All areas,2019-2023,New products,4,9850694936.539991
+All areas,2019-2023,Discontinued products,5,-668452738.5400001
+Cardiovascular,2019-2023,More or fewer prescriptions,1,140648060.00359344
+Cardiovascular,2019-2023,Shift to costlier products,2,974750651.1107128
+Cardiovascular,2019-2023,Spend per prescription,3,917056328.2056932
+Cardiovascular,2019-2023,New products,4,156447223.98999995
+Cardiovascular,2019-2023,Discontinued products,5,-3513921.4800000004
+Diabetes & obesity,2019-2023,More or fewer prescriptions,1,925744262.0265952
+Diabetes & obesity,2019-2023,Shift to costlier products,2,2992561584.4834166
+Diabetes & obesity,2019-2023,Spend per prescription,3,3095165841.769988
+Diabetes & obesity,2019-2023,New products,4,1381780712.29
+Diabetes & obesity,2019-2023,Discontinued products,5,-177793.44999999998
+Endocrine & women's health,2019-2023,More or fewer prescriptions,1,190425362.8658563
+Endocrine & women's health,2019-2023,Shift to costlier products,2,-364451540.5771905
+Endocrine & women's health,2019-2023,Spend per prescription,3,407010464.8513345
+Endocrine & women's health,2019-2023,New products,4,175038377.26999998
+Endocrine & women's health,2019-2023,Discontinued products,5,-16708204.78
+Eye & skin,2019-2023,More or fewer prescriptions,1,146297925.93378735
+Eye & skin,2019-2023,Shift to costlier products,2,142142879.57526326
+Eye & skin,2019-2023,Spend per prescription,3,47891803.53094928
+Eye & skin,2019-2023,New products,4,141122389.72
+Eye & skin,2019-2023,Discontinued products,5,-2871711.24
+Gastroenterology,2019-2023,More or fewer prescriptions,1,441805689.6361121
+Gastroenterology,2019-2023,Shift to costlier products,2,11927799.875364859
+Gastroenterology,2019-2023,Spend per prescription,3,495823766.3985231
+Gastroenterology,2019-2023,New products,4,232010979.58999997
+Gastroenterology,2019-2023,Discontinued products,5,-7710295.68
+HIV,2019-2023,More or fewer prescriptions,1,-862167352.5900977
+HIV,2019-2023,Shift to costlier products,2,518065349.39547
+HIV,2019-2023,Spend per prescription,3,1390222941.0346272
+HIV,2019-2023,New products,4,327677504.16
+HIV,2019-2023,Discontinued products,5,-4115368.06
+Hematology,2019-2023,More or fewer prescriptions,1,520488143.35616106
+Hematology,2019-2023,Shift to costlier products,2,19911652.94657901
+Hematology,2019-2023,Spend per prescription,3,150235654.6272598
+Hematology,2019-2023,New products,4,282175579.92
+Hematology,2019-2023,Discontinued products,5,-369876.68
+Immunology & inflammation,2019-2023,More or fewer prescriptions,1,940375221.230215
+Immunology & inflammation,2019-2023,Shift to costlier products,2,5551147878.14791
+Immunology & inflammation,2019-2023,Spend per prescription,3,3395576656.531876
+Immunology & inflammation,2019-2023,New products,4,321424716.38
+Immunology & inflammation,2019-2023,Discontinued products,5,-157851.07
+Infectious disease (non-HIV),2019-2023,More or fewer prescriptions,1,596214616.904487
+Infectious disease (non-HIV),2019-2023,Shift to costlier products,2,-1168254044.100416
+Infectious disease (non-HIV),2019-2023,Spend per prescription,3,-48606254.01407142
+Infectious disease (non-HIV),2019-2023,New products,4,44707948.28999999
+Infectious disease (non-HIV),2019-2023,Discontinued products,5,-7972906.199999999
+Neurology & psychiatry,2019-2023,More or fewer prescriptions,1,1614445312.0043523
+Neurology & psychiatry,2019-2023,Shift to costlier products,2,-792577807.4522533
+Neurology & psychiatry,2019-2023,Spend per prescription,3,1516631439.3279018
+Neurology & psychiatry,2019-2023,New products,4,3025032942.26
+Neurology & psychiatry,2019-2023,Discontinued products,5,-40691457.78
+Oncology,2019-2023,More or fewer prescriptions,1,230755903.4493747
+Oncology,2019-2023,Shift to costlier products,2,661327003.8284658
+Oncology,2019-2023,Spend per prescription,3,710839260.3321598
+Oncology,2019-2023,New products,4,1393762314.5300002
+Oncology,2019-2023,Discontinued products,5,-16776134.250000002
+"Other (vitamins, fluids, diagnostics)",2019-2023,More or fewer prescriptions,1,97873442.75706284
+"Other (vitamins, fluids, diagnostics)",2019-2023,Shift to costlier products,2,105262017.2102439
+"Other (vitamins, fluids, diagnostics)",2019-2023,Spend per prescription,3,416859271.0926934
+"Other (vitamins, fluids, diagnostics)",2019-2023,New products,4,117060896.19999999
+"Other (vitamins, fluids, diagnostics)",2019-2023,Discontinued products,5,-24430.59
+"Pain, addiction & anesthesia",2019-2023,More or fewer prescriptions,1,310247573.30304384
+"Pain, addiction & anesthesia",2019-2023,Shift to costlier products,2,208321453.53322646
+"Pain, addiction & anesthesia",2019-2023,Spend per prescription,3,1178108941.2937295
+"Pain, addiction & anesthesia",2019-2023,New products,4,282981254.65
+"Pain, addiction & anesthesia",2019-2023,Discontinued products,5,-91447985.58999997
+Rare & genetic disease,2019-2023,More or fewer prescriptions,1,628097612.3871814
+Rare & genetic disease,2019-2023,Shift to costlier products,2,638750057.9465479
+Rare & genetic disease,2019-2023,Spend per prescription,3,506131468.30627096
+Rare & genetic disease,2019-2023,New products,4,1234094962.9499998
+Rare & genetic disease,2019-2023,Discontinued products,5,-33137751.599999998
+Respiratory & allergy,2019-2023,More or fewer prescriptions,1,458889849.01468617
+Respiratory & allergy,2019-2023,Shift to costlier products,2,-290460602.1870706
+Respiratory & allergy,2019-2023,Spend per prescription,3,618160939.5823845
+Respiratory & allergy,2019-2023,New products,4,649453979.67
+Respiratory & allergy,2019-2023,Discontinued products,5,-54711458.97
+Unclassified,2019-2023,More or fewer prescriptions,1,-1046544089.8035698
+Unclassified,2019-2023,Shift to costlier products,2,155571620.85675216
+Unclassified,2019-2023,Spend per prescription,3,29685110.736817643
+Unclassified,2019-2023,New products,4,404179052.10000014
+Unclassified,2019-2023,Discontinued products,5,-629505025.9500004
+Urology & renal,2019-2023,More or fewer prescriptions,1,-234094002.63656053
+Urology & renal,2019-2023,Shift to costlier products,2,232151110.86490238
+Urology & renal,2019-2023,Spend per prescription,3,-118259711.09834181
+Urology & renal,2019-2023,New products,4,30592567.249999996
+Urology & renal,2019-2023,Discontinued products,5,-757146.15
+All areas,2019-2024,More or fewer prescriptions,1,26284461.031934284
+All areas,2019-2024,Shift to costlier products,2,10117730483.119537
+All areas,2019-2024,Spend per prescription,3,10959104128.54853
+All areas,2019-2024,New products,4,15536700429.730003
+All areas,2019-2024,Discontinued products,5,-1371249742.4100013
+Cardiovascular,2019-2024,More or fewer prescriptions,1,-86388934.74403037
+Cardiovascular,2019-2024,Shift to costlier products,2,1190893666.5501988
+Cardiovascular,2019-2024,Spend per prescription,3,971048120.413832
+Cardiovascular,2019-2024,New products,4,254017168.95
+Cardiovascular,2019-2024,Discontinued products,5,-5866673.58
+Diabetes & obesity,2019-2024,More or fewer prescriptions,1,183191806.9447912
+Diabetes & obesity,2019-2024,Shift to costlier products,2,3340787959.6940985
+Diabetes & obesity,2019-2024,Spend per prescription,3,1665519875.5311112
+Diabetes & obesity,2019-2024,New products,4,3176826433.6
+Diabetes & obesity,2019-2024,Discontinued products,5,-4492089.14
+Endocrine & women's health,2019-2024,More or fewer prescriptions,1,-121390159.41587949
+Endocrine & women's health,2019-2024,Shift to costlier products,2,-229214808.0974851
+Endocrine & women's health,2019-2024,Spend per prescription,3,457604478.9933647
+Endocrine & women's health,2019-2024,New products,4,351210567.13
+Endocrine & women's health,2019-2024,Discontinued products,5,-124028362.61999999
+Eye & skin,2019-2024,More or fewer prescriptions,1,103595766.39146785
+Eye & skin,2019-2024,Shift to costlier products,2,125774009.3761055
+Eye & skin,2019-2024,Spend per prescription,3,44465490.17242663
+Eye & skin,2019-2024,New products,4,265395060.33
+Eye & skin,2019-2024,Discontinued products,5,-3908127.9299999997
+Gastroenterology,2019-2024,More or fewer prescriptions,1,384029526.1869821
+Gastroenterology,2019-2024,Shift to costlier products,2,86163768.2493897
+Gastroenterology,2019-2024,Spend per prescription,3,236598957.50362828
+Gastroenterology,2019-2024,New products,4,271116791.09000003
+Gastroenterology,2019-2024,Discontinued products,5,-21308549.919999994
+HIV,2019-2024,More or fewer prescriptions,1,-1256697295.465577
+HIV,2019-2024,Shift to costlier products,2,540804482.3356185
+HIV,2019-2024,Spend per prescription,3,1611483799.9999576
+HIV,2019-2024,New products,4,412464572.68
+HIV,2019-2024,Discontinued products,5,-138758738.14999995
+Hematology,2019-2024,More or fewer prescriptions,1,169047250.78201717
+Hematology,2019-2024,Shift to costlier products,2,118819732.73341307
+Hematology,2019-2024,Spend per prescription,3,-22172762.905430675
+Hematology,2019-2024,New products,4,491502686.29999995
+Hematology,2019-2024,Discontinued products,5,-116315139.28999998
+Immunology & inflammation,2019-2024,More or fewer prescriptions,1,501421917.5631379
+Immunology & inflammation,2019-2024,Shift to costlier products,2,5734924020.672529
+Immunology & inflammation,2019-2024,Spend per prescription,3,3649909128.794333
+Immunology & inflammation,2019-2024,New products,4,575210758.02
+Immunology & inflammation,2019-2024,Discontinued products,5,-817773.02
+Infectious disease (non-HIV),2019-2024,More or fewer prescriptions,1,221961874.6067928
+Infectious disease (non-HIV),2019-2024,Shift to costlier products,2,-1228927609.401802
+Infectious disease (non-HIV),2019-2024,Spend per prescription,3,-266614177.71499074
+Infectious disease (non-HIV),2019-2024,New products,4,392609008.6200001
+Infectious disease (non-HIV),2019-2024,Discontinued products,5,-5753813.92
+Neurology & psychiatry,2019-2024,More or fewer prescriptions,1,724333681.42089
+Neurology & psychiatry,2019-2024,Shift to costlier products,2,-1237255723.256949
+Neurology & psychiatry,2019-2024,Spend per prescription,3,1356782136.5760584
+Neurology & psychiatry,2019-2024,New products,4,4475948803.900001
+Neurology & psychiatry,2019-2024,Discontinued products,5,-76006402.77
+Oncology,2019-2024,More or fewer prescriptions,1,-214167077.95463923
+Oncology,2019-2024,Shift to costlier products,2,673603833.976696
+Oncology,2019-2024,Spend per prescription,3,592247832.8079429
+Oncology,2019-2024,New products,4,1727329843.8299994
+Oncology,2019-2024,Discontinued products,5,-19019705.26
+"Other (vitamins, fluids, diagnostics)",2019-2024,More or fewer prescriptions,1,32524348.549022645
+"Other (vitamins, fluids, diagnostics)",2019-2024,Shift to costlier products,2,113455560.89556986
+"Other (vitamins, fluids, diagnostics)",2019-2024,Spend per prescription,3,4014769.935407579
+"Other (vitamins, fluids, diagnostics)",2019-2024,New products,4,24742560.55
+"Other (vitamins, fluids, diagnostics)",2019-2024,Discontinued products,5,-7598675.8
+"Pain, addiction & anesthesia",2019-2024,More or fewer prescriptions,1,141491680.02710786
+"Pain, addiction & anesthesia",2019-2024,Shift to costlier products,2,252929170.01227355
+"Pain, addiction & anesthesia",2019-2024,Spend per prescription,3,373280012.4306186
+"Pain, addiction & anesthesia",2019-2024,New products,4,314611862.48
+"Pain, addiction & anesthesia",2019-2024,Discontinued products,5,-92273340.89999998
+Rare & genetic disease,2019-2024,More or fewer prescriptions,1,329125651.39842695
+Rare & genetic disease,2019-2024,Shift to costlier products,2,760445493.7094399
+Rare & genetic disease,2019-2024,Spend per prescription,3,654706700.8621336
+Rare & genetic disease,2019-2024,New products,4,1569097525.91
+Rare & genetic disease,2019-2024,Discontinued products,5,-32350953.9
+Respiratory & allergy,2019-2024,More or fewer prescriptions,1,-7037991.043788341
+Respiratory & allergy,2019-2024,Shift to costlier products,2,-543061839.2936808
+Respiratory & allergy,2019-2024,Spend per prescription,3,-60047603.33253068
+Respiratory & allergy,2019-2024,New products,4,977038657.3399999
+Respiratory & allergy,2019-2024,Discontinued products,5,-57063226.53
+Unclassified,2019-2024,More or fewer prescriptions,1,-922042889.8698283
+Unclassified,2019-2024,Shift to costlier products,2,25539383.215185493
+Unclassified,2019-2024,Spend per prescription,3,-91200918.70535752
+Unclassified,2019-2024,New products,4,614004115.9699998
+Unclassified,2019-2024,Discontinued products,5,-922169893.1900003
+Urology & renal,2019-2024,More or fewer prescriptions,1,-256313565.1977115
+Urology & renal,2019-2024,Shift to costlier products,2,308608151.758342
+Urology & renal,2019-2024,Spend per prescription,3,-160548055.9606306
+Urology & renal,2019-2024,New products,4,64907426.86
+Urology & renal,2019-2024,Discontinued products,5,-39785246.330000006
+All areas,2019-2025,More or fewer prescriptions,1,-1362532293.1356895
+All areas,2019-2025,Shift to costlier products,2,10442899620.71789
+All areas,2019-2025,Spend per prescription,3,11858568985.26782
+All areas,2019-2025,New products,4,24739028482.239998
+All areas,2019-2025,Discontinued products,5,-1835688556.6200008
+Cardiovascular,2019-2025,More or fewer prescriptions,1,-151704163.299446
+Cardiovascular,2019-2025,Shift to costlier products,2,1288948587.494651
+Cardiovascular,2019-2025,Spend per prescription,3,946497933.524795
+Cardiovascular,2019-2025,New products,4,618790285.79
+Cardiovascular,2019-2025,Discontinued products,5,-97402777.97000001
+Diabetes & obesity,2019-2025,More or fewer prescriptions,1,-219933650.99915072
+Diabetes & obesity,2019-2025,Shift to costlier products,2,3293886262.7654753
+Diabetes & obesity,2019-2025,Spend per prescription,3,1670430930.3036752
+Diabetes & obesity,2019-2025,New products,4,6636208093.210001
+Diabetes & obesity,2019-2025,Discontinued products,5,-18764667.740000002
+Endocrine & women's health,2019-2025,More or fewer prescriptions,1,-166482367.02201602
+Endocrine & women's health,2019-2025,Shift to costlier products,2,-178182594.15355465
+Endocrine & women's health,2019-2025,Spend per prescription,3,474709665.7655707
+Endocrine & women's health,2019-2025,New products,4,605670448.8199999
+Endocrine & women's health,2019-2025,Discontinued products,5,-132538422.10999997
+Eye & skin,2019-2025,More or fewer prescriptions,1,117579190.02681448
+Eye & skin,2019-2025,Shift to costlier products,2,85182093.01039664
+Eye & skin,2019-2025,Spend per prescription,3,50699887.902788855
+Eye & skin,2019-2025,New products,4,470716162.78
+Eye & skin,2019-2025,Discontinued products,5,-2023748.4700000002
+Gastroenterology,2019-2025,More or fewer prescriptions,1,350254546.61533654
+Gastroenterology,2019-2025,Shift to costlier products,2,99299083.43590674
+Gastroenterology,2019-2025,Spend per prescription,3,164393218.5387566
+Gastroenterology,2019-2025,New products,4,439737979.72
+Gastroenterology,2019-2025,Discontinued products,5,-22914960.019999996
+HIV,2019-2025,More or fewer prescriptions,1,-1464354785.8053842
+HIV,2019-2025,Shift to costlier products,2,552621658.9835584
+HIV,2019-2025,Spend per prescription,3,1918196864.411826
+HIV,2019-2025,New products,4,558243461.4
+HIV,2019-2025,Discontinued products,5,-139177826.49999994
+Hematology,2019-2025,More or fewer prescriptions,1,-369657531.8695273
+Hematology,2019-2025,Shift to costlier products,2,334974347.6080558
+Hematology,2019-2025,Spend per prescription,3,95925752.25147155
+Hematology,2019-2025,New products,4,715900912.9100001
+Hematology,2019-2025,Discontinued products,5,-102238362.97999997
+Immunology & inflammation,2019-2025,More or fewer prescriptions,1,356415093.0369354
+Immunology & inflammation,2019-2025,Shift to costlier products,2,6340187871.8426695
+Immunology & inflammation,2019-2025,Spend per prescription,3,4273192621.540396
+Immunology & inflammation,2019-2025,New products,4,1448237525.24
+Immunology & inflammation,2019-2025,Discontinued products,5,-6471683.21
+Infectious disease (non-HIV),2019-2025,More or fewer prescriptions,1,-54685574.45304756
+Infectious disease (non-HIV),2019-2025,Shift to costlier products,2,-1078258542.2164674
+Infectious disease (non-HIV),2019-2025,Spend per prescription,3,-463381621.4004848
+Infectious disease (non-HIV),2019-2025,New products,4,310831206.49
+Infectious disease (non-HIV),2019-2025,Discontinued products,5,-64840283.809999995
+Neurology & psychiatry,2019-2025,More or fewer prescriptions,1,614279297.9707592
+Neurology & psychiatry,2019-2025,Shift to costlier products,2,-1302470201.8809352
+Neurology & psychiatry,2019-2025,Spend per prescription,3,1646875332.4101765
+Neurology & psychiatry,2019-2025,New products,4,6156036713.389999
+Neurology & psychiatry,2019-2025,Discontinued products,5,-139436213.56
+Oncology,2019-2025,More or fewer prescriptions,1,-314811708.1483714
+Oncology,2019-2025,Shift to costlier products,2,551747419.9956452
+Oncology,2019-2025,Spend per prescription,3,871935046.9027262
+Oncology,2019-2025,New products,4,2472058039.6900005
+Oncology,2019-2025,Discontinued products,5,-19123577.77
+"Other (vitamins, fluids, diagnostics)",2019-2025,More or fewer prescriptions,1,12747920.108028894
+"Other (vitamins, fluids, diagnostics)",2019-2025,Shift to costlier products,2,111191061.36485143
+"Other (vitamins, fluids, diagnostics)",2019-2025,Spend per prescription,3,-240314434.43288028
+"Other (vitamins, fluids, diagnostics)",2019-2025,New products,4,17859423.259999998
+"Other (vitamins, fluids, diagnostics)",2019-2025,Discontinued products,5,-7598675.8
+"Pain, addiction & anesthesia",2019-2025,More or fewer prescriptions,1,188064540.42608908
+"Pain, addiction & anesthesia",2019-2025,Shift to costlier products,2,278760844.7256118
+"Pain, addiction & anesthesia",2019-2025,Spend per prescription,3,146618087.83829898
+"Pain, addiction & anesthesia",2019-2025,New products,4,431088135.44000006
+"Pain, addiction & anesthesia",2019-2025,Discontinued products,5,-92346718.14999998
+Rare & genetic disease,2019-2025,More or fewer prescriptions,1,135812665.4041655
+Rare & genetic disease,2019-2025,Shift to costlier products,2,751475754.3076402
+Rare & genetic disease,2019-2025,Spend per prescription,3,793987420.0781944
+Rare & genetic disease,2019-2025,New products,4,1998857559.6100004
+Rare & genetic disease,2019-2025,Discontinued products,5,-45914437.44
+Respiratory & allergy,2019-2025,More or fewer prescriptions,1,-146649076.87612456
+Respiratory & allergy,2019-2025,Shift to costlier products,2,-285798321.1044958
+Respiratory & allergy,2019-2025,Spend per prescription,3,-116493132.0593799
+Respiratory & allergy,2019-2025,New products,4,1073159203.38
+Respiratory & allergy,2019-2025,Discontinued products,5,-158485394.54
+Unclassified,2019-2025,More or fewer prescriptions,1,-782471020.7418349
+Unclassified,2019-2025,Shift to costlier products,2,72348770.47280507
+Unclassified,2019-2025,Spend per prescription,3,-106839392.13097018
+Unclassified,2019-2025,New products,4,1153187262.8100002
+Unclassified,2019-2025,Discontinued products,5,-1274538479.8399994
+Urology & renal,2019-2025,More or fewer prescriptions,1,-272105921.7092374
+Urology & renal,2019-2025,Shift to costlier products,2,290405443.66154146
+Urology & renal,2019-2025,Spend per prescription,3,-186563683.632304
+Urology & renal,2019-2025,New products,4,129169395.30999999
+Urology & renal,2019-2025,Discontinued products,5,-48146831.660000004
+All areas,2020-2021,More or fewer prescriptions,1,3807285263.694757
+All areas,2020-2021,Shift to costlier products,2,3600179880.601551
+All areas,2020-2021,Spend per prescription,3,2468048904.5236998
+All areas,2020-2021,New products,4,320712116.73999995
+All areas,2020-2021,Discontinued products,5,-26690281.920000006
+Cardiovascular,2020-2021,More or fewer prescriptions,1,92426616.8672626
+Cardiovascular,2020-2021,Shift to costlier products,2,360105397.9484283
+Cardiovascular,2020-2021,Spend per prescription,3,210435421.01430905
+Cardiovascular,2020-2021,New products,4,1708935.06
+Cardiovascular,2020-2021,Discontinued products,5,-669455.05
+Diabetes & obesity,2020-2021,More or fewer prescriptions,1,413805584.0767067
+Diabetes & obesity,2020-2021,Shift to costlier products,2,617408861.668633
+Diabetes & obesity,2020-2021,Spend per prescription,3,698791915.8146601
+Diabetes & obesity,2020-2021,New products,4,21093938.179999996
+Diabetes & obesity,2020-2021,Discontinued products,5,0.0
+Endocrine & women's health,2020-2021,More or fewer prescriptions,1,194021619.08222362
+Endocrine & women's health,2020-2021,Shift to costlier products,2,-99713021.40666121
+Endocrine & women's health,2020-2021,Spend per prescription,3,97081301.15443777
+Endocrine & women's health,2020-2021,New products,4,4078964.8300000005
+Endocrine & women's health,2020-2021,Discontinued products,5,-259143.40000000002
+Eye & skin,2020-2021,More or fewer prescriptions,1,96354258.29245703
+Eye & skin,2020-2021,Shift to costlier products,2,39219662.82389175
+Eye & skin,2020-2021,Spend per prescription,3,13793240.943651337
+Eye & skin,2020-2021,New products,4,3350755.84
+Eye & skin,2020-2021,Discontinued products,5,0.0
+Gastroenterology,2020-2021,More or fewer prescriptions,1,208025471.4541034
+Gastroenterology,2020-2021,Shift to costlier products,2,10072753.892339118
+Gastroenterology,2020-2021,Spend per prescription,3,39756842.34355733
+Gastroenterology,2020-2021,New products,4,21262758.28
+Gastroenterology,2020-2021,Discontinued products,5,-83867.16
+HIV,2020-2021,More or fewer prescriptions,1,-228445511.33048996
+HIV,2020-2021,Shift to costlier products,2,164982862.8816824
+HIV,2020-2021,Spend per prescription,3,327257182.9088075
+HIV,2020-2021,New products,4,70607233.46000001
+HIV,2020-2021,Discontinued products,5,-56761.770000000004
+Hematology,2020-2021,More or fewer prescriptions,1,509211286.9055958
+Hematology,2020-2021,Shift to costlier products,2,-158783258.55013722
+Hematology,2020-2021,Spend per prescription,3,21682288.684541587
+Hematology,2020-2021,New products,4,21582583.68
+Hematology,2020-2021,Discontinued products,5,-397159.33
+Immunology & inflammation,2020-2021,More or fewer prescriptions,1,1171890237.3114624
+Immunology & inflammation,2020-2021,Shift to costlier products,2,887474213.251286
+Immunology & inflammation,2020-2021,Spend per prescription,3,612077251.0972515
+Immunology & inflammation,2020-2021,New products,4,17323257.39
+Immunology & inflammation,2020-2021,Discontinued products,5,0.0
+Infectious disease (non-HIV),2020-2021,More or fewer prescriptions,1,339169166.6807995
+Infectious disease (non-HIV),2020-2021,Shift to costlier products,2,-435780297.36130464
+Infectious disease (non-HIV),2020-2021,Spend per prescription,3,-8626405.62949507
+Infectious disease (non-HIV),2020-2021,New products,4,4040652.08
+Infectious disease (non-HIV),2020-2021,Discontinued products,5,-49720.87
+Neurology & psychiatry,2020-2021,More or fewer prescriptions,1,721826241.6839931
+Neurology & psychiatry,2020-2021,Shift to costlier products,2,660394240.1965055
+Neurology & psychiatry,2020-2021,Spend per prescription,3,360447118.30950093
+Neurology & psychiatry,2020-2021,New products,4,15755932.439999998
+Neurology & psychiatry,2020-2021,Discontinued products,5,-15169.52
+Oncology,2020-2021,More or fewer prescriptions,1,285962429.09824735
+Oncology,2020-2021,Shift to costlier products,2,302722411.4362472
+Oncology,2020-2021,Spend per prescription,3,9326405.685505606
+Oncology,2020-2021,New products,4,35222322.63
+Oncology,2020-2021,Discontinued products,5,-946073.04
+"Other (vitamins, fluids, diagnostics)",2020-2021,More or fewer prescriptions,1,57142074.779405184
+"Other (vitamins, fluids, diagnostics)",2020-2021,Shift to costlier products,2,81268862.25284648
+"Other (vitamins, fluids, diagnostics)",2020-2021,Spend per prescription,3,-94980044.0522517
+"Other (vitamins, fluids, diagnostics)",2020-2021,New products,4,58.61
+"Other (vitamins, fluids, diagnostics)",2020-2021,Discontinued products,5,-0.84
+"Pain, addiction & anesthesia",2020-2021,More or fewer prescriptions,1,244918383.22959366
+"Pain, addiction & anesthesia",2020-2021,Shift to costlier products,2,-10881787.629813977
+"Pain, addiction & anesthesia",2020-2021,Spend per prescription,3,67951582.83022067
+"Pain, addiction & anesthesia",2020-2021,New products,4,16729924.059999997
+"Pain, addiction & anesthesia",2020-2021,Discontinued products,5,-775654.6699999999
+Rare & genetic disease,2020-2021,More or fewer prescriptions,1,-297442580.1782256
+Rare & genetic disease,2020-2021,Shift to costlier products,2,921884043.2136436
+Rare & genetic disease,2020-2021,Spend per prescription,3,65859809.24458189
+Rare & genetic disease,2020-2021,New products,4,74184825.99
+Rare & genetic disease,2020-2021,Discontinued products,5,-5629679.199999999
+Respiratory & allergy,2020-2021,More or fewer prescriptions,1,248783512.1819584
+Respiratory & allergy,2020-2021,Shift to costlier products,2,67156500.9527567
+Respiratory & allergy,2020-2021,Spend per prescription,3,161235650.57528517
+Respiratory & allergy,2020-2021,New products,4,5728647.2
+Respiratory & allergy,2020-2021,Discontinued products,5,-278915.93
+Unclassified,2020-2021,More or fewer prescriptions,1,-188573231.10743964
+Unclassified,2020-2021,Shift to costlier products,2,140331818.30295834
+Unclassified,2020-2021,Spend per prescription,3,-112017566.57551897
+Unclassified,2020-2021,New products,4,43724017.400000006
+Unclassified,2020-2021,Discontinued products,5,-22492258.72
+Urology & renal,2020-2021,More or fewer prescriptions,1,-28566241.670275215
+Urology & renal,2020-2021,Shift to costlier products,2,-13075937.263007473
+Urology & renal,2020-2021,Spend per prescription,3,-2356677.8767173197
+Urology & renal,2020-2021,New products,4,1786426.3199999998
+Urology & renal,2020-2021,Discontinued products,5,-3450.7500000000005
+All areas,2020-2022,More or fewer prescriptions,1,6759457777.130107
+All areas,2020-2022,Shift to costlier products,2,6983082373.993578
+All areas,2020-2022,Spend per prescription,3,6953650446.16633
+All areas,2020-2022,New products,4,1771964373.3999996
+All areas,2020-2022,Discontinued products,5,-108531361.98000002
+Cardiovascular,2020-2022,More or fewer prescriptions,1,105578996.8295895
+Cardiovascular,2020-2022,Shift to costlier products,2,638476482.0481552
+Cardiovascular,2020-2022,Spend per prescription,3,558934386.6622548
+Cardiovascular,2020-2022,New products,4,22684248.71
+Cardiovascular,2020-2022,Discontinued products,5,-1037480.3900000001
+Diabetes & obesity,2020-2022,More or fewer prescriptions,1,756427389.4864701
+Diabetes & obesity,2020-2022,Shift to costlier products,2,1768173456.197819
+Diabetes & obesity,2020-2022,Spend per prescription,3,1295399810.4057097
+Diabetes & obesity,2020-2022,New products,4,95816588.15
+Diabetes & obesity,2020-2022,Discontinued products,5,-27923.09
+Endocrine & women's health,2020-2022,More or fewer prescriptions,1,178881680.29796028
+Endocrine & women's health,2020-2022,Shift to costlier products,2,-104886800.84905633
+Endocrine & women's health,2020-2022,Spend per prescription,3,246572704.67109618
+Endocrine & women's health,2020-2022,New products,4,31549601.439999998
+Endocrine & women's health,2020-2022,Discontinued products,5,-442975.62000000005
+Eye & skin,2020-2022,More or fewer prescriptions,1,100117462.36057359
+Eye & skin,2020-2022,Shift to costlier products,2,78117255.4248955
+Eye & skin,2020-2022,Spend per prescription,3,52928302.134531
+Eye & skin,2020-2022,New products,4,21864012.849999998
+Eye & skin,2020-2022,Discontinued products,5,0.0
+Gastroenterology,2020-2022,More or fewer prescriptions,1,351543737.9292458
+Gastroenterology,2020-2022,Shift to costlier products,2,22581864.871420585
+Gastroenterology,2020-2022,Spend per prescription,3,192308642.81933364
+Gastroenterology,2020-2022,New products,4,100267516.35999998
+Gastroenterology,2020-2022,Discontinued products,5,-2122927.86
+HIV,2020-2022,More or fewer prescriptions,1,-448389514.9543226
+HIV,2020-2022,Shift to costlier products,2,283369749.2782928
+HIV,2020-2022,Spend per prescription,3,635069520.3060294
+HIV,2020-2022,New products,4,160169283.15
+HIV,2020-2022,Discontinued products,5,-794414.6399999999
+Hematology,2020-2022,More or fewer prescriptions,1,403740361.8760285
+Hematology,2020-2022,Shift to costlier products,2,66994898.48436938
+Hematology,2020-2022,Spend per prescription,3,-82453437.53039773
+Hematology,2020-2022,New products,4,50987728.379999995
+Hematology,2020-2022,Discontinued products,5,-397159.33
+Immunology & inflammation,2020-2022,More or fewer prescriptions,1,2002001754.6967788
+Immunology & inflammation,2020-2022,Shift to costlier products,2,1908347433.7367172
+Immunology & inflammation,2020-2022,Spend per prescription,3,1572906919.9865038
+Immunology & inflammation,2020-2022,New products,4,120554487.21
+Immunology & inflammation,2020-2022,Discontinued products,5,-71476.55
+Infectious disease (non-HIV),2020-2022,More or fewer prescriptions,1,1043696172.3582711
+Infectious disease (non-HIV),2020-2022,Shift to costlier products,2,-850952370.7170675
+Infectious disease (non-HIV),2020-2022,Spend per prescription,3,-6696038.861203782
+Infectious disease (non-HIV),2020-2022,New products,4,23184395.970000006
+Infectious disease (non-HIV),2020-2022,Discontinued products,5,-3764119.1500000004
+Neurology & psychiatry,2020-2022,More or fewer prescriptions,1,1186624030.805449
+Neurology & psychiatry,2020-2022,Shift to costlier products,2,1606131649.4228826
+Neurology & psychiatry,2020-2022,Spend per prescription,3,908323687.8316679
+Neurology & psychiatry,2020-2022,New products,4,277319687.62
+Neurology & psychiatry,2020-2022,Discontinued products,5,-561579.1200000001
+Oncology,2020-2022,More or fewer prescriptions,1,327784606.78622454
+Oncology,2020-2022,Shift to costlier products,2,518028334.4948834
+Oncology,2020-2022,Spend per prescription,3,244984058.808892
+Oncology,2020-2022,New products,4,216197757.5
+Oncology,2020-2022,Discontinued products,5,-4393025.380000001
+"Other (vitamins, fluids, diagnostics)",2020-2022,More or fewer prescriptions,1,60929375.83810881
+"Other (vitamins, fluids, diagnostics)",2020-2022,Shift to costlier products,2,140382203.21095634
+"Other (vitamins, fluids, diagnostics)",2020-2022,Spend per prescription,3,149981896.50093475
+"Other (vitamins, fluids, diagnostics)",2020-2022,New products,4,419859.71
+"Other (vitamins, fluids, diagnostics)",2020-2022,Discontinued products,5,-0.84
+"Pain, addiction & anesthesia",2020-2022,More or fewer prescriptions,1,470280875.0379626
+"Pain, addiction & anesthesia",2020-2022,Shift to costlier products,2,-191149903.29757047
+"Pain, addiction & anesthesia",2020-2022,Spend per prescription,3,602097701.229608
+"Pain, addiction & anesthesia",2020-2022,New products,4,155549430.82
+"Pain, addiction & anesthesia",2020-2022,Discontinued products,5,-1077610.02
+Rare & genetic disease,2020-2022,More or fewer prescriptions,1,753508592.9676467
+Rare & genetic disease,2020-2022,Shift to costlier products,2,351189420.5568441
+Rare & genetic disease,2020-2022,Spend per prescription,3,248414659.6555094
+Rare & genetic disease,2020-2022,New products,4,274047080.97
+Rare & genetic disease,2020-2022,Discontinued products,5,-33151383.259999998
+Respiratory & allergy,2020-2022,More or fewer prescriptions,1,607547318.8473889
+Respiratory & allergy,2020-2022,Shift to costlier products,2,-10447621.519735903
+Respiratory & allergy,2020-2022,Spend per prescription,3,404462694.5223472
+Respiratory & allergy,2020-2022,New products,4,168435950.65000004
+Respiratory & allergy,2020-2022,Discontinued products,5,-727385.64
+Unclassified,2020-2022,More or fewer prescriptions,1,-432369643.6383293
+Unclassified,2020-2022,Shift to costlier products,2,112415499.98054232
+Unclassified,2020-2022,Spend per prescription,3,-38810464.382213
+Unclassified,2020-2022,New products,4,128078614.82999998
+Unclassified,2020-2022,Discontinued products,5,-116485805.65999994
+Urology & renal,2020-2022,More or fewer prescriptions,1,-130282545.5458278
+Urology & renal,2020-2022,Shift to costlier products,2,63164664.57355431
+Urology & renal,2020-2022,Spend per prescription,3,-56807506.857726544
+Urology & renal,2020-2022,New products,4,12768363.809999999
+Urology & renal,2020-2022,Discontinued products,5,-390138.65
+All areas,2020-2023,More or fewer prescriptions,1,8408873292.469207
+All areas,2020-2023,Shift to costlier products,2,9467083632.71593
+All areas,2020-2023,Spend per prescription,3,11260164705.134855
+All areas,2020-2023,New products,4,5206943017.000002
+All areas,2020-2023,Discontinued products,5,-314296347.8500001
+Cardiovascular,2020-2023,More or fewer prescriptions,1,163954605.5017344
+Cardiovascular,2020-2023,Shift to costlier products,2,810794350.5270488
+Cardiovascular,2020-2023,Spend per prescription,3,656281234.1512161
+Cardiovascular,2020-2023,New products,4,115225109.50999999
+Cardiovascular,2020-2023,Discontinued products,5,-2053922.6600000001
+Diabetes & obesity,2020-2023,More or fewer prescriptions,1,1224929491.5917628
+Diabetes & obesity,2020-2023,Shift to costlier products,2,3150164416.196327
+Diabetes & obesity,2020-2023,Spend per prescription,3,2059685225.4719086
+Diabetes & obesity,2020-2023,New products,4,1002197166.76
+Diabetes & obesity,2020-2023,Discontinued products,5,-27923.09
+Endocrine & women's health,2020-2023,More or fewer prescriptions,1,209171678.52029243
+Endocrine & women's health,2020-2023,Shift to costlier products,2,-360744875.7566172
+Endocrine & women's health,2020-2023,Spend per prescription,3,356176079.2563248
+Endocrine & women's health,2020-2023,New products,4,137281619.33999997
+Endocrine & women's health,2020-2023,Discontinued products,5,-2348385.88
+Eye & skin,2020-2023,More or fewer prescriptions,1,150144039.07582292
+Eye & skin,2020-2023,Shift to costlier products,2,99742732.28049752
+Eye & skin,2020-2023,Spend per prescription,3,46572842.09367962
+Eye & skin,2020-2023,New products,4,126865733.83
+Eye & skin,2020-2023,Discontinued products,5,-3698440.09
+Gastroenterology,2020-2023,More or fewer prescriptions,1,457980322.08336884
+Gastroenterology,2020-2023,Shift to costlier products,2,108350289.72461987
+Gastroenterology,2020-2023,Spend per prescription,3,272910884.58201134
+Gastroenterology,2020-2023,New products,4,146255327.57
+Gastroenterology,2020-2023,Discontinued products,5,-7767219.44
+HIV,2020-2023,More or fewer prescriptions,1,-752100262.4176522
+HIV,2020-2023,Shift to costlier products,2,365773966.12452793
+HIV,2020-2023,Spend per prescription,3,1050592434.1531239
+HIV,2020-2023,New products,4,302456211.78000003
+HIV,2020-2023,Discontinued products,5,-794414.6399999999
+Hematology,2020-2023,More or fewer prescriptions,1,232552424.23351675
+Hematology,2020-2023,Shift to costlier products,2,252630527.98172888
+Hematology,2020-2023,Spend per prescription,3,153049436.21475458
+Hematology,2020-2023,New products,4,135643189.36
+Hematology,2020-2023,Discontinued products,5,-397159.33
+Immunology & inflammation,2020-2023,More or fewer prescriptions,1,2464724582.7228727
+Immunology & inflammation,2020-2023,Shift to costlier products,2,3196861397.585783
+Immunology & inflammation,2020-2023,Spend per prescription,3,2786749570.2813454
+Immunology & inflammation,2020-2023,New products,4,266131839.28
+Immunology & inflammation,2020-2023,Discontinued products,5,-51655.479999999996
+Infectious disease (non-HIV),2020-2023,More or fewer prescriptions,1,1431892297.5193956
+Infectious disease (non-HIV),2020-2023,Shift to costlier products,2,-1218146775.9801104
+Infectious disease (non-HIV),2020-2023,Spend per prescription,3,16243521.090714544
+Infectious disease (non-HIV),2020-2023,New products,4,29690795.17
+Infectious disease (non-HIV),2020-2023,Discontinued products,5,-3275170.12
+Neurology & psychiatry,2020-2023,More or fewer prescriptions,1,1426514658.2587416
+Neurology & psychiatry,2020-2023,Shift to costlier products,2,1137311299.6593213
+Neurology & psychiatry,2020-2023,Spend per prescription,3,1315581130.2419362
+Neurology & psychiatry,2020-2023,New products,4,1083785825.6100001
+Neurology & psychiatry,2020-2023,Discontinued products,5,-11051244.55
+Oncology,2020-2023,More or fewer prescriptions,1,484135655.7878763
+Oncology,2020-2023,Shift to costlier products,2,601662670.6525345
+Oncology,2020-2023,Spend per prescription,3,662772817.9195894
+Oncology,2020-2023,New products,4,642542408.49
+Oncology,2020-2023,Discontinued products,5,-7767253.35
+"Other (vitamins, fluids, diagnostics)",2020-2023,More or fewer prescriptions,1,130378526.62390381
+"Other (vitamins, fluids, diagnostics)",2020-2023,Shift to costlier products,2,245752818.87124544
+"Other (vitamins, fluids, diagnostics)",2020-2023,Spend per prescription,3,264158020.71485075
+"Other (vitamins, fluids, diagnostics)",2020-2023,New products,4,4150203.41
+"Other (vitamins, fluids, diagnostics)",2020-2023,Discontinued products,5,-28804.389999999996
+"Pain, addiction & anesthesia",2020-2023,More or fewer prescriptions,1,543366889.2449328
+"Pain, addiction & anesthesia",2020-2023,Shift to costlier products,2,-30039036.437800586
+"Pain, addiction & anesthesia",2020-2023,Spend per prescription,3,753041461.1428682
+"Pain, addiction & anesthesia",2020-2023,New products,4,255279687.76999998
+"Pain, addiction & anesthesia",2020-2023,Discontinued products,5,-37840180.330000006
+Rare & genetic disease,2020-2023,More or fewer prescriptions,1,816965295.9157275
+Rare & genetic disease,2020-2023,Shift to costlier products,2,491288983.6564055
+Rare & genetic disease,2020-2023,Spend per prescription,3,437789345.97786736
+Rare & genetic disease,2020-2023,New products,4,460467731.97
+Rare & genetic disease,2020-2023,Discontinued products,5,-34429033.3
+Respiratory & allergy,2020-2023,More or fewer prescriptions,1,714236493.9280725
+Respiratory & allergy,2020-2023,Shift to costlier products,2,-156611457.2436208
+Respiratory & allergy,2020-2023,Spend per prescription,3,488155752.55554867
+Respiratory & allergy,2020-2023,New products,4,363205878.3999999
+Respiratory & allergy,2020-2023,Discontinued products,5,-49813089.79
+Unclassified,2020-2023,More or fewer prescriptions,1,-623117663.9457667
+Unclassified,2020-2023,Shift to costlier products,2,161488184.63253975
+Unclassified,2020-2023,Spend per prescription,3,-4497015.316772794
+Unclassified,2020-2023,New products,4,265952806.1899999
+Unclassified,2020-2023,Discontinued products,5,-277699055.04
+Urology & renal,2020-2023,More or fewer prescriptions,1,-264803752.08418185
+Urology & renal,2020-2023,Shift to costlier products,2,153259783.8007564
+Urology & renal,2020-2023,Spend per prescription,3,-35238389.36657454
+Urology & renal,2020-2023,New products,4,30580945.159999996
+Urology & renal,2020-2023,Discontinued products,5,-390138.65
+All areas,2020-2024,More or fewer prescriptions,1,2945761777.3552413
+All areas,2020-2024,Shift to costlier products,2,10196056881.200678
+All areas,2020-2024,Spend per prescription,3,7754898457.704107
+All areas,2020-2024,New products,4,10496170430.239996
+All areas,2020-2024,Discontinued products,5,-788628086.5199996
+Cardiovascular,2020-2024,More or fewer prescriptions,1,-98645355.78466439
+Cardiovascular,2020-2024,Shift to costlier products,2,1053450179.7604182
+Cardiovascular,2020-2024,Spend per prescription,3,707357808.5842462
+Cardiovascular,2020-2024,New products,4,224408406.92999995
+Cardiovascular,2020-2024,Discontinued products,5,-4054656.7
+Diabetes & obesity,2020-2024,More or fewer prescriptions,1,479471027.21292377
+Diabetes & obesity,2020-2024,Shift to costlier products,2,3612323762.1839433
+Diabetes & obesity,2020-2024,Spend per prescription,3,474925003.10313255
+Diabetes & obesity,2020-2024,New products,4,2839798620.74
+Diabetes & obesity,2020-2024,Discontinued products,5,-2810656.8
+Endocrine & women's health,2020-2024,More or fewer prescriptions,1,-122787181.6977418
+Endocrine & women's health,2020-2024,Shift to costlier products,2,-225766953.81273428
+Endocrine & women's health,2020-2024,Spend per prescription,3,392432525.21047634
+Endocrine & women's health,2020-2024,New products,4,306354378.8
+Endocrine & women's health,2020-2024,Discontinued products,5,-67829396.66
+Eye & skin,2020-2024,More or fewer prescriptions,1,104633978.8972891
+Eye & skin,2020-2024,Shift to costlier products,2,90196416.61735682
+Eye & skin,2020-2024,Spend per prescription,3,40366838.625354074
+Eye & skin,2020-2024,New products,4,250108917.74
+Eye & skin,2020-2024,Discontinued products,5,-4940333.87
+Gastroenterology,2020-2024,More or fewer prescriptions,1,356246326.6136655
+Gastroenterology,2020-2024,Shift to costlier products,2,205080366.38400963
+Gastroenterology,2020-2024,Spend per prescription,3,6644799.852324851
+Gastroenterology,2020-2024,New products,4,203206921.71999997
+Gastroenterology,2020-2024,Discontinued products,5,-10706256.760000002
+HIV,2020-2024,More or fewer prescriptions,1,-1255105557.769296
+HIV,2020-2024,Shift to costlier products,2,402760424.98149025
+HIV,2020-2024,Spend per prescription,3,1312358719.4378052
+HIV,2020-2024,New products,4,385374532.38
+HIV,2020-2024,Discontinued products,5,-79846436.57
+Hematology,2020-2024,More or fewer prescriptions,1,-136219435.8360064
+Hematology,2020-2024,Shift to costlier products,2,381167335.1933906
+Hematology,2020-2024,Spend per prescription,3,-42684133.26738468
+Hematology,2020-2024,New products,4,337449752.90999997
+Hematology,2020-2024,Discontinued products,5,-97794487.09000002
+Immunology & inflammation,2020-2024,More or fewer prescriptions,1,1838262015.2938075
+Immunology & inflammation,2020-2024,Shift to costlier products,2,3473698717.1849804
+Immunology & inflammation,2020-2024,Spend per prescription,3,3135141884.1812134
+Immunology & inflammation,2020-2024,New products,4,519920296.41
+Immunology & inflammation,2020-2024,Discontinued products,5,-325747.87
+Infectious disease (non-HIV),2020-2024,More or fewer prescriptions,1,1058300763.2957332
+Infectious disease (non-HIV),2020-2024,Shift to costlier products,2,-1308584586.1147625
+Infectious disease (non-HIV),2020-2024,Spend per prescription,3,-172834251.41097105
+Infectious disease (non-HIV),2020-2024,New products,4,378405878.79
+Infectious disease (non-HIV),2020-2024,Discontinued products,5,-1697215.5699999998
+Neurology & psychiatry,2020-2024,More or fewer prescriptions,1,561978789.1472336
+Neurology & psychiatry,2020-2024,Shift to costlier products,2,965257964.6764406
+Neurology & psychiatry,2020-2024,Spend per prescription,3,1358143751.7963252
+Neurology & psychiatry,2020-2024,New products,4,2023209571.63
+Neurology & psychiatry,2020-2024,Discontinued products,5,-35486340.52
+Oncology,2020-2024,More or fewer prescriptions,1,-19649232.33937276
+Oncology,2020-2024,Shift to costlier products,2,724958065.5041175
+Oncology,2020-2024,Spend per prescription,3,520719548.9852551
+Oncology,2020-2024,New products,4,947086526.03
+Oncology,2020-2024,Discontinued products,5,-9682229.17
+"Other (vitamins, fluids, diagnostics)",2020-2024,More or fewer prescriptions,1,53959786.0583269
+"Other (vitamins, fluids, diagnostics)",2020-2024,Shift to costlier products,2,170753369.36146697
+"Other (vitamins, fluids, diagnostics)",2020-2024,Spend per prescription,3,-156302342.61979377
+"Other (vitamins, fluids, diagnostics)",2020-2024,New products,4,9807042.57
+"Other (vitamins, fluids, diagnostics)",2020-2024,Discontinued products,5,-3699722.68
+"Pain, addiction & anesthesia",2020-2024,More or fewer prescriptions,1,345134039.16720843
+"Pain, addiction & anesthesia",2020-2024,Shift to costlier products,2,56957254.9014404
+"Pain, addiction & anesthesia",2020-2024,Spend per prescription,3,-59621228.768648356
+"Pain, addiction & anesthesia",2020-2024,New products,4,281598684.44000006
+"Pain, addiction & anesthesia",2020-2024,Discontinued products,5,-38431781.49000001
+Rare & genetic disease,2020-2024,More or fewer prescriptions,1,497409578.2869681
+Rare & genetic disease,2020-2024,Shift to costlier products,2,666530503.1839701
+Rare & genetic disease,2020-2024,Spend per prescription,3,615493992.1090616
+Rare & genetic disease,2020-2024,New products,4,732786778.4300001
+Rare & genetic disease,2020-2024,Discontinued products,5,-33050459.799999997
+Respiratory & allergy,2020-2024,More or fewer prescriptions,1,236373902.56426316
+Respiratory & allergy,2020-2024,Shift to costlier products,2,-441083764.1078382
+Respiratory & allergy,2020-2024,Spend per prescription,3,-203500888.46642464
+Respiratory & allergy,2020-2024,New products,4,747134650.23
+Respiratory & allergy,2020-2024,Discontinued products,5,-51255032.339999996
+Unclassified,2020-2024,More or fewer prescriptions,1,-696453529.5590008
+Unclassified,2020-2024,Shift to costlier products,2,133895653.00525153
+Unclassified,2020-2024,Spend per prescription,3,-157664142.9562508
+Unclassified,2020-2024,New products,4,509684434.0499999
+Unclassified,2020-2024,Discontinued products,5,-476592028.5400003
+Urology & renal,2020-2024,More or fewer prescriptions,1,-289498029.56894636
+Urology & renal,2020-2024,Shift to costlier products,2,230149841.51566896
+Urology & renal,2020-2024,Spend per prescription,3,-83203496.04672259
+Urology & renal,2020-2024,New products,4,64893806.17
+Urology & renal,2020-2024,Discontinued products,5,-31697780.309999995
+All areas,2020-2025,More or fewer prescriptions,1,1347089912.2260041
+All areas,2020-2025,Shift to costlier products,2,10878097529.57237
+All areas,2020-2025,Spend per prescription,3,9256402395.11163
+All areas,2020-2025,New products,4,18884344816.780006
+All areas,2020-2025,Discontinued products,5,-1187968715.2600005
+Cardiovascular,2020-2025,More or fewer prescriptions,1,-172070432.1081311
+Cardiovascular,2020-2025,Shift to costlier products,2,1163096262.9032784
+Cardiovascular,2020-2025,Spend per prescription,3,661847093.6048532
+Cardiovascular,2020-2025,New products,4,579970783.14
+Cardiovascular,2020-2025,Discontinued products,5,-68900806.8
+Diabetes & obesity,2020-2025,More or fewer prescriptions,1,145924070.93074423
+Diabetes & obesity,2020-2025,Shift to costlier products,2,3610656379.351095
+Diabetes & obesity,2020-2025,Spend per prescription,3,450103459.71816057
+Diabetes & obesity,2020-2025,New products,4,6215710108.79
+Diabetes & obesity,2020-2025,Discontinued products,5,-18693281.44
+Endocrine & women's health,2020-2025,More or fewer prescriptions,1,-166866008.9702014
+Endocrine & women's health,2020-2025,Shift to costlier products,2,-227357370.0924649
+Endocrine & women's health,2020-2025,Spend per prescription,3,456070746.9026664
+Endocrine & women's health,2020-2025,New products,4,569627093.4200001
+Endocrine & women's health,2020-2025,Discontinued products,5,-80076074.10999998
+Eye & skin,2020-2025,More or fewer prescriptions,1,119205935.42736897
+Eye & skin,2020-2025,Shift to costlier products,2,48880713.67425031
+Eye & skin,2020-2025,Spend per prescription,3,43015839.31838083
+Eye & skin,2020-2025,New products,4,457997715.41999996
+Eye & skin,2020-2025,Discontinued products,5,-1902998.92
+Gastroenterology,2020-2025,More or fewer prescriptions,1,318768199.2819123
+Gastroenterology,2020-2025,Shift to costlier products,2,206467612.43794787
+Gastroenterology,2020-2025,Spend per prescription,3,-71998585.9398603
+Gastroenterology,2020-2025,New products,4,391748759.74
+Gastroenterology,2020-2025,Discontinued products,5,-10344452.53
+HIV,2020-2025,More or fewer prescriptions,1,-1491422814.1348486
+HIV,2020-2025,Shift to costlier products,2,427910509.78533757
+HIV,2020-2025,Spend per prescription,3,1636821805.9495106
+HIV,2020-2025,New products,4,528685221.03999996
+HIV,2020-2025,Discontinued products,5,-80220489.08999999
+Hematology,2020-2025,More or fewer prescriptions,1,-633275312.6064274
+Hematology,2020-2025,Shift to costlier products,2,564231034.1445771
+Hematology,2020-2025,Spend per prescription,3,91230624.61185023
+Hematology,2020-2025,New products,4,541745801.2800001
+Hematology,2020-2025,Discontinued products,5,-87989765.22000001
+Immunology & inflammation,2020-2025,More or fewer prescriptions,1,1627362654.2052584
+Immunology & inflammation,2020-2025,Shift to costlier products,2,4102948899.206142
+Immunology & inflammation,2020-2025,Spend per prescription,3,3803255407.5085998
+Immunology & inflammation,2020-2025,New products,4,1387607979.1100001
+Immunology & inflammation,2020-2025,Discontinued products,5,-3564398.41
+Infectious disease (non-HIV),2020-2025,More or fewer prescriptions,1,769641434.0253894
+Infectious disease (non-HIV),2020-2025,Shift to costlier products,2,-1208405601.8333616
+Infectious disease (non-HIV),2020-2025,Spend per prescription,3,-308651377.9320279
+Infectious disease (non-HIV),2020-2025,New products,4,298148380.6
+Infectious disease (non-HIV),2020-2025,Discontinued products,5,-60752343.449999996
+Neurology & psychiatry,2020-2025,More or fewer prescriptions,1,466839348.91752726
+Neurology & psychiatry,2020-2025,Shift to costlier products,2,1176590564.4873598
+Neurology & psychiatry,2020-2025,Spend per prescription,3,2023788903.6651099
+Neurology & psychiatry,2020-2025,New products,4,3003701883.7200003
+Neurology & psychiatry,2020-2025,Discontinued products,5,-66334531.599999994
+Oncology,2020-2025,More or fewer prescriptions,1,-128845923.90610103
+Oncology,2020-2025,Shift to costlier products,2,681907508.4565718
+Oncology,2020-2025,Spend per prescription,3,853503030.2995298
+Oncology,2020-2025,New products,4,1569814168.15
+Oncology,2020-2025,Discontinued products,5,-11135610.72
+"Other (vitamins, fluids, diagnostics)",2020-2025,More or fewer prescriptions,1,30691990.737656288
+"Other (vitamins, fluids, diagnostics)",2020-2025,Shift to costlier products,2,165953676.24032393
+"Other (vitamins, fluids, diagnostics)",2020-2025,Spend per prescription,3,-404724465.9679803
+"Other (vitamins, fluids, diagnostics)",2020-2025,New products,4,13043384.73
+"Other (vitamins, fluids, diagnostics)",2020-2025,Discontinued products,5,-3699722.68
+"Pain, addiction & anesthesia",2020-2025,More or fewer prescriptions,1,400150629.46852934
+"Pain, addiction & anesthesia",2020-2025,Shift to costlier products,2,98868586.89278282
+"Pain, addiction & anesthesia",2020-2025,Spend per prescription,3,-310488381.691312
+"Pain, addiction & anesthesia",2020-2025,New products,4,397988592.15999997
+"Pain, addiction & anesthesia",2020-2025,Discontinued products,5,-38736952.35000001
+Rare & genetic disease,2020-2025,More or fewer prescriptions,1,206116997.9724448
+Rare & genetic disease,2020-2025,Shift to costlier products,2,694698154.1692395
+Rare & genetic disease,2020-2025,Spend per prescription,3,790583374.4183156
+Rare & genetic disease,2020-2025,New products,4,1223678157.6100001
+Rare & genetic disease,2020-2025,Discontinued products,5,-82711747.98
+Respiratory & allergy,2020-2025,More or fewer prescriptions,1,51828866.56544176
+Respiratory & allergy,2020-2025,Shift to costlier products,2,-164095110.61358774
+Respiratory & allergy,2020-2025,Spend per prescription,3,-282239348.02185446
+Respiratory & allergy,2020-2025,New products,4,836557215.74
+Respiratory & allergy,2020-2025,Discontinued products,5,-98477474.13000001
+Unclassified,2020-2025,More or fewer prescriptions,1,-634619788.7293618
+Unclassified,2020-2025,Shift to costlier products,2,136848182.9822557
+Unclassified,2020-2025,Spend per prescription,3,-143753417.58289424
+Unclassified,2020-2025,New products,4,1054823022.1199998
+Unclassified,2020-2025,Discontinued products,5,-742870269.6400006
+Urology & renal,2020-2025,More or fewer prescriptions,1,-305762851.91964656
+Urology & renal,2020-2025,Shift to costlier products,2,190354169.34636244
+Urology & renal,2020-2025,Spend per prescription,3,-87532027.46671596
+Urology & renal,2020-2025,New products,4,129153178.03999999
+Urology & renal,2020-2025,Discontinued products,5,-39678435.4
+All areas,2021-2022,More or fewer prescriptions,1,3380107474.8470488
+All areas,2021-2022,Shift to costlier products,2,4120186473.541248
+All areas,2021-2022,Spend per prescription,3,4200450066.6917133
+All areas,2021-2022,New products,4,539115306.6199999
+All areas,2021-2022,Discontinued products,5,-49771596.63000001
+Cardiovascular,2021-2022,More or fewer prescriptions,1,20991448.692210577
+Cardiovascular,2021-2022,Shift to costlier products,2,278943388.7106712
+Cardiovascular,2021-2022,Spend per prescription,3,347037689.7471181
+Cardiovascular,2021-2022,New products,4,13844992.16
+Cardiovascular,2021-2022,Discontinued products,5,-187801.29
+Diabetes & obesity,2021-2022,More or fewer prescriptions,1,407061610.220259
+Diabetes & obesity,2021-2022,Shift to costlier products,2,1245653856.5211697
+Diabetes & obesity,2021-2022,Spend per prescription,3,477560469.7385709
+Diabetes & obesity,2021-2022,New products,4,34418217.93
+Diabetes & obesity,2021-2022,Discontinued products,5,-5133.0
+Endocrine & women's health,2021-2022,More or fewer prescriptions,1,-11819158.857140288
+Endocrine & women's health,2021-2022,Shift to costlier products,2,18509760.99797208
+Endocrine & women's health,2021-2022,Spend per prescription,3,139024355.61916813
+Endocrine & women's health,2021-2022,New products,4,10861243.69
+Endocrine & women's health,2021-2022,Discontinued products,5,-111711.77
+Eye & skin,2021-2022,More or fewer prescriptions,1,6828588.485836167
+Eye & skin,2021-2022,Shift to costlier products,2,40202996.977887824
+Eye & skin,2021-2022,Spend per prescription,3,41281301.56627602
+Eye & skin,2021-2022,New products,4,11996227.839999998
+Eye & skin,2021-2022,Discontinued products,5,0.0
+Gastroenterology,2021-2022,More or fewer prescriptions,1,148506357.57999814
+Gastroenterology,2021-2022,Shift to costlier products,2,44213124.69705814
+Gastroenterology,2021-2022,Spend per prescription,3,162333021.58294404
+Gastroenterology,2021-2022,New products,4,31075751.299999993
+Gastroenterology,2021-2022,Discontinued products,5,-583379.85
+HIV,2021-2022,More or fewer prescriptions,1,-12767671.69322161
+HIV,2021-2022,Shift to costlier products,2,16344685.152888358
+HIV,2021-2022,Spend per prescription,3,276902772.0503332
+HIV,2021-2022,New products,4,14628650.690000001
+HIV,2021-2022,Discontinued products,5,-28819.21
+Hematology,2021-2022,More or fewer prescriptions,1,-87467027.07785876
+Hematology,2021-2022,Shift to costlier products,2,249887436.1411957
+Hematology,2021-2022,Spend per prescription,3,-120218130.0733367
+Hematology,2021-2022,New products,4,3374371.5
+Hematology,2021-2022,Discontinued products,5,0.0
+Immunology & inflammation,2021-2022,More or fewer prescriptions,1,981593032.9162503
+Immunology & inflammation,2021-2022,Shift to costlier products,2,1036475900.8108773
+Immunology & inflammation,2021-2022,Spend per prescription,3,854830482.4028716
+Immunology & inflammation,2021-2022,New products,4,42092183.989999995
+Immunology & inflammation,2021-2022,Discontinued products,5,-17440.09
+Infectious disease (non-HIV),2021-2022,More or fewer prescriptions,1,634389904.0302411
+Infectious disease (non-HIV),2021-2022,Shift to costlier products,2,-390069674.4726907
+Infectious disease (non-HIV),2021-2022,Spend per prescription,3,57044032.60244947
+Infectious disease (non-HIV),2021-2022,New products,4,7642112.42
+Infectious disease (non-HIV),2021-2022,Discontinued products,5,-2291729.88
+Neurology & psychiatry,2021-2022,More or fewer prescriptions,1,518292204.45571464
+Neurology & psychiatry,2021-2022,Shift to costlier products,2,1021956665.7318127
+Neurology & psychiatry,2021-2022,Spend per prescription,3,596191479.6224725
+Neurology & psychiatry,2021-2022,New products,4,83205327.02999999
+Neurology & psychiatry,2021-2022,Discontinued products,5,-216563.39
+Oncology,2021-2022,More or fewer prescriptions,1,100037481.04167058
+Oncology,2021-2022,Shift to costlier products,2,243563384.37440488
+Oncology,2021-2022,Spend per prescription,3,234704269.15392452
+Oncology,2021-2022,New products,4,92362959.63
+Oncology,2021-2022,Discontinued products,5,-353857.80000000005
+"Other (vitamins, fluids, diagnostics)",2021-2022,More or fewer prescriptions,1,3728373.8325053076
+"Other (vitamins, fluids, diagnostics)",2021-2022,Shift to costlier products,2,41021250.01071305
+"Other (vitamins, fluids, diagnostics)",2021-2022,Spend per prescription,3,263112930.61678153
+"Other (vitamins, fluids, diagnostics)",2021-2022,New products,4,419829.21
+"Other (vitamins, fluids, diagnostics)",2021-2022,Discontinued products,5,0.0
+"Pain, addiction & anesthesia",2021-2022,More or fewer prescriptions,1,258422162.92994773
+"Pain, addiction & anesthesia",2021-2022,Shift to costlier products,2,-75070210.48354843
+"Pain, addiction & anesthesia",2021-2022,Spend per prescription,3,528849555.58360004
+"Pain, addiction & anesthesia",2021-2022,New products,4,5620242.91
+"Pain, addiction & anesthesia",2021-2022,Discontinued products,5,-63704.99
+Rare & genetic disease,2021-2022,More or fewer prescriptions,1,402734886.0751176
+Rare & genetic disease,2021-2022,Shift to costlier products,2,256234740.2153488
+Rare & genetic disease,2021-2022,Spend per prescription,3,158723519.71953398
+Rare & genetic disease,2021-2022,New products,4,26435868.07
+Rare & genetic disease,2021-2022,Discontinued products,5,-8977062.26
+Respiratory & allergy,2021-2022,More or fewer prescriptions,1,379822767.25149053
+Respiratory & allergy,2021-2022,Shift to costlier products,2,-39323817.98192799
+Respiratory & allergy,2021-2022,Spend per prescription,3,204104624.58043724
+Respiratory & allergy,2021-2022,New products,4,142131940.98000002
+Respiratory & allergy,2021-2022,Discontinued products,5,-89952.95
+Unclassified,2021-2022,More or fewer prescriptions,1,-242977872.70185503
+Unclassified,2021-2022,Shift to costlier products,2,18661093.207080886
+Unclassified,2021-2022,Spend per prescription,3,15290490.724774042
+Unclassified,2021-2022,New products,4,45238275.29
+Unclassified,2021-2022,Discontinued products,5,-44356564.690000005
+Urology & renal,2021-2022,More or fewer prescriptions,1,-96634406.2426953
+Urology & renal,2021-2022,Shift to costlier products,2,73792993.37251489
+Urology & renal,2021-2022,Spend per prescription,3,-44760083.17981959
+Urology & renal,2021-2022,New products,4,734300.46
+Urology & renal,2021-2022,Discontinued products,5,-2464085.84
+All areas,2021-2023,More or fewer prescriptions,1,5127727536.397366
+All areas,2021-2023,Shift to costlier products,2,7691905302.260626
+All areas,2021-2023,Spend per prescription,3,8501816983.541994
+All areas,2021-2023,New products,4,2671002619.91
+All areas,2021-2023,Discontinued products,5,-133220026.28000012
+Cardiovascular,2021-2023,More or fewer prescriptions,1,89530828.31388488
+Cardiovascular,2021-2023,Shift to costlier products,2,449717774.5680046
+Cardiovascular,2021-2023,Spend per prescription,3,439130739.35810983
+Cardiovascular,2021-2023,New products,4,102664306.34
+Cardiovascular,2021-2023,Discontinued products,5,-849187.3899999999
+Diabetes & obesity,2021-2023,More or fewer prescriptions,1,1058083850.5891899
+Diabetes & obesity,2021-2023,Shift to costlier products,2,3024335591.701763
+Diabetes & obesity,2021-2023,Spend per prescription,3,1155619830.8690476
+Diabetes & obesity,2021-2023,New products,4,447813937.03
+Diabetes & obesity,2021-2023,Discontinued products,5,-5133.0
+Endocrine & women's health,2021-2023,More or fewer prescriptions,1,22518202.36957499
+Endocrine & women's health,2021-2023,Shift to costlier products,2,-231087257.2596757
+Endocrine & women's health,2021-2023,Spend per prescription,3,268917979.96010077
+Endocrine & women's health,2021-2023,New products,4,84858812.95999998
+Endocrine & women's health,2021-2023,Discontinued products,5,-881342.81
+Eye & skin,2021-2023,More or fewer prescriptions,1,62514018.29818244
+Eye & skin,2021-2023,Shift to costlier products,2,64043090.48646116
+Eye & skin,2021-2023,Spend per prescription,3,30892555.185356364
+Eye & skin,2021-2023,New products,4,113562623.25000001
+Eye & skin,2021-2023,Discontinued products,5,-4103297.9299999997
+Gastroenterology,2021-2023,More or fewer prescriptions,1,258388900.9623951
+Gastroenterology,2021-2023,Shift to costlier products,2,137580126.24397898
+Gastroenterology,2021-2023,Spend per prescription,3,244010524.45362616
+Gastroenterology,2021-2023,New products,4,66830825.41
+Gastroenterology,2021-2023,Discontinued products,5,-8114731.359999999
+HIV,2021-2023,More or fewer prescriptions,1,-262041619.74257654
+HIV,2021-2023,Shift to costlier products,2,123553840.65163267
+HIV,2021-2023,Spend per prescription,3,705054629.450944
+HIV,2021-2023,New products,4,65044897.699999996
+HIV,2021-2023,Discontinued products,5,-28819.21
+Hematology,2021-2023,More or fewer prescriptions,1,-243352800.1431623
+Hematology,2021-2023,Shift to costlier products,2,487057276.0354144
+Hematology,2021-2023,Spend per prescription,3,75807444.17774844
+Hematology,2021-2023,New products,4,60670757.0
+Hematology,2021-2023,Discontinued products,5,0.0
+Immunology & inflammation,2021-2023,More or fewer prescriptions,1,1529303244.2318628
+Immunology & inflammation,2021-2023,Shift to costlier products,2,2383221649.2205033
+Immunology & inflammation,2021-2023,Spend per prescription,3,1991798591.7776341
+Immunology & inflammation,2021-2023,New products,4,121388128.76999998
+Immunology & inflammation,2021-2023,Discontinued products,5,-60838.659999999996
+Infectious disease (non-HIV),2021-2023,More or fewer prescriptions,1,982307111.6746236
+Infectious disease (non-HIV),2021-2023,Shift to costlier products,2,-705606001.2083554
+Infectious disease (non-HIV),2021-2023,Spend per prescription,3,69307590.35373178
+Infectious disease (non-HIV),2021-2023,New products,4,14206507.17
+Infectious disease (non-HIV),2021-2023,Discontinued products,5,-2563935.21
+Neurology & psychiatry,2021-2023,More or fewer prescriptions,1,805281688.350622
+Neurology & psychiatry,2021-2023,Shift to costlier products,2,613938702.2532378
+Neurology & psychiatry,2021-2023,Spend per prescription,3,1141046280.9261398
+Neurology & psychiatry,2021-2023,New products,4,636398917.17
+Neurology & psychiatry,2021-2023,Discontinued products,5,-2932282.5900000003
+Oncology,2021-2023,More or fewer prescriptions,1,361986758.54314464
+Oncology,2021-2023,Shift to costlier products,2,325465310.1254153
+Oncology,2021-2023,Spend per prescription,3,677998886.8914399
+Oncology,2021-2023,New products,4,388023449.03
+Oncology,2021-2023,Discontinued products,5,-2415600.9000000004
+"Other (vitamins, fluids, diagnostics)",2021-2023,More or fewer prescriptions,1,72102152.29400207
+"Other (vitamins, fluids, diagnostics)",2021-2023,Shift to costlier products,2,119913041.54900175
+"Other (vitamins, fluids, diagnostics)",2021-2023,Spend per prescription,3,404896949.7769962
+"Other (vitamins, fluids, diagnostics)",2021-2023,New products,4,4150053.1
+"Other (vitamins, fluids, diagnostics)",2021-2023,Discontinued products,5,-82382.24
+"Pain, addiction & anesthesia",2021-2023,More or fewer prescriptions,1,327409060.8070869
+"Pain, addiction & anesthesia",2021-2023,Shift to costlier products,2,127420611.80259645
+"Pain, addiction & anesthesia",2021-2023,Spend per prescription,3,691422577.8203168
+"Pain, addiction & anesthesia",2021-2023,New products,4,28709880.380000003
+"Pain, addiction & anesthesia",2021-2023,Discontinued products,5,-9095757.24
+Rare & genetic disease,2021-2023,More or fewer prescriptions,1,523543929.8591062
+Rare & genetic disease,2021-2023,Shift to costlier products,2,436632294.3593334
+Rare & genetic disease,2021-2023,Spend per prescription,3,365916462.0215608
+Rare & genetic disease,2021-2023,New products,4,99774285.41
+Rare & genetic disease,2021-2023,Discontinued products,5,-12641066.5
+Respiratory & allergy,2021-2023,More or fewer prescriptions,1,478194929.1368668
+Respiratory & allergy,2021-2023,Shift to costlier products,2,-201081012.0269998
+Respiratory & allergy,2021-2023,Spend per prescription,3,265430798.780133
+Respiratory & allergy,2021-2023,New products,4,337235583.18
+Respiratory & allergy,2021-2023,Discontinued products,5,-3232116.1999999993
+Unclassified,2021-2023,More or fewer prescriptions,1,-508262910.2821062
+Unclassified,2021-2023,Shift to costlier products,2,112039819.18565246
+Unclassified,2021-2023,Spend per prescription,3,3488419.8964535026
+Unclassified,2021-2023,New products,4,181220423.66999996
+Unclassified,2021-2023,Discontinued products,5,-127331275.24999997
+Urology & renal,2021-2023,More or fewer prescriptions,1,-224600225.00584665
+Urology & renal,2021-2023,Shift to costlier products,2,199687769.00571513
+Urology & renal,2021-2023,Spend per prescription,3,-51895095.00986843
+Urology & renal,2021-2023,New products,4,4895966.95
+Urology & renal,2021-2023,Discontinued products,5,-2464085.84
+All areas,2021-2024,More or fewer prescriptions,1,-823035968.8788325
+All areas,2021-2024,Shift to costlier products,2,9678984104.654202
+All areas,2021-2024,Spend per prescription,3,5343890183.944614
+All areas,2021-2024,New products,4,6707178429.83
+All areas,2021-2024,Discontinued products,5,-472293173.2099999
+Cardiovascular,2021-2024,More or fewer prescriptions,1,-218080380.84587413
+Cardiovascular,2021-2024,Shift to costlier products,2,736370834.459146
+Cardiovascular,2021-2024,Spend per prescription,3,490402312.12672794
+Cardiovascular,2021-2024,New products,4,212443405.02999994
+Cardiovascular,2021-2024,Discontinued products,5,-2626703.82
+Diabetes & obesity,2021-2024,More or fewer prescriptions,1,397879550.06899226
+Diabetes & obesity,2021-2024,Shift to costlier products,2,4203484099.45044
+Diabetes & obesity,2021-2024,Spend per prescription,3,-343451533.649431
+Diabetes & obesity,2021-2024,New products,4,1395183113.3399997
+Diabetes & obesity,2021-2024,Discontinued products,5,-487772.51
+Endocrine & women's health,2021-2024,More or fewer prescriptions,1,-307454484.1861167
+Endocrine & women's health,2021-2024,Shift to costlier products,2,-99498411.48098099
+Endocrine & women's health,2021-2024,Spend per prescription,3,314021107.97709775
+Endocrine & women's health,2021-2024,New products,4,233256117.16000003
+Endocrine & women's health,2021-2024,Discontinued products,5,-53130677.89
+Eye & skin,2021-2024,More or fewer prescriptions,1,14442231.267293474
+Eye & skin,2021-2024,Shift to costlier products,2,65132432.90382447
+Eye & skin,2021-2024,Spend per prescription,3,17620404.37888196
+Eye & skin,2021-2024,New products,4,236142492.52999997
+Eye & skin,2021-2024,Discontinued products,5,-5689660.97
+Gastroenterology,2021-2024,More or fewer prescriptions,1,145657403.79333168
+Gastroenterology,2021-2024,Shift to costlier products,2,255928600.6575988
+Gastroenterology,2021-2024,Spend per prescription,3,-22540625.55093018
+Gastroenterology,2021-2024,New products,4,108760680.93
+Gastroenterology,2021-2024,Discontinued products,5,-6367860.83
+HIV,2021-2024,More or fewer prescriptions,1,-849141568.9596709
+HIV,2021-2024,Shift to costlier products,2,201363844.4718343
+HIV,2021-2024,Spend per prescription,3,1010090527.897836
+HIV,2021-2024,New products,4,93778632.23
+HIV,2021-2024,Discontinued products,5,-24894759.330000002
+Hematology,2021-2024,More or fewer prescriptions,1,-610467765.8202426
+Hematology,2021-2024,Shift to costlier products,2,584679389.4944588
+Hematology,2021-2024,Spend per prescription,3,-87165192.22421616
+Hematology,2021-2024,New products,4,250036633.82999995
+Hematology,2021-2024,Discontinued products,5,-88459774.75999999
+Immunology & inflammation,2021-2024,More or fewer prescriptions,1,806433312.7650324
+Immunology & inflammation,2021-2024,Shift to costlier products,2,2722978132.2028546
+Immunology & inflammation,2021-2024,Spend per prescription,3,2423587651.7321143
+Immunology & inflammation,2021-2024,New products,4,325078492.41999996
+Immunology & inflammation,2021-2024,Discontinued products,5,-145382.97000000003
+Infectious disease (non-HIV),2021-2024,More or fewer prescriptions,1,647098859.6768699
+Infectious disease (non-HIV),2021-2024,Shift to costlier products,2,-850979179.2132463
+Infectious disease (non-HIV),2021-2024,Spend per prescription,3,-105208174.60362336
+Infectious disease (non-HIV),2021-2024,New products,4,364933749.7000001
+Infectious disease (non-HIV),2021-2024,Discontinued products,5,-1008061.47
+Neurology & psychiatry,2021-2024,More or fewer prescriptions,1,-110274889.42609191
+Neurology & psychiatry,2021-2024,Shift to costlier products,2,563058945.5176667
+Neurology & psychiatry,2021-2024,Spend per prescription,3,1308813999.768425
+Neurology & psychiatry,2021-2024,New products,4,1360732025.6399999
+Neurology & psychiatry,2021-2024,Discontinued products,5,-7634707.88
+Oncology,2021-2024,More or fewer prescriptions,1,-114843147.9785318
+Oncology,2021-2024,Shift to costlier products,2,461499831.6250627
+Oncology,2021-2024,Spend per prescription,3,552478917.4834687
+Oncology,2021-2024,New products,4,636281051.47
+Oncology,2021-2024,Discontinued products,5,-4271469.4
+"Other (vitamins, fluids, diagnostics)",2021-2024,More or fewer prescriptions,1,-3032490.10863068
+"Other (vitamins, fluids, diagnostics)",2021-2024,Shift to costlier products,2,56640841.429755755
+"Other (vitamins, fluids, diagnostics)",2021-2024,Spend per prescription,3,-30196449.981125135
+"Other (vitamins, fluids, diagnostics)",2021-2024,New products,4,9806993.54
+"Other (vitamins, fluids, diagnostics)",2021-2024,Discontinued products,5,-2131712.94
+"Pain, addiction & anesthesia",2021-2024,More or fewer prescriptions,1,121018478.16027987
+"Pain, addiction & anesthesia",2021-2024,Shift to costlier products,2,194546543.62551838
+"Pain, addiction & anesthesia",2021-2024,Spend per prescription,3,-193284206.70579827
+"Pain, addiction & anesthesia",2021-2024,New products,4,155271435.15
+"Pain, addiction & anesthesia",2021-2024,Discontinued products,5,-9857729.8
+Rare & genetic disease,2021-2024,More or fewer prescriptions,1,205242742.87777746
+Rare & genetic disease,2021-2024,Shift to costlier products,2,648286213.3543532
+Rare & genetic disease,2021-2024,Spend per prescription,3,547901648.9078696
+Rare & genetic disease,2021-2024,New products,4,331284182.65000004
+Rare & genetic disease,2021-2024,Discontinued products,5,-12400814.65
+Respiratory & allergy,2021-2024,More or fewer prescriptions,1,-16908027.56110476
+Respiratory & allergy,2021-2024,Shift to costlier products,2,-489221921.0145124
+Respiratory & allergy,2021-2024,Spend per prescription,3,-411313915.41438246
+Respiratory & allergy,2021-2024,New products,4,726565064.4700001
+Respiratory & allergy,2021-2024,Discontinued products,5,-4077727.579999999
+Unclassified,2021-2024,More or fewer prescriptions,1,-641199625.2246206
+Unclassified,2021-2024,Shift to costlier products,2,104911837.76562625
+Unclassified,2021-2024,Spend per prescription,3,-127465529.40100577
+Unclassified,2021-2024,New products,4,419344401.19000006
+Unclassified,2021-2024,Discontinued products,5,-303693477.63
+Urology & renal,2021-2024,More or fewer prescriptions,1,-251299917.62134624
+Urology & renal,2021-2024,Shift to costlier products,2,280328644.31391805
+Urology & renal,2021-2024,Spend per prescription,3,-100396304.24257185
+Urology & renal,2021-2024,New products,4,27356098.13
+Urology & renal,2021-2024,Discontinued products,5,-23128297.580000002
+All areas,2021-2025,More or fewer prescriptions,1,-2541861577.492286
+All areas,2021-2025,Shift to costlier products,2,11743266956.955727
+All areas,2021-2025,Spend per prescription,3,7324148339.666555
+All areas,2021-2025,New products,4,13327053455.8
+All areas,2021-2025,Discontinued products,5,-844177120.1399997
+Cardiovascular,2021-2025,More or fewer prescriptions,1,-302001938.33377934
+Cardiovascular,2021-2025,Shift to costlier products,2,839488742.4572659
+Cardiovascular,2021-2025,Spend per prescription,3,463426259.6065135
+Cardiovascular,2021-2025,New products,4,568569146.5799999
+Cardiovascular,2021-2025,Discontinued products,5,-69546225.41
+Diabetes & obesity,2021-2025,More or fewer prescriptions,1,276190750.5694428
+Diabetes & obesity,2021-2025,Shift to costlier products,2,4993321285.157803
+Diabetes & obesity,2021-2025,Spend per prescription,3,-211504498.20724553
+Diabetes & obesity,2021-2025,New products,4,3601165456.2
+Diabetes & obesity,2021-2025,Discontinued products,5,-6572556.109999999
+Endocrine & women's health,2021-2025,More or fewer prescriptions,1,-350579642.17282504
+Endocrine & women's health,2021-2025,Shift to costlier products,2,-108125396.2784228
+Endocrine & women's health,2021-2025,Spend per prescription,3,399449546.6612474
+Endocrine & women's health,2021-2025,New products,4,478847422.20000005
+Endocrine & women's health,2021-2025,Discontinued products,5,-63403263.51999999
+Eye & skin,2021-2025,More or fewer prescriptions,1,30422387.08607168
+Eye & skin,2021-2025,Shift to costlier products,2,20983950.285150416
+Eye & skin,2021-2025,Spend per prescription,3,17059749.04877791
+Eye & skin,2021-2025,New products,4,447564548.95000005
+Eye & skin,2021-2025,Discontinued products,5,-1551348.3499999999
+Gastroenterology,2021-2025,More or fewer prescriptions,1,110129738.04398061
+Gastroenterology,2021-2025,Shift to costlier products,2,286669050.1611421
+Gastroenterology,2021-2025,Spend per prescription,3,-62771744.565122515
+Gastroenterology,2021-2025,New products,4,230292518.33
+Gastroenterology,2021-2025,Discontinued products,5,-8711987.79
+HIV,2021-2025,More or fewer prescriptions,1,-1055254523.3948662
+HIV,2021-2025,Shift to costlier products,2,239586725.2770443
+HIV,2021-2025,Spend per prescription,3,1381391054.0078216
+HIV,2021-2025,New products,4,146915237.48999998
+HIV,2021-2025,Discontinued products,5,-25209265.980000004
+Hematology,2021-2025,More or fewer prescriptions,1,-1065737361.5650516
+Hematology,2021-2025,Shift to costlier products,2,725394344.4017078
+Hematology,2021-2025,Spend per prescription,3,67610925.93334398
+Hematology,2021-2025,New products,4,440632947.5700001
+Hematology,2021-2025,Discontinued products,5,-85254215.52
+Immunology & inflammation,2021-2025,More or fewer prescriptions,1,539383949.1525975
+Immunology & inflammation,2021-2025,Shift to costlier products,2,3422484693.588047
+Immunology & inflammation,2021-2025,Spend per prescription,3,3127790277.439358
+Immunology & inflammation,2021-2025,New products,4,1141156093.94
+Immunology & inflammation,2021-2025,Discontinued products,5,-1969431.5499999998
+Infectious disease (non-HIV),2021-2025,More or fewer prescriptions,1,392717137.9640175
+Infectious disease (non-HIV),2021-2025,Shift to costlier products,2,-820730103.3033895
+Infectious disease (non-HIV),2021-2025,Spend per prescription,3,-207297441.08062807
+Infectious disease (non-HIV),2021-2025,New products,4,282982663.4500001
+Infectious disease (non-HIV),2021-2025,Discontinued products,5,-56445160.519999996
+Neurology & psychiatry,2021-2025,More or fewer prescriptions,1,-200330017.5866463
+Neurology & psychiatry,2021-2025,Shift to costlier products,2,847587265.778214
+Neurology & psychiatry,2021-2025,Spend per prescription,3,2070300204.2484312
+Neurology & psychiatry,2021-2025,New products,4,2145725682.4499998
+Neurology & psychiatry,2021-2025,Discontinued products,5,-17105328.810000002
+Oncology,2021-2025,More or fewer prescriptions,1,-187212365.1839289
+Oncology,2021-2025,Shift to costlier products,2,488983316.99471724
+Oncology,2021-2025,Spend per prescription,3,874034921.8192115
+Oncology,2021-2025,New products,4,1163083929.07
+Oncology,2021-2025,Discontinued products,5,-5934126.23
+"Other (vitamins, fluids, diagnostics)",2021-2025,More or fewer prescriptions,1,-25982046.833157197
+"Other (vitamins, fluids, diagnostics)",2021-2025,Shift to costlier products,2,50415795.70231724
+"Other (vitamins, fluids, diagnostics)",2021-2025,Spend per prescription,3,-277511382.4691601
+"Other (vitamins, fluids, diagnostics)",2021-2025,New products,4,13043258.85
+"Other (vitamins, fluids, diagnostics)",2021-2025,Discontinued products,5,-2131712.94
+"Pain, addiction & anesthesia",2021-2025,More or fewer prescriptions,1,178225601.72620744
+"Pain, addiction & anesthesia",2021-2025,Shift to costlier products,2,233888472.96333247
+"Pain, addiction & anesthesia",2021-2025,Spend per prescription,3,-457967793.2995403
+"Pain, addiction & anesthesia",2021-2025,New products,4,286568614.57
+"Pain, addiction & anesthesia",2021-2025,Discontinued products,5,-10874869.3
+Rare & genetic disease,2021-2025,More or fewer prescriptions,1,-49748498.078790516
+Rare & genetic disease,2021-2025,Shift to costlier products,2,688335752.2081081
+Rare & genetic disease,2021-2025,Spend per prescription,3,761880660.3906826
+Rare & genetic disease,2021-2025,New products,4,771935258.8600001
+Rare & genetic disease,2021-2025,Discontinued products,5,-98894656.26000002
+Respiratory & allergy,2021-2025,More or fewer prescriptions,1,-221470600.4608414
+Respiratory & allergy,2021-2025,Shift to costlier products,2,-215706127.8681804
+Respiratory & allergy,2021-2025,Spend per prescription,3,-488171049.5009785
+Respiratory & allergy,2021-2025,New products,4,814260559.33
+Respiratory & allergy,2021-2025,Discontinued products,5,-27964026.94
+Unclassified,2021-2025,More or fewer prescriptions,1,-631824593.4513412
+Unclassified,2021-2025,Shift to costlier products,2,141706170.73395556
+Unclassified,2021-2025,Spend per prescription,3,-112965210.09261504
+Unclassified,2021-2025,New products,4,958141970.7299998
+Unclassified,2021-2025,Discontinued products,5,-545603388.0699999
+Urology & renal,2021-2025,More or fewer prescriptions,1,-266140446.33399212
+Urology & renal,2021-2025,Shift to costlier products,2,265513761.81399184
+Urology & renal,2021-2025,Spend per prescription,3,-97695095.56999971
+Urology & renal,2021-2025,New products,4,54195265.02
+Urology & renal,2021-2025,Discontinued products,5,-27123571.09
+All areas,2022-2023,More or fewer prescriptions,1,2132258203.622698
+All areas,2022-2023,Shift to costlier products,2,5045858762.774773
+All areas,2022-2023,Spend per prescription,3,3877457117.982529
+All areas,2022-2023,New products,4,661434685.2799999
+All areas,2022-2023,Discontinued products,5,-47864078.899999976
+Cardiovascular,2022-2023,More or fewer prescriptions,1,80193761.43331349
+Cardiovascular,2022-2023,Shift to costlier products,2,250724885.02001363
+Cardiovascular,2022-2023,Spend per prescription,3,75607652.88667253
+Cardiovascular,2022-2023,New products,4,13252682.49
+Cardiovascular,2022-2023,Discontinued products,5,-214238.66
+Diabetes & obesity,2022-2023,More or fewer prescriptions,1,908341852.902442
+Diabetes & obesity,2022-2023,Shift to costlier products,2,2092899010.3004105
+Diabetes & obesity,2022-2023,Spend per prescription,3,518809315.4471478
+Diabetes & obesity,2022-2023,New products,4,1108877.13
+Diabetes & obesity,2022-2023,Discontinued products,5,0.0
+Endocrine & women's health,2022-2023,More or fewer prescriptions,1,36868884.31867312
+Endocrine & women's health,2022-2023,Shift to costlier products,2,-211923664.8579129
+Endocrine & women's health,2022-2023,Spend per prescription,3,143103756.40923986
+Endocrine & women's health,2022-2023,New products,4,21669234.040000003
+Endocrine & women's health,2022-2023,Discontinued products,5,-1856304.3699999996
+Eye & skin,2022-2023,More or fewer prescriptions,1,73846228.71269958
+Eye & skin,2022-2023,Shift to costlier products,2,90923498.53837328
+Eye & skin,2022-2023,Spend per prescription,3,3525403.4089270867
+Eye & skin,2022-2023,New products,4,1736606.7700000003
+Eye & skin,2022-2023,Discontinued products,5,-3431863.01
+Gastroenterology,2022-2023,More or fewer prescriptions,1,125572650.02160618
+Gastroenterology,2022-2023,Shift to costlier products,2,117043166.86653067
+Gastroenterology,2022-2023,Spend per prescription,3,65913562.451863036
+Gastroenterology,2022-2023,New products,4,11695434.54
+Gastroenterology,2022-2023,Discontinued products,5,-7074043.48
+HIV,2022-2023,More or fewer prescriptions,1,-232605778.0084164
+HIV,2022-2023,Shift to costlier products,2,143310210.8346641
+HIV,2022-2023,Spend per prescription,3,413544666.0537523
+HIV,2022-2023,New products,4,12254212.98
+HIV,2022-2023,Discontinued products,5,0.0
+Hematology,2022-2023,More or fewer prescriptions,1,-160289680.33590752
+Hematology,2022-2023,Shift to costlier products,2,164754016.9449223
+Hematology,2022-2023,Spend per prescription,3,276760586.0809853
+Hematology,2022-2023,New products,4,53381232.18
+Hematology,2022-2023,Discontinued products,5,-128.29
+Immunology & inflammation,2022-2023,More or fewer prescriptions,1,659288421.0473526
+Immunology & inflammation,2022-2023,Shift to costlier products,2,1417367882.3152423
+Immunology & inflammation,2022-2023,Spend per prescription,3,998031809.5274055
+Immunology & inflammation,2022-2023,New products,4,36291926.97
+Immunology & inflammation,2022-2023,Discontinued products,5,-303424.55
+Infectious disease (non-HIV),2022-2023,More or fewer prescriptions,1,322120783.86286545
+Infectious disease (non-HIV),2022-2023,Shift to costlier products,2,-281771460.67575204
+Infectious disease (non-HIV),2022-2023,Spend per prescription,3,8390055.012886638
+Infectious disease (non-HIV),2022-2023,New products,4,8325265.119999999
+Infectious disease (non-HIV),2022-2023,Discontinued products,5,-6128015.24
+Neurology & psychiatry,2022-2023,More or fewer prescriptions,1,378064438.3817436
+Neurology & psychiatry,2022-2023,Shift to costlier products,2,-280646454.80329144
+Neurology & psychiatry,2022-2023,Spend per prescription,3,504830322.3915478
+Neurology & psychiatry,2022-2023,New products,4,373462629.84000003
+Neurology & psychiatry,2022-2023,Discontinued products,5,-1406743.15
+Oncology,2022-2023,More or fewer prescriptions,1,376504774.93016785
+Oncology,2022-2023,Shift to costlier products,2,247043730.19728848
+Oncology,2022-2023,Spend per prescription,3,380098138.4425436
+Oncology,2022-2023,New products,4,78024520.95
+Oncology,2022-2023,Discontinued products,5,-926597.23
+"Other (vitamins, fluids, diagnostics)",2022-2023,More or fewer prescriptions,1,93006023.04176125
+"Other (vitamins, fluids, diagnostics)",2022-2023,Shift to costlier products,2,96384659.57255095
+"Other (vitamins, fluids, diagnostics)",2022-2023,Spend per prescription,3,103191189.83568797
+"Other (vitamins, fluids, diagnostics)",2022-2023,New products,4,122702.15
+"Other (vitamins, fluids, diagnostics)",2022-2023,Discontinued products,5,-7143.79
+"Pain, addiction & anesthesia",2022-2023,More or fewer prescriptions,1,78314676.34148104
+"Pain, addiction & anesthesia",2022-2023,Shift to costlier products,2,237155743.71372855
+"Pain, addiction & anesthesia",2022-2023,Spend per prescription,3,132863438.69479093
+"Pain, addiction & anesthesia",2022-2023,New products,4,5353715.140000001
+"Pain, addiction & anesthesia",2022-2023,Discontinued products,5,-5579246.2700000005
+Rare & genetic disease,2022-2023,More or fewer prescriptions,1,173807531.77726978
+Rare & genetic disease,2022-2023,Shift to costlier products,2,195329288.33374763
+Rare & genetic disease,2022-2023,Spend per prescription,3,199846766.38898274
+Rare & genetic disease,2022-2023,New products,4,11808721.24
+Rare & genetic disease,2022-2023,Discontinued products,5,-2718354.41
+Respiratory & allergy,2022-2023,More or fewer prescriptions,1,141534725.77064568
+Respiratory & allergy,2022-2023,Shift to costlier products,2,-41091578.09808105
+Respiratory & allergy,2022-2023,Spend per prescription,3,54034942.3474353
+Respiratory & allergy,2022-2023,New products,4,36312824.55
+Respiratory & allergy,2022-2023,Discontinued products,5,-888293.5800000002
+Unclassified,2022-2023,More or fewer prescriptions,1,-299393055.2426143
+Unclassified,2022-2023,Shift to costlier products,2,168439818.67125767
+Unclassified,2022-2023,Spend per prescription,3,-13648568.998643257
+Unclassified,2022-2023,New products,4,41577502.88999999
+Unclassified,2022-2023,Discontinued products,5,-27676641.929999992
+Urology & renal,2022-2023,More or fewer prescriptions,1,-132291281.65417463
+Urology & renal,2022-2023,Shift to costlier products,2,153885080.8220587
+Urology & renal,2022-2023,Spend per prescription,3,-26638187.63788408
+Urology & renal,2022-2023,New products,4,0.0
+Urology & renal,2022-2023,Discontinued products,5,0.0
+All areas,2022-2024,More or fewer prescriptions,1,-4290387691.0756187
+All areas,2022-2024,Shift to costlier products,2,8605326040.10916
+All areas,2022-2024,Spend per prescription,3,733715499.2164592
+All areas,2022-2024,New products,4,3432216410.7599993
+All areas,2022-2024,Discontinued products,5,-236234407.74000013
+Cardiovascular,2022-2024,More or fewer prescriptions,1,-275370073.5259344
+Cardiovascular,2022-2024,Shift to costlier products,2,612836802.7780449
+Cardiovascular,2022-2024,Spend per prescription,3,133256379.5078896
+Cardiovascular,2022-2024,New products,4,88641260.1
+Cardiovascular,2022-2024,Discontinued products,5,-1484619.93
+Diabetes & obesity,2022-2024,More or fewer prescriptions,1,299925459.1324188
+Diabetes & obesity,2022-2024,Shift to costlier products,2,3853038598.30379
+Diabetes & obesity,2022-2024,Spend per prescription,3,-1124387993.9362092
+Diabetes & obesity,2022-2024,New products,4,459399241.9600001
+Diabetes & obesity,2022-2024,Discontinued products,5,-56870.170000000006
+Endocrine & women's health,2022-2024,More or fewer prescriptions,1,-315373104.87311864
+Endocrine & women's health,2022-2024,Shift to costlier products,2,-41801537.07446179
+Endocrine & women's health,2022-2024,Spend per prescription,3,212246372.21758035
+Endocrine & women's health,2022-2024,New products,4,106951041.64000002
+Endocrine & women's health,2022-2024,Discontinued products,5,-31293610.01
+Eye & skin,2022-2024,More or fewer prescriptions,1,30554384.04050688
+Eye & skin,2022-2024,Shift to costlier products,2,173652003.68792728
+Eye & skin,2022-2024,Spend per prescription,3,-35484804.77843421
+Eye & skin,2022-2024,New products,4,63131570.629999995
+Eye & skin,2022-2024,Discontinued products,5,-4514368.340000001
+Gastroenterology,2022-2024,More or fewer prescriptions,1,1384602.338704513
+Gastroenterology,2022-2024,Shift to costlier products,2,250969929.7888871
+Gastroenterology,2022-2024,Spend per prescription,3,-197027931.24759167
+Gastroenterology,2022-2024,New products,4,46926017.309999995
+Gastroenterology,2022-2024,Discontinued products,5,-6359294.5
+HIV,2022-2024,More or fewer prescriptions,1,-850997680.594368
+HIV,2022-2024,Shift to costlier products,2,244387568.29862887
+HIV,2022-2024,Spend per prescription,3,730136083.3957391
+HIV,2022-2024,New products,4,13782665.24
+HIV,2022-2024,Discontinued products,5,-1191577.0199999998
+Hematology,2022-2024,More or fewer prescriptions,1,-547057271.1246585
+Hematology,2022-2024,Shift to costlier products,2,218552483.45135236
+Hematology,2022-2024,Spend per prescription,3,146481941.593306
+Hematology,2022-2024,New products,4,240097050.07999998
+Hematology,2022-2024,Discontinued products,5,-55027563.96999999
+Immunology & inflammation,2022-2024,More or fewer prescriptions,1,-176877406.30612403
+Immunology & inflammation,2022-2024,Shift to costlier products,2,1890503157.0412164
+Immunology & inflammation,2022-2024,Spend per prescription,3,1463383896.9349077
+Immunology & inflammation,2022-2024,New products,4,185997954.64
+Immunology & inflammation,2022-2024,Discontinued products,5,-49556.19
+Infectious disease (non-HIV),2022-2024,More or fewer prescriptions,1,11730819.485892074
+Infectious disease (non-HIV),2022-2024,Shift to costlier products,2,-455510017.33232796
+Infectious disease (non-HIV),2022-2024,Spend per prescription,3,-165478878.67356417
+Infectious disease (non-HIV),2022-2024,New products,4,363298304.3400001
+Infectious disease (non-HIV),2022-2024,Discontinued products,5,-5917678.43
+Neurology & psychiatry,2022-2024,More or fewer prescriptions,1,-602724709.8911387
+Neurology & psychiatry,2022-2024,Shift to costlier products,2,-191385612.51599902
+Neurology & psychiatry,2022-2024,Spend per prescription,3,683885448.1771383
+Neurology & psychiatry,2022-2024,New products,4,1013614599.0200002
+Neurology & psychiatry,2022-2024,Discontinued products,5,-8123464.620000001
+Oncology,2022-2024,More or fewer prescriptions,1,-137846157.02179366
+Oncology,2022-2024,Shift to costlier products,2,526269455.1864172
+Oncology,2022-2024,Spend per prescription,3,243111829.08537635
+Oncology,2022-2024,New products,4,231205597.68
+Oncology,2022-2024,Discontinued products,5,-1909778.1300000001
+"Other (vitamins, fluids, diagnostics)",2022-2024,More or fewer prescriptions,1,-7642275.8341329
+"Other (vitamins, fluids, diagnostics)",2022-2024,Shift to costlier products,2,18267035.70821576
+"Other (vitamins, fluids, diagnostics)",2022-2024,Spend per prescription,3,-289715332.4840826
+"Other (vitamins, fluids, diagnostics)",2022-2024,New products,4,2104938.85
+"Other (vitamins, fluids, diagnostics)",2022-2024,Discontinued products,5,-209567.97
+"Pain, addiction & anesthesia",2022-2024,More or fewer prescriptions,1,-149730760.74742973
+"Pain, addiction & anesthesia",2022-2024,Shift to costlier products,2,323239944.33103913
+"Pain, addiction & anesthesia",2022-2024,Spend per prescription,3,-758505700.9736092
+"Pain, addiction & anesthesia",2022-2024,New products,4,140546697.83
+"Pain, addiction & anesthesia",2022-2024,Discontinued products,5,-5613705.960000001
+Rare & genetic disease,2022-2024,More or fewer prescriptions,1,-150407301.57811376
+Rare & genetic disease,2022-2024,Shift to costlier products,2,431385639.8336849
+Rare & genetic disease,2022-2024,Spend per prescription,3,402785038.9244287
+Rare & genetic disease,2022-2024,New products,4,203889745.1
+Rare & genetic disease,2022-2024,Discontinued products,5,-2491100.96
+Respiratory & allergy,2022-2024,More or fewer prescriptions,1,-280874680.6203546
+Respiratory & allergy,2022-2024,Shift to costlier products,2,-123965947.87400791
+Respiratory & allergy,2022-2024,Spend per prescription,3,-623781007.5556376
+Respiratory & allergy,2022-2024,New products,4,153822552.51999998
+Respiratory & allergy,2022-2024,Discontinued products,5,-6803005.449999999
+Unclassified,2022-2024,More or fewer prescriptions,1,-522063658.31027716
+Unclassified,2022-2024,Shift to costlier products,2,210831151.67281523
+Unclassified,2022-2024,Spend per prescription,3,-127034568.17253777
+Unclassified,2022-2024,New products,4,247070458.23000002
+Unclassified,2022-2024,Discontinued products,5,-148761198.55
+Urology & renal,2022-2024,More or fewer prescriptions,1,-165904859.26600215
+Urology & renal,2022-2024,Shift to costlier products,2,238067921.6307447
+Urology & renal,2022-2024,Spend per prescription,3,-81370393.5647425
+Urology & renal,2022-2024,New products,4,17780233.869999997
+Urology & renal,2022-2024,Discontinued products,5,-6381398.239999999
+All areas,2022-2025,More or fewer prescriptions,1,-6191464330.126027
+All areas,2022-2025,Shift to costlier products,2,11931031420.371296
+All areas,2022-2025,Spend per prescription,3,2707227979.7847385
+All areas,2022-2025,New products,4,8909422258.150002
+All areas,2022-2025,Discontinued products,5,-537874998.46
+Cardiovascular,2022-2025,More or fewer prescriptions,1,-374445178.86567694
+Cardiovascular,2022-2025,Shift to costlier products,2,748553067.7983832
+Cardiovascular,2022-2025,Spend per prescription,3,108325014.29729368
+Cardiovascular,2022-2025,New products,4,408855774.4
+Cardiovascular,2022-2025,Discontinued products,5,-51982410.75
+Diabetes & obesity,2022-2025,More or fewer prescriptions,1,343945919.6554673
+Diabetes & obesity,2022-2025,Shift to costlier products,2,5127540444.147007
+Diabetes & obesity,2022-2025,Spend per prescription,3,-1054010039.4924742
+Diabetes & obesity,2022-2025,New products,4,2071858610.6299999
+Diabetes & obesity,2022-2025,Discontinued products,5,-1423518.74
+Endocrine & women's health,2022-2025,More or fewer prescriptions,1,-361319897.8962083
+Endocrine & women's health,2022-2025,Shift to costlier products,2,-48300664.97641739
+Endocrine & women's health,2022-2025,Spend per prescription,3,328657519.8526255
+Endocrine & women's health,2022-2025,New products,4,322480038.74
+Endocrine & women's health,2022-2025,Discontinued products,5,-41792818.51
+Eye & skin,2022-2025,More or fewer prescriptions,1,50465736.20965435
+Eye & skin,2022-2025,Shift to costlier products,2,165402488.72325557
+Eye & skin,2022-2025,Spend per prescription,3,-21166009.95290991
+Eye & skin,2022-2025,New products,4,220877312.60999998
+Eye & skin,2022-2025,Discontinued products,5,-1409355.44
+Gastroenterology,2022-2025,More or fewer prescriptions,1,-36993739.91073957
+Gastroenterology,2022-2025,Shift to costlier products,2,303406107.8314894
+Gastroenterology,2022-2025,Spend per prescription,3,-230488493.52074993
+Gastroenterology,2022-2025,New products,4,141419445.26999998
+Gastroenterology,2022-2025,Discontinued products,5,-7280620.8
+HIV,2022-2025,More or fewer prescriptions,1,-1057284830.7449466
+HIV,2022-2025,Shift to costlier products,2,299269603.1445936
+HIV,2022-2025,Spend per prescription,3,1103493754.440353
+HIV,2022-2025,New products,4,48243794.39
+HIV,2022-2025,Discontinued products,5,-1372710.8199999998
+Hematology,2022-2025,More or fewer prescriptions,1,-1016064680.0764337
+Hematology,2022-2025,Shift to costlier products,2,435065119.9254991
+Hematology,2022-2025,Spend per prescription,3,245068989.30093467
+Hematology,2022-2025,New products,4,427825934.49000007
+Hematology,2022-2025,Discontinued products,5,-54825373.309999995
+Immunology & inflammation,2022-2025,More or fewer prescriptions,1,-462273508.62127006
+Immunology & inflammation,2022-2025,Shift to costlier products,2,2740912707.2065935
+Immunology & inflammation,2022-2025,Spend per prescription,3,2158631749.734678
+Immunology & inflammation,2022-2025,New products,4,878016625.7
+Immunology & inflammation,2022-2025,Discontinued products,5,-1416151.48
+Infectious disease (non-HIV),2022-2025,More or fewer prescriptions,1,-219561588.77993694
+Infectious disease (non-HIV),2022-2025,Shift to costlier products,2,-505059475.61431587
+Infectious disease (non-HIV),2022-2025,Spend per prescription,3,-261680300.1157469
+Infectious disease (non-HIV),2022-2025,New products,4,282522554.37000006
+Infectious disease (non-HIV),2022-2025,Discontinued products,5,-11708738.05
+Neurology & psychiatry,2022-2025,More or fewer prescriptions,1,-685078371.1805998
+Neurology & psychiatry,2022-2025,Shift to costlier products,2,173311352.2251793
+Neurology & psychiatry,2022-2025,Spend per prescription,3,1440352231.28542
+Neurology & psychiatry,2022-2025,New products,4,1711712894.3599997
+Neurology & psychiatry,2022-2025,Discontinued products,5,-13549414.059999999
+Oncology,2022-2025,More or fewer prescriptions,1,-219505244.18129948
+Oncology,2022-2025,Shift to costlier products,2,602375704.424855
+Oncology,2022-2025,Spend per prescription,3,578659395.4764447
+Oncology,2022-2025,New products,4,704006195.3699999
+Oncology,2022-2025,Discontinued products,5,-2894611.02
+"Other (vitamins, fluids, diagnostics)",2022-2025,More or fewer prescriptions,1,-37921777.92170846
+"Other (vitamins, fluids, diagnostics)",2022-2025,Shift to costlier products,2,12853657.732298791
+"Other (vitamins, fluids, diagnostics)",2022-2025,Spend per prescription,3,-529421172.93059045
+"Other (vitamins, fluids, diagnostics)",2022-2025,New products,4,4250389.73
+"Other (vitamins, fluids, diagnostics)",2022-2025,Discontinued products,5,-209567.97
+"Pain, addiction & anesthesia",2022-2025,More or fewer prescriptions,1,-86885954.56119174
+"Pain, addiction & anesthesia",2022-2025,Shift to costlier products,2,384110915.5722953
+"Pain, addiction & anesthesia",2022-2025,Spend per prescription,3,-1050917119.9411035
+"Pain, addiction & anesthesia",2022-2025,New products,4,274210551.84999996
+"Pain, addiction & anesthesia",2022-2025,Discontinued products,5,-8436412.21
+Rare & genetic disease,2022-2025,More or fewer prescriptions,1,-366037513.907096
+Rare & genetic disease,2022-2025,Shift to costlier products,2,483952101.66875625
+Rare & genetic disease,2022-2025,Spend per prescription,3,629992266.3483394
+Rare & genetic disease,2022-2025,New products,4,610421362.8
+Rare & genetic disease,2022-2025,Discontinued products,5,-119971651.60999998
+Respiratory & allergy,2022-2025,More or fewer prescriptions,1,-519747770.8506373
+Respiratory & allergy,2022-2025,Shift to costlier products,2,167206259.48113367
+Respiratory & allergy,2022-2025,Spend per prescription,3,-671416434.0704961
+Respiratory & allergy,2022-2025,New products,4,220480676.45
+Respiratory & allergy,2022-2025,Discontinued products,5,-22219538.33
+Unclassified,2022-2025,More or fewer prescriptions,1,-563266773.4134881
+Unclassified,2022-2025,Shift to costlier products,2,238977955.16604787
+Unclassified,2022-2025,Spend per prescription,3,-105883499.88255948
+Unclassified,2022-2025,New products,4,791117690.02
+Unclassified,2022-2025,Discontinued products,5,-343345843.8699999
+Urology & renal,2022-2025,More or fewer prescriptions,1,-180311468.18382853
+Urology & renal,2022-2025,Shift to costlier products,2,212099264.47185323
+Urology & renal,2022-2025,Spend per prescription,3,-65898382.81802471
+Urology & renal,2022-2025,New products,4,40859065.79
+Urology & renal,2022-2025,Discontinued products,5,-8667283.989999998
+All areas,2023-2024,More or fewer prescriptions,1,-6737893789.548177
+All areas,2023-2024,Shift to costlier products,2,5760152800.807699
+All areas,2023-2024,Spend per prescription,3,-3100903695.759533
+All areas,2023-2024,New products,4,705616642.78
+All areas,2023-2024,Discontinued products,5,-51480797.76999999
+Cardiovascular,2023-2024,More or fewer prescriptions,1,-379335439.05821
+Cardiovascular,2023-2024,Shift to costlier products,2,416619632.2971298
+Cardiovascular,2023-2024,Spend per prescription,3,43196678.31108095
+Cardiovascular,2023-2024,New products,4,58292113.84
+Cardiovascular,2023-2024,Discontinued products,5,-457979.62999999995
+Diabetes & obesity,2023-2024,More or fewer prescriptions,1,-454173679.00948983
+Diabetes & obesity,2023-2024,Shift to costlier products,2,1942545756.9104784
+Diabetes & obesity,2023-2024,Spend per prescription,3,-1639714579.8709893
+Diabetes & obesity,2023-2024,New products,4,118136676.63000003
+Diabetes & obesity,2023-2024,Discontinued products,5,-34795.149999999994
+Endocrine & women's health,2023-2024,More or fewer prescriptions,1,-349993857.6069436
+Endocrine & women's health,2023-2024,Shift to costlier products,2,191547274.1835529
+Endocrine & women's health,2023-2024,Spend per prescription,3,65534304.54339093
+Endocrine & women's health,2023-2024,New products,4,40493830.78
+Endocrine & women's health,2023-2024,Discontinued products,5,-4714295.539999999
+Eye & skin,2023-2024,More or fewer prescriptions,1,-39719047.927288935
+Eye & skin,2023-2024,Shift to costlier products,2,150339842.05502793
+Eye & skin,2023-2024,Spend per prescription,3,-71606143.497739
+Eye & skin,2023-2024,New products,4,21782362.49
+Eye & skin,2023-2024,Discontinued products,5,-58102.3
+Gastroenterology,2023-2024,More or fewer prescriptions,1,-128334480.21884744
+Gastroenterology,2023-2024,Shift to costlier products,2,153903607.00014883
+Gastroenterology,2023-2024,Spend per prescription,3,-250800492.2713012
+Gastroenterology,2023-2024,New products,4,7999251.470000001
+Gastroenterology,2023-2024,Discontinued products,5,-25332.69
+HIV,2023-2024,More or fewer prescriptions,1,-659394621.4111377
+HIV,2023-2024,Shift to costlier products,2,113492148.58587109
+HIV,2023-2024,Spend per prescription,3,345543308.95526624
+HIV,2023-2024,New products,4,0.0
+HIV,2023-2024,Discontinued products,5,-27088.670000000002
+Hematology,2023-2024,More or fewer prescriptions,1,-430380488.1999912
+Hematology,2023-2024,Shift to costlier products,2,238004737.9103096
+Hematology,2023-2024,Spend per prescription,3,-132689895.52031882
+Hematology,2023-2024,New products,4,3615512.3900000006
+Hematology,2023-2024,Discontinued products,5,-10109253.13
+Immunology & inflammation,2023-2024,More or fewer prescriptions,1,-958823203.2510637
+Immunology & inflammation,2023-2024,Shift to costlier products,2,631289488.100632
+Immunology & inflammation,2023-2024,Spend per prescription,3,505086330.37043315
+Immunology & inflammation,2023-2024,New products,4,74785505.24
+Immunology & inflammation,2023-2024,Discontinued products,5,-56689.65
+Infectious disease (non-HIV),2023-2024,More or fewer prescriptions,1,-277233817.347061
+Infectious disease (non-HIV),2023-2024,Shift to costlier products,2,86592048.89078577
+Infectious disease (non-HIV),2023-2024,Spend per prescription,3,-123708789.9237246
+Infectious disease (non-HIV),2023-2024,New products,4,12581274.620000005
+Infectious disease (non-HIV),2023-2024,Discontinued products,5,-1044794.9299999999
+Neurology & psychiatry,2023-2024,More or fewer prescriptions,1,-899792207.9175884
+Neurology & psychiatry,2023-2024,Shift to costlier products,2,644474829.4359758
+Neurology & psychiatry,2023-2024,Spend per prescription,3,124172839.96161179
+Neurology & psychiatry,2023-2024,New products,4,58340912.85
+Neurology & psychiatry,2023-2024,Discontinued products,5,-6234306.82
+Oncology,2023-2024,More or fewer prescriptions,1,-520105816.1126752
+Oncology,2023-2024,Shift to costlier products,2,423139585.37494826
+Oncology,2023-2024,Spend per prescription,3,-203602875.11227357
+Oncology,2023-2024,New products,4,80969681.58
+Oncology,2023-2024,Discontinued products,5,-314196.22000000003
+"Other (vitamins, fluids, diagnostics)",2023-2024,More or fewer prescriptions,1,-115434564.5643575
+"Other (vitamins, fluids, diagnostics)",2023-2024,Shift to costlier products,2,-77405323.88776812
+"Other (vitamins, fluids, diagnostics)",2023-2024,Spend per prescription,3,-378126861.42787445
+"Other (vitamins, fluids, diagnostics)",2023-2024,New products,4,1158571.62
+"Other (vitamins, fluids, diagnostics)",2023-2024,Discontinued products,5,-84454.27999999998
+"Pain, addiction & anesthesia",2023-2024,More or fewer prescriptions,1,-239147814.20191953
+"Pain, addiction & anesthesia",2023-2024,Shift to costlier products,2,130707613.30151547
+"Pain, addiction & anesthesia",2023-2024,Spend per prescription,3,-810267903.7995956
+"Pain, addiction & anesthesia",2023-2024,New products,4,20543783.2
+"Pain, addiction & anesthesia",2023-2024,Discontinued products,5,-7531.639999999999
+Rare & genetic disease,2023-2024,More or fewer prescriptions,1,-139120283.51280934
+Rare & genetic disease,2023-2024,Shift to costlier products,2,144296971.6096366
+Rare & genetic disease,2023-2024,Spend per prescription,3,220248328.36317262
+Rare & genetic disease,2023-2024,New products,4,81663051.53
+Rare & genetic disease,2023-2024,Discontinued products,5,0.0
+Respiratory & allergy,2023-2024,More or fewer prescriptions,1,-400118929.6817445
+Respiratory & allergy,2023-2024,Shift to costlier products,2,-39930650.94466354
+Respiratory & allergy,2023-2024,Spend per prescription,3,-657028874.5635917
+Respiratory & allergy,2023-2024,New products,4,30957107.790000003
+Respiratory & allergy,2023-2024,Discontinued products,5,-5383362.569999999
+Unclassified,2023-2024,More or fewer prescriptions,1,-302651710.9475513
+Unclassified,2023-2024,Shift to costlier products,2,156795380.73706406
+Unclassified,2023-2024,Spend per prescription,3,-126040363.15951246
+Unclassified,2023-2024,New products,4,98165386.0
+Unclassified,2023-2024,Discontinued products,5,-35525563.15
+Urology & renal,2023-2024,More or fewer prescriptions,1,-44727435.22561391
+Urology & renal,2023-2024,Shift to costlier products,2,74381482.02271686
+Urology & renal,2023-2024,Spend per prescription,3,-39871854.43710299
+Urology & renal,2023-2024,New products,4,17780233.869999997
+Urology & renal,2023-2024,Discontinued products,5,-326533.32999999996
+All areas,2023-2025,More or fewer prescriptions,1,-8600472765.829231
+All areas,2023-2025,Shift to costlier products,2,11148659811.45816
+All areas,2023-2025,Spend per prescription,3,-787374236.7689346
+All areas,2023-2025,New products,4,3739471187.279999
+All areas,2023-2025,Discontinued products,5,-351086357.17999995
+Cardiovascular,2023-2025,More or fewer prescriptions,1,-481652744.28257495
+Cardiovascular,2023-2025,Shift to costlier products,2,569103036.5723683
+Cardiovascular,2023-2025,Spend per prescription,3,42551747.940207675
+Cardiovascular,2023-2025,New products,4,354071610.28
+Cardiovascular,2023-2025,Discontinued products,5,-64332126.800000004
+Diabetes & obesity,2023-2025,More or fewer prescriptions,1,210060068.52924427
+Diabetes & obesity,2023-2025,Shift to costlier products,2,3988411806.190711
+Diabetes & obesity,2023-2025,Spend per prescription,3,-1441715174.419956
+Diabetes & obesity,2023-2025,New products,4,210500107.97000003
+Diabetes & obesity,2023-2025,Discontinued products,5,-504447.85
+Endocrine & women's health,2023-2025,More or fewer prescriptions,1,-398416165.2785988
+Endocrine & women's health,2023-2025,Shift to costlier products,2,207623364.66569963
+Endocrine & women's health,2023-2025,Spend per prescription,3,194617728.94289935
+Endocrine & women's health,2023-2025,New products,4,222723199.46
+Endocrine & women's health,2023-2025,Discontinued products,5,-14685856.120000001
+Eye & skin,2023-2025,More or fewer prescriptions,1,-8018327.167079065
+Eye & skin,2023-2025,Shift to costlier products,2,257075151.59184515
+Eye & skin,2023-2025,Spend per prescription,3,-107638343.95476606
+Eye & skin,2023-2025,New products,4,106809503.62
+Eye & skin,2023-2025,Discontinued products,5,-657686.36
+Gastroenterology,2023-2025,More or fewer prescriptions,1,-165796256.8992115
+Gastroenterology,2023-2025,Shift to costlier products,2,214365133.60665512
+Gastroenterology,2023-2025,Spend per prescription,3,-274488546.92744386
+Gastroenterology,2023-2025,New products,4,82983616.41000001
+Gastroenterology,2023-2025,Discontinued products,5,-152017.72000000003
+HIV,2023-2025,More or fewer prescriptions,1,-884154878.6568247
+HIV,2023-2025,Shift to costlier products,2,175896809.54766515
+HIV,2023-2025,Spend per prescription,3,736093443.489159
+HIV,2023-2025,New products,4,28156431.71
+HIV,2023-2025,Discontinued products,5,-145507.53999999998
+Hematology,2023-2025,More or fewer prescriptions,1,-953754400.6475413
+Hematology,2023-2025,Shift to costlier products,2,611612062.4281303
+Hematology,2023-2025,Spend per prescription,3,-27738037.9805893
+Hematology,2023-2025,New products,4,82370322.47999999
+Hematology,2023-2025,Discontinued products,5,-10025982.530000001
+Immunology & inflammation,2023-2025,More or fewer prescriptions,1,-1291848995.517769
+Immunology & inflammation,2023-2025,Shift to costlier products,2,1600473135.310119
+Immunology & inflammation,2023-2025,Spend per prescription,3,1180283792.7376509
+Immunology & inflammation,2023-2025,New products,4,714916627.25
+Immunology & inflammation,2023-2025,Discontinued products,5,-629752.5499999999
+Infectious disease (non-HIV),2023-2025,More or fewer prescriptions,1,-494666730.29980075
+Infectious disease (non-HIV),2023-2025,Shift to costlier products,2,-115454491.99742757
+Infectious disease (non-HIV),2023-2025,Spend per prescription,3,-201869681.10277164
+Infectious disease (non-HIV),2023-2025,New products,4,47380500.84000001
+Infectious disease (non-HIV),2023-2025,Discontinued products,5,-1813773.71
+Neurology & psychiatry,2023-2025,More or fewer prescriptions,1,-935188658.4692192
+Neurology & psychiatry,2023-2025,Shift to costlier products,2,1389915126.9248223
+Neurology & psychiatry,2023-2025,Spend per prescription,3,916847978.8043957
+Neurology & psychiatry,2023-2025,New products,4,290839894.70000005
+Neurology & psychiatry,2023-2025,Discontinued products,5,-9969841.989999998
+Oncology,2023-2025,More or fewer prescriptions,1,-599613911.1903341
+Oncology,2023-2025,Shift to costlier products,2,492699670.1791977
+Oncology,2023-2025,Spend per prescription,3,154832337.83113623
+Oncology,2023-2025,New products,4,540422768.3399999
+Oncology,2023-2025,Discontinued products,5,-6443992.38
+"Other (vitamins, fluids, diagnostics)",2023-2025,More or fewer prescriptions,1,-149719671.9804767
+"Other (vitamins, fluids, diagnostics)",2023-2025,Shift to costlier products,2,-80618680.26557541
+"Other (vitamins, fluids, diagnostics)",2023-2025,Spend per prescription,3,-615237455.5339481
+"Other (vitamins, fluids, diagnostics)",2023-2025,New products,4,2514359.89
+"Other (vitamins, fluids, diagnostics)",2023-2025,Discontinued products,5,-84454.27999999998
+"Pain, addiction & anesthesia",2023-2025,More or fewer prescriptions,1,-166970780.79018652
+"Pain, addiction & anesthesia",2023-2025,Shift to costlier products,2,230859097.50525272
+"Pain, addiction & anesthesia",2023-2025,Spend per prescription,3,-1048274210.3850667
+"Pain, addiction & anesthesia",2023-2025,New products,4,51918104.63
+"Pain, addiction & anesthesia",2023-2025,Discontinued products,5,-3558557.87
+Rare & genetic disease,2023-2025,More or fewer prescriptions,1,-218312750.08480752
+Rare & genetic disease,2023-2025,Shift to costlier products,2,80321059.87057471
+Rare & genetic disease,2023-2025,Spend per prescription,3,505523649.71423256
+Rare & genetic disease,2023-2025,New products,4,439629980.78
+Rare & genetic disease,2023-2025,Discontinued products,5,-146879328.31
+Respiratory & allergy,2023-2025,More or fewer prescriptions,1,-639394806.3559535
+Respiratory & allergy,2023-2025,Shift to costlier products,2,258014359.60801896
+Respiratory & allergy,2023-2025,Spend per prescription,3,-697436227.7120659
+Respiratory & allergy,2023-2025,New products,4,74812704.66000001
+Respiratory & allergy,2023-2025,Discontinued products,5,-11595458.510000002
+Unclassified,2023-2025,More or fewer prescriptions,1,-433028451.8427263
+Unclassified,2023-2025,Shift to costlier products,2,293936485.93348527
+Unclassified,2023-2025,Spend per prescription,3,-109296904.6807589
+Unclassified,2023-2025,New products,4,571898058.3199999
+Unclassified,2023-2025,Discontinued products,5,-175208715.10000002
+Urology & renal,2023-2025,More or fewer prescriptions,1,-65136628.07876954
+Urology & renal,2023-2025,Shift to costlier products,2,61520401.594166495
+Urology & renal,2023-2025,Spend per prescription,3,-32934302.82539703
+Urology & renal,2023-2025,New products,4,40859065.79
+Urology & renal,2023-2025,Discontinued products,5,-1182952.7399999998
+All areas,2024-2025,More or fewer prescriptions,1,-1805771282.0768192
+All areas,2024-2025,Shift to costlier products,2,7815079724.460669
+All areas,2024-2025,Spend per prescription,3,1897364602.456167
+All areas,2024-2025,New products,4,886546256.24
+All areas,2024-2025,Discontinued products,5,-219512822.63000005
+Cardiovascular,2024-2025,More or fewer prescriptions,1,-112002972.15753345
+Cardiovascular,2024-2025,Shift to costlier products,2,346170254.73983216
+Cardiovascular,2024-2025,Spend per prescription,3,72394346.25770122
+Cardiovascular,2024-2025,New products,4,41249078.989999995
+Cardiovascular,2024-2025,Discontinued products,5,-66384189.879999995
+Diabetes & obesity,2024-2025,More or fewer prescriptions,1,774739411.6276736
+Diabetes & obesity,2024-2025,Shift to costlier products,2,2374284364.4509706
+Diabetes & obesity,2024-2025,Spend per prescription,3,-150058088.02864426
+Diabetes & obesity,2024-2025,New products,4,1073979.73
+Diabetes & obesity,2024-2025,Discontinued products,5,-46686.87
+Endocrine & women's health,2024-2025,More or fewer prescriptions,1,-52094665.00548815
+Endocrine & women's health,2024-2025,Shift to costlier products,2,160774363.64635113
+Endocrine & women's health,2024-2025,Spend per prescription,3,123301090.03913683
+Endocrine & women's health,2024-2025,New products,4,50679367.46
+Endocrine & women's health,2024-2025,Discontinued products,5,-13665140.83
+Eye & skin,2024-2025,More or fewer prescriptions,1,42979536.399833426
+Eye & skin,2024-2025,Shift to costlier products,2,134592613.47380906
+Eye & skin,2024-2025,Spend per prescription,3,8549533.356357602
+Eye & skin,2024-2025,New products,4,788131.66
+Eye & skin,2024-2025,Discontinued products,5,-78427.98000000001
+Gastroenterology,2024-2025,More or fewer prescriptions,1,-33931484.271420516
+Gastroenterology,2024-2025,Shift to costlier products,2,75217072.57411611
+Gastroenterology,2024-2025,Spend per prescription,3,-29696529.73269576
+Gastroenterology,2024-2025,New products,4,62828100.56000001
+Gastroenterology,2024-2025,Discontinued products,5,-247783.95
+HIV,2024-2025,More or fewer prescriptions,1,-244072463.90034103
+HIV,2024-2025,Shift to costlier products,2,66922288.3859694
+HIV,2024-2025,Spend per prescription,3,405249193.19437164
+HIV,2024-2025,New products,4,28156431.71
+HIV,2024-2025,Discontinued products,5,-22898.3
+Hematology,2024-2025,More or fewer prescriptions,1,-504247713.1123079
+Hematology,2024-2025,Shift to costlier products,2,377301899.3412446
+Hematology,2024-2025,Spend per prescription,3,98560452.5510637
+Hematology,2024-2025,New products,4,62499004.78
+Hematology,2024-2025,Discontinued products,5,-90293.26
+Immunology & inflammation,2024-2025,More or fewer prescriptions,1,-316144419.8344043
+Immunology & inflammation,2024-2025,Shift to costlier products,2,1564150369.2606964
+Immunology & inflammation,2024-2025,Spend per prescription,3,676574233.4637073
+Immunology & inflammation,2024-2025,New products,4,26550572.48
+Immunology & inflammation,2024-2025,Discontinued products,5,-217378.95
+Infectious disease (non-HIV),2024-2025,More or fewer prescriptions,1,-215513819.58560377
+Infectious disease (non-HIV),2024-2025,Shift to costlier products,2,-211320688.03648683
+Infectious disease (non-HIV),2024-2025,Spend per prescription,3,-55426145.03790942
+Infectious disease (non-HIV),2024-2025,New products,4,18888123.15
+Infectious disease (non-HIV),2024-2025,Discontinued products,5,-237568.07
+Neurology & psychiatry,2024-2025,More or fewer prescriptions,1,8138162.85488334
+Neurology & psychiatry,2024-2025,Shift to costlier products,2,951932383.2236208
+Neurology & psychiatry,2024-2025,Spend per prescription,3,740424234.7914953
+Neurology & psychiatry,2024-2025,New products,4,31819109.479999997
+Neurology & psychiatry,2024-2025,Discontinued products,5,-831457.89
+Oncology,2024-2025,More or fewer prescriptions,1,-28067538.858159695
+Oncology,2024-2025,Shift to costlier products,2,483089197.7621025
+Oncology,2024-2025,Spend per prescription,3,284864923.7860575
+Oncology,2024-2025,New products,4,70004697.14
+Oncology,2024-2025,Discontinued products,5,-8080786.56
+"Other (vitamins, fluids, diagnostics)",2024-2025,More or fewer prescriptions,1,-22599683.072446413
+"Other (vitamins, fluids, diagnostics)",2024-2025,Shift to costlier products,2,-8020371.2666805275
+"Other (vitamins, fluids, diagnostics)",2024-2025,Spend per prescription,3,-242807041.79087305
+"Other (vitamins, fluids, diagnostics)",2024-2025,New products,4,173826.5
+"Other (vitamins, fluids, diagnostics)",2024-2025,Discontinued products,5,0.0
+"Pain, addiction & anesthesia",2024-2025,More or fewer prescriptions,1,63890073.96268069
+"Pain, addiction & anesthesia",2024-2025,Shift to costlier products,2,122801493.34581563
+"Pain, addiction & anesthesia",2024-2025,Spend per prescription,3,-232646484.5484967
+"Pain, addiction & anesthesia",2024-2025,New products,4,10887244.41
+"Pain, addiction & anesthesia",2024-2025,Discontinued products,5,-2786820.94
+Rare & genetic disease,2024-2025,More or fewer prescriptions,1,-14851919.316047724
+Rare & genetic disease,2024-2025,Shift to costlier products,2,42834170.89935192
+Rare & genetic disease,2024-2025,Spend per prescription,3,180260859.22669575
+Rare & genetic disease,2024-2025,New products,4,264003726.16000003
+Rare & genetic disease,2024-2025,Discontinued products,5,-119052292.99
+Respiratory & allergy,2024-2025,More or fewer prescriptions,1,-216441934.5141705
+Respiratory & allergy,2024-2025,Shift to costlier products,2,286443735.60992527
+Respiratory & allergy,2024-2025,Spend per prescription,3,-27854042.175755367
+Respiratory & allergy,2024-2025,New products,4,14790180.99
+Respiratory & allergy,2024-2025,Discontinued products,5,-1032658.25
+Unclassified,2024-2025,More or fewer prescriptions,1,-192359769.4081571
+Unclassified,2024-2025,Shift to costlier products,2,293510812.89117074
+Unclassified,2024-2025,Spend per prescription,3,33373138.206986595
+Unclassified,2024-2025,New products,4,262764449.83000004
+Unclassified,2024-2025,Discontinued products,5,-39731288.370000005
+Urology & renal,2024-2025,More or fewer prescriptions,1,-9589332.735033475
+Urology & renal,2024-2025,Shift to costlier products,2,2914813.740179388
+Urology & renal,2024-2025,Spend per prescription,3,2911120.0948541276
+Urology & renal,2024-2025,New products,4,0.0
+Urology & renal,2024-2025,Discontinued products,5,-346910.25999999995
