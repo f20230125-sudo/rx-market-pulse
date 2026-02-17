@@ -131,8 +131,8 @@ def run(con: duckdb.DuckDBPyConnection) -> tuple[list[Check], list[dict]]:
     pct = [100 * (n - s) / n for _, n, s in gaps]
     gap_d = sum(n - s for _, n, s in gaps)
     checks.append(Check(
-        "C09", "Reconciliation", "Sum of the 51 state rows vs the published national (XX) row",
-        f"states are {min(pct):.1f}-{max(pct):.1f}% below national, every year",
+        "C09", "Reconciliation", "Sum of the state and territory rows vs the published national (XX) row",
+        f"state and territory rows are {min(pct):.1f}-{max(pct):.1f}% below national, every year",
         "gap explained and stable", "warn", float(gap_d),
         "Cells with fewer than 11 prescriptions are blanked in the state rows but counted in the national row. "
         "National totals therefore come from XX; state shares are shares of reported (unsuppressed) spend.",
