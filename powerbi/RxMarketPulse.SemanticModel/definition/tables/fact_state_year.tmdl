@@ -1,0 +1,51 @@
+table fact_state_year
+	lineageTag: c9a4ecf6-5b64-5f5e-88cf-3b300424b05e
+
+	column state
+		dataType: string
+		lineageTag: 86cea3bf-e0d9-5d63-9f6c-a93358d83737
+		summarizeBy: none
+		sourceColumn: state
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 4fb0a618-e6fb-580a-8f64-591dc4eaaa15
+		summarizeBy: none
+		sourceColumn: year
+
+	column enrollment
+		dataType: double
+		lineageTag: f680a030-c186-5de8-bd40-4e1160cd9bc5
+		summarizeBy: none
+		sourceColumn: enrollment
+
+	column ffs_share
+		dataType: double
+		lineageTag: 152efb5e-9c78-5452-a8c2-b6c0472b8c0b
+		summarizeBy: none
+		sourceColumn: ffs_share
+
+	column spend_usd
+		dataType: double
+		lineageTag: 6bb961ec-0e6a-5984-a1c1-d0fa020bd012
+		summarizeBy: none
+		sourceColumn: spend_usd
+
+	column reporting
+		dataType: string
+		lineageTag: 44808b9c-d7b8-5de3-a37b-722c374592f0
+		summarizeBy: none
+		sourceColumn: reporting
+
+	partition fact_state_year = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_state_year.csv"), [Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"state", type text}, {"year", Int64.Type}, {"enrollment", type number}, {"ffs_share", type number}, {"spend_usd", type number}, {"reporting", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

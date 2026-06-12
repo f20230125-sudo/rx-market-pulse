@@ -1,0 +1,80 @@
+table fact_loe
+	lineageTag: 84eb8616-7748-532d-813c-6371fbb0d854
+
+	measure 'Protected Spend (2025)' = SUM(fact_loe[spend_2025_usd])
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: c17a3e79-0617-5c3d-bd4d-5bccb494844f
+
+	measure 'Protected Brands' = COUNTROWS(fact_loe)
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: 40c41b16-350c-564d-8231-88fcd1d8523e
+
+	measure 'Protected Spend $M (2025)' = DIVIDE([Protected Spend (2025)], 1000000)
+		formatString: "$#,0.0""M"""
+		displayFolder: Measures
+		lineageTag: 05f27123-8b5f-5553-8f27-4414afe036df
+
+	column family
+		dataType: string
+		lineageTag: c12435ad-e110-57e4-9797-bc013ef34793
+		summarizeBy: none
+		sourceColumn: family
+
+	column owner
+		dataType: string
+		lineageTag: 002a562f-82c2-589b-9e6b-ecfa49c95d36
+		summarizeBy: none
+		sourceColumn: owner
+
+	column area
+		dataType: string
+		lineageTag: a6d6234c-10db-5347-bb0d-db9a757eeda1
+		summarizeBy: none
+		sourceColumn: area
+
+	column spend_2025_usd
+		dataType: double
+		lineageTag: 0fff9677-09ca-59bf-b331-64c4aaf9fa9a
+		summarizeBy: none
+		sourceColumn: spend_2025_usd
+
+	column status
+		dataType: string
+		lineageTag: 9c3f6d81-a969-5544-bd2b-98d25bfe2f0b
+		summarizeBy: none
+		sourceColumn: status
+
+	column core_end
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: 0af4e989-66a4-559b-82d8-1e26de42d6af
+		summarizeBy: none
+		sourceColumn: core_end
+
+	column substance_end
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: a2944f1d-4d11-59c5-bf8b-a688c3e7d25d
+		summarizeBy: none
+		sourceColumn: substance_end
+
+	column core_year
+		dataType: int64
+		formatString: 0
+		lineageTag: a0d7741d-f369-5f0f-af7f-1c5cb95448f5
+		summarizeBy: none
+		sourceColumn: core_year
+
+	partition fact_loe = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_loe.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"family", type text}, {"owner", type text}, {"area", type text}, {"spend_2025_usd", type number}, {"status", type text}, {"core_end", type date}, {"substance_end", type date}, {"core_year", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
