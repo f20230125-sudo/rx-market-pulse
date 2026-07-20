@@ -7,6 +7,8 @@ import "@fontsource/ibm-plex-serif/600.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  // Share-image addresses are built from this; set NEXT_PUBLIC_SITE_URL to the real address when the site is published.
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://rx-market-pulse.vercel.app"),
   title: "Rx Market Pulse: Medicaid drug spend, 2019–2025",
   description:
     "Seven years of US Medicaid prescription data, cleaned and joined to FDA records: where spend grew, who sells it, what happens when generics arrive, and when patents end. A commercial-analytics case study.",
