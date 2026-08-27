@@ -10,3 +10,7 @@ node_modules/
 out/
 *.log
 ~$*.xlsx
+
+test-results/
+playwright-report/
+dashboard/screenshots/
