@@ -31,7 +31,7 @@ Found by profiling, then turned into rules, checks and tests:
 - **Product names in the utilisation file are cut at exactly 10 characters** (`LEVOTHYROX`). Products are identified by NDC instead, joined to the product list and the FDA directory.
 - **NDCs are written four ways** (11 digits, and hyphenated 4-4-2, 5-3-2, 5-4-1). A 10-digit code cannot be converted by padding the front; the hyphens say which segment to pad. The conversion is a tested function, and a SQL version used for speed is tested against it.
 - 1,488 manufacturer name variants (and 235 labeler codes with more than one name) roll up to parent companies by rule plus a short, tested list of completed acquisitions. Spin-offs (Organon from Merck) are not folded back.
-- A therapeutic area for **97.8% of spend**: FDA pharmacologic class first, then the same ingredient, then a curated name list; a check of the 220 largest products found and fixed six misclassifications. The remaining 2.2% is shown as "Unclassified", never spread across other areas.
+- A therapeutic area for **97.8% of spend**: FDA pharmacologic class first, then the same ingredient, then a curated name list; reviewing the 330 largest products by hand found about a dozen misclassifications (two multiple-sclerosis drugs in oncology, a muscular-dystrophy drug under respiratory), fixed by tightening rules and a short, documented override list. The remaining 2.2% is shown as "Unclassified", never spread across other areas.
 - Puerto Rico appears from 2023 only and has no enrollment series, so it is a flagged territory, not a state.
 
 See [`docs/data-quality-scorecard.md`](docs/data-quality-scorecard.md) (generated, not hand-written).

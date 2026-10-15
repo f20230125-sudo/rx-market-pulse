@@ -13,13 +13,13 @@ I took seven years of public US Medicaid pharmacy claims, 36 million rows, and b
 **What I did.** Staged each source as published and typed it, nothing removed. Rows that cannot be keyed to a product go to a quarantine table with the reason. A product master is built per NDC (the 11-digit drug code) from the Medicaid product list, enriched from the FDA directory, then given a manufacturer parent, an ingredient and a therapeutic area. Nineteen checks run on every build and write a scorecard.
 
 **What the first profile found.**
-1. **49% of state rows are blank** (the source suppresses cells under 11 prescriptions), and those cells are counted in the national row. Summing the 51 states gives about 92% of the national total, never 100%. A naive state sum would understate the market by 6–7%.
+1. **About half of the state rows are blank** (51%: the source suppresses cells under 11 prescriptions), and those cells are counted in the national row. Summing the 51 states gives about 92% of the national total, never 100%. A naive state sum would understate the market by 6–7%.
 2. **Product names are cut at exactly 10 characters** (`LEVOTHYROX`), so names cannot be the key.
 3. **NDCs come in several layouts.** Padding the front of a hyphenated 10-digit code gives a wrong key; the hyphens say which segment to pad.
 4. Puerto Rico appears from 2023 only, with no enrollment series, and quietly turned my "51 states" test into 52 until a data test caught it.
 
 **Things I got wrong and fixed.**
-- My therapeutic-area step first classified 81% of spend. A curated name list and a "same ingredient" step brought it to 97.8%. Reviewing the 220 largest products by hand then found six misclassifications (for example two multiple-sclerosis drugs landing in oncology through a CD20 rule). They are now fixed by a short override list, with a test.
+- My therapeutic-area step first classified 81% of spend. A curated name list and a "same ingredient" step brought it to 97.8%. Reviewing the 330 largest products by hand then found about a dozen misclassifications (for example two multiple-sclerosis drugs landing in oncology through a CD20 rule). Each is now fixed by tightening a rule or by a short, documented override list, with tests.
 - Two class patterns were too loose (a drug-interaction label matched a "virus" rule). I traced each bad result to the pattern that caused it and tightened the pattern, rather than patching names.
 - A Python function applied to two million rows took minutes; applying it to the 1,300 distinct names took a second. The NDC conversion is in SQL for speed, with a parity test against the Python reference.
 
