@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "aed46479ee233a3b7b45",
+  "displayName": "Companies",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "7ad8c2d65462fe56ebe0",
+      "target": "3dd81e4213294db4f88f",
+      "type": "NoFilter"
+    }
+  ]
+}

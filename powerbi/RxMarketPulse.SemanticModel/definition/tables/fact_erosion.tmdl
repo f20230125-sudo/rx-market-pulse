@@ -1,0 +1,55 @@
+table fact_erosion
+	lineageTag: fe0f79f0-9df2-5bff-aea9-a7120d2ff976
+
+	measure 'Median Brand Index' = MEDIANX(VALUES(fact_erosion[ingredient]), CALCULATE(AVERAGE(fact_erosion[brand_index])))
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: ff51d557-7832-58e2-9574-04ce16b4e6f9
+
+	measure 'Brands in Median' = DISTINCTCOUNT(fact_erosion[ingredient])
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: a371d62b-fb59-5a84-9e2c-d76e47981095
+
+	column ingredient
+		dataType: string
+		lineageTag: f37fda99-11ec-5453-8609-05253fe9cd97
+		summarizeBy: none
+		sourceColumn: ingredient
+
+	column brand
+		dataType: string
+		lineageTag: 75c1fb3a-4b29-5219-9f25-213838fc0ad9
+		summarizeBy: none
+		sourceColumn: brand
+
+	column quarters_since_entry
+		dataType: int64
+		formatString: 0
+		lineageTag: bb4ac9c4-07aa-59d9-9eca-90ebaa26bba3
+		summarizeBy: none
+		sourceColumn: quarters_since_entry
+
+	column brand_index
+		dataType: double
+		lineageTag: e8971c6b-dc70-51c2-97f4-1b905057cb4f
+		summarizeBy: none
+		sourceColumn: brand_index
+
+	column generic_share
+		dataType: double
+		lineageTag: 1cee17c2-7adf-5cd8-b0dc-5f81ea17cba1
+		summarizeBy: none
+		sourceColumn: generic_share
+
+	partition fact_erosion = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_erosion.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"ingredient", type text}, {"brand", type text}, {"quarters_since_entry", Int64.Type}, {"brand_index", type number}, {"generic_share", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

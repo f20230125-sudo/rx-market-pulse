@@ -1,0 +1,895 @@
+family,owner,area,spend_2025_usd,status,core_end,substance_end,core_year
+OZEMPIC,Novo Nordisk,Diabetes & obesity,3754483078.0,Protected,2031-12-05,2031-12-05,2031
+BIKTARVY,Gilead,HIV,3555549306.0,Protected,2035-06-19,2035-06-19,2035
+WEGOVY,Novo Nordisk,Diabetes & obesity,2600821618.0,Protected,2031-12-05,2031-12-05,2031
+JARDIANCE,Boehringer Ingelheim,Diabetes & obesity,2518899493.0,Protected,2028-08-01,2028-08-01,2028
+INVEGA SUSTENNA,Johnson & Johnson,Neurology & psychiatry,1813378437.0,Protected,2031-01-26,,2031
+ZEPBOUND,Eli Lilly,Diabetes & obesity,1807819696.0,Protected,2036-05-13,2036-05-13,2036
+VRAYLAR,AbbVie,Neurology & psychiatry,1626228569.0,Protected,2029-09-17,2029-09-17,2029
+MOUNJARO,Eli Lilly,Diabetes & obesity,1515725769.0,Protected,2039-06-14,2039-06-14,2039
+TRIKAFTA,Vertex,Rare & genetic disease,1449755092.0,Protected,2037-12-08,2037-12-08,2037
+ELIQUIS,Bristol Myers Squibb,Cardiovascular,1421286656.0,Protected,2028-10-17,2026-11-21,2028
+FARXIGA,AstraZeneca,Diabetes & obesity,890876014.0,Protected,2029-12-16,2029-12-16,2029
+RINVOQ,AbbVie,Immunology & inflammation,833657941.0,Protected,2036-10-17,2036-10-17,2036
+SUBOXONE,Indivior,"Pain, addiction & anesthesia",814820772.0,Protected,2030-03-26,,2030
+ABILIFY MAINTENA,Otsuka,Neurology & psychiatry,770441045.0,Protected,2034-04-06,,2034
+SUBLOCADE,Indivior,"Pain, addiction & anesthesia",687273874.0,Protected,2028-02-21,,2028
+INGREZZA,Neurocrine Biosciences,Unclassified,665953522.0,Protected,2036-12-22,2036-12-22,2036
+NURTEC ODT,Pfizer,Neurology & psychiatry,632710079.0,Protected,2034-02-27,2034-02-27,2034
+MAVYRET,AbbVie,Infectious disease (non-HIV),599137758.0,Protected,2035-06-05,2035-06-05,2035
+LINZESS,AbbVie,Gastroenterology,586567812.0,Protected,2029-05-21,2026-08-30,2029
+EPIDIOLEX,Jazz,Neurology & psychiatry,570900457.0,Protected,2039-04-26,2039-04-26,2039
+TRELEGY ELLIPTA,GSK (incl. ViiV),Respiratory & allergy,554146754.0,Protected,2027-12-18,2027-12-18,2027
+ENTRESTO,Novartis,Cardiovascular,546098753.0,Protected,2027-05-27,2027-05-27,2027
+REXULTI,Otsuka,Neurology & psychiatry,525773072.0,Protected,2028-12-23,2028-12-23,2028
+INVEGA TRINZA,Johnson & Johnson,Neurology & psychiatry,482128396.0,Protected,2041-11-24,,2041
+XARELTO,Johnson & Johnson,Cardiovascular,469581279.0,Protected,2034-08-17,,2034
+DESCOVY,Gilead,HIV,466332977.0,Protected,2032-08-15,2032-08-15,2032
+VERZENIO,Eli Lilly,Oncology,439941085.0,Protected,2031-09-28,2031-09-28,2031
+CAPLYTA,Intra Cellular Therapies,Neurology & psychiatry,426768273.0,Protected,2029-12-01,2029-12-01,2029
+EVRYSDI,Roche,Rare & genetic disease,398953578.0,Protected,2041-04-15,2041-04-15,2041
+UBRELVY,AbbVie,Neurology & psychiatry,394579024.0,Protected,2033-12-23,2033-12-23,2033
+KISQALI,Novartis,Oncology,380395745.0,Protected,2031-11-09,2031-11-09,2031
+SOFOSBUVIR AND VELPATASVIR,Gilead,Infectious disease (non-HIV),373451293.0,Protected,2032-11-16,2032-11-16,2032
+OTEZLA,Amgen,Immunology & inflammation,370746614.0,Protected,2028-02-16,2028-02-16,2028
+VIVITROL,Alkermes,"Pain, addiction & anesthesia",366647779.0,Protected,2029-10-15,,2029
+CABENUVA,GSK (incl. ViiV),HIV,355822799.0,Protected,2031-02-04,2031-02-04,2031
+DOVATO,GSK (incl. ViiV),HIV,352542182.0,Protected,2029-12-08,2029-12-08,2029
+XIFAXAN,Bausch Health,Infectious disease (non-HIV),338406624.0,Protected,2027-09-02,2027-09-02,2027
+JANUVIA,Merck (MSD),Diabetes & obesity,319906789.0,Protected,2026-11-24,2026-11-24,2026
+AUSTEDO XR,Teva,Neurology & psychiatry,315296387.0,Protected,2033-09-18,2033-09-18,2033
+GENVOYA,Gilead,HIV,310293652.0,Protected,2032-08-15,2032-08-15,2032
+ARISTADA,Alkermes,Neurology & psychiatry,309341913.0,Protected,2030-10-26,2030-10-26,2030
+UPTRAVI,Johnson & Johnson,Cardiovascular,306926973.0,Protected,2030-08-01,2030-08-01,2030
+BRIVIACT,UCB,Neurology & psychiatry,299861982.0,Protected,2026-02-21,2026-02-21,2026
+SPRAVATO,Johnson & Johnson,Neurology & psychiatry,292165756.0,Protected,2028-01-17,,2028
+SYMTUZA,Johnson & Johnson,HIV,276870164.0,Protected,2032-08-15,2032-08-15,2032
+XELJANZ,Pfizer,Immunology & inflammation,267736886.0,Protected,2025-12-08,2025-12-08,2025
+RAVICTI,Amgen,Rare & genetic disease,266679577.0,Protected,2030-09-22,,2030
+VALTOCO,Neurelis,Neurology & psychiatry,263978628.0,Protected,2028-04-15,,2028
+RYBELSUS,Novo Nordisk,Diabetes & obesity,258033553.0,Protected,2034-05-02,2034-05-02,2034
+EXONDYS 51,Sarepta,Rare & genetic disease,256808519.0,Protected,2029-02-02,,2029
+DAYBUE,Acadia,Neurology & psychiatry,255466358.0,Protected,2042-07-12,2042-07-12,2042
+SPIRIVA RESPIMAT,Boehringer Ingelheim,Respiratory & allergy,249488150.0,Protected,2030-10-16,,2030
+FINTEPLA,UCB,Neurology & psychiatry,247066999.0,Protected,2036-12-20,2036-12-20,2036
+TIVICAY,GSK (incl. ViiV),HIV,242012236.0,Protected,2029-12-08,2029-12-08,2029
+OPSUMIT,Johnson & Johnson,Cardiovascular,234521513.0,Protected,2028-08-28,2025-12-05,2028
+IBRANCE,Pfizer,Oncology,232148474.0,Protected,2034-02-08,2034-02-08,2034
+QELBREE,Supernus,Neurology & psychiatry,231300821.0,Protected,2026-04-02,,2026
+UZEDY,Teva,Neurology & psychiatry,229139447.0,Protected,2026-04-28,,2026
+QULIPTA,AbbVie,Neurology & psychiatry,226250520.0,Protected,2035-09-28,2035-09-28,2035
+TRIUMEQ,GSK (incl. ViiV),HIV,222614270.0,Protected,2029-12-08,2029-12-08,2029
+PAXLOVID,Pfizer,Infectious disease (non-HIV),221781304.0,Protected,2041-08-05,2041-08-05,2041
+RESTASIS,AbbVie,Eye & skin,220307322.0,Protected,2034-05-11,,2034
+DUVYZAT,Italfarmaco Spa,Oncology,217000106.0,Protected,2040-05-03,2040-05-03,2040
+BRIXADI,Braeburn,"Pain, addiction & anesthesia",211756229.0,Protected,2026-05-23,,2026
+REVLIMID,Bristol Myers Squibb,Oncology,209895584.0,Protected,2027-04-27,2027-04-27,2027
+XCOPRI,SK Life Science,Neurology & psychiatry,208570523.0,Protected,2032-10-30,2032-10-30,2032
+LYBALVI,Alkermes,Neurology & psychiatry,200680222.0,Protected,2031-08-30,2031-08-30,2031
+TRINTELLIX,Takeda,Neurology & psychiatry,198355851.0,Protected,2031-06-30,2031-06-30,2031
+AUSTEDO,Teva,Neurology & psychiatry,197406067.0,Protected,2033-09-18,2033-09-18,2033
+ODEFSEY,Gilead,HIV,197028230.0,Protected,2032-08-15,2032-08-15,2032
+AMONDYS 45,Sarepta,Rare & genetic disease,183459804.0,Protected,2030-11-12,2030-11-12,2030
+NEXPLANON,Organon,Endocrine & women's health,178538805.0,Protected,2029-01-16,,2029
+JAKAFI,Incyte,Oncology,173243567.0,Protected,2029-03-22,2028-06-12,2029
+TAGRISSO,AstraZeneca,Oncology,172945710.0,Protected,2032-08-08,2032-08-08,2032
+ABILIFY ASIMTUFII,Otsuka,Neurology & psychiatry,169882135.0,Protected,2033-04-23,,2033
+XYWAV,Jazz,Neurology & psychiatry,159829179.0,Protected,2028-08-12,,2028
+OPZELURA,Incyte,Oncology,159501245.0,Protected,2028-09-18,2028-06-12,2028
+XTANDI,Astellas,Oncology,159493292.0,Protected,2027-08-13,2027-08-13,2027
+ALYFTREK,Vertex,Rare & genetic disease,150880728.0,Protected,2040-08-13,2040-08-13,2040
+LENVIMA,Eisai,Oncology,148253143.0,Protected,2035-08-26,2035-08-26,2035
+MIRENA,Bayer,Unclassified,147798447.0,Protected,2029-09-14,,2029
+LIVMARLI,Mirum,Gastroenterology,146956585.0,Protected,2031-07-24,,2031
+WAKIX,Harmony Biosciences,Neurology & psychiatry,141628397.0,Protected,2033-02-13,2030-03-07,2033
+JYNARQUE,Otsuka,Urology & renal,141013863.0,Protected,2026-09-01,2026-09-01,2026
+AUVELITY,Axsome,Neurology & psychiatry,140616759.0,Protected,2029-04-30,,2029
+CABOMETYX,Exelixis,Oncology,135888179.0,Protected,2032-03-26,2030-10-08,2032
+LYNPARZA,AstraZeneca,Oncology,130264132.0,Protected,2027-09-08,2027-09-08,2027
+ANORO ELLIPTA,GSK (incl. ViiV),Respiratory & allergy,128636757.0,Protected,2027-12-18,2027-12-18,2027
+JORNAY PM,Ironshore,Neurology & psychiatry,125542698.0,Protected,2032-03-23,,2032
+VEMLIDY,Gilead,HIV,119232736.0,Protected,2032-08-15,2032-08-15,2032
+DAPAGLIFLOZIN,Prasco,Diabetes & obesity,117416197.0,Protected,2029-12-16,2029-12-16,2029
+NUBEQA,Bayer,Oncology,117091100.0,Protected,2038-02-27,2038-02-27,2038
+OFEV,Boehringer Ingelheim,Respiratory & allergy,116718779.0,Protected,2027-03-06,2025-10-01,2027
+ADEMPAS,Bayer,Cardiovascular,115810614.0,Protected,2034-02-18,2034-02-18,2034
+SYNJARDY,Boehringer Ingelheim,Diabetes & obesity,115351500.0,Protected,2028-08-01,2028-08-01,2028
+LUPRON DEPOT-PED,AbbVie,Endocrine & women's health,114941321.0,Protected,2026-04-14,,2026
+TRADJENTA,Boehringer Ingelheim,Diabetes & obesity,113440956.0,Protected,2026-12-20,,2026
+REZDIFFRA,Madrigal,Endocrine & women's health,107707166.0,Protected,2033-09-17,2033-09-17,2033
+BREZTRI,AstraZeneca,Respiratory & allergy,106762898.0,Protected,2029-04-27,,2029
+JULUCA,GSK (incl. ViiV),HIV,106084690.0,Protected,2031-01-24,2031-01-24,2031
+INVEGA HAFYERA,Johnson & Johnson,Neurology & psychiatry,105219772.0,Protected,2041-11-24,,2041
+QUILLIVANT,Nextwave,Neurology & psychiatry,103459969.0,Protected,2031-02-15,,2031
+ZORYVE,Arcutis Biotherapeutics,Immunology & inflammation,103295860.0,Protected,2029-06-29,,2029
+MYRBETRIQ,Astellas,Urology & renal,102651736.0,Protected,2029-09-28,,2029
+REMODULIN,United,Cardiovascular,101666369.0,Protected,2028-12-15,2028-12-15,2028
+SCEMBLIX,Novartis,Oncology,100822506.0,Protected,2040-05-14,2040-05-14,2040
+POMALYST,Bristol Myers Squibb,Oncology,99586914.0,Protected,2031-06-21,2031-06-21,2031
+NAYZILAM,UCB,Neurology & psychiatry,97462750.0,Protected,2026-05-17,,2026
+JANUMET,Merck (MSD),Diabetes & obesity,96918986.0,Protected,2026-11-24,2026-11-24,2026
+APRETUDE,GSK (incl. ViiV),HIV,96220000.0,Protected,2031-02-04,2031-02-04,2031
+TYVASO DPI,United,Cardiovascular,95320480.0,Protected,2028-12-15,2028-12-15,2028
+XIIDRA,Novartis,Eye & skin,94822013.0,Protected,2030-10-21,2030-10-21,2030
+BRILINTA,AstraZeneca,Cardiovascular,94155503.0,Protected,2030-04-17,,2030
+CRENESSITY,Neurocrine Biosciences,Rare & genetic disease,93190340.0,Protected,2043-01-12,2043-01-12,2043
+SPINRAZA,Biogen,Rare & genetic disease,92623763.0,Protected,2030-12-23,2030-12-23,2030
+ICLUSIG,Takeda,Oncology,91747953.0,Protected,2033-12-12,2033-12-12,2033
+COMBIVENT RESPIMAT,Boehringer Ingelheim,Respiratory & allergy,91319195.0,Protected,2030-10-16,,2030
+VORANIGO,Servier,Oncology,90688972.0,Protected,2039-01-16,2039-01-16,2039
+ABILIFY,Otsuka,Neurology & psychiatry,89012423.0,Protected,2034-04-06,,2034
+LUPRON DEPOT,AbbVie,Endocrine & women's health,88820276.0,Protected,2031-02-05,,2031
+VIJOICE,Novartis,Oncology,88430743.0,Protected,2033-04-29,2033-04-29,2033
+PROCYSBI,Amgen,Rare & genetic disease,87859556.0,Protected,2027-01-26,2027-01-26,2027
+ORENITRAM,United,Cardiovascular,87491616.0,Protected,2028-12-15,2028-12-15,2028
+IMCIVREE,Rhythm,Rare & genetic disease,86618461.0,Protected,2032-08-21,2032-08-21,2032
+SKYCLARYS,Reata,Neurology & psychiatry,85819701.0,Protected,2033-04-24,2033-04-24,2033
+STEGLATRO,Merck (MSD),Diabetes & obesity,85650007.0,Protected,2031-12-19,2031-12-19,2031
+PREZCOBIX,Johnson & Johnson,HIV,84845413.0,Protected,2029-09-03,2029-09-03,2029
+AGAMREE,Catalyst,Rare & genetic disease,84220963.0,Protected,2040-07-16,2040-07-16,2040
+KOSELUGO,AstraZeneca,Oncology,83524881.0,Protected,2032-11-19,2028-03-13,2032
+BAQSIMI,Amphastar,Diabetes & obesity,82919501.0,Protected,2028-03-17,,2028
+APTIOM,Sumitomo,Neurology & psychiatry,82799141.0,Protected,2026-04-21,2026-04-21,2026
+CALQUENCE,AstraZeneca,Oncology,82154337.0,Protected,2036-07-01,2036-07-01,2036
+QUILLICHEW ER,Nextwave,Neurology & psychiatry,80525390.0,Protected,2033-08-14,,2033
+LO LOESTRIN FE,AbbVie,Endocrine & women's health,78395975.0,Protected,2029-02-02,,2029
+SLYND,Exeltis,Endocrine & women's health,77776550.0,Protected,2031-06-28,,2031
+FERRIPROX,Chiesi,Hematology,77505446.0,Protected,2028-04-30,,2028
+MEKINIST,Novartis,Oncology,77166487.0,Protected,2030-10-15,2030-10-15,2030
+IMBRUVICA,AbbVie,Oncology,76010402.0,Protected,2033-10-30,2033-10-30,2033
+ZURZUVAE,Biogen,Neurology & psychiatry,75935226.0,Protected,2037-08-23,2037-08-23,2037
+KALYDECO,Vertex,Rare & genetic disease,75898013.0,Protected,2028-06-21,2027-05-20,2028
+QVAR REDIHALER,Teva,Respiratory & allergy,72566003.0,Protected,2041-08-19,,2041
+KERENDIA,Bayer,"Pain, addiction & anesthesia",72157336.0,Protected,2035-07-29,2035-07-29,2035
+AZSTARYS,Corium,Neurology & psychiatry,71944192.0,Protected,2037-12-09,2037-12-09,2037
+VUMERITY,Biogen,Neurology & psychiatry,71707586.0,Protected,2033-10-29,2033-10-29,2033
+FANAPT,Vanda,Neurology & psychiatry,71235378.0,Protected,2027-04-02,,2027
+LUPKYNIS,Aurinia,Immunology & inflammation,70744491.0,Protected,2027-10-17,2027-10-17,2027
+OXYCONTIN,Knoa,"Pain, addiction & anesthesia",70440737.0,Protected,2030-03-29,,2030
+OJEMDA,Day One Biopharmaceuticals,Oncology,70153955.0,Protected,2031-08-04,2031-08-04,2031
+STIOLTO RESPIMAT,Boehringer Ingelheim,Respiratory & allergy,69508050.0,Protected,2027-01-19,2027-01-19,2027
+BRUKINSA,Beone Medicines,Oncology,69121553.0,Protected,2037-08-15,2037-08-15,2037
+TASIGNA,Novartis,Oncology,69090096.0,Protected,2032-04-07,2032-04-07,2032
+ORLADEYO,Biocryst,Rare & genetic disease,68799968.0,Protected,2039-11-01,2039-11-01,2039
+ZTLIDO,Scilex,"Pain, addiction & anesthesia",67928789.0,Protected,2031-05-10,,2031
+IBSRELA,Ardelyx,Gastroenterology,66482329.0,Protected,2033-08-01,2033-08-01,2033
+EUCRISA,Pfizer,Immunology & inflammation,65907785.0,Protected,2029-06-29,2029-06-29,2029
+LAMICTAL,GSK (incl. ViiV),Neurology & psychiatry,65389999.0,Protected,2029-01-07,,2029
+MAVENCLAD,EMD Serono,Neurology & psychiatry,64865479.0,Protected,2041-09-10,,2041
+FILSUVEZ,Chiesi,Eye & skin,64450055.0,Protected,2030-12-18,,2030
+VILTEPSO,Ns,Rare & genetic disease,63794262.0,Protected,2034-04-03,2034-04-03,2034
+EPCLUSA,Gilead,Infectious disease (non-HIV),60473745.0,Protected,2032-11-16,2032-11-16,2032
+ERLEADA,Johnson & Johnson,Oncology,59779363.0,Protected,2033-06-04,2033-06-04,2033
+COBENFY,Bristol Myers Squibb,Unclassified,59234814.0,Protected,2029-09-26,,2029
+ZEPOSIA,Bristol Myers Squibb,Neurology & psychiatry,57362577.0,Protected,2038-09-30,2038-09-30,2038
+VYONDYS 53,Sarepta,Rare & genetic disease,56030728.0,Protected,2026-12-12,,2026
+BOSULIF,Pfizer,Oncology,55895249.0,Protected,2031-03-26,2026-11-23,2031
+VYKAT XR,Soleno,Unclassified,55771067.0,Protected,2032-03-26,2029-03-05,2032
+KEPPRA,UCB,Neurology & psychiatry,54994046.0,Protected,2031-06-07,,2031
+LONSURF,Taiho,Oncology,54065991.0,Protected,2034-06-17,2034-06-17,2034
+INCRUSE ELLIPTA,GSK (incl. ViiV),Respiratory & allergy,53579133.0,Protected,2027-12-18,2027-12-18,2027
+ENVARSUS,Veloxis,Immunology & inflammation,53472246.0,Protected,2028-08-30,,2028
+PURIFIED CORTROPHIN GEL,ANI,Neurology & psychiatry,52893463.0,Protected,2043-10-27,,2043
+TAFINLAR,Novartis,Oncology,52243456.0,Protected,2030-10-15,2030-10-15,2030
+DOPTELET,Akarx,Hematology,51781723.0,Protected,2032-07-24,2027-07-28,2032
+INVOKANA,Johnson & Johnson,Diabetes & obesity,51376202.0,Protected,2029-02-26,2029-02-26,2029
+TYVASO,United,Cardiovascular,50533650.0,Protected,2028-12-15,2028-12-15,2028
+KORLYM,Corcept Incorporated,Endocrine & women's health,50456155.0,Protected,2038-08-22,,2038
+VOXZOGO 0.56MG,Biomarin,Rare & genetic disease,50116477.0,Protected,2035-06-11,2035-06-11,2035
+LOKELMA,AstraZeneca,Urology & renal,50113339.0,Protected,2035-10-14,2035-10-14,2035
+TRUQAP,AstraZeneca,Unclassified,49802049.0,Protected,2033-04-16,2033-04-16,2033
+BYLVAY,Albireo,Unclassified,49760688.0,Protected,2039-06-20,2039-06-20,2039
+GEMTESA,Sumitomo,Urology & renal,49744626.0,Protected,2034-12-23,2034-12-23,2034
+OPSYNVI,Johnson & Johnson,Cardiovascular,49395360.0,Protected,2031-09-22,2025-12-05,2031
+TARPEYO,Calliditas,Respiratory & allergy,49300926.0,Protected,2030-12-20,,2030
+TUKYSA,Pfizer,Oncology,48283899.0,Protected,2034-04-17,2034-04-17,2034
+ZUBSOLV,Orexo,"Pain, addiction & anesthesia",48261793.0,Protected,2032-09-18,,2032
+VTAMA,Dermavant Sciences,Eye & skin,48233675.0,Protected,2038-11-13,2038-11-13,2038
+ALECENSA,Roche,Oncology,48185380.0,Protected,2031-05-29,2031-05-29,2031
+INLYTA,Pfizer,Oncology,47859652.0,Protected,2030-12-14,2030-12-14,2030
+CAMZYOS,Myokardia,Cardiovascular,47651508.0,Protected,2036-04-28,2036-04-28,2036
+VEOZAH,Astellas,Unclassified,47375879.0,Protected,2034-03-28,2034-03-28,2034
+PARAGARD T 380A,Cooper Surgical,"Other (vitamins, fluids, diagnostics)",46937580.0,Protected,2027-06-28,,2027
+YORVIPATH,Ascendis Endocrinology,Endocrine & women's health,46907055.0,Protected,2037-09-28,2037-09-28,2037
+VELPHORO,Fresenius Medical Care,Urology & renal,46583100.0,Protected,2028-01-01,,2028
+VENCLEXTA,AbbVie,Oncology,46322857.0,Protected,2032-01-29,2032-01-29,2032
+OHTUVAYRE,Verona,Immunology & inflammation,45926309.0,Protected,2031-08-21,2031-08-21,2031
+PREVYMIS,Merck (MSD),Infectious disease (non-HIV),45646868.0,Protected,2031-08-30,2029-01-18,2031
+RELISTOR,Bausch Health,Unclassified,44716811.0,Protected,2031-03-10,,2031
+BELBUCA,Biodelivery Sciences International,"Pain, addiction & anesthesia",44333201.0,Protected,2027-07-23,,2027
+LIRAGLUTIDE,Teva,Diabetes & obesity,43473708.0,Protected,2025-08-13,2025-08-13,2025
+AIRSUPRA,AstraZeneca,Respiratory & allergy,43375366.0,Protected,2028-09-15,,2028
+SODIUM OXYBATE,Hikma,Neurology & psychiatry,42900849.0,Protected,2026-04-26,,2026
+WELIREG,Merck (MSD),Oncology,41962764.0,Protected,2034-09-05,2034-09-05,2034
+VOSEVI,Gilead,Infectious disease (non-HIV),40673165.0,Protected,2034-07-17,2034-07-17,2034
+ORSERDU,Stemline,Oncology,40294347.0,Protected,2038-01-05,2038-01-05,2038
+NATROBA,Parapro,Eye & skin,39556274.0,Protected,2033-11-25,,2033
+CRESEMBA,Astellas,Infectious disease (non-HIV),39429212.0,Protected,2031-06-08,2025-10-31,2031
+TAVNEOS,Chemocentryx,Immunology & inflammation,39181499.0,Protected,2039-11-27,2039-11-27,2039
+OGSIVEO,Springworks,Unclassified,38695294.0,Protected,2039-08-09,2039-08-09,2039
+GVOKE HYPOPEN,Xeris,Diabetes & obesity,38600141.0,Protected,2036-04-22,,2036
+INJECTAFER,American Regent,Hematology,38496015.0,Protected,2027-02-05,2027-02-05,2027
+LORBRENA,Pfizer,Oncology,38202428.0,Protected,2038-10-04,2038-10-04,2038
+BREO ELLIPTA,GSK (incl. ViiV),Respiratory & allergy,38121023.0,Protected,2026-11-13,,2026
+AYVAKIT,Blueprint Medicines,Oncology,37788879.0,Protected,2040-04-10,2040-04-10,2040
+OXTELLAR XR,Supernus,Neurology & psychiatry,37346721.0,Protected,2027-04-13,,2027
+ISENTRESS,Merck (MSD),HIV,36749886.0,Protected,2030-06-02,2030-06-02,2030
+FABHALTA,Novartis,Unclassified,36682666.0,Protected,2041-05-25,2041-05-25,2041
+VOQUEZNA,Phathom,Unclassified,36284506.0,Protected,2032-05-03,2030-04-10,2032
+FENSOLVI,Tolmar,Endocrine & women's health,36216240.0,Protected,2041-12-22,2041-12-22,2041
+FILSPARI,Travere,Cardiovascular,36131163.0,Protected,2031-09-05,,2031
+OLUMIANT,Eli Lilly,Immunology & inflammation,35006119.0,Protected,2032-05-31,2032-05-31,2032
+MIEBO,Bausch Lomb,Eye & skin,34762723.0,Protected,2028-05-18,,2028
+REZUROCK,Kadmon,Immunology & inflammation,34575147.0,Protected,2034-06-20,2034-06-20,2034
+SAXENDA,Novo Nordisk,Diabetes & obesity,34485966.0,Protected,2025-08-13,,2025
+ACCRUFER,Shield Tx Uk,Hematology,34389933.0,Protected,2035-10-23,2035-10-23,2035
+XYREM,Jazz,Neurology & psychiatry,33957003.0,Protected,2026-04-26,,2026
+VIGAFYDE,Upsher Smith,Neurology & psychiatry,33529057.0,Protected,2043-06-08,,2043
+FIRDAPSE,Catalyst,Neurology & psychiatry,33513069.0,Protected,2029-09-29,,2029
+ZONISADE,Azurity,Neurology & psychiatry,33123078.0,Protected,2038-08-18,,2038
+SOTYKTU,Bristol Myers Squibb,Unclassified,32375903.0,Protected,2033-11-07,2033-11-07,2033
+VICTOZA,Novo Nordisk,Diabetes & obesity,32372958.0,Protected,2025-08-13,2025-08-13,2025
+XPHOZAH 30 MG,Ardelyx,Gastroenterology,30950900.0,Protected,2033-08-01,2033-08-01,2033
+ATROVENT,Boehringer Ingelheim,Respiratory & allergy,30784318.0,Protected,2030-01-17,,2030
+TRIPTODUR,Azurity,Oncology,30620613.0,Protected,2029-06-30,,2029
+BRAFTOVI,Array Biopharma,Oncology,30167370.0,Protected,2030-10-11,2030-08-27,2030
+VYNDAMAX,Pfizer,Rare & genetic disease,29881457.0,Protected,2035-08-31,2035-08-31,2035
+KYPROLIS,Onyx,Oncology,29632512.0,Protected,2028-11-22,2026-07-20,2028
+DYANAVEL XR,Nextwave,Neurology & psychiatry,29532420.0,Protected,2038-09-24,,2038
+KYLEENA,Bayer,Endocrine & women's health,28966670.0,Protected,2029-09-14,,2029
+CARBAGLU,Recordati Rare Diseases,Rare & genetic disease,28963268.0,Protected,2028-01-22,,2028
+MYFEMBREE,Sumitomo,Endocrine & women's health,28789813.0,Protected,2033-09-27,2033-09-27,2033
+TRULANCE,Bausch Health,Gastroenterology,28478894.0,Protected,2034-06-05,2034-06-05,2034
+LITFULO,Pfizer,Immunology & inflammation,28456444.0,Protected,2041-10-17,2041-10-17,2041
+CIBINQO,Pfizer,Immunology & inflammation,28286433.0,Protected,2036-01-14,2036-01-14,2036
+NERLYNX,Puma Biotechnology,Oncology,28172440.0,Protected,2030-12-29,2030-12-29,2030
+XIGDUO,AstraZeneca,Diabetes & obesity,28148109.0,Protected,2029-12-16,2029-12-16,2029
+LETAIRIS,Gilead,Cardiovascular,27762854.0,Protected,2031-10-14,,2031
+ACTHAR,Mallinckrodt Ard,Neurology & psychiatry,27721364.0,Protected,2041-07-18,,2041
+JENTADUETO,Boehringer Ingelheim,Diabetes & obesity,27418201.0,Protected,2026-12-20,,2026
+ZTALMY,Immedica,Neurology & psychiatry,27356999.0,Protected,2029-06-01,,2029
+XDEMVY,Tarsus,Unclassified,27155901.0,Protected,2030-01-17,2030-01-17,2030
+LIVDELZI,Gilead,Unclassified,27136097.0,Protected,2031-08-14,2027-09-13,2031
+FRUZAQLA,Takeda,Unclassified,26957620.0,Protected,2035-09-07,2035-09-07,2035
+RUKOBIA,GSK (incl. ViiV),HIV,26783978.0,Protected,2027-11-19,2027-11-19,2027
+ZEJULA,GSK (incl. ViiV),Oncology,26374073.0,Protected,2031-03-27,2031-03-27,2031
+TIBSOVO,Servier,Oncology,26301488.0,Protected,2033-08-19,2033-08-19,2033
+YEZTUGO,Gilead,HIV,26186085.0,Protected,2038-08-16,2038-08-16,2038
+DOJOLVI,Ultragenyx,Rare & genetic disease,25923863.0,Protected,2027-06-30,,2027
+DIACOMIT,Biocodex,Neurology & psychiatry,25808363.0,Protected,2029-07-14,,2029
+FLUTICASONE FUROATE AND VILANTEROL,Prasco,Respiratory & allergy,25772861.0,Protected,2026-11-13,,2026
+ISTURISA,Recordati Rare Diseases,Unclassified,25516190.0,Protected,2033-05-20,2033-05-20,2033
+YUPELRI,Viatris,Respiratory & allergy,24976001.0,Protected,2031-08-25,2031-08-25,2031
+ORKAMBI,Vertex,Rare & genetic disease,24911666.0,Protected,2030-09-20,2030-09-20,2030
+BACLOFEN,Wilshire,"Pain, addiction & anesthesia",24908923.0,Protected,2037-09-29,,2037
+MOVANTIK,Valinor,Unclassified,24770359.0,Protected,2032-04-02,2032-04-02,2032
+HETLIOZ,Vanda,Neurology & psychiatry,24687438.0,Protected,2035-02-12,2035-02-12,2035
+ALOGLIPTIN,Padagis Israel,Diabetes & obesity,24668963.0,Protected,2028-06-27,2028-06-27,2028
+JOENJA,Pharming,Oncology,24596099.0,Protected,2032-02-19,2032-02-19,2032
+JUBLIA,Bausch Health,Infectious disease (non-HIV),24488643.0,Protected,2035-04-25,,2035
+DALVANCE,AbbVie,Infectious disease (non-HIV),24484529.0,Protected,2028-05-23,,2028
+TWIRLA,Agile,Endocrine & women's health,24094005.0,Protected,2028-08-26,,2028
+CEQUA,Sun Pharma,Eye & skin,24073508.0,Protected,2037-02-28,,2037
+GILENYA,Novartis,Neurology & psychiatry,23592841.0,Protected,2032-03-30,,2032
+SEPHIENCE,PTC,Unclassified,23392748.0,Protected,2038-04-16,2038-04-16,2038
+MIPLYFFA,Acer,Unclassified,23163682.0,Protected,2041-11-19,2041-11-19,2041
+STIVARGA,Bayer,Oncology,23104036.0,Protected,2032-07-09,2032-07-09,2032
+PIFELTRO,Merck (MSD),HIV,23085620.0,Protected,2032-08-30,2032-08-30,2032
+CERDELGA,Sanofi,Rare & genetic disease,23011027.0,Protected,2030-11-24,2030-11-24,2030
+QINLOCK,Deciphera,Oncology,22888662.0,Protected,2034-05-15,2034-05-15,2034
+BELSOMRA,Merck (MSD),Neurology & psychiatry,22630829.0,Protected,2029-11-20,2029-11-20,2029
+NUZYRA,Paratek,Infectious disease (non-HIV),22589719.0,Protected,2030-09-23,2030-09-23,2030
+TROKENDI XR,Supernus,Neurology & psychiatry,22584460.0,Protected,2028-04-04,,2028
+PERSERIS,Indivior,Neurology & psychiatry,22478830.0,Protected,2028-02-13,,2028
+GIVLAARI,Alnylam,Rare & genetic disease,22368104.0,Protected,2034-10-03,2034-10-03,2034
+ORILISSA,AbbVie,Endocrine & women's health,22132886.0,Protected,2039-07-23,2039-07-23,2039
+ERIVEDGE,Roche,Oncology,21831350.0,Protected,2028-11-11,2028-11-11,2028
+BRIDION,Merck (MSD),"Pain, addiction & anesthesia",21766050.0,Protected,2028-06-12,2026-01-27,2028
+RETEVMO,Eli Lilly,Oncology,21439505.0,Protected,2037-10-10,2037-10-10,2037
+TRIJARDY XR,Boehringer Ingelheim,Diabetes & obesity,21295200.0,Protected,2028-08-01,2028-08-01,2028
+MEKTOVI,Array Biopharma,Oncology,21246579.0,Protected,2033-10-18,2033-10-18,2033
+WINLEVI,Sun Pharma,Oncology,21012379.0,Protected,2031-08-26,2031-08-26,2031
+VITRAKVI,Bayer,Oncology,20787175.0,Protected,2036-08-15,2036-08-15,2036
+ONYDA XR,Nextwave,Cardiovascular,20767697.0,Protected,2041-07-28,,2041
+GOMEKLI,Springworks,Oncology,20759121.0,Protected,2041-02-17,2041-02-17,2041
+VOXZOGO 0.4MG,Biomarin,Rare & genetic disease,20713096.0,Protected,2035-06-11,2035-06-11,2035
+ORGOVYX,Sumitomo,Endocrine & women's health,20655658.0,Protected,2033-09-27,2033-09-27,2033
+MONOFERRIC,Pharmacosmos,Unclassified,20449793.0,Protected,2029-08-14,2029-08-14,2029
+RECORLEV,Xeris,Unclassified,20419250.0,Protected,2028-12-30,,2028
+MIFEPRISTONE,Corcept Incorporated,Endocrine & women's health,20368636.0,Protected,2038-08-22,,2038
+LILETTA,AbbVie,Unclassified,19895380.0,Protected,2033-10-06,2033-10-06,2033
+NITYR,Cycle,Rare & genetic disease,19865188.0,Protected,2032-06-10,,2032
+AQNEURSA,Intrabio,Unclassified,19356136.0,Protected,2031-09-24,,2031
+TYMLOS,Radius Health,Endocrine & women's health,19232487.0,Protected,2038-04-30,,2038
+PARSABIV,Amgen,Urology & renal,19169834.0,Protected,2031-02-07,2031-02-07,2031
+XOSPATA,Astellas,Oncology,19076122.0,Protected,2032-11-28,2032-11-28,2032
+RADICAVA ORS,Shionogi,Unclassified,19065222.0,Protected,2029-05-12,,2029
+TECFIDERA,Biogen,Neurology & psychiatry,19013730.0,Protected,2035-11-16,,2035
+UPTRAVI TITRATION PACK,Johnson & Johnson,Cardiovascular,18455898.0,Protected,2030-08-01,2030-08-01,2030
+DELSTRIGO,Merck (MSD),HIV,18425394.0,Protected,2032-08-30,2032-08-30,2032
+TRACLEER,Johnson & Johnson,Unclassified,18077098.0,Protected,2027-12-28,,2027
+REVUFORJ,Syndax,Unclassified,18041936.0,Protected,2037-06-08,2037-06-08,2037
+SUNLENCA,Gilead,HIV,18037183.0,Protected,2038-08-16,2038-08-16,2038
+AUVI-Q,Kaleo,Respiratory & allergy,17883437.0,Protected,2037-12-21,,2037
+AMVUTTRA,Alnylam,Rare & genetic disease,17787150.0,Protected,2036-07-28,2036-07-28,2036
+DIFICID,Merck (MSD),Infectious disease (non-HIV),17708002.0,Protected,2027-07-31,2027-07-31,2027
+LUMIGAN,AbbVie,Eye & skin,17542509.0,Protected,2027-06-13,2027-06-13,2027
+TRYNGOLZA,Ionis,Rare & genetic disease,17015314.0,Protected,2034-05-01,2034-05-01,2034
+ONUREG,Bristol Myers Squibb,Oncology,16683021.0,Protected,2027-09-01,,2027
+SAVELLA,AbbVie,Neurology & psychiatry,16678630.0,Protected,2029-09-19,,2029
+KUVAN,Biomarin,Rare & genetic disease,16480255.0,Protected,2032-11-01,,2032
+ARIKAYCE,Insmed Incorporated,Infectious disease (non-HIV),16364972.0,Protected,2030-09-28,,2030
+TAVALISSE,Rigel,Hematology,16257212.0,Protected,2031-09-04,2031-09-04,2031
+LATUDA,Sumitomo,Neurology & psychiatry,16124330.0,Protected,2026-05-26,,2026
+EMPAVELI,Apellis,Rare & genetic disease,16005748.0,Protected,2033-11-15,2033-11-15,2033
+VOXZOGO 1.2MG,Biomarin,Rare & genetic disease,15952356.0,Protected,2035-06-11,2035-06-11,2035
+VELTASSA,Vifor,Urology & renal,15930419.0,Protected,2030-05-29,2030-05-29,2030
+ZEPZELCA,Jazz,Oncology,15925675.0,Protected,2029-12-13,2029-12-13,2029
+LUMAKRAS,Amgen,Oncology,15915572.0,Protected,2040-05-20,2040-05-20,2040
+DEXILANT,Takeda,Gastroenterology,15881169.0,Protected,2028-01-11,,2028
+DOCIVYX,Avyxa,Oncology,15209870.0,Protected,2036-03-14,,2036
+SUNOSI,Axsome,Neurology & psychiatry,15164138.0,Protected,2038-11-01,2038-11-01,2038
+CTEXLI,Mirum,Gastroenterology,14864714.0,Protected,2032-02-21,,2032
+XYOSTED,Antares,Endocrine & women's health,14822650.0,Protected,2036-09-04,,2036
+BUPROPION HYDROCHLORIDE,Upsher Smith,Neurology & psychiatry,14636720.0,Protected,2028-08-23,,2028
+KONVOMEP,Azurity,Gastroenterology,14148835.0,Protected,2039-07-16,,2039
+SYFOVRE,Apellis,Rare & genetic disease,13893330.0,Protected,2033-11-15,2033-11-15,2033
+KRAZATI,Mirati,Unclassified,13807723.0,Protected,2041-09-10,2041-09-10,2041
+SYMPAZAN,Aquestive,Neurology & psychiatry,13559617.0,Protected,2040-01-31,,2040
+OJJAARA,GSK (incl. ViiV),Oncology,13544221.0,Protected,2035-06-11,2035-06-11,2035
+IWILFIN,Uswm,Infectious disease (non-HIV),13301509.0,Protected,2030-12-13,,2030
+VIBERZI,AbbVie,"Pain, addiction & anesthesia",13242534.0,Protected,2029-05-27,2029-05-27,2029
+STRIBILD,Gilead,HIV,13203280.0,Protected,2029-09-03,2029-09-03,2029
+COMPLERA,Gilead,HIV,13081843.0,Protected,2033-01-14,,2033
+PIQRAY,Novartis,Oncology,13043892.0,Protected,2033-04-29,2033-04-29,2033
+PLUVICTO,Advanced Accelerator Applications,Unclassified,13041635.0,Protected,2036-03-23,2036-03-23,2036
+MODEYSO,Jazz,Unclassified,13021695.0,Protected,2032-08-06,,2032
+AUBAGIO,Sanofi,Neurology & psychiatry,12894813.0,Protected,2030-09-14,,2030
+NUPLAZID,Acadia,Neurology & psychiatry,12749134.0,Protected,2030-04-29,2030-04-29,2030
+LIVTENCITY,Takeda,Oncology,12663435.0,Protected,2043-10-11,2043-10-11,2043
+BYDUREON,AstraZeneca,Diabetes & obesity,12367705.0,Protected,2025-10-04,2025-10-04,2025
+ALUNBRIG,Takeda,Oncology,12275196.0,Protected,2035-11-10,2035-11-10,2035
+CALCIUM GLUCONATE,Fresenius Kabi,Hematology,12115355.0,Protected,2037-07-25,,2037
+TADLIQ,Cmp,Urology & renal,12102301.0,Protected,2038-12-24,,2038
+GALAFOLD,Amicus,Rare & genetic disease,11935361.0,Protected,2039-03-17,2039-03-17,2039
+MOTEGRITY,Takeda,Gastroenterology,11885380.0,Protected,2028-07-10,,2028
+CINVANTI,Heron,Gastroenterology,11807460.0,Protected,2035-09-18,,2035
+ELIGARD,Tolmar,Endocrine & women's health,11790791.0,Protected,2041-12-22,2041-12-22,2041
+MAYZENT,Novartis,Neurology & psychiatry,11750441.0,Protected,2028-08-27,2028-08-27,2028
+OCALIVA,Intercept,Gastroenterology,11665050.0,Protected,2033-06-17,2033-06-17,2033
+ZILBRYSQ,UCB,Rare & genetic disease,11612637.0,Protected,2035-06-12,2035-06-12,2035
+ALKINDI,Eton,Immunology & inflammation,11605407.0,Protected,2034-05-12,,2034
+FETZIMA,AbbVie,Neurology & psychiatry,11559940.0,Protected,2032-05-23,2032-05-23,2032
+MULTAQ,Sanofi,Cardiovascular,11479957.0,Protected,2031-06-30,,2031
+ORFADIN,Swedish Orphan Biovitrum Ab,Rare & genetic disease,11331717.0,Protected,2033-02-28,,2033
+XHANCE,Optinose,Respiratory & allergy,11110402.0,Protected,2027-03-15,,2027
+ADZENYS XR-ODT,Neos Brands,Neurology & psychiatry,11032666.0,Protected,2032-06-28,,2032
+KATERZIA,Azurity,Cardiovascular,11004196.0,Protected,2039-04-11,,2039
+NEXTSTELLIS,Mayne,Endocrine & women's health,10941638.0,Protected,2026-04-15,,2026
+ROCKLATAN,Alcon,Oncology,10914980.0,Protected,2034-03-14,2034-03-14,2034
+XALKORI,Pfizer,Oncology,10899242.0,Protected,2029-11-06,2029-11-06,2029
+QUVIVIQ,Idorsia,Neurology & psychiatry,10818345.0,Protected,2034-12-02,2034-12-02,2034
+IQIRVO,Ipsen Biopharmaceuticals,Unclassified,10656376.0,Protected,2031-06-10,,2031
+METAXALONE,Ina Pharmaceutics,"Pain, addiction & anesthesia",10555690.0,Protected,2043-05-14,,2043
+EXPAREL,Pacira,"Pain, addiction & anesthesia",10398368.0,Protected,2026-11-09,,2026
+IDHIFA,Bristol Myers Squibb,Unclassified,10196125.0,Protected,2034-09-16,2034-09-16,2034
+UMECLIDINIUM AND VILANTEROL ELLIPTA,Prasco,Respiratory & allergy,10100883.0,Protected,2027-12-18,2027-12-18,2027
+TOBI PODHALER,Viatris,Infectious disease (non-HIV),10061548.0,Protected,2030-11-04,,2030
+THIOLA EC,Mission Pharmacal,Rare & genetic disease,9996653.0,Protected,2026-06-28,,2026
+PREZISTA,Johnson & Johnson,HIV,9938729.0,Protected,2026-12-26,2026-12-26,2026
+QUTENZA,Averitas,Unclassified,9867209.0,Protected,2030-03-26,,2030
+DEFENCATH,Cormedix,Hematology,9841173.0,Protected,2042-04-15,2042-04-15,2042
+TRALEMENT,American Regent,Unclassified,9792084.0,Protected,2041-07-01,,2041
+XROMI,Nova,Oncology,9713263.0,Protected,2031-04-04,,2031
+RASUVO,Medexus,Immunology & inflammation,9668240.0,Protected,2029-06-01,,2029
+JAYPIRCA,Eli Lilly,Oncology,9642843.0,Protected,2036-12-16,2036-12-16,2036
+PYLARIFY,Progenics,Unclassified,9574916.0,Protected,2037-06-09,2037-06-09,2037
+LEQVIO,Novartis,Cardiovascular,9570755.0,Protected,2034-08-18,2034-08-18,2034
+RHOPRESSA,Alcon,Oncology,9565197.0,Protected,2034-03-14,2034-03-14,2034
+YUTREPIA,Liquidia Technologies,Cardiovascular,9562356.0,Protected,2028-05-23,,2028
+SYMDEKO,Vertex,Rare & genetic disease,9503282.0,Protected,2031-07-10,2031-07-10,2031
+SELENIOUS ACID,American Regent,Unclassified,9495571.0,Protected,2041-07-01,,2041
+DILAUDID,Fresenius Kabi,"Pain, addiction & anesthesia",9461938.0,Protected,2034-03-12,,2034
+EPRONTIA,Azurity,Neurology & psychiatry,9410141.0,Protected,2040-08-21,,2040
+FOTIVDA,Aveo,Oncology,9367645.0,Protected,2028-11-16,2028-11-16,2028
+COTEMPLA XR-ODT,Neos Brands,Neurology & psychiatry,9354997.0,Protected,2032-06-28,,2032
+INGREZZA SPRINKLE,Neurocrine Biosciences,Neurology & psychiatry,9334005.0,Protected,2036-12-22,2036-12-22,2036
+APRISO,Bausch Health,Gastroenterology,9269947.0,Protected,2030-05-01,,2030
+AURYXIA,Akebia,Hematology,9243846.0,Protected,2030-07-21,,2030
+NEXLIZET,Esperion,Cardiovascular,9189996.0,Protected,2040-06-19,2040-06-19,2040
+WAINUA,AstraZeneca,Rare & genetic disease,9138537.0,Protected,2034-08-25,2034-08-25,2034
+ZAVZPRET,Pfizer,Neurology & psychiatry,9006666.0,Protected,2034-06-26,2034-06-26,2034
+AVYCAZ,AbbVie,Infectious disease (non-HIV),9005010.0,Protected,2032-06-15,2032-06-15,2032
+ABRAXANE,Abraxis Bioscience,Oncology,8854779.0,Protected,2034-07-12,,2034
+PYRUKYND,Agios,Unclassified,8737267.0,Protected,2038-11-21,2038-11-21,2038
+HYFTOR,Nobelpharma,Oncology,8490105.0,Protected,2029-03-22,,2029
+RYDAPT,Novartis,Oncology,8451958.0,Protected,2030-12-02,,2030
+JENTADUETO XR,Boehringer Ingelheim,Diabetes & obesity,8421807.0,Protected,2026-12-20,,2026
+IZERVAY,Iveric Bio,Rare & genetic disease,8357433.0,Protected,2027-02-14,2027-02-14,2027
+ALVESCO,Covis,Respiratory & allergy,8185619.0,Protected,2028-02-01,,2028
+HEMANGEOL,Pierre Fabre,Cardiovascular,8150818.0,Protected,2028-10-16,,2028
+VEVYE,Harrow Eye,Eye & skin,8077111.0,Protected,2026-05-30,,2026
+ZERBAXA,Merck (MSD),Infectious disease (non-HIV),7906367.0,Protected,2034-05-28,2034-05-28,2034
+SPINOSAD,Allegis,Eye & skin,7870159.0,Protected,2033-11-25,,2033
+VERQUVO,Merck (MSD),Cardiovascular,7814212.0,Protected,2032-11-26,2032-11-26,2032
+CYCLOSPORINE,Apotex,Immunology & inflammation,7690832.0,Protected,2034-05-11,,2034
+PEMFEXY,Eagle,Oncology,7682885.0,Protected,2035-10-28,2035-10-28,2035
+HORIZANT,Azurity,Neurology & psychiatry,7605589.0,Protected,2026-11-10,2026-11-10,2026
+ONIVYDE,Ipsen Biopharmaceuticals,Oncology,7424054.0,Protected,2031-02-13,2028-08-29,2031
+GLYXAMBI,Boehringer Ingelheim,Diabetes & obesity,7418415.0,Protected,2028-08-01,2028-08-01,2028
+JOURNAVX,Vertex,Unclassified,7379707.0,Protected,2040-12-04,2040-12-04,2040
+ACETAMINOPHEN,Fresenius Kabi,"Pain, addiction & anesthesia",7377600.0,Protected,2030-04-19,,2030
+LUBIPROSTONE,Par Health,Gastroenterology,7347575.0,Protected,2027-10-25,,2027
+LEXISCAN,Astellas,Cardiovascular,7338752.0,Protected,2027-02-02,2027-02-02,2027
+NINLARO,Takeda,Oncology,7335470.0,Protected,2029-11-20,2029-11-20,2029
+JEVTANA,Sanofi,Unclassified,7228144.0,Protected,2025-12-10,2025-12-10,2025
+ITOVEBI,Roche,Oncology,7212155.0,Protected,2038-04-26,2038-04-26,2038
+OXLUMO,Alnylam,Unclassified,7195413.0,Protected,2041-05-29,2041-05-29,2041
+PHEXXI,Evofem,Hematology,7179161.0,Protected,2033-03-15,2033-03-15,2033
+FUROSCIX,Scpharmaceuticals,Cardiovascular,7158430.0,Protected,2040-01-30,,2040
+PROGRAF,Astellas,Immunology & inflammation,7117550.0,Protected,2028-07-16,,2028
+EOHILIA,Takeda,Respiratory & allergy,7109109.0,Protected,2031-02-09,,2031
+ANNOVERA,Mayne,Endocrine & women's health,7095289.0,Protected,2039-06-21,,2039
+LUTATHERA,Advanced Accelerator Applications,Unclassified,7048991.0,Protected,2031-10-23,,2031
+EDURANT,Johnson & Johnson,HIV,6988397.0,Protected,2027-09-15,,2027
+NEFFY,Ars Operations,Respiratory & allergy,6808536.0,Protected,2039-02-06,,2039
+ODOMZO,Sun Pharma,Oncology,6775519.0,Protected,2036-03-30,2036-03-30,2036
+ARISTADA INITIO,Alkermes,Neurology & psychiatry,6687409.0,Protected,2030-10-26,2030-10-26,2030
+PROTONIX,Pfizer,Unclassified,6619029.0,Protected,2026-06-07,,2026
+CABTREO,Bausch Health,Infectious disease (non-HIV),6606178.0,Protected,2026-10-20,,2026
+NEXLETOL,Esperion,Cardiovascular,6586334.0,Protected,2040-06-19,2040-06-19,2040
+BEVESPI AEROSPHERE,AstraZeneca,Respiratory & allergy,6569870.0,Protected,2030-05-28,,2030
+XPHOZAH 20 MG,Ardelyx,Gastroenterology,6563117.0,Protected,2033-08-01,2033-08-01,2033
+QBRELIS,Azurity,Cardiovascular,6538894.0,Protected,2035-11-06,,2035
+TABRECTA,Novartis,Oncology,6470726.0,Protected,2032-11-19,2032-11-19,2032
+YONDELIS,Johnson & Johnson,Oncology,6396460.0,Protected,2028-01-07,,2028
+VONJO,Sobi,Immunology & inflammation,6238888.0,Protected,2030-03-25,2030-03-25,2030
+POTASSIUM PHOSPHATES,Fresenius Kabi,Gastroenterology,6216028.0,Protected,2041-10-12,,2041
+TOPIRAMATE,Upsher Smith,Neurology & psychiatry,6159724.0,Protected,2033-03-19,,2033
+TYRVAYA,Oyster Point,"Pain, addiction & anesthesia",6090385.0,Protected,2035-10-19,,2035
+ALOGLIPTIN AND METFORMIN HYDROCHLORIDE,Padagis Israel,Diabetes & obesity,5995813.0,Protected,2028-06-27,2028-06-27,2028
+TALZENNA,Pfizer,Oncology,5914756.0,Protected,2032-10-16,2032-10-16,2032
+AKYNZEO,Helsinn,Gastroenterology,5832984.0,Protected,2032-05-23,2032-05-23,2032
+DAYVIGO,Eisai,Neurology & psychiatry,5766727.0,Protected,2031-09-20,2031-09-20,2031
+TEFLARO,AbbVie,Infectious disease (non-HIV),5726620.0,Protected,2031-02-10,,2031
+RYTARY,Amneal,Neurology & psychiatry,5680959.0,Protected,2028-12-26,,2028
+DAPTOMYCIN,Xellia,Infectious disease (non-HIV),5547242.0,Protected,2043-01-09,,2043
+BENDEKA,Cephalon,Oncology,5484307.0,Protected,2031-08-11,,2031
+VANFLYTA,Daiichi Sankyo,Oncology,5450249.0,Protected,2030-07-20,2028-09-26,2030
+TURALIO,Daiichi Sankyo,Oncology,5413507.0,Protected,2036-05-05,2036-05-05,2036
+NAROPIN,Fresenius Kabi,"Pain, addiction & anesthesia",5391844.0,Protected,2026-11-28,,2026
+JADENU,Novartis,Hematology,5388500.0,Protected,2034-11-21,2034-11-21,2034
+VYZULTA,Bausch Lomb,Eye & skin,5387723.0,Protected,2029-02-21,2029-02-21,2029
+ILLUCCIX,Telix,Unclassified,5377776.0,Protected,2035-07-28,,2035
+PRADAXA,Boehringer Ingelheim,Cardiovascular,5351912.0,Protected,2025-09-07,2025-09-07,2025
+TALICIA,Redhill Biopharma,Gastroenterology,5277793.0,Protected,2027-11-01,,2027
+CORLANOR,Amgen,Cardiovascular,5263551.0,Protected,2026-12-12,2026-12-12,2026
+BRINSUPRI,Insmed Incorporated,Unclassified,5222240.0,Protected,2035-03-12,2035-03-12,2035
+GILOTRIF,Boehringer Ingelheim,Oncology,5196053.0,Protected,2029-10-10,2029-10-10,2029
+OXCARBAZEPINE,Ajanta,Neurology & psychiatry,5106661.0,Protected,2027-04-13,,2027
+METHYLPHENIDATE HYDROCHLORIDE,Trigen,Neurology & psychiatry,5095896.0,Protected,2037-02-03,,2037
+SEGLUROMET,Merck (MSD),Diabetes & obesity,5091123.0,Protected,2031-12-19,2031-12-19,2031
+SIGNIFOR LAR,Recordati Rare Diseases,Endocrine & women's health,5088146.0,Protected,2026-12-14,2026-12-14,2026
+GOCOVRI,Adamas,Infectious disease (non-HIV),5046816.0,Protected,2038-08-23,,2038
+RESTASIS MULTIDOSE,AbbVie,Eye & skin,5043426.0,Protected,2034-05-11,,2034
+FLEQSUVY,Azurity,Neurology & psychiatry,5019198.0,Protected,2037-09-29,,2037
+ZELSUVMI,Lnhc,Unclassified,5013749.0,Protected,2029-01-05,2026-05-30,2029
+ELLA,Hra,Unclassified,4988450.0,Protected,2030-06-02,,2030
+COSELA,G1,Oncology,4970124.0,Protected,2040-11-13,2040-11-13,2040
+VELETRI,Johnson & Johnson,Cardiovascular,4962444.0,Protected,2027-03-15,,2027
+SKYLA,Bayer,Endocrine & women's health,4923160.0,Protected,2029-09-14,,2029
+SIMBRINZA,Alcon,Eye & skin,4784117.0,Protected,2030-10-30,,2030
+SUTAB,Braintree,Gastroenterology,4754173.0,Protected,2037-08-04,,2037
+REYVOW,Eli Lilly,Unclassified,4720938.0,Protected,2037-12-05,2037-12-05,2037
+DEFINITY,Lantheus Medical Imaging,Unclassified,4704934.0,Protected,2035-12-28,2035-12-28,2035
+FETROJA,Shionogi,Infectious disease (non-HIV),4650968.0,Protected,2035-09-03,2035-09-03,2035
+RAYALDEE,Opko,Endocrine & women's health,4626833.0,Protected,2034-03-14,,2034
+CLOBETASOL PROPIONATE,Ina Pharmaceutics,Respiratory & allergy,4614776.0,Protected,2035-03-11,,2035
+ROZLYTREK,Roche,Unclassified,4603124.0,Protected,2037-05-18,2037-05-18,2037
+EYSUVIS,Alcon,Eye & skin,4571637.0,Protected,2033-05-03,,2033
+ZILRETTA,Pacira,Immunology & inflammation,4524658.0,Protected,2031-08-04,,2031
+LAZCLUZE,Johnson & Johnson,Oncology,4498282.0,Protected,2038-04-18,2038-04-18,2038
+YCANTH,Verrica,Unclassified,4253681.0,Protected,2028-07-21,,2028
+CYCLOPHOSPHAMIDE,Ingenus,Oncology,4238284.0,Protected,2036-02-15,,2036
+VELSIPITY,Pfizer,Neurology & psychiatry,4169965.0,Protected,2036-06-21,2036-06-21,2036
+BONJESTA,Duchesnay,Respiratory & allergy,4158221.0,Protected,2033-02-18,,2033
+PRISTIQ,Pfizer,Neurology & psychiatry,4083508.0,Protected,2027-07-05,2027-07-05,2027
+CARBINOXAMINE MALEATE EXTENDED-RELEASE ORAL SUSPENSION,Neos,Respiratory & allergy,4013640.0,Protected,2029-03-29,,2029
+VALCHLOR,Helsinn,Oncology,3997645.0,Protected,2026-03-07,,2026
+NEUPRO,UCB,Neurology & psychiatry,3972907.0,Protected,2032-03-01,,2032
+MYDAYIS,Takeda,Neurology & psychiatry,3953343.0,Protected,2029-08-24,,2029
+SPIRONOLACTONE,Padagis,Cardiovascular,3947575.0,Protected,2036-10-28,,2036
+ROXYBOND,Protega,"Pain, addiction & anesthesia",3913130.0,Protected,2028-08-12,,2028
+TAZVERIK,Epizyme,Unclassified,3902800.0,Protected,2034-01-23,2034-01-23,2034
+FERRIC CITRATE,Viatris,Hematology,3897451.0,Protected,2030-07-21,,2030
+PENNSAID,Amgen,"Pain, addiction & anesthesia",3850923.0,Protected,2028-04-21,,2028
+DAPAGLIFLOZIN AND METFORMIN HYDROCHLORIDE,Prasco,Diabetes & obesity,3832242.0,Protected,2029-12-16,2029-12-16,2029
+SECUADO,Noven,Neurology & psychiatry,3821162.0,Protected,2033-09-22,,2033
+SUFLAVE,Braintree,Unclassified,3767191.0,Protected,2026-06-15,,2026
+MOTPOLY XR,Aucta,Neurology & psychiatry,3716503.0,Protected,2040-06-05,,2040
+NUVESSA,Exeltis,Infectious disease (non-HIV),3689818.0,Protected,2032-06-28,,2032
+AUGTYRO,Bristol Myers Squibb,Oncology,3675639.0,Protected,2036-07-05,2036-07-05,2036
+ALVAIZ,Teva,Hematology,3543071.0,Protected,2038-11-05,2038-11-05,2038
+ABSORICA LD,Sun Pharma,Eye & skin,3455593.0,Protected,2035-08-04,,2035
+KLOXXADO,Hikma,"Pain, addiction & anesthesia",3436204.0,Protected,2034-08-26,,2034
+TRAVATAN Z,Novartis,Eye & skin,3378877.0,Protected,2029-10-13,,2029
+SIVEXTRO,Merck (MSD),Infectious disease (non-HIV),3350977.0,Protected,2030-12-31,2030-12-31,2030
+LYTGOBI,Taiho,Oncology,3283592.0,Protected,2036-03-31,2036-03-31,2036
+XOFLUZA,Roche,Infectious disease (non-HIV),3266589.0,Protected,2037-08-09,2037-08-09,2037
+MYCAPSSA,Amryt Dac,Endocrine & women's health,3249557.0,Protected,2027-06-26,,2027
+ATTRUBY,Bridgebio,Unclassified,3232533.0,Protected,2038-02-16,2038-02-16,2038
+COPIKTRA,Secura Bio,Unclassified,3212386.0,Protected,2032-09-24,2032-09-24,2032
+MINIVELLE,Noven,Endocrine & women's health,3206001.0,Protected,2030-07-04,2030-07-04,2030
+REVATIO,Pfizer,Urology & renal,3196458.0,Protected,2030-01-31,,2030
+XATMEP,Azurity,Immunology & inflammation,3138953.0,Protected,2033-01-02,,2033
+EVOTAZ,Bristol Myers Squibb,HIV,3114856.0,Protected,2029-09-03,2029-09-03,2029
+QNASL,Teva,Respiratory & allergy,3089184.0,Protected,2031-10-21,,2031
+SOTYLIZE,Azurity,Cardiovascular,2967782.0,Protected,2035-08-31,,2035
+JATENZO,Tolmar,Endocrine & women's health,2959114.0,Protected,2030-04-12,2030-04-12,2030
+ULTRAVATE,Lacer,Unclassified,2930540.0,Protected,2033-06-19,,2033
+PEMAZYRE,Incyte,Oncology,2916912.0,Protected,2040-10-03,2040-10-03,2040
+TASCENSO ODT,Cycle,Neurology & psychiatry,2880588.0,Protected,2036-01-19,,2036
+BAFIERTAM,Banner Life Sciences,Unclassified,2880108.0,Protected,2035-02-27,,2035
+PHENYLEPHRINE HYDROCHLORIDE,Hikma,Unclassified,2850861.0,Protected,2036-09-26,,2036
+INQOVI,Taiho,Oncology,2835185.0,Protected,2034-02-12,2034-02-12,2034
+COTELLIC,Roche,Oncology,2773562.0,Protected,2036-06-30,2036-06-30,2036
+INVOKAMET,Johnson & Johnson,Diabetes & obesity,2760426.0,Protected,2029-02-26,2029-02-26,2029
+GIMOTI,Evoke,Neurology & psychiatry,2742953.0,Protected,2030-05-16,,2030
+ROMVIMZA,Deciphera,Oncology,2720772.0,Protected,2044-12-06,2044-12-06,2044
+XELSTRYM,Noven,Neurology & psychiatry,2718276.0,Protected,2042-01-06,,2042
+LEDIPASVIR AND SOFOSBUVIR,Gilead,Infectious disease (non-HIV),2688552.0,Protected,2034-01-30,2034-01-30,2034
+EKTERLY,Kalvista,Rare & genetic disease,2680166.0,Protected,2037-12-25,2037-12-25,2037
+CUVRIOR,Orphalan,Unclassified,2556514.0,Protected,2039-05-03,2039-05-03,2039
+CLENPIQ,Ferring,Gastroenterology,2529967.0,Protected,2038-01-27,,2038
+AKLIEF,Galderma L P,Eye & skin,2486500.0,Protected,2031-07-19,2031-07-19,2031
+LOREEV XR,Almatica,Neurology & psychiatry,2484734.0,Protected,2034-01-08,,2034
+XPOVIO,Karyopharm,Unclassified,2427044.0,Protected,2035-08-14,2035-08-14,2035
+FYARRO,Aadi Bioscience,Oncology,2396911.0,Protected,2028-11-22,,2028
+ENSTILAR,Leo,Immunology & inflammation,2379571.0,Protected,2031-06-10,,2031
+SODIUM,Amneal,"Other (vitamins, fluids, diagnostics)",2376348.0,Protected,2026-04-26,,2026
+ZELBORAF,Roche,Oncology,2352374.0,Protected,2030-07-27,2030-07-27,2030
+RHOFADE,Epi Health,Unclassified,2329636.0,Protected,2031-12-01,,2031
+ILUVIEN,ANI,Respiratory & allergy,2253586.0,Protected,2028-11-07,,2028
+BUDESONIDE,Oceanside,Respiratory & allergy,2251604.0,Protected,2031-09-07,,2031
+SITAGLIPTIN,Zydus,Diabetes & obesity,2237090.0,Protected,2035-02-25,,2035
+VANCOMYCIN,Xellia,Infectious disease (non-HIV),2229184.0,Protected,2035-11-06,,2035
+RECARBRIO,Merck (MSD),Infectious disease (non-HIV),2226800.0,Protected,2033-03-21,2033-03-21,2033
+SYMPROIC,Biodelivery Sciences International,"Pain, addiction & anesthesia",2186664.0,Protected,2033-05-13,2033-05-13,2033
+ADRENALIN,Par Health,Respiratory & allergy,2172935.0,Protected,2035-03-13,,2035
+HALAVEN,Eisai,Unclassified,2135163.0,Protected,2026-03-13,,2026
+GVOKE PFS,Xeris,Diabetes & obesity,2132817.0,Protected,2036-04-22,,2036
+NATAZIA,Bayer,Endocrine & women's health,2107680.0,Protected,2026-05-13,,2026
+ERZOFRI EXTENDED-RELEASE,Shandong Luye,Neurology & psychiatry,2086715.0,Protected,2039-09-24,,2039
+SYMBRAVO,Axsome,Neurology & psychiatry,2050289.0,Protected,2028-01-30,,2028
+FINACEA FOAM,Leo,Unclassified,2038592.0,Protected,2027-12-08,,2027
+NETSPOT,Advanced Accelerator Applications,Unclassified,2031069.0,Protected,2032-08-10,,2032
+HYSINGLA ER,Knoa,"Pain, addiction & anesthesia",2021078.0,Protected,2031-12-21,,2031
+OTREXUP,Antares,Immunology & inflammation,2010975.0,Protected,2031-05-27,,2031
+JUXTAPID,Amryt Dac,Unclassified,1996869.0,Protected,2029-02-25,,2029
+CAMCEVI,Accord Biopharma,Endocrine & women's health,1964958.0,Protected,2039-01-01,,2039
+TRIESENCE,Alcon,Immunology & inflammation,1962745.0,Protected,2029-12-17,,2029
+TOVIAZ,Pfizer,Urology & renal,1935106.0,Protected,2027-06-07,,2027
+BUPROPION,Wockhardt,Neurology & psychiatry,1926203.0,Protected,2028-08-23,,2028
+ONPATTRO,Alnylam,Rare & genetic disease,1924940.0,Protected,2035-08-27,2035-08-27,2035
+NULIBRY,Sentynl,Unclassified,1924295.0,Protected,2028-02-26,,2028
+TESTOSTERONE,Upsher Smith,Endocrine & women's health,1913728.0,Protected,2034-02-11,,2034
+CLINOLIPID,Baxter,Unclassified,1893985.0,Protected,2027-04-24,,2027
+FRINDOVYX,Avyxa,Oncology,1882093.0,Protected,2035-12-01,,2035
+ARAZLO,Bausch Health,Eye & skin,1866894.0,Protected,2038-05-11,,2038
+NORLIQVA,Cmp,Cardiovascular,1818787.0,Protected,2041-02-24,,2041
+VERKAZIA,Santen,Immunology & inflammation,1814628.0,Protected,2028-06-23,,2028
+AVEED,Endo,Endocrine & women's health,1811279.0,Protected,2027-03-14,,2027
+ELYXYB - CELECOXIB,Scilex,"Pain, addiction & anesthesia",1810689.0,Protected,2036-05-27,,2036
+DRIZALMA SPRINKLE,Sun Pharma,Neurology & psychiatry,1799390.0,Protected,2037-04-13,,2037
+VYALEV,AbbVie,Neurology & psychiatry,1772410.0,Protected,2035-10-21,2035-10-21,2035
+"SODIUM SULFATE, POTASSIUM SULFATE AND MAGNESIUM SULFATE",Affordable,Gastroenterology,1765882.0,Protected,2027-08-05,,2027
+ZEGALOGUE,Novo Nordisk,Diabetes & obesity,1758275.0,Protected,2035-03-22,2035-03-22,2035
+VIVIMUSTA,Slayback,Oncology,1724421.0,Protected,2042-07-29,,2042
+VANRAFIA,Novartis,Cardiovascular,1687276.0,Protected,2030-04-02,,2030
+EDARBI,Azurity,Cardiovascular,1686849.0,Protected,2028-03-26,,2028
+NOURIANZ,Kyowa Kirin,Unclassified,1670779.0,Protected,2028-01-28,,2028
+SIRTURO,Johnson & Johnson,Unclassified,1661976.0,Protected,2029-03-19,2029-03-19,2029
+POSLUMA,Blue Earth Diagnostics,Unclassified,1627488.0,Protected,2038-11-22,2038-11-22,2038
+EDARBYCLOR,Azurity,Cardiovascular,1607391.0,Protected,2030-02-04,,2030
+AVMAPKI FAKZYNJA CO-PACK,Verastem,Unclassified,1594825.0,Protected,2032-05-08,2029-08-21,2032
+NEXAVAR,Bayer,Oncology,1594366.0,Protected,2027-12-24,2027-12-24,2027
+IHEEZO,Harrow Eye,"Pain, addiction & anesthesia",1576238.0,Protected,2039-05-14,,2039
+HARVONI,Gilead,Infectious disease (non-HIV),1567285.0,Protected,2034-01-30,2034-01-30,2034
+SPRITAM,Aprecia,Neurology & psychiatry,1562563.0,Protected,2034-03-14,,2034
+INBRIJA,Merz A Subsidiary,Unclassified,1560207.0,Protected,2032-11-16,,2032
+RYALTRIS,Hikma,Respiratory & allergy,1548991.0,Protected,2039-04-08,2039-04-08,2039
+DURYSTA,AbbVie,Eye & skin,1530582.0,Protected,2031-07-15,2031-07-15,2031
+RUBRACA,Clovis Oncology,Unclassified,1512771.0,Protected,2031-02-10,2031-02-10,2031
+CREXONT,Amneal,Neurology & psychiatry,1512602.0,Protected,2027-08-07,,2027
+DANZITEN,Azurity,Oncology,1509904.0,Protected,2040-02-18,,2040
+PATADAY ONCE DAILY RELIEF,Alcon,Respiratory & allergy,1435161.0,Protected,2032-05-19,,2032
+KAPSPARGO,Sun Pharma,Cardiovascular,1426152.0,Protected,2035-07-09,,2035
+MYTESI,Napo,Unclassified,1424619.0,Protected,2031-10-31,,2031
+PONVORY,Johnson & Johnson,Neurology & psychiatry,1373471.0,Protected,2032-05-06,2032-05-06,2032
+CLONIDINE,Trupharma,Cardiovascular,1369625.0,Protected,2031-09-08,,2031
+KORSUVA,Vifor International,"Pain, addiction & anesthesia",1305359.0,Protected,2032-11-12,2032-11-12,2032
+TUDORZA PRESSAIR,Covis,Respiratory & allergy,1298717.0,Protected,2029-03-13,,2029
+OMIDRIA,Rayner Surgical,"Pain, addiction & anesthesia",1288982.0,Protected,2033-10-23,,2033
+BELEODAQ,Acrotech Biopharma,Oncology,1284175.0,Protected,2026-08-10,2026-08-10,2026
+VEKLURY,Gilead,Infectious disease (non-HIV),1277543.0,Protected,2035-10-29,2035-10-29,2035
+ELCYS,Exela Sciences,Unclassified,1262573.0,Protected,2039-01-15,,2039
+KIMYRSA,Melinta,Infectious disease (non-HIV),1247226.0,Protected,2035-07-16,2035-07-16,2035
+IYUZEH,Thea,Eye & skin,1244019.0,Protected,2031-07-08,,2031
+QALSODY,Biogen,Rare & genetic disease,1233899.0,Protected,2035-04-01,2035-04-01,2035
+IMVEXXY,Mayne,Unclassified,1225361.0,Protected,2032-11-21,,2032
+AMITIZA,Takeda,Gastroenterology,1219731.0,Protected,2027-10-25,,2027
+OMNARIS,Covis,Respiratory & allergy,1193010.0,Protected,2028-02-01,,2028
+OMEPRAZOLE,Oceanside,Gastroenterology,1178313.0,Protected,2030-01-31,,2030
+PRECEDEX,Pfizer,Cardiovascular,1150090.0,Protected,2032-01-04,,2032
+ORIAHNN,AbbVie,Endocrine & women's health,1138942.0,Protected,2039-07-23,2039-07-23,2039
+FIRMAGON,Ferring,Unclassified,1125423.0,Protected,2032-04-27,,2032
+LIKMEZ,Kesin,Infectious disease (non-HIV),1118792.0,Protected,2039-10-04,,2039
+ENALAPRIL MALEATE,Wilshire,Cardiovascular,1100847.0,Protected,2036-03-25,,2036
+EPANED,Azurity,Cardiovascular,1082382.0,Protected,2036-03-25,,2036
+TRIUMEQ PD,GSK (incl. ViiV),HIV,1077030.0,Protected,2029-12-08,2029-12-08,2029
+CAROSPIR,Cmp,Cardiovascular,1056302.0,Protected,2036-10-28,,2036
+RELEXXII,Vertical,Neurology & psychiatry,1055340.0,Protected,2037-02-03,,2037
+YUTIQ,Eyepoint,Respiratory & allergy,1050566.0,Protected,2028-01-12,,2028
+QUDEXY,Upsher Smith,Neurology & psychiatry,1038254.0,Protected,2033-03-19,,2033
+RIVFLOZA,Novo Nordisk,Unclassified,1036445.0,Protected,2038-10-12,2038-10-12,2038
+RAYOS,Amgen,Unclassified,978245.0,Protected,2028-01-07,,2028
+SUPREP BOWEL PREP,Braintree,Gastroenterology,966700.0,Protected,2027-08-05,,2027
+INTRAROSA,Millicent,Unclassified,960508.0,Protected,2031-03-19,,2031
+BIJUVA,Mayne,Unclassified,952727.0,Protected,2032-11-21,2032-11-21,2032
+STERILE DILUENT FOR REMODULIN,United,"Other (vitamins, fluids, diagnostics)",936215.0,Protected,2028-12-15,2028-12-15,2028
+INPEFA,Lexicon,Diabetes & obesity,915249.0,Protected,2030-10-07,2030-10-07,2030
+IBTROZI,Nuvation Bio,Oncology,889569.0,Protected,2033-06-03,2033-06-03,2033
+LEVULAN KERASTICK,Sun Pharma,Unclassified,885606.0,Protected,2038-01-12,,2038
+TEPMETKO,EMD Serono,Oncology,885413.0,Protected,2030-03-19,2030-03-19,2030
+PARAGARD,Teva,Unclassified,868313.0,Protected,2027-06-28,,2027
+ANZUPGO,Leo,Immunology & inflammation,854644.0,Protected,2031-09-19,2031-09-19,2031
+PEDMARK,Fennec,Unclassified,854540.0,Protected,2029-09-20,,2029
+PLENVU,Bausch Health,Gastroenterology,844672.0,Protected,2033-09-10,,2033
+TRYPTYR,Alcon,Unclassified,843422.0,Protected,2030-05-28,,2030
+BELRAPZO,Eagle,Oncology,841510.0,Protected,2031-08-11,,2031
+AXTLE,Avyxa,Oncology,827939.0,Protected,2045-06-25,,2045
+SOFDRA,Botanix Sb,Unclassified,814466.0,Protected,2040-05-22,2040-05-22,2040
+RYTELO,Geron,Unclassified,808628.0,Protected,2031-06-06,2026-12-27,2031
+VENLAFAXINE,Almatica,Neurology & psychiatry,800063.0,Protected,2028-05-16,,2028
+AMPHETAMINE EXTENDED-RELEASE,Neos,Neurology & psychiatry,796413.0,Protected,2032-06-28,,2032
+ECONAZOLE NITRATE,Trifluent,Infectious disease (non-HIV),794989.0,Protected,2031-08-08,,2031
+REZZAYO,Melinta,Infectious disease (non-HIV),794520.0,Protected,2038-07-14,2038-07-14,2038
+FOCINVEZ,Amneal,Gastroenterology,794468.0,Protected,2039-01-11,,2039
+NAMZARIC,AbbVie,Neurology & psychiatry,786988.0,Protected,2029-12-05,,2029
+DORYX MPC,Mayne,Infectious disease (non-HIV),781581.0,Protected,2034-12-23,,2034
+VABOMERE,Melinta,Infectious disease (non-HIV),779235.0,Protected,2031-08-29,2031-08-29,2031
+INVOKAMET XR,Johnson & Johnson,Diabetes & obesity,752581.0,Protected,2029-02-26,2029-02-26,2029
+UCERIS,Santarus,Respiratory & allergy,749451.0,Protected,2031-09-07,,2031
+INREBIC,Bristol Myers Squibb,Unclassified,749090.0,Protected,2031-11-16,2031-11-16,2031
+KETOROLAC TROMETHAMINE,Pacific,"Pain, addiction & anesthesia",716387.0,Protected,2027-05-24,2027-05-24,2027
+DEXTENZA,Ocular Therapeutix,Immunology & inflammation,707854.0,Protected,2028-04-07,,2028
+LEVOTHYROXINE,Lannett,Endocrine & women's health,704183.0,Protected,2044-09-26,,2044
+BALCOLTRA,Avion,Endocrine & women's health,701489.0,Protected,2027-06-01,2027-06-01,2027
+VERSACLOZ,Trupharma,Neurology & psychiatry,687776.0,Protected,2028-05-01,,2028
+OPIPZA,Carwin Associates,Neurology & psychiatry,682124.0,Protected,2041-12-15,,2041
+ORBACTIV,Melinta,Infectious disease (non-HIV),679110.0,Protected,2035-07-16,,2035
+OPTISON,GE,Unclassified,674881.0,Protected,2028-05-09,,2028
+GVOKE KIT,Xeris,Diabetes & obesity,672613.0,Protected,2036-04-22,,2036
+RALDESY,Validus,Neurology & psychiatry,663762.0,Protected,2029-03-13,2029-03-13,2029
+WAYRILZ,Sanofi,Unclassified,660464.0,Protected,2041-02-20,2041-02-20,2041
+TYKERB,Novartis,Oncology,644951.0,Protected,2029-09-18,2029-09-18,2029
+AIRDUO RESPICLICK,Teva,Respiratory & allergy,644578.0,Protected,2040-07-06,,2040
+DROSPIRENONE/ETHINYL ESTRADIOL/LEVOMEFOLATE CALCIUM AND LEVOMEFOLATE CALCIUM,Sandoz,Endocrine & women's health,642662.0,Protected,2030-07-17,,2030
+APONVIE,Heron,Gastroenterology,617754.0,Protected,2035-09-18,,2035
+THYQUIDITY,Azurity,Unclassified,615715.0,Protected,2031-08-06,,2031
+TREANDA,Cephalon,Oncology,606720.0,Protected,2029-03-26,2029-03-26,2029
+ONGENTYS,Amneal,Unclassified,600392.0,Protected,2032-12-12,2032-12-12,2032
+STEGLUJAN,Merck (MSD),Diabetes & obesity,598611.0,Protected,2031-12-19,2031-12-19,2031
+CANASA,AbbVie,Gastroenterology,596049.0,Protected,2028-06-06,,2028
+VYXEOS,Jazz,Oncology,587953.0,Protected,2028-09-30,,2028
+ZEMBRACE,Upsher Smith,Unclassified,564867.0,Protected,2036-01-29,,2036
+LEVONORGESTREL AND ETHINYL ESTRADIOL,Acella,Endocrine & women's health,547319.0,Protected,2027-06-01,2027-06-01,2027
+RHAPSIDO,Novartis,Oncology,529136.0,Protected,2034-11-13,2034-11-13,2034
+TOLSURA,Mayne,Infectious disease (non-HIV),518895.0,Protected,2033-06-21,,2033
+ATORVALIQ,Cmp,Cardiovascular,508731.0,Protected,2037-06-07,,2037
+INLURIYO,Eli Lilly,Oncology,506429.0,Protected,2039-07-11,2039-07-11,2039
+KARBINAL,Aytu,Respiratory & allergy,506327.0,Protected,2029-03-29,,2029
+TOSYMRA,Upsher Smith,Neurology & psychiatry,488053.0,Protected,2031-07-19,,2031
+VOQUEZNA DUAL PAK,Phathom,Infectious disease (non-HIV),481744.0,Protected,2032-05-03,2030-04-10,2032
+NOXAFIL,Merck (MSD),Infectious disease (non-HIV),481083.0,Protected,2029-01-27,,2029
+COLCHICINE,Hikma,Immunology & inflammation,481065.0,Protected,2033-08-22,,2033
+SOHONOS,Ipsen Biopharmaceuticals,Eye & skin,479829.0,Protected,2030-08-16,,2030
+PIOGLITAZONE AND GLIMEPIRIDE,Prasco,Diabetes & obesity,476406.0,Protected,2028-06-08,,2028
+ZYNRELEF,Heron,Unclassified,465982.0,Protected,2027-01-23,,2027
+STRIVERDI RESPIMAT,Boehringer Ingelheim,Respiratory & allergy,461232.0,Protected,2027-01-19,2027-01-19,2027
+SAVAYSA,Daiichi Sankyo,Cardiovascular,450597.0,Protected,2027-04-18,2027-04-18,2027
+BAXDELA,Melinta,Infectious disease (non-HIV),448519.0,Protected,2031-06-19,2031-06-19,2031
+VOQUEZNA TRIPLE PAK,Phathom,Infectious disease (non-HIV),446201.0,Protected,2032-05-03,2030-04-10,2032
+VIVJOA,Mycovia,Infectious disease (non-HIV),445433.0,Protected,2036-03-17,2036-03-17,2036
+TIVICAY PD,GSK (incl. ViiV),HIV,443751.0,Protected,2030-02-25,2029-12-08,2030
+TAZAROTENE,Mayne,Unclassified,440504.0,Protected,2030-02-24,,2030
+CLINDESSE,Padagis Israel,Infectious disease (non-HIV),439792.0,Protected,2026-12-02,,2026
+JASCAYD,Boehringer Ingelheim,Unclassified,436262.0,Protected,2032-10-07,2032-08-23,2032
+DOXYCYCLINE,Mayne,Infectious disease (non-HIV),431128.0,Protected,2034-12-23,,2034
+GAVRETO,Roche,Oncology,430550.0,Protected,2042-07-07,2042-07-07,2042
+TOBRADEX ST,Eyevance,Immunology & inflammation,417620.0,Protected,2028-08-03,,2028
+VUSION,Viatris,Infectious disease (non-HIV),408161.0,Protected,2028-03-30,,2028
+SINCALIDE,Fresenius Kabi,Unclassified,400031.0,Protected,2038-04-20,,2038
+CALCIUM GLUCONATE IN SODIUM CHLORIDE,Wg Critical Care,Hematology,395087.0,Protected,2037-07-25,,2037
+VANCOMYCIN HYDROCHLORIDE FOR ORAL SOLUTION,Wilshire,Infectious disease (non-HIV),392457.0,Protected,2035-03-13,,2035
+BIVALIRUDIN,Sandoz,Cardiovascular,380411.0,Protected,2028-07-27,,2028
+ACULAR LS,AbbVie,"Pain, addiction & anesthesia",375173.0,Protected,2027-05-24,2027-05-24,2027
+FOSRENOL,Takeda,Urology & renal,374116.0,Protected,2030-12-01,,2030
+ALOGLIPTIN AND PIOGLITAZONE,Padagis Israel,Diabetes & obesity,372097.0,Protected,2028-06-27,2028-06-27,2028
+ZOLINZA,Merck (MSD),Oncology,367177.0,Protected,2027-03-11,2027-03-11,2027
+AMELUZ,Biofrontera,Unclassified,365089.0,Protected,2027-10-04,,2027
+CALDOLOR,Cumberland,"Pain, addiction & anesthesia",359790.0,Protected,2026-05-11,,2026
+ANGELIQ,Bayer,Endocrine & women's health,359686.0,Protected,2031-10-22,,2031
+JELMYTO,Urogen,Oncology,358390.0,Protected,2027-04-15,,2027
+ILEVRO,Novartis,"Pain, addiction & anesthesia",358044.0,Protected,2032-03-31,,2032
+VAFSEO,Akebia,Unclassified,354614.0,Protected,2034-11-14,2034-11-14,2034
+ONEXTON,Bausch Health,Infectious disease (non-HIV),351135.0,Protected,2029-08-05,,2029
+FEMLYV,Millicent,Endocrine & women's health,350447.0,Protected,2027-07-22,,2027
+PROLENSA,Bausch Lomb,"Pain, addiction & anesthesia",331640.0,Protected,2032-11-19,,2032
+SOLOSEC,Lupin,Unclassified,329520.0,Protected,2027-09-15,,2027
+BARHEMSYS,Acacia,Neurology & psychiatry,327347.0,Protected,2031-03-10,,2031
+XACIATO,Organon,Infectious disease (non-HIV),327321.0,Protected,2029-12-07,,2029
+VASOSTRICT,Par Health,Unclassified,325949.0,Protected,2035-01-30,,2035
+OSPHENA,Duchesnay,Endocrine & women's health,325805.0,Protected,2028-07-09,,2028
+LOTEMAX SM,Bausch Lomb,Eye & skin,325635.0,Protected,2036-12-23,,2036
+SOVALDI,Gilead,Infectious disease (non-HIV),307178.0,Protected,2030-12-11,2030-12-11,2030
+DUOBRII,Bausch Health,Respiratory & allergy,304475.0,Protected,2036-06-06,,2036
+PEMRYDI RTU,Amneal,Oncology,299627.0,Protected,2035-03-26,,2035
+NAFTIN,Sebela,Infectious disease (non-HIV),294633.0,Protected,2033-01-31,,2033
+ONAPGO,Mdd Operations,Neurology & psychiatry,291251.0,Protected,2028-02-03,,2028
+MULTRYS,American Regent,Unclassified,287813.0,Protected,2041-07-01,,2041
+DUAVEE,Pfizer,Endocrine & women's health,285211.0,Protected,2027-03-10,2027-03-10,2027
+ZIOPTAN,Thea,Unclassified,284649.0,Protected,2029-05-28,,2029
+ZEMBRACE SYMTOUCH,Tonix Medicines,Neurology & psychiatry,283049.0,Protected,2036-01-29,,2036
+MITIGARE,Hikma,Immunology & inflammation,281475.0,Protected,2033-08-22,,2033
+MYHIBBIN,Azurity,Oncology,279740.0,Protected,2039-08-16,,2039
+SFROWASA,Viatris,Unclassified,272739.0,Protected,2027-07-24,2027-07-24,2027
+XERAVA,Tetraphase,Infectious disease (non-HIV),271305.0,Protected,2037-10-19,2037-10-19,2037
+SOOLANTRA,Galderma L P,Infectious disease (non-HIV),260007.0,Protected,2034-03-13,,2034
+HERNEXEOS,Boehringer Ingelheim,Oncology,259888.0,Protected,2041-07-21,2041-07-21,2041
+ERMEZA,Viatris,Unclassified,256671.0,Protected,2035-02-27,,2035
+VIBATIV,Cumberland,Infectious disease (non-HIV),256277.0,Protected,2027-01-01,2027-01-01,2027
+ULORIC,Takeda,Unclassified,247197.0,Protected,2031-09-08,,2031
+XIPERE,Bausch Lomb,Unclassified,246643.0,Protected,2040-04-16,,2040
+LOCAMETZ,Advanced Accelerator Applications,Unclassified,243333.0,Protected,2028-08-15,2028-08-15,2028
+BEYAZ,Bayer,Endocrine & women's health,236332.0,Protected,2030-07-17,,2030
+FIRVANQ,Azurity,Unclassified,234657.0,Protected,2035-03-13,,2035
+IMKELDI,Shorla Oncology,Oncology,233862.0,Protected,2040-04-27,,2040
+NESINA,Takeda,Diabetes & obesity,226773.0,Protected,2028-06-27,2028-06-27,2028
+IMIQUIMOD,Teva,Unclassified,224579.0,Protected,2030-04-30,,2030
+INZIRQO,ANI,Cardiovascular,220761.0,Protected,2044-01-23,,2044
+VYNDAQEL,Pfizer,Rare & genetic disease,216074.0,Protected,2026-12-19,2026-12-19,2026
+TWYNEO,Mayne,Eye & skin,216004.0,Protected,2041-05-23,,2041
+EPSOLAY,Galderma L P,Unclassified,214682.0,Protected,2041-05-23,,2041
+FORFIVO,Almatica,Neurology & psychiatry,214594.0,Protected,2028-08-23,,2028
+EMERPHED,Nexus,Unclassified,213489.0,Protected,2040-05-16,,2040
+PROVAYBLUE,American Regent,Unclassified,212070.0,Protected,2027-01-08,,2027
+CYCLOSET,Santarus,Unclassified,210772.0,Protected,2032-04-30,,2032
+TLANDO,Verity,Unclassified,201884.0,Protected,2041-04-28,,2041
+PAROXETINE,Padagis,Neurology & psychiatry,188577.0,Protected,2029-04-06,2029-04-06,2029
+AMYVID,Eli Lilly,Unclassified,187446.0,Protected,2027-04-30,2027-04-30,2027
+TAFLUPROST OPHTHALMIC,Prasco,Unclassified,187283.0,Protected,2029-05-28,,2029
+ZITUVIO,Zydus,Diabetes & obesity,183262.0,Protected,2035-02-25,,2035
+COMETRIQ,Exelixis,Oncology,179636.0,Protected,2030-10-08,2030-10-08,2030
+IMMPHENTIV,Hikma,Unclassified,178953.0,Protected,2036-09-26,,2036
+VALCYTE,H2,Unclassified,175190.0,Protected,2027-12-11,,2027
+DETECTNET,Curium,"Other (vitamins, fluids, diagnostics)",173678.0,Protected,2027-09-03,,2027
+ZUNVEYL,Alpha Cognition,Unclassified,173618.0,Protected,2042-01-13,2042-01-13,2042
+LYVISPAH,Amneal,Neurology & psychiatry,164841.0,Protected,2041-09-29,,2041
+DICLOFENAC POTASSIUM,Leading,"Pain, addiction & anesthesia",164628.0,Protected,2029-02-24,,2029
+ORACEA,Galderma L P,Infectious disease (non-HIV),162676.0,Protected,2027-12-19,,2027
+LODOCO,Agepha,Immunology & inflammation,158621.0,Protected,2034-05-09,,2034
+DAPTOMYCIN IN SODIUM CHLORIDE,Baxter,Infectious disease (non-HIV),157655.0,Protected,2041-03-11,,2041
+NEVANAC,Novartis,Unclassified,155225.0,Protected,2027-01-31,,2027
+CLINDAMYCIN PHOSPHATE AND BENZOYL PEROXIDE,Oceanside,Infectious disease (non-HIV),154147.0,Protected,2029-08-05,,2029
+OPVEE,Indivior,"Pain, addiction & anesthesia",150201.0,Protected,2026-05-22,,2026
+PHEXX,Evofem,Hematology,144604.0,Protected,2033-03-15,2033-03-15,2033
+ENALAPRIL,Amneal,Unclassified,141220.0,Protected,2036-03-25,,2036
+MINOCIN,Melinta,Unclassified,130847.0,Protected,2032-10-16,,2032
+VUITY,AbbVie,Unclassified,129073.0,Protected,2026-03-28,,2026
+NATESTO,Acerus,Endocrine & women's health,127893.0,Protected,2034-03-17,,2034
+CAMRESE LO,Teva,Endocrine & women's health,125218.0,Protected,2028-12-05,,2028
+ROWASA,Viatris,Gastroenterology,122666.0,Protected,2027-07-24,2027-07-24,2027
+IDOSE TR,Glaukos,Eye & skin,120366.0,Protected,2031-02-14,2031-02-14,2031
+CAMRESE,Teva,Endocrine & women's health,119669.0,Protected,2028-12-05,,2028
+BESIVANCE,Bausch Lomb,Infectious disease (non-HIV),116493.0,Protected,2031-01-09,2031-01-09,2031
+EDLUAR,Viatris,Neurology & psychiatry,116385.0,Protected,2031-02-25,,2031
+KHAPZORY,Acrotech Biopharma,Oncology,116054.0,Protected,2039-03-25,,2039
+POTASSIUM,Par Health,"Other (vitamins, fluids, diagnostics)",115636.0,Protected,2039-03-07,,2039
+YONSA,Sun Pharma,Oncology,114807.0,Protected,2034-03-17,,2034
+GLOPERBA,Scilex,Immunology & inflammation,106840.0,Protected,2037-12-20,,2037
+LEQSELVI,Sun Pharma,Immunology & inflammation,104720.0,Protected,2044-05-10,2044-05-10,2044
+IVERMECTIN,Padagis,Infectious disease (non-HIV),100311.0,Protected,2034-03-13,,2034
+NOREPINEPHRINE BITARTRATE,Baxter,Respiratory & allergy,100194.0,Protected,2041-03-08,,2041
+GOOD SENSE OMEPRAZOLE,L Perrigo,Gastroenterology,100006.0,Protected,2030-01-31,,2030
+VOYDEYA,AstraZeneca,Unclassified,99872.0,Protected,2038-03-29,2038-03-29,2038
+ALTRENO,Bausch Health,Eye & skin,98983.0,Protected,2038-08-22,,2038
+TYGACIL,Pfizer,Infectious disease (non-HIV),97474.0,Protected,2030-10-08,,2030
+TYBOST,Gilead,Unclassified,95744.0,Protected,2029-09-03,2029-09-03,2029
+KHINDIVI,Eton,Immunology & inflammation,95516.0,Protected,2043-02-23,,2043
+FULVESTRANT,Fresenius Kabi,Oncology,92810.0,Protected,2034-05-17,,2034
+FABIOR,Mayne,Eye & skin,89628.0,Protected,2030-02-24,,2030
+CARDENE IV,Baxter,Cardiovascular,88425.0,Protected,2027-12-26,,2027
+XADAGO,Mdd Operations,Neurology & psychiatry,82108.0,Protected,2028-12-10,2028-12-10,2028
+XTAMPZA,Collegium,"Pain, addiction & anesthesia",81987.0,Protected,2036-09-02,,2036
+BROMFENAC OPHTHALMIC SOLUTION,Bausch Lomb,"Pain, addiction & anesthesia",80438.0,Protected,2032-11-19,,2032
+RASAGILINE,Teva,Neurology & psychiatry,79096.0,Protected,2027-08-27,2027-08-27,2027
+INVELTYS,Alcon,Unclassified,77565.0,Protected,2033-05-03,,2033
+PRETOMANID,Viatris,Unclassified,71053.0,Protected,2031-08-14,,2031
+CASPOFUNGIN ACETATE,Fresenius Kabi,Infectious disease (non-HIV),69322.0,Protected,2032-12-21,,2032
+DEXLANSOPRAZOLE,Upsher Smith,Gastroenterology,68964.0,Protected,2028-01-11,,2028
+DEXMEDETOMIDINE,Wg Critical Care,Cardiovascular,68299.0,Protected,2036-04-20,,2036
+BYFAVO,Acacia,Unclassified,64738.0,Protected,2027-07-10,,2027
+HEMICLOR,Ingenus,Cardiovascular,62525.0,Protected,2045-09-04,,2045
+IGALMI,Bioxcel,Cardiovascular,61772.0,Protected,2028-11-19,,2028
+RISEDRONATE SODIUM,Viatris,Endocrine & women's health,61106.0,Protected,2028-01-09,,2028
+NOREPINEPHRINE BITARTRATE IN SODIUM CHLORIDE,Wg Critical Care,Respiratory & allergy,59870.0,Protected,2039-04-26,,2039
+ONGLYZA,AstraZeneca,Unclassified,57304.0,Protected,2027-10-11,,2027
+PILIAGLIS,Taro,Unclassified,56830.0,Protected,2031-01-14,,2031
+TRAVOPROST,Sandoz,Eye & skin,55289.0,Protected,2029-10-13,,2029
+RECLAST,Novartis,Unclassified,53929.0,Protected,2028-02-05,,2028
+ACETYLCYSTEINE,Padagis,Unclassified,46361.0,Protected,2027-11-26,,2027
+ZERVIATE,Eyevance,Respiratory & allergy,40707.0,Protected,2032-07-09,,2032
+MIDAZOLAM IN SODIUM CHLORIDE,Wg Critical Care,Neurology & psychiatry,39836.0,Protected,2038-06-20,,2038
+ACUVAIL,AbbVie,"Pain, addiction & anesthesia",39621.0,Protected,2029-08-15,2029-08-15,2029
+CARBIDOPA AND LEVODOPA,Zydus,Neurology & psychiatry,38777.0,Protected,2028-12-26,,2028
+LASTACAFT,AbbVie,Respiratory & allergy,38453.0,Protected,2027-03-19,,2027
+LYNKUET,Bayer,Unclassified,35997.0,Protected,2030-10-24,2027-09-15,2030
+BLUDIGO,Provepharm,Unclassified,34327.0,Protected,2037-12-23,2037-12-23,2037
+JYLAMVO,Shorla Oncology,Immunology & inflammation,32828.0,Protected,2035-10-28,,2035
+VIDAZA,Bristol Myers Squibb,Oncology,32353.0,Protected,2029-05-20,,2029
+BINOSTO,Radius Health,Endocrine & women's health,30857.0,Protected,2031-12-05,,2031
+PHENTERMINE AND TOPIRAMATE,Prasco,Neurology & psychiatry,30285.0,Protected,2027-09-13,,2027
+ADLARITY,Corium,Unclassified,26661.0,Protected,2036-12-30,2036-12-30,2036
+MIRVASO,Galderma L P,Eye & skin,25545.0,Protected,2031-06-13,,2031
+QTERN,AstraZeneca,Unclassified,25032.0,Protected,2029-12-16,2029-12-16,2029
+TRIAMCINOLONE,Pacira,Immunology & inflammation,23231.0,Protected,2031-08-04,,2031
+RIVELSA,Teva,Endocrine & women's health,22935.0,Protected,2029-03-11,,2029
+COCAINE,Lehigh Valley Technologies,Unclassified,22757.0,Protected,2037-02-07,,2037
+SUCCINYLCHOLINE,Hikma,"Pain, addiction & anesthesia",22400.0,Protected,2041-11-02,,2041
+COCAINE HYDROCHLORIDE,Noden,Unclassified,21277.0,Protected,2037-02-07,,2037
+TONMYA,Tonix Medicines,"Pain, addiction & anesthesia",21030.0,Protected,2028-08-15,,2028
+SAFYRAL,Bayer,Endocrine & women's health,20814.0,Protected,2030-07-17,,2030
+FOSTER AND THRIVE OMEPRAZOLE,Strategic Sourcing Services,Gastroenterology,20770.0,Protected,2030-01-31,,2030
+GOOD NEIGHBOR PHARMACY OMEPRAZOLE,Amerisource Bergen,Gastroenterology,19863.0,Protected,2030-01-31,,2030
+LEADER OMEPRAZOLE,Cardinal Health 110 Dba Leader,Gastroenterology,18293.0,Protected,2036-12-08,,2036
+DHIVY,Avion,Neurology & psychiatry,17227.0,Protected,2039-03-28,,2039
+KENGREAL,Chiesi,Cardiovascular,16736.0,Protected,2035-07-10,,2035
+NITROGLYCERIN LINGUAL,Allegis,Cardiovascular,16368.0,Protected,2029-03-12,,2029
+QUAZEPAM,Atland,Neurology & psychiatry,15660.0,Protected,2028-06-03,,2028
+LUMIFY REDNESS RELIEVER EYE DROPS,Bausch Lomb,Eye & skin,15574.0,Protected,2030-07-14,,2030
+LULICONAZOLE,Oceanside,Infectious disease (non-HIV),15265.0,Protected,2033-09-06,2033-09-06,2033
+MICAFUNGIN IN SODIUM CHLORIDE,Baxter,Infectious disease (non-HIV),13358.0,Protected,2037-12-15,,2037
+DUAKLIR PRESSAIR,Covis,Respiratory & allergy,13010.0,Protected,2029-03-13,,2029
+NEURACEQ,Lantheus Biosciences,Unclassified,12857.0,Protected,2029-03-18,2029-03-18,2029
+ARBLI,Scienture,Cardiovascular,12132.0,Protected,2041-10-07,,2041
+BROMFENAC,Sun Pharma,"Pain, addiction & anesthesia",11629.0,Protected,2029-03-05,,2029
+COCAINE HYDROCHLORIDE NASAL,Omnivium,Unclassified,10495.0,Protected,2037-02-07,,2037
+ACANYA,Bausch Health,Infectious disease (non-HIV),10150.0,Protected,2029-08-05,,2029
+COLCRYS,Takeda,Unclassified,9485.0,Protected,2029-02-17,,2029
+CUBICIN,Merck (MSD),Unclassified,8189.0,Protected,2030-11-23,,2030
+DEXMEDETOMIDINE IN DEXTROSE,Wg Critical Care,Cardiovascular,7980.0,Protected,2036-04-20,,2036
+ZETONNA,Covis,Unclassified,6387.0,Protected,2028-02-01,,2028
+KAZANO,Takeda,Diabetes & obesity,6192.0,Protected,2028-06-27,2028-06-27,2028
+NUCYNTA,Collegium,"Pain, addiction & anesthesia",5841.0,Protected,2029-03-22,,2029
+ACETADOTE,Cumberland,Unclassified,5700.0,Protected,2027-11-26,,2027
+ZYPITAMAG,Medicure International,Cardiovascular,5132.0,Protected,2031-01-19,2031-01-19,2031
+ACTOPLUS MET,Takeda,Diabetes & obesity,4294.0,Protected,2029-02-03,,2029
+CLEVIPREX,Chiesi,Cardiovascular,4003.0,Protected,2031-10-10,,2031
+NOREPINEPHRINE,Long Grove,Respiratory & allergy,3763.0,Protected,2038-01-30,,2038
+BROMSITE,Sun Pharma,"Pain, addiction & anesthesia",3112.0,Protected,2029-03-05,,2029
+HEMADY,Edenbridge,Immunology & inflammation,2789.0,Protected,2026-10-03,,2026
+AZELASTINE,Wallace,Respiratory & allergy,2621.0,Protected,2028-06-04,,2028
+OPFOLDA,Amicus,Rare & genetic disease,2617.0,Protected,2035-09-30,2035-09-30,2035
+ZIMHI,Uswm,Unclassified,1864.0,Protected,2041-06-14,,2041
+DEFINITY RT,Lantheus Medical Imaging,Unclassified,1639.0,Protected,2035-12-28,2035-12-28,2035
+MITOSOL,Mobius,Oncology,1581.0,Protected,2028-01-02,2028-01-02,2028
+GOOD SENSE LANSOPRAZOLE,L Perrigo,Gastroenterology,1207.0,Protected,2036-04-21,,2036
+FLUORESCEIN SODIUM AND BENOXINATE HYDROCHLORIDE,Bausch Lomb,Unclassified,1206.0,Protected,2037-11-15,,2037
+ESMOLOL HYDROCHLORIDE IN WATER,Wg Critical Care,Cardiovascular,1030.0,Protected,2033-03-15,,2033
+SUPREP,Affordable,Unclassified,862.0,Protected,2027-08-05,,2027
+SILDENAFIL,Viatris,Urology & renal,770.0,Protected,2030-01-31,,2030
+ADRENALIN (EPINEPHRINE IN SODIUM CHLORIDE),Par Health,Respiratory & allergy,726.0,Protected,2039-03-21,,2039
+FLUORESCEIN,Oceanside,Unclassified,126.0,Protected,2037-11-15,,2037
+DEFITELIO,Jazz,Unclassified,98.0,Protected,2032-06-22,,2032
+PREVDUO,Par Health,Respiratory & allergy,3.0,Protected,2038-10-25,,2038

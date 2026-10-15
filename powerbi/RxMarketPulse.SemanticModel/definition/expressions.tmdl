@@ -1,0 +1,4 @@
+expression DataFolder = "D:\claude-workspace\rx-analytics\powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: e1423f6d-cf45-56e3-9386-e9bc0bc9a0fb
+
+	annotation PBI_ResultType = Text

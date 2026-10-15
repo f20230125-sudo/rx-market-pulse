@@ -1,0 +1,66 @@
+table fact_state_area_year
+	lineageTag: 38b0a086-e724-5c1c-b28f-788928c25d80
+
+	measure 'Spend per Enrollee' = VAR y = SELECTEDVALUE(dim_year[year], CALCULATE(MAX(dim_year[year]), ALL(dim_year))) RETURN CALCULATE(DIVIDE(SUM(fact_state_area_year[spend_usd]), SUM(fact_state_year[enrollment])), dim_year[year] = y)
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 5c4631c8-c85c-526b-916a-8facabbfc20b
+
+	measure 'Reporting Flag' = VAR y = SELECTEDVALUE(dim_year[year], CALCULATE(MAX(dim_year[year]), ALL(dim_year))) RETURN CALCULATE(SELECTEDVALUE(fact_state_year[reporting], "OK"), dim_year[year] = y)
+		formatString: "@"
+		displayFolder: Measures
+		lineageTag: 014c51bf-f1e4-5312-8b66-922c3b2ffb84
+
+	measure 'State Spend $M' = VAR y = SELECTEDVALUE(dim_year[year], CALCULATE(MAX(dim_year[year]), ALL(dim_year))) RETURN CALCULATE(SUM(fact_state_area_year[spend_usd]), dim_year[year] = y) / 1000000
+		formatString: "$#,0.0""M"""
+		displayFolder: Measures
+		lineageTag: 33e17a20-f946-5bbd-b834-57916d4afab7
+
+	column state
+		dataType: string
+		lineageTag: 0100c191-f074-5079-83fa-730b4667e2eb
+		summarizeBy: none
+		sourceColumn: state
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c03a705-961d-5b32-8733-63d3be723c0c
+		summarizeBy: none
+		sourceColumn: year
+
+	column area
+		dataType: string
+		lineageTag: a6792c6e-92e9-5f3a-9d88-ccb8ec9ef394
+		summarizeBy: none
+		sourceColumn: area
+
+	column spend_usd
+		dataType: double
+		lineageTag: e8111a46-3f75-5904-8516-86f60c44e421
+		summarizeBy: none
+		sourceColumn: spend_usd
+
+	column rx_count
+		dataType: double
+		lineageTag: 5f36e524-cb60-5c96-8e00-0a7b2fc5cae9
+		summarizeBy: none
+		sourceColumn: rx_count
+
+	column brand_spend_usd
+		dataType: double
+		lineageTag: fe65ef11-b33c-51e3-91b1-e4ce60b39cf7
+		summarizeBy: none
+		sourceColumn: brand_spend_usd
+
+	partition fact_state_area_year = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_state_area_year.csv"), [Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"state", type text}, {"year", Int64.Type}, {"area", type text}, {"spend_usd", type number}, {"rx_count", type number}, {"brand_spend_usd", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

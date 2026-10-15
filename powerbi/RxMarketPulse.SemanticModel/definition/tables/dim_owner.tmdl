@@ -1,0 +1,20 @@
+table dim_owner
+	lineageTag: c0c03e50-cdf1-50cd-a243-910c6d90f454
+
+	column owner
+		dataType: string
+		lineageTag: e684b5ec-7f83-5781-b159-97add3b334c2
+		summarizeBy: none
+		sourceColumn: owner
+
+	partition dim_owner = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_owner.csv"), [Delimiter=",", Columns=1, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"owner", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

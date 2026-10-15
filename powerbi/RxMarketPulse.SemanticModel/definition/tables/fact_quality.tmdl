@@ -1,0 +1,50 @@
+table fact_quality
+	lineageTag: 1108fca3-5ba6-56bc-8996-cf3ddfda1e30
+
+	column id
+		dataType: string
+		lineageTag: 8d0aba6c-921b-5960-be69-f9b5522a38a0
+		summarizeBy: none
+		sourceColumn: id
+
+	column dimension
+		dataType: string
+		lineageTag: 19f43a3a-82e3-5c4b-acd8-6a65b53f6828
+		summarizeBy: none
+		sourceColumn: dimension
+
+	column check
+		dataType: string
+		lineageTag: 445913bd-9b46-58b7-9917-14d602a1e423
+		summarizeBy: none
+		sourceColumn: check
+
+	column result
+		dataType: string
+		lineageTag: db0a4df6-c0a8-577b-a358-842da17de3df
+		summarizeBy: none
+		sourceColumn: result
+
+	column status
+		dataType: string
+		lineageTag: 60d89959-80e6-5e10-872e-28f624035329
+		summarizeBy: none
+		sourceColumn: status
+
+	column dollars
+		dataType: double
+		lineageTag: c0862505-6c79-5b1c-bb04-8d5afc2565ff
+		summarizeBy: none
+		sourceColumn: dollars
+
+	partition fact_quality = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_quality.csv"), [Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"id", type text}, {"dimension", type text}, {"check", type text}, {"result", type text}, {"status", type text}, {"dollars", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

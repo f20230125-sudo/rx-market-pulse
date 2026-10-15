@@ -1,0 +1,170 @@
+table fact_product_year
+	lineageTag: 960d4025-ce43-530a-9da6-394cb9c1a080
+
+	measure Spend = SUM(fact_product_year[spend_usd])
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 6da2e8d0-940a-5a59-8925-3ab77f846005
+
+	measure Prescriptions = SUM(fact_product_year[rx_count])
+		formatString: "#,0"
+		displayFolder: Measures
+		lineageTag: ce88b224-0881-5cd6-a63f-fdd827c3c44d
+
+	measure 'Spend per Rx' = DIVIDE([Spend], [Prescriptions])
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 46e1b634-6296-589b-988d-e163c2f2ebc5
+
+	measure 'Brand Spend' = CALCULATE([Spend], fact_product_year[market_class] = "Brand")
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: d6fcb77d-67dc-5e77-8bf4-30af881ff430
+
+	measure 'Generic Spend' = CALCULATE([Spend], fact_product_year[market_class] <> "Brand")
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 2e1eb729-5d0b-5c89-8841-2edf4e6abbc2
+
+	measure 'Brand Share of Spend' = DIVIDE([Brand Spend], [Spend])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 8de94610-e7ef-59af-a986-d27d4cebfb43
+
+	measure 'Brand Share of Rx' = DIVIDE(CALCULATE([Prescriptions], fact_product_year[market_class] = "Brand"), [Prescriptions])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: d49ef76b-cac5-5e1a-bdcb-e1a5351fd1e8
+
+	measure 'Latest Year' = CALCULATE(MAX(dim_year[year]), ALL(dim_year))
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: 49e5b6b5-e075-5fb9-9daa-70551f06c65c
+
+	measure 'First Year' = CALCULATE(MIN(dim_year[year]), ALL(dim_year))
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: 27600441-f5ba-5bd4-91f4-e40f118b2068
+
+	measure 'Spend (latest year)' = VAR y = [Latest Year] RETURN CALCULATE([Spend], dim_year[year] = y)
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 66c4d89d-c65b-50c8-b78f-e1f6e547469f
+
+	measure 'Spend (first year)' = VAR y = [First Year] RETURN CALCULATE([Spend], dim_year[year] = y)
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: c8bb496a-d03c-531c-83cc-7972a55cab9e
+
+	measure 'Prescriptions (latest year)' = VAR y = [Latest Year] RETURN CALCULATE([Prescriptions], dim_year[year] = y)
+		formatString: "#,0"
+		displayFolder: Measures
+		lineageTag: da2fb078-c190-53dc-9e9b-37621726fa5d
+
+	measure 'Spend per Rx (latest year)' = VAR y = [Latest Year] RETURN CALCULATE([Spend per Rx], dim_year[year] = y)
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: f025be1d-f2c0-52a3-9ff5-78e080400227
+
+	measure 'Brand Share of Spend (latest year)' = VAR y = [Latest Year] RETURN CALCULATE([Brand Share of Spend], dim_year[year] = y)
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 52f39eb4-b4f2-5b2d-9ebe-ff2da1321399
+
+	measure 'Brand Share of Rx (latest year)' = VAR y = [Latest Year] RETURN CALCULATE([Brand Share of Rx], dim_year[year] = y)
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: b12c19e4-623c-52fe-9f07-5af3287e4766
+
+	measure 'Spend Change since First Year' = [Spend (latest year)] - [Spend (first year)]
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 61ddcc20-72dc-5126-81a1-5fcf7be07260
+
+	measure 'Spend CAGR' = IF(ISBLANK([Spend (first year)]) || [Spend (first year)] <= 0 || ISBLANK([Spend (latest year)]), BLANK(), DIVIDE([Spend (latest year)], [Spend (first year)]) ^ (1 / ([Latest Year] - [First Year])) - 1)
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 79db617b-3a43-54d2-94b0-366543da18e1
+
+	measure 'Spend $M (latest year)' = DIVIDE([Spend (latest year)], 1000000)
+		formatString: "$#,0.0""M"""
+		displayFolder: Measures
+		lineageTag: 6a57876b-c4e3-5e2f-b12c-fb8cc9b91b7b
+
+	measure 'Company Spend (latest year)' = IF(SELECTEDVALUE(dim_owner[owner], "All other companies") = "All other companies", BLANK(), [Spend (latest year)])
+		formatString: "$#,0"
+		displayFolder: Measures
+		lineageTag: 7df661ea-899f-5fd8-88da-d662aaf180e6
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: 191bff8b-fdf8-5ed7-88bf-b0bcd702127e
+		summarizeBy: none
+		sourceColumn: year
+
+	column family
+		dataType: string
+		lineageTag: 68f8b350-d0bf-526c-b7c1-a1a407ca2498
+		summarizeBy: none
+		sourceColumn: family
+
+	column market_class
+		dataType: string
+		lineageTag: fbcbbf92-88c7-5471-bace-e5660530d518
+		summarizeBy: none
+		sourceColumn: market_class
+
+	column owner
+		dataType: string
+		lineageTag: db353acd-8218-5478-b8cc-96776e2ffd8f
+		summarizeBy: none
+		sourceColumn: owner
+
+	column area
+		dataType: string
+		lineageTag: c07b02b8-57fb-5014-802c-c5605792740f
+		summarizeBy: none
+		sourceColumn: area
+
+	column ingredient
+		dataType: string
+		lineageTag: 7d3d91b5-a0e4-5da4-bfd7-375473fa2d4d
+		summarizeBy: none
+		sourceColumn: ingredient
+
+	column is_biologic
+		dataType: string
+		lineageTag: 656d20cb-74b2-54c7-8924-ede851128bc5
+		summarizeBy: none
+		sourceColumn: is_biologic
+
+	column spend_usd
+		dataType: double
+		lineageTag: 89ce32f0-b914-57d0-bff1-104a57ab7ce5
+		summarizeBy: none
+		sourceColumn: spend_usd
+
+	column rx_count
+		dataType: double
+		lineageTag: 34367b51-6bd8-5a8c-8d2c-7b29f6ebcc05
+		summarizeBy: none
+		sourceColumn: rx_count
+
+	column units_count
+		dataType: double
+		lineageTag: 4f8d2496-c771-52d9-ba24-3743eb2f3737
+		summarizeBy: none
+		sourceColumn: units_count
+
+	partition fact_product_year = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_product_year.csv"), [Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"year", Int64.Type}, {"family", type text}, {"market_class", type text}, {"owner", type text}, {"area", type text}, {"ingredient", type text}, {"is_biologic", type text}, {"spend_usd", type number}, {"rx_count", type number}, {"units_count", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

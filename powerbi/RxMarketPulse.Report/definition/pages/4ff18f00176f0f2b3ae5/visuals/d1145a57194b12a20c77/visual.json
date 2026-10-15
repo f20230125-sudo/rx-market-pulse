@@ -1,0 +1,139 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "d1145a57194b12a20c77",
+  "position": {
+    "x": 24,
+    "y": 100,
+    "z": 2,
+    "height": 588,
+    "width": 1232,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_quality"
+                    }
+                  },
+                  "Property": "id"
+                }
+              },
+              "queryRef": "fact_quality.id",
+              "nativeQueryRef": "id",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_quality"
+                    }
+                  },
+                  "Property": "check"
+                }
+              },
+              "queryRef": "fact_quality.check",
+              "nativeQueryRef": "check",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_quality"
+                    }
+                  },
+                  "Property": "result"
+                }
+              },
+              "queryRef": "fact_quality.result",
+              "nativeQueryRef": "result",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_quality"
+                    }
+                  },
+                  "Property": "status"
+                }
+              },
+              "queryRef": "fact_quality.status",
+              "nativeQueryRef": "status",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_quality"
+                    }
+                  },
+                  "Property": "dollars"
+                }
+              },
+              "queryRef": "fact_quality.dollars",
+              "nativeQueryRef": "dollars",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Data-quality checks'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15302C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

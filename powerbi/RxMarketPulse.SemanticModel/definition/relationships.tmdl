@@ -1,0 +1,35 @@
+relationship 8c3bed4f-97ca-5def-b866-8da131e55b06
+	fromColumn: fact_product_year.year
+	toColumn: dim_year.year
+
+relationship e01cfe58-ad0d-560b-adf2-b8ebf8df5ec4
+	fromColumn: fact_product_year.area
+	toColumn: dim_area.area
+
+relationship 1ae3c9da-600d-5a64-ae9a-d11dfa2ede00
+	fromColumn: fact_product_year.owner
+	toColumn: dim_owner.owner
+
+relationship 275cdc72-daa8-57b8-9b8a-562e54655b14
+	fromColumn: fact_state_area_year.year
+	toColumn: dim_year.year
+
+relationship dd6560fa-5a51-5e0e-b64d-ed75227c81ac
+	fromColumn: fact_state_area_year.area
+	toColumn: dim_area.area
+
+relationship 04a63b0c-2d77-5ff0-a709-52605aa5cc60
+	fromColumn: fact_state_area_year.state
+	toColumn: dim_state.state
+
+relationship 94984fbc-f771-579a-a508-95ff0c27741b
+	fromColumn: fact_state_year.year
+	toColumn: dim_year.year
+
+relationship 85e51cdd-88ed-59b5-901a-acdd1479f05d
+	fromColumn: fact_state_year.state
+	toColumn: dim_state.state
+
+relationship a78816ba-2bc4-5d8f-b9fe-126986ba3cf6
+	fromColumn: fact_loe.area
+	toColumn: dim_area.area

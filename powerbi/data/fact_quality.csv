@@ -1,0 +1,20 @@
+id,dimension,check,result,status,dollars
+C01,Completeness,"Rows loaded equal rows published (State Drug Utilization, per year)",7 of 7 years match the row count the source API reports,PASS,
+C02,Completeness,Rows loaded equal rows published (Medicaid product list),"2,002,508 loaded vs 2,002,508 published",PASS,
+C03,Validity,NDC is an 11-digit code (labeler 5 + product 4 + package 2),88 rows are not; set aside in quarantine_sdud,WARN,5097.6
+C04,Validity,"No negative amounts, units or prescription counts",0 rows,PASS,
+C05,Validity,Medicaid + non-Medicaid amount equals total amount (to 5 cents),12 rows differ,WARN,1289042.1399999997
+C06,Validity,Year and quarter are in range,0 rows outside 2019-2025 Q1-Q4,PASS,
+C07,Uniqueness,"One row per utilization type, state, NDC, year and quarter",0 duplicated keys,PASS,
+C08,Uniqueness,One row per NDC in the product master,0 duplicates,PASS,
+C09,Reconciliation,Sum of the state and territory rows vs the published national (XX) row,"state and territory rows are 6.3-7.2% below national, every year",WARN,44982227249.646935
+C10,Reconciliation,Share of state-level rows with values suppressed,51.1%,INFO,
+C11,Coverage,"Spend whose NDC is in the Medicaid product list (gives manufacturer, brand/generic, dates)",99.94%,PASS,391052481.56999993
+C12,Coverage,"Spend matched to the FDA product directory (ingredient, class, approval type)","94.06% (exact package 91.87%, same product 2.19%); 5.88% unmatched",PASS,39748619351.49027
+C13,Coverage,Spend with an active-ingredient key,94.06%,PASS,
+C14,Coverage,Spend assigned to a therapeutic area,"97.83% (FDA class 71.72%, borrowed from same ingredient 6.01%, curated list 20.11%); 2.17% unclassified",PASS,
+C15,Harmonisation,Manufacturer spellings collapsed to parent companies,"1,488 spellings to 1,165 companies",INFO,
+C16,Harmonisation,Product names in the utilization file are cut at 10 characters,100.0% of rows are exactly 10 characters long,INFO,
+C17,Integrity,Spend on NDCs missing from the product master is immaterial,"8,097 NDCs, 0.06% of national spend",PASS,391052481.5700001
+C18,Timeliness,Newest period in each source,utilization 2025 Q4; product list 2026 Q2,INFO,
+C19,Uniqueness,Enrollment: one value per state and month,"5,510 duplicate months resolved (updated value kept over preliminary); 51 states",PASS,

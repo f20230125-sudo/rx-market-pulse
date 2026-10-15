@@ -1,0 +1,38 @@
+table dim_state
+	lineageTag: 9f502c16-2ae6-5920-bde8-361c274f4796
+
+	column state
+		dataType: string
+		lineageTag: 2d4e6bfb-b8c1-5815-a578-3450015cc3e8
+		summarizeBy: none
+		sourceColumn: state
+
+	column state_name
+		dataType: string
+		lineageTag: 9fd47126-5edb-5993-a9cf-ed207f53db60
+		summarizeBy: none
+		sourceColumn: state_name
+
+	column region
+		dataType: string
+		lineageTag: 4ba4b9ca-9296-5e4f-a2c2-4c4d6857f798
+		summarizeBy: none
+		sourceColumn: region
+
+	column expanded_medicaid
+		dataType: string
+		lineageTag: 51ec5869-e91f-5495-9e76-18cc24ac0709
+		summarizeBy: none
+		sourceColumn: expanded_medicaid
+
+	partition dim_state = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_state.csv"), [Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"state", type text}, {"state_name", type text}, {"region", type text}, {"expanded_medicaid", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

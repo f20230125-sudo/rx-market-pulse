@@ -1,0 +1,141 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "914a43a6db551320939c",
+  "position": {
+    "x": 660,
+    "y": 446,
+    "z": 4,
+    "height": 242,
+    "width": 596,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_loe"
+                    }
+                  },
+                  "Property": "family"
+                }
+              },
+              "queryRef": "fact_loe.family",
+              "nativeQueryRef": "family",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_loe"
+                    }
+                  },
+                  "Property": "owner"
+                }
+              },
+              "queryRef": "fact_loe.owner",
+              "nativeQueryRef": "owner",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_loe"
+                    }
+                  },
+                  "Property": "core_end"
+                }
+              },
+              "queryRef": "fact_loe.core_end",
+              "nativeQueryRef": "core_end",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_loe"
+                    }
+                  },
+                  "Property": "Protected Spend $M (2025)"
+                }
+              },
+              "queryRef": "fact_loe.Protected Spend $M (2025)",
+              "nativeQueryRef": "Protected Spend $M (2025)",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_loe"
+                  }
+                },
+                "Property": "Protected Spend $M (2025)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Brands by core protection end date'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15302C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
