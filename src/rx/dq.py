@@ -25,6 +25,13 @@ from .sources import MARTS, RAW, ROOT
 
 DOCS = ROOT / "docs"
 
+STAGE_LABELS = {
+    "package": "Exact pack in the FDA directory",
+    "product": "Same product, pack not listed",
+    "none": "Not in the FDA directory",
+    "not in product list": "Not in the Medicaid product list",
+}
+
 
 @dataclass
 class Check:
@@ -198,7 +205,7 @@ def run(con: duckdb.DuckDBPyConnection) -> tuple[list[Check], list[dict]]:
     pairs = _one(con, "select count(*), count(distinct parent_company) from map_labeler_parent")
     checks.append(Check(
         "C15", "Harmonisation", "Manufacturer spellings collapsed to parent companies",
-        f"{pairs[0]:,} spellings -> {pairs[1]:,} companies", "reported", "info", None,
+        f"{pairs[0]:,} spellings to {pairs[1]:,} companies", "reported", "info", None,
         "Case and punctuation variants merge by rule; completed acquisitions are mapped by an explicit, tested list.",
     ))
     trunc = _one(con, "select 100.0 * avg(case when length(product_name_raw) = 10 then 1 else 0 end) from stg_sdud")[0]
@@ -214,8 +221,9 @@ def run(con: duckdb.DuckDBPyConnection) -> tuple[list[Check], list[dict]]:
         select count(*) filter (where p.ndc11 is null), coalesce(sum(amt) filter (where p.ndc11 is null), 0)
         from s left join dim_product p using (ndc11)""")
     checks.append(Check(
-        "C17", "Integrity", "Every NDC in the facts exists in the product master", f"{orphan[0]:,} NDCs missing",
-        "0 NDCs, or immaterial spend", "pass" if orphan[1] / total_dollars < 0.001 else "warn", float(orphan[1]),
+        "C17", "Integrity", "Spend on NDCs missing from the product master is immaterial",
+        f"{orphan[0]:,} NDCs, {100 * orphan[1] / total_dollars:.2f}% of national spend",
+        "under 0.1% of spend", "pass" if orphan[1] / total_dollars < 0.001 else "warn", float(orphan[1]),
         "These rows stay in the facts with an empty product; charts group them as 'Unmatched'.",
     ))
     latest = _one(con, "select max(year * 10 + quarter) from fact_sdud")[0]
@@ -234,7 +242,7 @@ def run(con: duckdb.DuckDBPyConnection) -> tuple[list[Check], list[dict]]:
     ))
 
     waterfall = [
-        {"stage": st, "dollars": float(d), "share_pct": round(100 * d / wf_total, 3)}
+        {"stage": STAGE_LABELS.get(st, st), "dollars": float(d), "share_pct": round(100 * d / wf_total, 3)}
         for st, d in sorted(wf, key=lambda r: -r[1])
     ]
     return checks, waterfall
