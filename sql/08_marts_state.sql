@@ -38,6 +38,22 @@ from (select year, sum(spend) as spend from sales_nat group by 1) n
 join (select year, sum(spend) as spend from sales_state group by 1) s using (year)
 order by 1;
 
+-- Reporting breaks: states change how pharmacy spend is reported (fee-for-service vs managed care), which moves
+-- the totals without any change in demand (California 2022, New York 2023, North Carolina 2021-24). The share of
+-- spend reported as fee-for-service and the year-on-year change let a model tell a real trend from a break.
+create or replace table mart_state_flags as
+with s as (
+    select state, year,
+           sum(total_amount) as spend,
+           sum(total_amount) filter (where utilization_type = 'FFSU') as ffs_spend
+    from fact_sdud where state <> 'XX' and year between 2019 and 2025 group by all
+)
+select state, year, spend,
+       round(coalesce(ffs_spend, 0) / spend, 4) as ffs_share,
+       round(spend / lag(spend) over (partition by state order by year) - 1, 4) as yoy_change
+from s order by state, year;
+
+copy mart_state_flags     to '{marts_dir}/state_flags.csv'     (header, delimiter ',');
 copy mart_state_year      to '{marts_dir}/state_year.csv'      (header, delimiter ',');
 copy mart_state_area_year to '{marts_dir}/state_area_year.csv' (header, delimiter ',');
 copy mart_reconciliation  to '{marts_dir}/reconciliation.csv'  (header, delimiter ',');

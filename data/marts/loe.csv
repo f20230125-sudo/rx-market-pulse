@@ -128,11 +128,11 @@ TAGRISSO,AstraZeneca,Oncology,172945710.0,false,N,208065,true,2032-08-08,2035-01
 EMFLAZA,Ptc,Rare & genetic disease,171010794.0,false,N,208684,true,,,,2026-06-07,2026-06-07,2026-06-07,Listed protection has ended
 AJOVY,Teva,Neurology & psychiatry,170662475.0,true,,761089,false,,,,,,,Biologic (not in Orange Book)
 ABILIFY ASIMTUFII,Otsuka,Neurology & psychiatry,169882135.0,false,N,217006,true,,2033-04-23,2033-04-23,,2033-04-23,2033-04-23,Protected
-REPATHA,Amgen,Unclassified,169605516.0,true,N,125522,false,,,,,,,Biologic (not in Orange Book)
+REPATHA,Amgen,Cardiovascular,169605516.0,true,N,125522,false,,,,,,,Biologic (not in Orange Book)
 HIZENTRA,CSL,Hematology,167201202.0,true,,125350,false,,,,,,,Biologic (not in Orange Book)
 DULERA,Organon,Respiratory & allergy,161744336.0,false,N,022518,true,,,,,,,No patent or exclusivity listed
 ZENPEP,Aimmune,Gastroenterology,161246117.0,true,,022210,false,,,,,,,Biologic (not in Orange Book)
-NOVOSEVEN,Novo Nordisk,Hematology,160784629.0,true,,103665,false,,,,,,,Biologic (not in Orange Book)
+NOVOSEVEN,Novo Nordisk,Unclassified,160784629.0,true,,103665,false,,,,,,,Biologic (not in Orange Book)
 XYWAV,Jazz,Neurology & psychiatry,159829179.0,false,N,212690,true,,2033-01-11,2041-02-22,2028-08-12,2028-08-12,2041-02-22,Protected
 OPZELURA,Incyte,Oncology,159501245.0,false,N,215309,true,2028-06-12,2031-05-20,2041-05-05,2028-09-18,2028-09-18,2041-05-05,Protected
 XTANDI,Astellas,Oncology,159493292.0,false,N,213674,true,2027-08-13,2033-09-11,2037-02-23,2026-11-17,2027-08-13,2037-02-23,Protected
@@ -140,7 +140,7 @@ IMFINZI,AstraZeneca,Oncology,153006741.0,true,,761069,false,,,,,,,Biologic (not 
 TAKHZYRO,Takeda,Rare & genetic disease,150895182.0,true,,761090,false,,,,,,,Biologic (not in Orange Book)
 ALYFTREK,Vertex,Rare & genetic disease,150880728.0,false,N,218730,true,2040-08-13,2040-08-13,2043-01-10,2033-03-27,2040-08-13,2043-01-10,Protected
 LENVIMA,Eisai,Oncology,148253143.0,false,N,206947,true,2035-08-26,2030-10-04,2038-11-15,2027-10-03,2035-08-26,2038-11-15,Protected
-MIRENA,Bayer,Endocrine & women's health,147798447.0,false,N,021225,true,,2029-09-14,2029-09-16,,2029-09-14,2029-09-16,Protected
+MIRENA,Bayer,Unclassified,147798447.0,false,N,021225,true,,2029-09-14,2029-09-16,,2029-09-14,2029-09-16,Protected
 NUCALA,GSK (incl. ViiV),Respiratory & allergy,147699267.0,true,,761122,false,,,,,,,Biologic (not in Orange Book)
 LIVMARLI,Mirum,Gastroenterology,146956585.0,false,N,214662,true,,,2040-02-12,2031-07-24,2031-07-24,2040-02-12,Protected
 SKYTROFA,Ascendis Endocrinology,Endocrine & women's health,146543315.0,true,,761177,false,,,,,,,Biologic (not in Orange Book)
@@ -230,7 +230,7 @@ QUILLICHEW ER,Nextwave,Neurology & psychiatry,80525390.0,false,N,207960,true,,20
 AFINITOR,Novartis,Oncology,79054178.0,false,N,203985,true,,,,,,,No patent or exclusivity listed
 LO LOESTRIN FE,AbbVie,Endocrine & women's health,78395975.0,false,N,022501,true,,,2029-02-02,,2029-02-02,2029-02-02,Protected
 SLYND,Exeltis,Endocrine & women's health,77776550.0,false,N,211367,true,,2031-06-28,2031-06-28,,2031-06-28,2031-06-28,Protected
-FERRIPROX,Chiesi,Unclassified,77505446.0,false,N,212269,true,,2038-10-25,2038-10-25,2028-04-30,2028-04-30,2038-10-25,Protected
+FERRIPROX,Chiesi,Hematology,77505446.0,false,N,212269,true,,2038-10-25,2038-10-25,2028-04-30,2028-04-30,2038-10-25,Protected
 MEKINIST,Novartis,Oncology,77166487.0,false,N,204114,true,2030-10-15,2032-01-28,2034-02-28,2030-09-16,2030-10-15,2034-02-28,Protected
 IMBRUVICA,AbbVie,Oncology,76010402.0,false,N,210563,true,2033-10-30,2036-03-03,2036-09-03,2030-02-24,2033-10-30,2036-09-03,Protected
 ZURZUVAE,Biogen,Neurology & psychiatry,75935226.0,false,N,217369,true,2037-08-23,2034-04-17,2037-08-23,2028-10-31,2037-08-23,2037-08-23,Protected
@@ -489,7 +489,7 @@ STIVARGA,Bayer,Oncology,23104036.0,false,N,203085,true,2032-07-09,2031-04-08,203
 PIFELTRO,Merck (MSD),HIV,23085620.0,false,N,210806,true,2032-08-30,2032-08-30,2032-08-30,,2032-08-30,2032-08-30,Protected
 CERDELGA,Sanofi,Rare & genetic disease,23011027.0,false,N,205494,true,2030-11-24,2030-11-24,2038-12-13,,2030-11-24,2038-12-13,Protected
 SIMLANDI,Teva,Immunology & inflammation,22986424.0,true,,761299,false,,,,,,,Biologic (not in Orange Book)
-CELEBREX,Viatris,"Pain, addiction & anesthesia",22940531.0,false,N,020998,true,,,,,,,No patent or exclusivity listed
+CELEBREX,Viatris,Unclassified,22940531.0,false,N,020998,true,,,,,,,No patent or exclusivity listed
 HYQVIA,Takeda,Unclassified,22893818.0,true,,125402,false,,,,,,,Biologic (not in Orange Book)
 QINLOCK,Deciphera,Oncology,22888662.0,false,N,213973,true,2034-05-15,2040-12-30,2042-10-06,2027-05-15,2034-05-15,2042-10-06,Protected
 RYSTIGGO,Ucb,Unclassified,22828592.0,true,,761286,false,,,,,,,Biologic (not in Orange Book)
@@ -526,7 +526,7 @@ RECORLEV,Xeris,Unclassified,20419250.0,false,N,214133,true,,,2040-03-02,2028-12-
 SMOFLIPID,Fresenius Kabi,Unclassified,20413205.0,false,N,207648,true,,,,,,,No patent or exclusivity listed
 MIFEPRISTONE,Corcept Incorporated,Endocrine & women's health,20368636.0,false,N,202107,true,,,2038-08-22,,2038-08-22,2038-08-22,Protected
 WELLBUTRIN,Bausch Health,Neurology & psychiatry,20004510.0,false,N,021515,true,,,,,,,No patent or exclusivity listed
-LILETTA,AbbVie,Endocrine & women's health,19895380.0,false,N,206229,true,2033-10-06,2040-09-07,2040-09-07,2026-06-29,2033-10-06,2040-09-07,Protected
+LILETTA,AbbVie,Unclassified,19895380.0,false,N,206229,true,2033-10-06,2040-09-07,2040-09-07,2026-06-29,2033-10-06,2040-09-07,Protected
 NITYR,Cycle,Rare & genetic disease,19865188.0,false,N,209449,true,,2035-01-05,2035-01-05,2032-06-10,2032-06-10,2035-01-05,Protected
 AQNEURSA,Intrabio,Unclassified,19356136.0,false,N,219132,true,,,2037-04-19,2031-09-24,2031-09-24,2037-04-19,Protected
 TYMLOS,Radius Health,Endocrine & women's health,19232487.0,false,N,208743,true,,2038-04-30,2040-01-10,,2038-04-30,2040-01-10,Protected
@@ -572,7 +572,7 @@ COMBIGAN,AbbVie,Cardiovascular,16303394.0,false,N,021398,true,,,,,,,No patent or
 TAVALISSE,Rigel,Hematology,16257212.0,false,N,209299,true,2031-09-04,2032-07-27,2032-07-27,,2031-09-04,2032-07-27,Protected
 KANUMA,AstraZeneca,Rare & genetic disease,16145874.0,,N,125561,false,,,,,,,No Orange Book entry
 LATUDA,Sumitomo,Neurology & psychiatry,16124330.0,false,N,200603,true,,2026-05-26,2031-11-23,,2026-05-26,2031-11-23,Protected
-KANJINTI,Amgen,Unclassified,16030342.0,true,N,761073,false,,,,,,,Biologic (not in Orange Book)
+KANJINTI,Amgen,Oncology,16030342.0,true,N,761073,false,,,,,,,Biologic (not in Orange Book)
 EMPAVELI,Apellis,Rare & genetic disease,16005748.0,false,N,215014,true,2033-11-15,2038-12-14,2038-12-14,2032-07-28,2033-11-15,2038-12-14,Protected
 PRALUENT,Regeneron,Cardiovascular,16001147.0,true,,125559,false,,,,,,,Biologic (not in Orange Book)
 VOXZOGO 1.2MG,Biomarin,Rare & genetic disease,15952356.0,false,N,214938,true,2035-06-11,2036-08-01,2042-07-11,2030-10-20,2035-06-11,2042-07-11,Protected
@@ -606,7 +606,7 @@ SOLU-MEDROL,Pfizer,Immunology & inflammation,13989014.0,false,N,011856,true,,,,,
 SYFOVRE,Apellis,Rare & genetic disease,13893330.0,false,N,217171,true,2033-11-15,2038-12-14,2038-12-14,2026-05-14,2033-11-15,2038-12-14,Protected
 KRAZATI,Mirati,Unclassified,13807723.0,false,N,216340,true,2041-09-10,2043-08-21,2043-08-21,2029-12-12,2041-09-10,2043-08-21,Protected
 MEDROXYPROGESTERONE ACETATE,Prasco,Endocrine & women's health,13778938.0,false,N,020246,true,,,,,,,No patent or exclusivity listed
-SIKLOS,Medunik,Unclassified,13734740.0,false,N,208843,true,,,,,,,No patent or exclusivity listed
+SIKLOS,Medunik,Oncology,13734740.0,false,N,208843,true,,,,,,,No patent or exclusivity listed
 SYMPAZAN,Aquestive,Neurology & psychiatry,13559617.0,false,N,210833,true,,2040-01-31,2040-01-31,,2040-01-31,2040-01-31,Protected
 OJJAARA,GSK (incl. ViiV),Oncology,13544221.0,false,N,216873,true,2035-06-11,2035-06-11,2040-12-02,2030-09-15,2035-06-11,2040-12-02,Protected
 GLASSIA,Takeda,Rare & genetic disease,13496691.0,true,,125325,false,,,,,,,Biologic (not in Orange Book)
@@ -644,7 +644,7 @@ CALCIUM GLUCONATE,Fresenius Kabi,Hematology,12115355.0,false,N,208418,true,,2037
 TADLIQ,Cmp,Urology & renal,12102301.0,false,N,214522,true,,2038-12-24,2038-12-24,,2038-12-24,2038-12-24,Protected
 GALAFOLD,Amicus,Rare & genetic disease,11935361.0,false,N,208623,true,2039-03-17,,2042-01-11,,2039-03-17,2042-01-11,Protected
 MOTEGRITY,Takeda,Gastroenterology,11885380.0,false,N,210166,true,,,,2028-07-10,2028-07-10,2028-07-10,Protected
-SEMGLEE,Biocon Biologics,Unclassified,11836019.0,true,N,761201,false,,,,,,,Biologic (not in Orange Book)
+SEMGLEE,Biocon Biologics,Diabetes & obesity,11836019.0,true,N,761201,false,,,,,,,Biologic (not in Orange Book)
 NULOJIX,Bristol Myers Squibb,Immunology & inflammation,11828288.0,true,,125288,false,,,,,,,Biologic (not in Orange Book)
 ELMIRON,Johnson & Johnson,Urology & renal,11817999.0,false,N,020193,true,,,,,,,No patent or exclusivity listed
 CINVANTI,Heron,Gastroenterology,11807460.0,false,N,209296,true,,2035-09-18,2035-09-18,,2035-09-18,2035-09-18,Protected
@@ -748,7 +748,7 @@ CELLCEPT,Roche,Oncology,8249234.0,false,N,050759,true,,,,,,,No patent or exclusi
 SEROSTIM,Emd Serono,Endocrine & women's health,8220685.0,true,,020604,false,,,,,,,Biologic (not in Orange Book)
 ALVESCO,Covis,Respiratory & allergy,8185619.0,false,N,021658,true,,,2028-02-01,,2028-02-01,2028-02-01,Protected
 SOMAVERT,Pfizer,Unclassified,8165518.0,true,,021106,false,,,,,,,Biologic (not in Orange Book)
-ZARXIO,Sandoz,Unclassified,8158855.0,true,N,125553,false,,,,,,,Biologic (not in Orange Book)
+ZARXIO,Sandoz,Hematology,8158855.0,true,N,125553,false,,,,,,,Biologic (not in Orange Book)
 HEMANGEOL,Pierre Fabre,Cardiovascular,8150818.0,false,N,205410,true,,,2028-10-16,,2028-10-16,2028-10-16,Protected
 VEVYE,Harrow Eye,Eye & skin,8077111.0,false,N,217469,true,,2042-04-01,2042-04-01,2026-05-30,2026-05-30,2042-04-01,Protected
 CLINDAMYCIN PHOSPHATE,Viatris,Infectious disease (non-HIV),8068258.0,false,N,050782,true,,,,,,,No patent or exclusivity listed
@@ -805,7 +805,7 @@ KENALOG-40,Bristol Myers Squibb,Immunology & inflammation,6792847.0,false,N,0149
 ODOMZO,Sun Pharma,Oncology,6775519.0,false,N,205266,true,2036-03-30,2036-03-30,2036-03-30,,2036-03-30,2036-03-30,Protected
 DEPO-MEDROL,Pfizer,Immunology & inflammation,6735337.0,false,N,011757,true,,,,,,,No patent or exclusivity listed
 ARISTADA INITIO,Alkermes,Neurology & psychiatry,6687409.0,false,N,209830,true,2030-10-26,2035-09-08,2039-04-06,,2030-10-26,2039-04-06,Protected
-PROTONIX,Pfizer,Gastroenterology,6619029.0,false,N,022020,true,,2026-06-07,2026-12-07,,2026-06-07,2026-12-07,Protected
+PROTONIX,Pfizer,Unclassified,6619029.0,false,N,022020,true,,2026-06-07,2026-12-07,,2026-06-07,2026-12-07,Protected
 CABTREO,Bausch Health,Infectious disease (non-HIV),6606178.0,false,N,216632,true,,2040-12-28,2040-12-28,2026-10-20,2026-10-20,2040-12-28,Protected
 NEXLETOL,Esperion,Cardiovascular,6586334.0,false,N,211616,true,2040-06-19,2040-06-19,2040-06-19,2027-03-22,2040-06-19,2040-06-19,Protected
 BEVESPI AEROSPHERE,AstraZeneca,Respiratory & allergy,6569870.0,false,N,208294,true,,2030-05-28,2031-03-17,,2030-05-28,2031-03-17,Protected
@@ -872,7 +872,7 @@ TALICIA,Redhill Biopharma,Gastroenterology,5277793.0,false,N,213004,true,,2034-0
 CORLANOR,Amgen,Cardiovascular,5263551.0,false,N,206143,true,2026-12-12,2026-12-12,2027-06-12,,2026-12-12,2027-06-12,Protected
 INSULIN LISPRO PROTAMINE AND INSULIN LISPRO INJECTABLE SUSPENSION,Eli Lilly,Diabetes & obesity,5246242.0,true,,021017,false,,,,,,,Biologic (not in Orange Book)
 BRINSUPRI,Insmed Incorporated,Unclassified,5222240.0,false,N,217673,true,2035-03-12,2040-02-21,2040-02-21,2030-08-12,2035-03-12,2040-02-21,Protected
-TOBRADEX,Novartis,Unclassified,5207388.0,false,N,050616,true,,,,,,,No patent or exclusivity listed
+TOBRADEX,Novartis,Immunology & inflammation,5207388.0,false,N,050616,true,,,,,,,No patent or exclusivity listed
 PROAIR RESPICLICK,Teva,Respiratory & allergy,5202120.0,false,N,205636,true,,,,,,,No patent or exclusivity listed
 GILOTRIF,Boehringer Ingelheim,Oncology,5196053.0,false,N,201292,true,2029-10-10,2030-07-05,2031-01-05,,2029-10-10,2031-01-05,Protected
 BRINEURA,Biomarin,Rare & genetic disease,5174579.0,true,,761052,false,,,,,,,Biologic (not in Orange Book)
@@ -897,7 +897,7 @@ VELETRI,Johnson & Johnson,Cardiovascular,4962444.0,false,N,022260,true,,2027-03-
 SKYLA,Bayer,Endocrine & women's health,4923160.0,false,N,203159,true,,2029-09-14,2029-09-16,,2029-09-14,2029-09-16,Protected
 SIMBRINZA,Alcon,Eye & skin,4784117.0,false,N,204251,true,,2030-10-30,2030-10-30,,2030-10-30,2030-10-30,Protected
 SUTAB,Braintree,Gastroenterology,4754173.0,false,N,213135,true,,2037-08-04,2037-08-04,,2037-08-04,2037-08-04,Protected
-NICOTROL,Pfizer,"Pain, addiction & anesthesia",4747227.0,false,N,020385,true,,,,,,,No patent or exclusivity listed
+NICOTROL,Pfizer,Unclassified,4747227.0,false,N,020385,true,,,,,,,No patent or exclusivity listed
 REYVOW,Eli Lilly,Unclassified,4720938.0,false,N,211280,true,2037-12-05,2040-07-06,2040-07-06,,2037-12-05,2040-07-06,Protected
 DEFINITY,Lantheus Medical Imaging,Unclassified,4704934.0,false,N,021064,true,2035-12-28,2035-12-28,2037-05-04,,2035-12-28,2037-05-04,Protected
 RELPAX,Roerig,Unclassified,4684379.0,false,N,021016,true,,,,,,,No patent or exclusivity listed
@@ -911,7 +911,7 @@ EYSUVIS,Alcon,Eye & skin,4571637.0,false,N,210933,true,,2033-05-03,2033-05-03,,2
 ASMANEX,Organon,Respiratory & allergy,4560756.0,false,N,021067,true,,,,,,,No patent or exclusivity listed
 CYSTADANE,Recordati Rare Diseases,Unclassified,4555191.0,false,N,020576,true,,,,,,,No patent or exclusivity listed
 PROMETHAZINE HYDROCHLORIDE AND DEXTROMETHORPHAN HYDROBROMIDE,Ani,Neurology & psychiatry,4543917.0,false,N,011265,true,,,,,,,No patent or exclusivity listed
-ZILRETTA,Pacira,Immunology & inflammation,4524658.0,false,N,208845,true,,2031-08-04,2031-08-04,,2031-08-04,2031-08-04,Protected
+ZILRETTA,Pacira,Unclassified,4524658.0,false,N,208845,true,,2031-08-04,2031-08-04,,2031-08-04,2031-08-04,Protected
 LAZCLUZE,Johnson & Johnson,Oncology,4498282.0,false,N,219008,true,2038-04-18,2041-04-13,2041-08-01,2029-08-19,2038-04-18,2041-08-01,Protected
 PREVACID SOLUTAB,Takeda,Gastroenterology,4480202.0,false,N,021428,true,,,,,,,No patent or exclusivity listed
 ADAPALENE,Padagis Israel,Eye & skin,4460351.0,false,N,020748,true,,,,,,,No patent or exclusivity listed
@@ -921,7 +921,7 @@ CARNITOR,Leadiant Biosciences,Unclassified,4432873.0,false,N,020182,true,,,,,,,N
 CARAFATE,AbbVie,Gastroenterology,4376938.0,false,N,018333,true,,,,,,,No patent or exclusivity listed
 LEUKINE,Partner,Unclassified,4374470.0,true,,103362,false,,,,,,,Biologic (not in Orange Book)
 EGRIFTA SV,Theratechnologies,Unclassified,4352862.0,true,,022505,false,,,,,,,Biologic (not in Orange Book)
-RENVELA,Sanofi,Urology & renal,4332621.0,false,N,022127,true,,,,,,,No patent or exclusivity listed
+RENVELA,Sanofi,Unclassified,4332621.0,false,N,022127,true,,,,,,,No patent or exclusivity listed
 VYLOY,Astellas,Unclassified,4328305.0,true,,761365,false,,,,,,,Biologic (not in Orange Book)
 VANCOMYCIN HYDROCHLORIDE,Baxter,Infectious disease (non-HIV),4267304.0,false,N,050606,true,,,,,,,No patent or exclusivity listed
 YCANTH,Verrica,Unclassified,4253681.0,false,N,212905,true,,2041-02-19,2041-02-19,2028-07-21,2028-07-21,2041-02-19,Protected
@@ -998,7 +998,7 @@ MYCAPSSA,Amryt Dac,Endocrine & women's health,3249557.0,false,N,208232,true,,202
 ATTRUBY,Bridgebio,Unclassified,3232533.0,false,N,216540,true,2038-02-16,2039-08-16,2039-08-16,2031-11-22,2038-02-16,2039-08-16,Protected
 COPIKTRA,Secura Bio,Unclassified,3212386.0,false,N,211155,true,2032-09-24,2032-05-17,2035-04-26,,2032-09-24,2035-04-26,Protected
 MINIVELLE,Noven,Endocrine & women's health,3206001.0,false,N,203752,true,2030-07-04,2030-07-04,2030-07-04,,2030-07-04,2030-07-04,Protected
-REVATIO,Pfizer,Cardiovascular,3196458.0,false,N,021845,true,,,,2030-01-31,2030-01-31,2030-01-31,Protected
+REVATIO,Pfizer,Urology & renal,3196458.0,false,N,021845,true,,,,2030-01-31,2030-01-31,2030-01-31,Protected
 DEPO-PROVERA,Pfizer,Endocrine & women's health,3191148.0,false,N,020246,true,,,,,,,No patent or exclusivity listed
 KEDRAB,Kedrion Biopharma,Unclassified,3145706.0,true,,125613,false,,,,,,,Biologic (not in Orange Book)
 XATMEP,Azurity,Immunology & inflammation,3138953.0,false,N,208400,true,,2033-01-02,2033-01-02,,2033-01-02,2033-01-02,Protected
@@ -1042,10 +1042,10 @@ BYETTA,AstraZeneca,Diabetes & obesity,2689012.0,false,N,021773,true,,,,,,,No pat
 LEDIPASVIR AND SOFOSBUVIR,Gilead,Infectious disease (non-HIV),2688552.0,false,N,205834,true,2034-01-30,2034-01-30,2034-07-30,2026-08-28,2034-01-30,2034-07-30,Protected
 EKTERLY,Kalvista,Rare & genetic disease,2680166.0,false,N,219301,true,2037-12-25,2039-01-26,2039-01-26,2032-07-03,2037-12-25,2039-01-26,Protected
 SULFASALAZINE,Viatris,Gastroenterology,2664297.0,false,N,007073,true,,,,,,,No patent or exclusivity listed
-IMITREX,GSK (incl. ViiV),Neurology & psychiatry,2612279.0,false,N,020080,true,,,,,,,No patent or exclusivity listed
+IMITREX,GSK (incl. ViiV),Unclassified,2612279.0,false,N,020080,true,,,,,,,No patent or exclusivity listed
 CUVRIOR,Orphalan,Unclassified,2556514.0,false,N,215760,true,2039-05-03,2039-05-03,2039-05-03,2029-04-28,2039-05-03,2039-05-03,Protected
 DOCETAXEL,Pfizer,Oncology,2554061.0,false,N,022234,true,,,,,,,No patent or exclusivity listed
-EMEND,Merck (MSD),Unclassified,2550515.0,false,N,022023,true,,,,,,,No patent or exclusivity listed
+EMEND,Merck (MSD),Gastroenterology,2550515.0,false,N,022023,true,,,,,,,No patent or exclusivity listed
 CLENPIQ,Ferring,Gastroenterology,2529967.0,false,N,209589,true,,2038-01-27,2038-01-27,,2038-01-27,2038-01-27,Protected
 SOLU-CORTEF,Pfizer,Immunology & inflammation,2502070.0,false,N,009866,true,,,,,,,No patent or exclusivity listed
 AKLIEF,Galderma L P,Eye & skin,2486500.0,false,N,211527,true,2031-07-19,2033-05-30,2033-05-30,,2031-07-19,2033-05-30,Protected
@@ -1084,7 +1084,7 @@ VAGIFEM,Novo Nordisk,Endocrine & women's health,2231465.0,false,N,020908,true,,,
 VANCOMYCIN,Xellia,Infectious disease (non-HIV),2229184.0,false,N,211962,true,,2035-11-06,2035-11-06,,2035-11-06,2035-11-06,Protected
 RECARBRIO,Merck (MSD),Infectious disease (non-HIV),2226800.0,false,N,212819,true,2033-03-21,2033-03-21,2033-03-21,2029-07-16,2033-03-21,2033-03-21,Protected
 YAZ,Bayer,Endocrine & women's health,2226437.0,false,N,021676,true,,,,,,,No patent or exclusivity listed
-KOATE,Kedrion Biopharma,Unclassified,2220949.0,true,,101130,false,,,,,,,Biologic (not in Orange Book)
+KOATE,Kedrion Biopharma,Hematology,2220949.0,true,,101130,false,,,,,,,Biologic (not in Orange Book)
 ODACTRA,Alk Abello A,Unclassified,2203653.0,true,,125592,false,,,,,,,Biologic (not in Orange Book)
 ATIVAN,Bausch Health,Neurology & psychiatry,2194861.0,false,N,017794,true,,,,,,,No patent or exclusivity listed
 KENALOG-10,Bristol Myers Squibb,Immunology & inflammation,2191845.0,false,N,012041,true,,,,,,,No patent or exclusivity listed
@@ -1140,7 +1140,7 @@ DESMOPRESSIN ACETATE,Nordic,Hematology,1876946.0,false,N,019955,true,,,,,,,No pa
 CORTISPORIN TC,Endo,Respiratory & allergy,1871303.0,false,N,050356,true,,,,,,,No patent or exclusivity listed
 ARAZLO,Bausch Health,Eye & skin,1866894.0,false,N,211882,true,,2038-05-11,2038-05-11,,2038-05-11,2038-05-11,Protected
 CIPROFLOXACIN HYDROCHLORIDE,Sandoz,Infectious disease (non-HIV),1864038.0,false,N,019992,true,,,,,,,No patent or exclusivity listed
-GEODON,Roerig,Unclassified,1852800.0,false,N,020825,true,,,,,,,No patent or exclusivity listed
+GEODON,Roerig,Neurology & psychiatry,1852800.0,false,N,020825,true,,,,,,,No patent or exclusivity listed
 ZEMAIRA,CSL,Unclassified,1852797.0,true,,125078,false,,,,,,,Biologic (not in Orange Book)
 ONTRUZANT,Organon,Oncology,1837650.0,true,,761100,false,,,,,,,Biologic (not in Orange Book)
 DIOVAN,Novartis,Cardiovascular,1832643.0,false,N,021283,true,,,,,,,No patent or exclusivity listed
@@ -1202,17 +1202,17 @@ CUVPOSA,Merz,Respiratory & allergy,1528832.0,false,N,022571,true,,,,,,,No patent
 SUSTOL,Heron,Gastroenterology,1518865.0,false,N,022445,true,,,,,,,No patent or exclusivity listed
 ALBURX,CSL,Unclassified,1517008.0,true,,102366,false,,,,,,,Biologic (not in Orange Book)
 RUBRACA,Clovis Oncology,Unclassified,1512771.0,false,N,209115,true,2031-02-10,2035-08-17,2035-08-17,2028-12-17,2031-02-10,2035-08-17,Protected
-CREXONT,Amneal,Neurology & psychiatry,1512601.0,false,N,217186,true,,2034-10-07,2041-12-21,2027-08-07,2027-08-07,2041-12-21,Protected
+CREXONT,Amneal,Neurology & psychiatry,1512602.0,false,N,217186,true,,2034-10-07,2041-12-21,2027-08-07,2027-08-07,2041-12-21,Protected
 DANZITEN,Azurity,Oncology,1509904.0,false,N,219293,true,,2040-02-18,2040-02-18,,2040-02-18,2040-02-18,Protected
 EXJADE,Novartis,Hematology,1492631.0,false,N,021882,true,,,,,,,No patent or exclusivity listed
 INTELENCE,Johnson & Johnson,HIV,1480269.0,false,N,022187,true,,,,,,,No patent or exclusivity listed
 EXELON,Novartis,Neurology & psychiatry,1468012.0,false,N,022083,true,,,,,,,No patent or exclusivity listed
 XULTOPHY 100/3.6,Novo Nordisk,Diabetes & obesity,1460353.0,true,,208583,false,,,,,,,Biologic (not in Orange Book)
 SELZENTRY,GSK (incl. ViiV),HIV,1456144.0,false,N,022128,true,,,,,,,No patent or exclusivity listed
-INSPRA,Viatris,Cardiovascular,1452666.0,false,N,021437,true,,,,,,,No patent or exclusivity listed
+INSPRA,Viatris,Unclassified,1452666.0,false,N,021437,true,,,,,,,No patent or exclusivity listed
 EPIPEN,Viatris,Respiratory & allergy,1441273.0,false,N,019430,true,,,,,,,No patent or exclusivity listed
 PATADAY ONCE DAILY RELIEF,Alcon,Respiratory & allergy,1435161.0,false,N,206276,true,,2032-05-19,2032-05-19,,2032-05-19,2032-05-19,Protected
-XANAX,Pfizer,Unclassified,1427058.0,false,N,018276,true,,,,,,,No patent or exclusivity listed
+XANAX,Pfizer,Neurology & psychiatry,1427058.0,false,N,018276,true,,,,,,,No patent or exclusivity listed
 KAPSPARGO,Sun Pharma,Cardiovascular,1426152.0,false,N,210428,true,,2035-07-09,2035-07-09,,2035-07-09,2035-07-09,Protected
 MYTESI,Napo,Unclassified,1424619.0,false,N,202292,true,,,2031-10-31,,2031-10-31,2031-10-31,Protected
 TOBRAMYCIN AND DEXAMETHASONE,Sandoz,Immunology & inflammation,1411651.0,false,N,050592,true,,,,,,,No patent or exclusivity listed
@@ -1249,7 +1249,7 @@ BUPHENYL,Amgen,Rare & genetic disease,1225618.0,false,N,020573,true,,,,,,,No pat
 IMVEXXY,Mayne,Unclassified,1225361.0,,N,208564,true,,2032-11-21,2034-02-02,,2032-11-21,2034-02-02,Protected
 MATULANE,Leadiant Biosciences,Oncology,1220423.0,false,N,016785,true,,,,,,,No patent or exclusivity listed
 AMITIZA,Takeda,Gastroenterology,1219731.0,false,N,021908,true,,2027-10-25,2027-10-25,,2027-10-25,2027-10-25,Protected
-ZOSYN,Baxter,Unclassified,1219302.0,false,N,050750,true,,,,,,,No patent or exclusivity listed
+ZOSYN,Baxter,Infectious disease (non-HIV),1219302.0,false,N,050750,true,,,,,,,No patent or exclusivity listed
 PULMICORT RESPULES,AstraZeneca,Respiratory & allergy,1199466.0,false,N,020929,true,,,,,,,No patent or exclusivity listed
 NEOMYCIN AND POLYMYXIN B SULFATES AND HYDROCORTISONE OTIC SUSPENSION,Rising,Immunology & inflammation,1198414.0,false,N,060613,true,,,,,,,No patent or exclusivity listed
 THIOLA,Mission Pharmacal,Rare & genetic disease,1198173.0,false,N,019569,true,,,,2026-06-28,2026-06-28,2026-06-28,Listed protection has ended
@@ -1278,7 +1278,7 @@ EPANED,Azurity,Cardiovascular,1082382.0,false,N,208686,true,,2036-03-25,2036-03-
 ZOLMITRIPTAN,Amneal,Unclassified,1080889.0,false,N,021450,true,,,,,,,No patent or exclusivity listed
 TRIUMEQ PD,GSK (incl. ViiV),HIV,1077030.0,false,N,215413,true,2029-12-08,2029-12-08,2030-06-08,2026-12-15,2029-12-08,2030-06-08,Protected
 MEROPENEM AND SODIUM CHLORIDE,B Braun Medical,Infectious disease (non-HIV),1071793.0,false,N,202106,true,,,,,,,No patent or exclusivity listed
-AFSTYLA,CSL,Hematology,1066840.0,true,,125591,false,,,,,,,Biologic (not in Orange Book)
+AFSTYLA,CSL,Unclassified,1066840.0,true,,125591,false,,,,,,,Biologic (not in Orange Book)
 ABSORICA,Sun Pharma,Eye & skin,1062629.0,false,N,021951,true,,,,,,,No patent or exclusivity listed
 INSULIN,Winthrop,Diabetes & obesity,1060005.0,,N,021081,false,,,,,,,No Orange Book entry
 INVEGA,Johnson & Johnson,Neurology & psychiatry,1057646.0,false,N,021999,true,,,,,,,No patent or exclusivity listed
@@ -1381,7 +1381,7 @@ YASMIN,Bayer,Endocrine & women's health,727928.0,false,N,021098,true,,,,,,,No pa
 PERFOROMIST,Viatris,Respiratory & allergy,726781.0,false,N,022007,true,,,,,,,No patent or exclusivity listed
 KETOROLAC TROMETHAMINE,Pacific,"Pain, addiction & anesthesia",716387.0,false,N,021528,true,2027-05-24,2027-05-24,2027-11-24,,2027-05-24,2027-11-24,Protected
 DEXTENZA,Ocular Therapeutix,Immunology & inflammation,707854.0,false,N,208742,true,,2030-05-14,2041-04-26,2028-04-07,2028-04-07,2041-04-26,Protected
-ERYTHROMYCIN,Mayne,Infectious disease (non-HIV),707480.0,false,N,050536,true,,,,,,,No patent or exclusivity listed
+ERYTHROMYCIN,Mayne,Unclassified,707480.0,false,N,050536,true,,,,,,,No patent or exclusivity listed
 "PEG-3350, SODIUM CHLORIDE, SODIUM BICARBONATE AND POTASSIUM CHLORIDE",Affordable,Gastroenterology,705626.0,false,N,019797,true,,,,,,,No patent or exclusivity listed
 SYMLINPEN,AstraZeneca,Diabetes & obesity,704751.0,false,N,021332,true,,,,,,,No patent or exclusivity listed
 LEVOTHYROXINE,Lannett,Endocrine & women's health,704183.0,,N,021924,true,,2044-09-26,2044-09-26,,2044-09-26,2044-09-26,Protected
@@ -1476,10 +1476,10 @@ SOHONOS,Ipsen Biopharmaceuticals,Eye & skin,479829.0,false,N,215559,true,,,2037-
 SINGULAIR,Organon,Respiratory & allergy,479810.0,false,N,020829,true,,,,,,,No patent or exclusivity listed
 TRANEXAMIC ACID IN SODIUM CHLORIDE,Exela Sciences,Unclassified,478585.0,false,N,212020,true,,,,,,,No patent or exclusivity listed
 PIOGLITAZONE AND GLIMEPIRIDE,Prasco,Diabetes & obesity,476406.0,false,N,021925,true,,2028-06-08,2028-06-08,,2028-06-08,2028-06-08,Protected
-PREGNYL,Organon,Unclassified,475673.0,true,,017692,false,,,,,,,Biologic (not in Orange Book)
+PREGNYL,Organon,Endocrine & women's health,475673.0,true,,017692,false,,,,,,,Biologic (not in Orange Book)
 ZYFLO,Chiesi,Respiratory & allergy,469297.0,false,N,020471,true,,,,,,,No patent or exclusivity listed
 DARZALEX,Johnson & Johnson,Oncology,467077.0,true,,761036,false,,,,,,,Biologic (not in Orange Book)
-ZYNRELEF,Heron,Unclassified,465982.0,false,N,211988,true,,2035-04-20,2036-04-21,2027-01-23,2027-01-23,2036-04-21,Protected
+ZYNRELEF,Heron,"Pain, addiction & anesthesia",465982.0,false,N,211988,true,,2035-04-20,2036-04-21,2027-01-23,2027-01-23,2036-04-21,Protected
 STRIVERDI RESPIMAT,Boehringer Ingelheim,Respiratory & allergy,461232.0,false,N,203108,true,2027-01-19,,2027-01-19,,2027-01-19,2027-01-19,Protected
 SAVAYSA,Daiichi Sankyo,Cardiovascular,450597.0,false,N,206316,true,2027-04-18,2028-03-28,2028-03-28,2026-10-18,2027-04-18,2028-03-28,Protected
 BAXDELA,Melinta,Infectious disease (non-HIV),448519.0,false,N,208610,true,2031-06-19,2026-10-02,2031-06-19,2027-06-19,2031-06-19,2031-06-19,Protected
@@ -1540,7 +1540,7 @@ AMELUZ,Biofrontera,Unclassified,365089.0,false,N,208081,true,,2043-12-08,2043-12
 BIDIL,Azurity,Cardiovascular,364475.0,false,N,020727,true,,,,,,,No patent or exclusivity listed
 ZETIA,Organon,Cardiovascular,363512.0,false,N,021445,true,,,2026-04-30,,2026-04-30,2026-04-30,Listed protection has ended
 NITRO-DUR,Ingenus,Cardiovascular,363099.0,false,N,020145,true,,,,,,,No patent or exclusivity listed
-DETROL,Viatris,Unclassified,362937.0,false,N,021228,true,,,,,,,No patent or exclusivity listed
+DETROL,Viatris,Urology & renal,362937.0,false,N,021228,true,,,,,,,No patent or exclusivity listed
 CALDOLOR,Cumberland,"Pain, addiction & anesthesia",359790.0,false,N,022348,true,,,2032-03-16,2026-05-11,2026-05-11,2032-03-16,Protected
 ANGELIQ,Bayer,Endocrine & women's health,359686.0,false,N,021355,true,,2031-10-22,2031-10-22,,2031-10-22,2031-10-22,Protected
 JELMYTO,Urogen,Oncology,358390.0,false,N,211728,true,,2031-01-20,2031-01-20,2027-04-15,2027-04-15,2031-01-20,Protected
@@ -1563,8 +1563,8 @@ EPHEDRINE SULFATE,Par Health,Unclassified,333563.0,false,N,208943,true,,,,,,,No 
 CILOXAN,Novartis,Infectious disease (non-HIV),331991.0,false,N,020369,true,,,,,,,No patent or exclusivity listed
 PROLENSA,Bausch Lomb,"Pain, addiction & anesthesia",331640.0,false,N,203168,true,,2032-11-19,2033-11-11,,2032-11-19,2033-11-11,Protected
 DOXORUBICIN HYDROCHLORIDE,Pfizer,Oncology,330923.0,false,N,050629,true,,,,,,,No patent or exclusivity listed
-SOLOSEC,Lupin,Infectious disease (non-HIV),329520.0,false,N,209363,true,,2035-09-16,2041-12-11,2027-09-15,2027-09-15,2041-12-11,Protected
-CRESTOR,AstraZeneca,Cardiovascular,329064.0,false,N,021366,true,,,,,,,No patent or exclusivity listed
+SOLOSEC,Lupin,Unclassified,329520.0,false,N,209363,true,,2035-09-16,2041-12-11,2027-09-15,2027-09-15,2041-12-11,Protected
+CRESTOR,AstraZeneca,Unclassified,329064.0,false,N,021366,true,,,,,,,No patent or exclusivity listed
 ALAWAY,Bausch Lomb,Respiratory & allergy,328550.0,false,N,021996,true,,,,,,,No patent or exclusivity listed
 DALIRESP,AstraZeneca,Immunology & inflammation,328505.0,false,N,022522,true,,,,,,,No patent or exclusivity listed
 BARHEMSYS,Acacia,Neurology & psychiatry,327347.0,false,N,209510,true,,2031-03-10,2038-02-09,,2031-03-10,2038-02-09,Protected
@@ -1577,7 +1577,7 @@ COLESEVELAM,Cosette,Cardiovascular,321960.0,,N,021176,true,,,,,,,No patent or ex
 MESNEX,Baxter,Unclassified,319416.0,false,N,020855,true,,,,,,,No patent or exclusivity listed
 MEROPENEM,Wg Critical Care,Infectious disease (non-HIV),316327.0,false,N,215212,true,,,,,,,No patent or exclusivity listed
 DIVIGEL,Vertical,Endocrine & women's health,315814.0,false,N,022038,true,,,,,,,No patent or exclusivity listed
-TIGECYCLINE,Fresenius Kabi,Infectious disease (non-HIV),314239.0,false,N,205645,true,,,,,,,No patent or exclusivity listed
+TIGECYCLINE,Fresenius Kabi,Unclassified,314239.0,false,N,205645,true,,,,,,,No patent or exclusivity listed
 EXEMESTANE,Viatris,Oncology,311756.0,false,N,020753,true,,,,,,,No patent or exclusivity listed
 DIHYDROERGOTAMINE MESYLATE,Oceanside,Unclassified,311541.0,false,N,020148,true,,,,,,,No patent or exclusivity listed
 POTASSIUM CHLORIDE IN DEXTROSE AND SODIUM CHLORIDE,Icu Medical,"Other (vitamins, fluids, diagnostics)",310169.0,false,N,019691,true,,,,,,,No patent or exclusivity listed
@@ -1598,7 +1598,7 @@ HYDROCORTISONE AND ACETIC ACID,Saptalis,Immunology & inflammation,294237.0,false
 URSODIOL,Teva,Gastroenterology,291973.0,false,N,019594,true,,,,,,,No patent or exclusivity listed
 MAGNESIUM SULFATE IN DEXTROSE,Pfizer,Gastroenterology,291789.0,false,N,020488,true,,,,,,,No patent or exclusivity listed
 ONAPGO,Mdd Operations,Neurology & psychiatry,291251.0,false,N,214056,true,,,,2028-02-03,2028-02-03,2028-02-03,Protected
-DROXIA,H2,Oncology,290895.0,false,N,016295,true,,,,,,,No patent or exclusivity listed
+DROXIA,H2,Unclassified,290895.0,false,N,016295,true,,,,,,,No patent or exclusivity listed
 TAMIFLU,Roche,Infectious disease (non-HIV),288521.0,false,N,021246,true,,,,,,,No patent or exclusivity listed
 MULTRYS,American Regent,Unclassified,287813.0,false,N,209376,true,,2041-07-01,2041-07-01,,2041-07-01,2041-07-01,Protected
 TIGAN,Par Health,Unclassified,287348.0,false,N,017530,true,,,,,,,No patent or exclusivity listed
@@ -1613,7 +1613,7 @@ SFROWASA,Viatris,Unclassified,272739.0,,N,019618,true,2027-07-24,2027-07-24,2027
 NORTHERA,Lundbeck,Unclassified,271998.0,false,N,203202,true,,,,,,,No patent or exclusivity listed
 BEOVU,Novartis,Unclassified,271539.0,true,,761125,false,,,,,,,Biologic (not in Orange Book)
 XERAVA,Tetraphase,Infectious disease (non-HIV),271305.0,false,N,211109,true,2037-10-19,2032-08-27,2037-10-19,2028-08-27,2037-10-19,2037-10-19,Protected
-CAMPTOSAR,Pfizer,Unclassified,265657.0,false,N,020571,true,,,,,,,No patent or exclusivity listed
+CAMPTOSAR,Pfizer,Oncology,265657.0,false,N,020571,true,,,,,,,No patent or exclusivity listed
 POTASSIUM CHLORIDE IN SODIUM CHLORIDE,Icu Medical,"Other (vitamins, fluids, diagnostics)",265566.0,false,N,019686,true,,,,,,,No patent or exclusivity listed
 EPLERENONE,Viatris,Unclassified,264963.0,false,N,021437,true,,,,,,,No patent or exclusivity listed
 BETOPTIC S,Novartis,Cardiovascular,260913.0,false,N,019845,true,,,,,,,No patent or exclusivity listed
@@ -1631,7 +1631,7 @@ MAXIDEX,Novartis,Unclassified,252101.0,false,N,013422,true,,,,,,,No patent or ex
 PROPYLTHIOURACIL,Par Health,Endocrine & women's health,249429.0,false,N,006188,true,,,,,,,No patent or exclusivity listed
 ULORIC,Takeda,Unclassified,247197.0,false,N,021856,true,,,2031-09-08,,2031-09-08,2031-09-08,Protected
 FOSAPREPITANT,Teva,Gastroenterology,246987.0,false,N,210064,true,,,,,,,No patent or exclusivity listed
-XIPERE,Bausch Lomb,Unclassified,246643.0,false,N,211950,true,,2040-04-16,2040-04-16,,2040-04-16,2040-04-16,Protected
+XIPERE,Bausch Lomb,Immunology & inflammation,246643.0,false,N,211950,true,,2040-04-16,2040-04-16,,2040-04-16,2040-04-16,Protected
 LOCAMETZ,Advanced Accelerator Applications,Unclassified,243333.0,,N,215841,true,2028-08-15,2028-08-15,2036-03-09,,2028-08-15,2036-03-09,Protected
 BENDAMUSTINE HYDROCHLORIDE,Apotex,Oncology,242782.0,false,N,215033,true,,,,,,,No patent or exclusivity listed
 GABAPENTIN,Viatris,Neurology & psychiatry,242667.0,false,N,021129,true,,,,,,,No patent or exclusivity listed
@@ -1644,7 +1644,7 @@ POMBILITI,Amicus,Rare & genetic disease,237178.0,true,,761204,false,,,,,,,Biolog
 BEYAZ,Bayer,Endocrine & women's health,236332.0,false,N,022532,true,,2030-07-17,2030-07-17,,2030-07-17,2030-07-17,Protected
 EMTRIVA,Gilead,HIV,236293.0,false,N,021500,true,,,,,,,No patent or exclusivity listed
 DEMEROL,Pfizer,Unclassified,234919.0,false,N,021171,true,,,,,,,No patent or exclusivity listed
-FIRVANQ,Azurity,Unclassified,234657.0,false,N,208910,true,,2035-03-13,2035-03-13,,2035-03-13,2035-03-13,Protected
+FIRVANQ,Azurity,Infectious disease (non-HIV),234657.0,false,N,208910,true,,2035-03-13,2035-03-13,,2035-03-13,2035-03-13,Protected
 IMKELDI,Shorla Oncology,Oncology,233862.0,false,N,219097,true,,2040-04-27,2040-04-27,,2040-04-27,2040-04-27,Protected
 HEPARIN SODIUM,Civica,Hematology,233765.0,false,N,017037,true,,,,,,,No patent or exclusivity listed
 NATACYN,Eyevance,Infectious disease (non-HIV),233690.0,false,N,050514,true,,,,,,,No patent or exclusivity listed
@@ -1671,7 +1671,7 @@ TWYNEO,Mayne,Eye & skin,216004.0,false,N,214902,true,,2041-05-23,2041-05-23,,204
 KALETRA,AbbVie,HIV,215313.0,false,N,021906,true,,,,,,,No patent or exclusivity listed
 BENICAR HCT,Cosette,Cardiovascular,214728.0,false,N,021532,true,,,,,,,No patent or exclusivity listed
 EPSOLAY,Galderma L P,Unclassified,214682.0,false,N,214510,true,,2041-05-23,2041-05-23,,2041-05-23,2041-05-23,Protected
-FORFIVO,Almatica,Unclassified,214594.0,false,N,022497,true,,2028-08-23,2028-08-23,,2028-08-23,2028-08-23,Protected
+FORFIVO,Almatica,Neurology & psychiatry,214594.0,false,N,022497,true,,2028-08-23,2028-08-23,,2028-08-23,2028-08-23,Protected
 CLINIMIX,Baxter,Unclassified,214118.0,false,N,020734,true,,,,,,,No patent or exclusivity listed
 "CLONIDINE TRANSDERMAL SYSTEM USP, 0.1 MG/DAY",Trupharma,Cardiovascular,213621.0,false,N,018891,true,,,,,,,No patent or exclusivity listed
 EMERPHED,Nexus,Unclassified,213489.0,false,N,213407,true,,2040-05-16,2040-05-16,,2040-05-16,2040-05-16,Protected
@@ -1704,7 +1704,7 @@ VFEND,Roerig,Infectious disease (non-HIV),182514.0,false,N,021630,true,,,,,,,No 
 THROMBIN-JMI,Pfizer,Unclassified,179991.0,true,,102865,false,,,,,,,Biologic (not in Orange Book)
 COMETRIQ,Exelixis,Oncology,179636.0,false,N,203756,true,2030-10-08,2032-02-10,2032-02-10,,2030-10-08,2032-02-10,Protected
 "CARBIDOPA, LEVODOPA, AND ENTACAPONE",Sandoz,Neurology & psychiatry,179106.0,false,N,021485,true,,,,,,,No patent or exclusivity listed
-IMMPHENTIV,Hikma,Unclassified,178954.0,false,N,203826,true,,2036-09-26,2036-09-26,,2036-09-26,2036-09-26,Protected
+IMMPHENTIV,Hikma,Unclassified,178953.0,false,N,203826,true,,2036-09-26,2036-09-26,,2036-09-26,2036-09-26,Protected
 LITHOSTAT,Mission Pharmacal,Unclassified,177653.0,false,N,018749,true,,,,,,,No patent or exclusivity listed
 HYPERTET,Grifols,Unclassified,176250.0,true,,101142,false,,,,,,,Biologic (not in Orange Book)
 GAMIFANT,Swedish Orphan Biovitrum Ab,Unclassified,175749.0,true,,761107,false,,,,,,,Biologic (not in Orange Book)
@@ -1740,7 +1740,7 @@ CLINDAMYCIN,Viatris,Infectious disease (non-HIV),154957.0,,N,050162,true,,,,,,,N
 CISPLATIN,Wg Critical Care,Oncology,154927.0,false,N,018057,true,,,,,,,No patent or exclusivity listed
 CLINDAMYCIN PHOSPHATE AND BENZOYL PEROXIDE,Oceanside,Infectious disease (non-HIV),154147.0,false,N,050819,true,,2029-08-05,2029-08-05,,2029-08-05,2029-08-05,Protected
 PANTOPRAZOLE SODIUM,Hikma,Gastroenterology,153055.0,false,N,209463,true,,,,,,,No patent or exclusivity listed
-ZITHROMAX,Pfizer,Infectious disease (non-HIV),152285.0,false,N,050733,true,,,,,,,No patent or exclusivity listed
+ZITHROMAX,Pfizer,Unclassified,152285.0,false,N,050733,true,,,,,,,No patent or exclusivity listed
 OPVEE,Indivior,"Pain, addiction & anesthesia",150201.0,false,N,217470,true,,2038-07-10,2042-08-04,2026-05-22,2026-05-22,2042-08-04,Protected
 MICAFUNGIN,Par Health,Unclassified,149680.0,,N,212156,true,,,,,,,No patent or exclusivity listed
 BETAMETHASONE DIPROPIONATE,Prasco,Immunology & inflammation,149418.0,false,N,018741,true,,,,,,,No patent or exclusivity listed
@@ -1832,7 +1832,7 @@ KENALOG-80,Bristol Myers Squibb,Immunology & inflammation,94065.0,false,N,014901
 ZIANA,Bausch Health,Infectious disease (non-HIV),93893.0,false,N,050802,true,,,,,,,No patent or exclusivity listed
 IXEMPRA,R Pharm,Unclassified,93632.0,false,N,022065,true,,,,,,,No patent or exclusivity listed
 FULVESTRANT,Fresenius Kabi,Oncology,92810.0,false,N,210326,true,,2034-05-17,2034-05-17,,2034-05-17,2034-05-17,Protected
-ZYVOX,Pfizer,Infectious disease (non-HIV),91322.0,false,N,021131,true,,,,,,,No patent or exclusivity listed
+ZYVOX,Pfizer,Unclassified,91322.0,false,N,021131,true,,,,,,,No patent or exclusivity listed
 BORTEZOMIB,Pfizer,Oncology,91180.0,false,N,209191,true,,,,,,,No patent or exclusivity listed
 VIVELLE,Novartis,Unclassified,90881.0,,N,020538,true,,,,,,,No patent or exclusivity listed
 FROVA,Endo,Unclassified,90852.0,,N,021006,true,,,,,,,No patent or exclusivity listed
@@ -1945,7 +1945,7 @@ ACETYLCYSTEINE,Padagis,Unclassified,46361.0,false,N,021539,true,,2026-05-21,2032
 MESNA,Baxter,Unclassified,46264.0,false,N,019884,true,,,,,,,No patent or exclusivity listed
 NASONEX,L Perrigo,Respiratory & allergy,43814.0,false,N,215712,true,,,,,,,No patent or exclusivity listed
 CELECOXIB,Viatris,"Pain, addiction & anesthesia",43530.0,,N,020998,true,,,,,,,No patent or exclusivity listed
-NORPACE,Pfizer,Unclassified,42696.0,false,N,018655,true,,,,,,,No patent or exclusivity listed
+NORPACE,Pfizer,Cardiovascular,42696.0,false,N,018655,true,,,,,,,No patent or exclusivity listed
 MEMANTINE HYDROCHLORIDE,Teva,Neurology & psychiatry,42537.0,false,N,021487,true,,,,,,,No patent or exclusivity listed
 ESCITALOPRAM,Almatica,Neurology & psychiatry,42146.0,false,N,219130,true,,,,,,,No patent or exclusivity listed
 BETIMOL,Thea,Cardiovascular,41504.0,false,N,020439,true,,,,,,,No patent or exclusivity listed
@@ -1955,7 +1955,7 @@ TRI-LUMA,Galderma L P,Respiratory & allergy,41157.0,false,N,021112,true,,,,,,,No
 CHIRHOSTIM,Chirhoclin,Unclassified,41017.0,false,N,021256,true,,,,,,,No patent or exclusivity listed
 INFUVITE,Sandoz,Unclassified,41010.0,,N,021163,true,,,,,,,No patent or exclusivity listed
 BLOXIVERZ,Exela Sciences,Neurology & psychiatry,40936.0,false,N,204078,true,,,,,,,No patent or exclusivity listed
-ZERVIATE,Eyevance,Respiratory & allergy,40707.0,false,N,208694,true,,2032-07-09,2033-01-09,,2032-07-09,2033-01-09,Protected
+ZERVIATE,Eyevance,Unclassified,40707.0,false,N,208694,true,,2032-07-09,2033-01-09,,2032-07-09,2033-01-09,Protected
 GUAIFENESIN,Ohm,Unclassified,40102.0,false,N,021282,true,,,,,,,No patent or exclusivity listed
 MIDAZOLAM IN SODIUM CHLORIDE,Wg Critical Care,Neurology & psychiatry,39836.0,false,N,211844,true,,2038-06-20,2038-06-20,,2038-06-20,2038-06-20,Protected
 ACUVAIL,AbbVie,"Pain, addiction & anesthesia",39621.0,false,N,022427,true,2029-08-15,2029-08-15,2029-08-15,,2029-08-15,2029-08-15,Protected
@@ -2168,7 +2168,7 @@ FLUORESCITE,Alcon,Unclassified,3653.0,false,N,021980,true,,,,,,,No patent or exc
 METOPROLOL,Lannett,Cardiovascular,3493.0,,N,019962,true,,,,,,,No patent or exclusivity listed
 FLOMAX,Sanofi,Unclassified,3430.0,,N,020579,true,,,,,,,No patent or exclusivity listed
 BENZNIDAZOLE,Exeltis,Unclassified,3214.0,false,N,209570,true,,,,,,,No patent or exclusivity listed
-ARGATROBAN,Hikma,Cardiovascular,3197.0,false,N,203049,true,,,,,,,No patent or exclusivity listed
+ARGATROBAN,Hikma,Unclassified,3197.0,false,N,203049,true,,,,,,,No patent or exclusivity listed
 MIOSTAT,Alcon,Unclassified,3143.0,false,N,016968,true,,,,,,,No patent or exclusivity listed
 RELENZA,GSK (incl. ViiV),Infectious disease (non-HIV),3128.0,false,N,021036,true,,,,,,,No patent or exclusivity listed
 BROMSITE,Sun Pharma,"Pain, addiction & anesthesia",3112.0,false,N,206911,true,,2029-03-05,2029-03-05,,2029-03-05,2029-03-05,Protected
@@ -2253,470 +2253,470 @@ LABETALOL HYDROCHLORIDE,Hikma,Cardiovascular,29.0,false,N,213330,true,,,,,,,No p
 OXYCODONE,Amneal,"Pain, addiction & anesthesia",26.0,,N,201194,true,,,,,,,No patent or exclusivity listed
 CAVERJECT IMPULSE,Pfizer,Unclassified,12.0,false,N,021212,true,,,,,,,No patent or exclusivity listed
 PREVDUO,Par Health,Respiratory & allergy,3.0,false,N,216903,true,,2038-10-25,2038-10-25,,2038-10-25,2038-10-25,Protected
-BICILLIN C-R 900/300,Pfizer,Infectious disease (non-HIV),0.0,false,N,050138,true,,,,,,,No patent or exclusivity listed
 DOXERCALCIFEROL,Pfizer,Urology & renal,0.0,,N,208614,true,,,,,,,No patent or exclusivity listed
-PULMOTECH MAA,Curium,Unclassified,0.0,true,,210089,false,,,,,,,Biologic (not in Orange Book)
+BICILLIN C-R 900/300,Pfizer,Infectious disease (non-HIV),0.0,false,N,050138,true,,,,,,,No patent or exclusivity listed
 ZEMURON,Organon,Unclassified,0.0,,N,000214,false,,,,,,,No Orange Book entry
-ANDEXXA,AstraZeneca,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-LYRICA CR,Viatris,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-AUGMENTIN ES-600,Antibiotics,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-LOTREL,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LIBRAX,Bausch Health,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
-PHOSLYRA,Fresenius Medical Care,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MALARONE,GSK (incl. ViiV),Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-APHEXDA,Biolinerx,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-DEPACON,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TYZAVAN,Hikma,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-DILTIAZEM HYDROCHLORIDE IN SODIUM CHLORIDE,Wg Critical Care,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-BLUJEPA,GSK (incl. ViiV),Oncology,,false,,,false,,,,,,,No Orange Book entry
-REBYOTA,Ferring,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-KEDBUMIN,Kedrion P A,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-OXBRYTA,Global Blood,Rare & genetic disease,,false,,,false,,,,,,,No Orange Book entry
-VYTORIN,Organon,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-RINGERS,Icu Medical,"Other (vitamins, fluids, diagnostics)",,false,,,false,,,,,,,No Orange Book entry
-PROTOPAM CHLORIDE,Baxter,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-ELEPSIA XR 1500 MG,Tripoint,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-SAMSCA,Otsuka,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
-ZONEGRAN,Eisai,Unclassified,,,,,false,,,,,,,No Orange Book entry
-REMERONSOLTAB,Organon,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-DOXORUBICIN HYDROCHLORIDE LIPOSOME,Baxter,Oncology,,false,,,false,,,,,,,No Orange Book entry
-CLOBEX,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LEMTRADA,Sanofi,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ALOSETRON,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LACTATED,Pfizer,"Other (vitamins, fluids, diagnostics)",,,,,false,,,,,,,No Orange Book entry
-QUININE,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AVALIDE,Sanofi,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-TENORMIN,Almatica,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+PULMOTECH MAA,Curium,Unclassified,0.0,true,,210089,false,,,,,,,Biologic (not in Orange Book)
 CADUET,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-FUSION,Unmatched,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ETHOSUXIMIDE,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ATACAND,Ani,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-LAMIVUDINE,Prasco,HIV,,,,,false,,,,,,,No Orange Book entry
-VALSARTAN,Sandoz,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
-MYLOTARG,Pfizer,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-VENTAVIS,Johnson & Johnson,Unclassified,,,,,false,,,,,,,No Orange Book entry
-SILDENAFIL CITRATE,Viatris,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
-LEVAQUIN,Johnson & Johnson,Unclassified,,,,,false,,,,,,,No Orange Book entry
-HEPAGAM B,Kamada,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-INTRON,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
-ATRIPLA,Gilead,HIV,,,,,false,,,,,,,No Orange Book entry
-BICALUTAMIDE,Ani,Oncology,,false,,,false,,,,,,,No Orange Book entry
-HEPATITIS,Adma Biologics,Unclassified,,,,,false,,,,,,,No Orange Book entry
-KALETRA-LOPINAVIR,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LUXTURNA,Spark,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-COLAZAL,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
-FORANE,Baxter,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
-EMBLAVEO,AbbVie,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-PROPECIA,Organon,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
-HUMATE,CSL,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PALONOSETRON HYDROCHLORIDE,Cipla,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-OTFC,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TRECATOR,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-YESCARTA,Gilead,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-AVGEMSI,Avyxa,Oncology,,false,,,false,,,,,,,No Orange Book entry
-SURVANTA,AbbVie,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-KALBITOR,Takeda,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
-BKEMV,Amgen,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ABECMA,Bristol Myers Squibb,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-CETROTIDE,Emd Serono,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-IDAMYCIN PFS,Pfizer,Oncology,,false,,,false,,,,,,,No Orange Book entry
-NIFEDIPINE,Viatris,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
-ADENOCARD,Astellas,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ERYGEL,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CAPRELSA,Sanofi,Oncology,,false,,,false,,,,,,,No Orange Book entry
-VOLTAREN,Endo,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CARVYKTI,Johnson & Johnson,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-FARESTON,Kyowa Kirin,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-METFORMIN HYDROCHLORIDE,Oceanside,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-LABETALOL,Hikma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-IFEX,Baxter,Oncology,,false,,,false,,,,,,,No Orange Book entry
-CATAPRES-TTS,Boehringer Ingelheim,Unclassified,,,,,false,,,,,,,No Orange Book entry
-KEPIVANCE,Swedish Orphan Biovitrum Ab,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ACTIVELLA,Amneal,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-CUROSURF,Chiesi,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-OCTREOTIDE,Sandoz,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DOPAMINE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-OMISIRGE,Gamida Cell,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-XOLREMDI,X4,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-EXXUA,Aytu,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-HEMABATE,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-OVIDREL,Emd Serono,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-XACDURO,La Jolla,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-CUPRIMINE,Bausch Health,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-LAMPIT,Bayer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-PROPOVEN,Fresenius Kabi,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TIMOPTIC,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CONEXXENCE,Fresenius Kabi,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-DONEPEZIL,Pfizer,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
-BREYANZI,Juno,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-HEMGENIX,CSL,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ZESTRIL,Almatica,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-ZINECARDS,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-IPRATROPIUM,Viatris,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
-TAXOTERE,Sanofi,Unclassified,,,,,false,,,,,,,No Orange Book entry
-HYDROXYCHLOROQUINE,Prasco,Immunology & inflammation,,,,,false,,,,,,,No Orange Book entry
-COMBIVIR,GSK (incl. ViiV),HIV,,false,,,false,,,,,,,No Orange Book entry
-WINRHO,Saol,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ZOMETA,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BILTRICIDE,Bayer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-FLYRCADO,Ge,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-IV,Otsuka,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BUMINATE,Baxter,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AZOR,Cosette,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-GVOKE,Xeris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-KABIVEN,Fresenius Kabi,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-EVOMELA,Acrotech Biopharma,Oncology,,false,,,false,,,,,,,No Orange Book entry
-ROCTAVIAN,Biomarin,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DUONEB,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TECHNESCAN PYP,Curium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-DRISDOL,Validus,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AZULFIDINE,Pfizer,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-PEG,Lannett,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BRYHALI,Bausch Health,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
-OXAPROZIN,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AZELEX,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LUMIFY PRESERVATIVE FREE EYE DROPS,Bausch Lomb,Eye & skin,,false,,,false,,,,,,,No Orange Book entry
-RYONCIL,Mesoblast,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-KYMRIAH,Novartis,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ANKTIVA,Altor Bioscience,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
-VISTASEAL,Grifols,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ARTISS,Baxter,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-METYROSINE,Oceanside,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-GONAL-F,Emd Serono,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-REMDESIVIR,Gilead,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ORAPRED,Shionogi,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ZOLADEX,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
-QUINIDINE,Eli Lilly,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BACTRIM,Sun Pharma,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-ELZONRIS,Stemline,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-OCTREOSCAN,Curium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-GAMUNEX,Grifols,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ZOCOR,Organon,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-LOPID,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-NAPRELAN,Almatica,Unclassified,,,,,false,,,,,,,No Orange Book entry
-HYPERHEP B,Grifols,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-AVELOX,Bayer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CICLOPIROX,Leading,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ATACAND HCT,Ani,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-ABRILADA,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AZILECT,Teva,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-HYDROCORTISONE BUTYRATE,Oceanside,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
-ZESTORETIC,Almatica,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-ISORDIL,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TOBI,Viatris,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-AVTOZMA,Celltrion,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
-TECARTUS,Gilead,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-KETOCONAZOLE,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MEPRON,GSK (incl. ViiV),Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-ACTONEL,AbbVie,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-FURADANTIN,Casper,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VANOS,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
-RAPIVAB,Biocryst,Unclassified,,,,,false,,,,,,,No Orange Book entry
-IDACIO,Fresenius Kabi,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ALOPRIM,Viatris,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-METHENAMINE,County Line,Unclassified,,,,,false,,,,,,,No Orange Book entry
-RENOVA,Bausch Health,Eye & skin,,false,,,false,,,,,,,No Orange Book entry
-ZOLEDRONIC,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-OSENI,Takeda,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-ZITUVIMET XR,Zydus,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-HEPAGAM,Saol,Unclassified,,,,,false,,,,,,,No Orange Book entry
-GATIFLOXACIN,Pacific,Unclassified,,,,,false,,,,,,,No Orange Book entry
-EMAGILITY,Eli Lilly,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
-APOKYN,Mdd Operations,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-EDECRIN,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-CORVERT,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-LEUPROLIDE ACETATE DEPOT,Cipla,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-FOSAMAX,Organon,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-ATGAM,Pfizer,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
-LUNESTA,Sumitomo,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AGRYLIN,Takeda,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-SYMJEPI,Uswm,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BILDYOS,Organon,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ESMOLOL,West Ward,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TRIBENZOR,Daiichi Sankyo,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-LUMISIGHT,Lumicell,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-SYMBYAX,Eli Lilly,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CDLD,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VIZIMPRO,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-HYDROCODONEBITARTRATE,Lehigh Valley Technologies,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
-PROCARDIA,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-BRONCHITOL,Chiesi,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BICNU,Heritage,Unclassified,,,,,false,,,,,,,No Orange Book entry
-COLISTIMETHATE,Endo,Unclassified,,,,,false,,,,,,,No Orange Book entry
-HEXTEND,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-BREKIYA,Amneal,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-RETISERT,Bausch Lomb,Unclassified,,,,,false,,,,,,,No Orange Book entry
-HALCION,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-COREG,Woodward Services,Unclassified,,,,,false,,,,,,,No Orange Book entry
-NICARDIPINE,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MONONESSA,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
-RIOMET,Sun Pharma,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-ORLYNVAH,Iterum,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-CARMUSTINE,Heritage,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-ELYXYB,Biodelivery Sciences International,Unclassified,,,,,false,,,,,,,No Orange Book entry
-KYBELLA,Kythera Biopharmaceuticals,Rare & genetic disease,,false,,,false,,,,,,,No Orange Book entry
-DYANAVEL,Tris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AXUMIN,Blue Earth Diagnostics,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-UNDECATREX,Trifluent,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CLOBETASOL,Teva,Eye & skin,,,,,false,,,,,,,No Orange Book entry
-LABETALOL HCL IN SODIUM CHLORIDE,Hikma,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-MICROGESTIN,Mayne,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ZOLGENSMA,Novartis,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-NEOMYCIN-POLYMYXIN,Rising,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ANAFRANIL,Spec Gx,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-QVAR,Teva,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
-CROMOLYN,Viatris,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
-ZEPATIER,Merck (MSD),Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-BOMYNTRA,Fresenius Kabi,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-CLARINEX,Organon,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
-ARTHROTEC,Pfizer,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
-HEMOCYTE-F,Unmatched,Unclassified,,,,,false,,,,,,,No Orange Book entry
-RAPAMUNE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DEXEDRINE,Amneal,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-ELEPSIA XR 1000 MG,Tripoint,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-THIOGUANINE,Woodward Services,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PIROXICAM,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TORISEL,Pfizer,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
-GANIRELIX,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
-TIKOSYN,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-ANGIOMAX,Sandoz,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CAFCIT,Hikma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MEMANTINE,Apotex,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
-ZYKADIA,Novartis,Oncology,,false,,,false,,,,,,,No Orange Book entry
-"XENON, XE-133",Curium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-CAFFEINE CITRATE,Hikma,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
-ARAVA,Sanofi,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
-KEBILIDI,Ptc,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-PERIKABIVEN,Fresenius Kabi,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-BECONASE,GSK (incl. ViiV),Unclassified,,,,,false,,,,,,,No Orange Book entry
-IOPIDINE 1%,Harrow Eye,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-TECHNELITE,Lantheus Medical Imaging,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-BRYNOVIN,Azurity,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-MULPLETA,Shionogi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-FINACEA,Leo,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VASCEPA,Amarin Ireland,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-NARDIL,Pfizer,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-ALBUMINAR,CSL,Unclassified,,,,,false,,,,,,,No Orange Book entry
-SKYSONA,Genetix Biotherapeutics,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-BILPREVDA,Organon,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-GIANVI,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
-HALOPERIDOL,Patriot,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
-SEZABY,Sun Pharma,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-AZMIRO,Azurity,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-NILOTINIB,Cipla,Oncology,,false,,,false,,,,,,,No Orange Book entry
-ZANAFLEX,Acorda,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-MINIPRESS,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-EPYSQLI,Teva,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
-COUMADIN,Bristol Myers Squibb,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VASOTEC,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-FOLLISTIM AQ,Organon,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-DOCUSATE SODIUM,American Health Packaging,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-BIZENGRI,Partner,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-STERILE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ALTOPREV,Covis,Unclassified,,,,,false,,,,,,,No Orange Book entry
-GLYCINE,Icu Medical,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-DOXAZOSIN MESYLATE,Viatris,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-NILUTAMIDE,Prasco,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TINIDAZOLE,Biocomp,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-CARDIZEM CD,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-SUSVIMO,Roche,Eye & skin,,true,,,false,,,,,,,Biologic (not in Orange Book)
-GONAL-F RFF REDI-JECT,Emd Serono,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
-IPRATROP,Eon,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LECANEMAB AUTOINJECTOR,Eisai,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-EDEX,Endo,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-PIPERACILLIN AND TAZOBACTAM AND SODIUM CHLORIDE,B Braun Medical,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-ZYDELIG,Gilead,Oncology,,false,,,false,,,,,,,No Orange Book entry
-VARIZIG,Kamada,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-NEXICLON XR,Athena Bioscience,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+OZOBAX,Metacel,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+TRICOR,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+GRAFAPEX,Medexus,Unclassified,,false,,,false,,,,,,,No Orange Book entry
 IRBESARTAN,Winthrop,Unclassified,,,,,false,,,,,,,No Orange Book entry
 OLANZAPINE,Prasco,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
 ANDRODERM,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-GEMZAR,Eli Lilly,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DESMOPRESSIN,Nordic,Endocrine & women's health,,,,,false,,,,,,,No Orange Book entry
-DOFETILIDE,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EDEX,Endo,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+PIPERACILLIN AND TAZOBACTAM AND SODIUM CHLORIDE,B Braun Medical,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+ZYDELIG,Gilead,Oncology,,false,,,false,,,,,,,No Orange Book entry
 HYDREA,H2,Oncology,,false,,,false,,,,,,,No Orange Book entry
+DOFETILIDE,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+NEUROLITE,Lantheus Medical Imaging,Unclassified,,false,,,false,,,,,,,No Orange Book entry
 COSMEGEN,Recordati Rare Diseases,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VARIZIG,Saol,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DESMOPRESSIN,Nordic,Endocrine & women's health,,,,,false,,,,,,,No Orange Book entry
+NEXICLON XR,Athena Bioscience,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+KOMBIGLYZE,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
+FUSION,Unmatched,Unclassified,,,,,false,,,,,,,No Orange Book entry
+GEMZAR,Eli Lilly,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MAXIPIME,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PALIPERIDONE,Patriot,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
 BUPRENEX,Indivor,Unclassified,,,,,false,,,,,,,No Orange Book entry
 DACTINOMYCIN,Prasco,Unclassified,,,,,false,,,,,,,No Orange Book entry
-NEUROLITE,Lantheus Medical Imaging,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-KOMBIGLYZE,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PALIPERIDONE,Patriot,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
-USTEKINUMAB-TTWE,Quallent Health,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
 CORTENEMA,Ani,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
-PHYRAGO,Cycle,Oncology,,false,,,false,,,,,,,No Orange Book entry
+USTEKINUMAB-TTWE,Quallent Health,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
 PROTOPIC,Leo,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MAXIPIME,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ARIXTRA,Viatris,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-ASCLERA,Merz,Unclassified,,,,,false,,,,,,,No Orange Book entry
-REZLIDHIA,Rigel,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-THALLOUS,Lantheus Medical Imaging,Unclassified,,,,,false,,,,,,,No Orange Book entry
-FLUOCINONIDE,Alvogen,Unclassified,,,,,false,,,,,,,No Orange Book entry
-CARBOCAINE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-EPIVIR,GSK (incl. ViiV),HIV,,false,,,false,,,,,,,No Orange Book entry
-VIAGRA,Pfizer,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
-LYNOZYFIC,Regeneron,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MYCOBUTIN,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TEVIMBRA,Beone Medicines,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-PROSCAR,Organon,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
-PRAXBIND,Boehringer Ingelheim,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-DOPTELET SPRINKLE,Akarx,Hematology,,false,,,false,,,,,,,No Orange Book entry
-DELZICOL,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-KEYTRUDA QLEX,Merck (MSD),Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ZIAGEN,GSK (incl. ViiV),HIV,,false,,,false,,,,,,,No Orange Book entry
-PALSONIFY,Crinetics,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-MITOMYCIN,Urogen,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DIVALPROEX,Zydus,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
-COMBIVENT,Boehringer Ingelheim,Unclassified,,,,,false,,,,,,,No Orange Book entry
-EZALLORTM,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ROBINUL,Casper,Unclassified,,,,,false,,,,,,,No Orange Book entry
-KOGENATE,Bayer,Hematology,,,,,false,,,,,,,No Orange Book entry
-MIDAZOLAM,Exela Sciences,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PRALATREXATE,Fresenius Kabi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-LACOSAMIDE,Vistapharm,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VIMOVO,Amgen,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LEVALBUTEROL,Prasco,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+PHYRAGO,Cycle,Oncology,,false,,,false,,,,,,,No Orange Book entry
+UNMATCHED NDC,Baxter,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ELEVIDYS,Sarepta,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
+AVAPRO,Sanofi,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+BREXAFEMME,Scynexis,Unclassified,,,,,false,,,,,,,No Orange Book entry
+KLARON,Bausch Health,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+NIPRIDE RTU,Exela Sciences,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+CASODEX,Ani,Oncology,,false,,,false,,,,,,,No Orange Book entry
+VOYXACT,Otsuka,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+HYLENEX,Halozyme,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DIASTAT,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZOKINVY,Eiger Biopharmaceuticals,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+INTEGRILIN,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
+EXTRANEAL,Vantive,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
+METROCREAM,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DYNA-HEX,Xttrium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+LANOXIN,GSK (incl. ViiV),Unclassified,,false,,,false,,,,,,,No Orange Book entry
+DEXYCU,Eyepoint,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ELOXATIN,Sanofi,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MERILOG,Sanofi,Diabetes & obesity,,true,,,false,,,,,,,Biologic (not in Orange Book)
+QFITLIA,Sanofi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+PROLASTIN-C,Grifols,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
+PLERIXAFOR,Fresenius Kabi,Hematology,,false,,,false,,,,,,,No Orange Book entry
+INDOMETHACIN,Fresenius Kabi,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
+ATRALIN,Bausch Health,Eye & skin,,false,,,false,,,,,,,No Orange Book entry
+RYANODEX,Eagle,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
+AKEEGA,Johnson & Johnson,Oncology,,false,,,false,,,,,,,No Orange Book entry
 SEGLENTIS,Kowa,Unclassified,,,,,false,,,,,,,No Orange Book entry
+AIRDUO,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
 TRYVIO,Idorsia,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
 ESBRIET,Roche,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
-AIRDUO,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VASOPRESSIN IN 0.9% SODIUM CHLORIDE,Baxter,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-CERVIDIL,Ferring,Unclassified,,false,,,false,,,,,,,No Orange Book entry
 ZYCLARA,Bausch Health,Unclassified,,false,,,false,,,,,,,No Orange Book entry
 COMBOGESIC IV,Hikma,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
 SERTRALINE,Viatris,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
 LUTRATE DEPOT,Avyxa,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-HYDROCODONE,Lehigh Valley Technologies,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
-LOCOID,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
 SCENESSE,Clinuvel,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-GVOKE VIALDX,American Regent,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
 LEXIVA,GSK (incl. ViiV),Unclassified,,,,,false,,,,,,,No Orange Book entry
-PROSTIN,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+GVOKE VIALDX,American Regent,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+HYDROCODONE,Lehigh Valley Technologies,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
+VASOPRESSIN IN 0.9% SODIUM CHLORIDE,Baxter,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+CERVIDIL,Ferring,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+LEVALBUTEROL,Prasco,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+ALOSETRON,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VIMOVO,Amgen,Unclassified,,,,,false,,,,,,,No Orange Book entry
 ADENOSCAN,Astellas,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PROSTIN,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
 PINEAPPLE,Affordable,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MONUROL,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DOXYCYCLINE HYCLATE,Mayne,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-METHERGINE,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
 PROVERA,Pfizer,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
 TIAZAC,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+METHERGINE,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DOXYCYCLINE HYCLATE,Mayne,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+MONUROL,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LOCOID,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LACTATED,Pfizer,"Other (vitamins, fluids, diagnostics)",,,,,false,,,,,,,No Orange Book entry
+SINUVA,Intersect Ent,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+GLUCOTROL,Roerig,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
 ANTIVERT,Casper,Unclassified,,,,,false,,,,,,,No Orange Book entry
 URSO FORTE,AbbVie,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-GLUCOTROL,Roerig,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-SINUVA,Intersect Ent,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
-RESTORA,Unmatched,Unclassified,,,,,false,,,,,,,No Orange Book entry
-EMRELIS,AbbVie,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-CARVEDILOL,Apotex,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
-FOLLISTIM,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
-NAMENDA,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-FUZEON,Roche,Unclassified,,,,,false,,,,,,,No Orange Book entry
-GLYCEROL PHENYLBUTYRATE,Lupin,Rare & genetic disease,,false,,,false,,,,,,,No Orange Book entry
-ALTACE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ACTOS,Takeda,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
-ISUPREL,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PROVENTIL,Sandoz,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
-AMLODIPINE,Sun Pharma,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
-NAPROSYN,Athena Bioscience,Unclassified,,,,,false,,,,,,,No Orange Book entry
-LENMELDY,Orchard Europe,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-TABLOID,Aspen Global Incorporated,Unclassified,,,,,false,,,,,,,No Orange Book entry
-THROMBATE,Grifols,Unclassified,,,,,false,,,,,,,No Orange Book entry
-IMULDOSA,Accord Biopharma,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
-ZEVALIN,Acrotech Biopharma,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-UNITUXIN,United,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-DILANTIN,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ANTIVENIN,Merck (MSD),Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-APTIVUS,Boehringer Ingelheim,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TRICOR,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
-OZOBAX,Metacel,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-GRAFAPEX,Medexus,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-TOPICORT,Taro,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+VALSARTAN,Sandoz,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
+INTRON,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
+ATRIPLA,Gilead,HIV,,,,,false,,,,,,,No Orange Book entry
+HEPATITIS,Adma Biologics,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BICALUTAMIDE,Ani,Oncology,,false,,,false,,,,,,,No Orange Book entry
+LEVAQUIN,Johnson & Johnson,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MYLOTARG,Pfizer,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+VENTAVIS,Johnson & Johnson,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TENORMIN,Almatica,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+AVALIDE,Sanofi,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+KALETRA-LOPINAVIR,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LUXTURNA,Spark,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ATACAND,Ani,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+LAMIVUDINE,Prasco,HIV,,,,,false,,,,,,,No Orange Book entry
+ETHOSUXIMIDE,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HUMATE,CSL,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PROPECIA,Organon,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
+PALONOSETRON HYDROCHLORIDE,Cipla,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
+EMBLAVEO,AbbVie,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+FORANE,Baxter,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
+COLAZAL,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HEPAGAM B,Kamada,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
 CARDENE,Chiesi,Unclassified,,,,,false,,,,,,,No Orange Book entry
 NITROLINGUAL,Allegis,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
 DAWNZERA,Ionis,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-MICRHOGAM,Kedrion Biopharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DANTRIUM,Par Health,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
-DIPROLENE,Organon,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
-DEXMETHYLPHENIDATE,Sandoz,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
 UROCIT-K,Mission Pharmacal,Hematology,,false,,,false,,,,,,,No Orange Book entry
+DEXMETHYLPHENIDATE,Sandoz,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
+DIPROLENE,Organon,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
 ARFORMOTEROL,Lupin,Unclassified,,,,,false,,,,,,,No Orange Book entry
-RESTORIL,Spec Gx,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-PROFILNINE,Grifols,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-TEZRULY,Ani,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-CLINDA,Prasco,Unclassified,,,,,false,,,,,,,No Orange Book entry
-POTASSIUM CHLORIDE IN DEXTROSE,Icu Medical,"Other (vitamins, fluids, diagnostics)",,false,,,false,,,,,,,No Orange Book entry
-TRAVATAN,Alcon,Unclassified,,,,,false,,,,,,,No Orange Book entry
-SIGNIFOR,Novartis,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-ADSTILADRIN,Ferring,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-STALEVO,Almatica,Unclassified,,,,,false,,,,,,,No Orange Book entry
-DAUNORUBICIN HYDROCHLORIDE,Hikma,Oncology,,false,,,false,,,,,,,No Orange Book entry
 LUZU,Bausch Health,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+FLONASE,GSK (incl. ViiV),Unclassified,,,,,false,,,,,,,No Orange Book entry
+DAUNORUBICIN HYDROCHLORIDE,Hikma,Oncology,,false,,,false,,,,,,,No Orange Book entry
+PON,Baxter,Unclassified,,,,,false,,,,,,,No Orange Book entry
 MAGONATE,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
 VALSTAR,Endo,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-PON,Baxter,Unclassified,,,,,false,,,,,,,No Orange Book entry
-FLONASE,GSK (incl. ViiV),Unclassified,,,,,false,,,,,,,No Orange Book entry
+RESTORIL,Spec Gx,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+PROFILNINE,Grifols,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DANTRIUM,Par Health,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
 ALOXI,Eisai,Unclassified,,,,,false,,,,,,,No Orange Book entry
-BALVERSA,Johnson & Johnson,Oncology,,false,,,false,,,,,,,No Orange Book entry
-BUPRENORPH,Sandoz,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
-MODAFINIL,Cima,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-AUCATZYL,Autolus,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+MICRHOGAM,Kedrion Biopharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
 HYSINGLA,Purdue L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
 OXYTOCIN,Fresenius Kabi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+MODAFINIL,Cima,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+AUCATZYL,Autolus,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+BALVERSA,Johnson & Johnson,Oncology,,false,,,false,,,,,,,No Orange Book entry
+BUPRENORPH,Sandoz,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
+ADSTILADRIN,Ferring,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+STALEVO,Almatica,Unclassified,,,,,false,,,,,,,No Orange Book entry
+SIGNIFOR,Novartis,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+POTASSIUM CHLORIDE IN DEXTROSE,Icu Medical,"Other (vitamins, fluids, diagnostics)",,false,,,false,,,,,,,No Orange Book entry
+CLINDA,Prasco,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TRAVATAN,Alcon,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TEZRULY,Ani,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+AMPHETAMINE,Impax Generics,Unclassified,,,,,false,,,,,,,No Orange Book entry
 EVOXAC,Cosette,Unclassified,,false,,,false,,,,,,,No Orange Book entry
 DUAKLIR,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
-AMPHETAMINE,Impax Generics,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TESSALON,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VECTICAL,Galderma L P,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-LIQREV,Cmp,Unclassified,,,,,false,,,,,,,No Orange Book entry
+FORZINITY,Stealth Biotherapeutics,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+PROVOCHOLINE INHALATION SOLUTION,Methapharm,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+LIBRAX,Bausch Health,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+PHOSLYRA,Fresenius Medical Care,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VYTORIN,Organon,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+RINGERS,Icu Medical,"Other (vitamins, fluids, diagnostics)",,false,,,false,,,,,,,No Orange Book entry
+DEPACON,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MALARONE,GSK (incl. ViiV),Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+TYZAVAN,Hikma,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+APHEXDA,Biolinerx,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+DILTIAZEM HYDROCHLORIDE IN SODIUM CHLORIDE,Wg Critical Care,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+LOTREL,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TPN ELECTROLYTES,Pfizer,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
+HULIO,Viatris,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+LYRICA CR,Viatris,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+ATELVIA,AbbVie,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+AUGMENTIN ES-600,Antibiotics,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+REMERONSOLTAB,Organon,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+ELEPSIA XR 1500 MG,Tripoint,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+PROTOPAM CHLORIDE,Baxter,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+REBYOTA,Ferring,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+KEDBUMIN,Kedrion P A,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+OXBRYTA,Global Blood,Rare & genetic disease,,false,,,false,,,,,,,No Orange Book entry
+BLUJEPA,GSK (incl. ViiV),Oncology,,false,,,false,,,,,,,No Orange Book entry
+LEMTRADA,Sanofi,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+CLOBEX,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DOXORUBICIN HYDROCHLORIDE LIPOSOME,Baxter,Oncology,,false,,,false,,,,,,,No Orange Book entry
+ZONEGRAN,Eisai,Unclassified,,,,,false,,,,,,,No Orange Book entry
+SAMSCA,Otsuka,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
+HALOPERIDOL,Patriot,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
+SEZABY,Sun Pharma,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+MINIPRESS,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZANAFLEX,Acorda,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+FOLLISTIM AQ,Organon,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+COUMADIN,Bristol Myers Squibb,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EPYSQLI,Teva,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
+NILOTINIB,Cipla,Oncology,,false,,,false,,,,,,,No Orange Book entry
+ALBUMINAR,CSL,Unclassified,,,,,false,,,,,,,No Orange Book entry
+SKYSONA,Genetix Biotherapeutics,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+BILPREVDA,Organon,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+GIANVI,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BIZENGRI,Partner,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DOCUSATE SODIUM,American Health Packaging,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
+AZMIRO,Azurity,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+CARDIZEM CD,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+SUSVIMO,Roche,Eye & skin,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DOXAZOSIN MESYLATE,Viatris,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+NILUTAMIDE,Prasco,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ALTOPREV,Covis,Unclassified,,,,,false,,,,,,,No Orange Book entry
+STERILE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+GLYCINE,Icu Medical,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+VASOTEC,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+GONAL-F RFF REDI-JECT,Emd Serono,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+IPRATROP,Eon,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LECANEMAB AUTOINJECTOR,Eisai,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+TINIDAZOLE,Biocomp,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+ABECMA,Bristol Myers Squibb,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+KALBITOR,Takeda,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
+CETROTIDE,Emd Serono,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+OTFC,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
+NIFEDIPINE,Viatris,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
+CAPRELSA,Sanofi,Oncology,,false,,,false,,,,,,,No Orange Book entry
+ERYGEL,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LABETALOL,Hikma,Unclassified,,,,,false,,,,,,,No Orange Book entry
+IFEX,Baxter,Oncology,,false,,,false,,,,,,,No Orange Book entry
+CATAPRES-TTS,Boehringer Ingelheim,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VOLTAREN,Endo,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ADENOCARD,Astellas,Unclassified,,,,,false,,,,,,,No Orange Book entry
+SURVANTA,AbbVie,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+YESCARTA,Gilead,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+AVGEMSI,Avyxa,Oncology,,false,,,false,,,,,,,No Orange Book entry
+OCTREOTIDE,Sandoz,Unclassified,,,,,false,,,,,,,No Orange Book entry
+CUROSURF,Chiesi,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ACTIVELLA,Amneal,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+IDAMYCIN PFS,Pfizer,Oncology,,false,,,false,,,,,,,No Orange Book entry
+OVIDREL,Emd Serono,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+XACDURO,La Jolla,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+DOPAMINE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+OMISIRGE,Gamida Cell,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+EXXUA,Aytu,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+XOLREMDI,X4,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+METFORMIN HYDROCHLORIDE,Oceanside,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+FARESTON,Kyowa Kirin,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+CARVYKTI,Johnson & Johnson,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+CUPRIMINE,Bausch Health,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+HEMABATE,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+KEPIVANCE,Swedish Orphan Biovitrum Ab,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+BKEMV,Amgen,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ANDEXXA,AstraZeneca,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+QUININE,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
+IPRATROPIUM,Viatris,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+TAXOTERE,Sanofi,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZINECARDS,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZESTRIL,Almatica,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+COMBIVIR,GSK (incl. ViiV),HIV,,false,,,false,,,,,,,No Orange Book entry
+HYDROXYCHLOROQUINE,Prasco,Immunology & inflammation,,,,,false,,,,,,,No Orange Book entry
+ZOMETA,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BILTRICIDE,Bayer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+WINRHO,Saol,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BREYANZI,Juno,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+CONEXXENCE,Fresenius Kabi,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DONEPEZIL,Pfizer,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
+HEMGENIX,CSL,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+SILDENAFIL CITRATE,Viatris,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
+TRECATOR,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+FLYRCADO,Ge,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+LAMPIT,Bayer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+PROPOVEN,Fresenius Kabi,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TIMOPTIC,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+AZOR,Cosette,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+GVOKE,Xeris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BUMINATE,Baxter,Unclassified,,,,,false,,,,,,,No Orange Book entry
+IV,Otsuka,Unclassified,,,,,false,,,,,,,No Orange Book entry
+KABIVEN,Fresenius Kabi,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
 RUGBY OMEPRAZOLE,Rugby,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-AMRIX,Cephalon,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
+TESSALON,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
 CASGEVY,Vertex,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-CYTOGAM,Kamada,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+JAVADIN,Azurity,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
 KETAMINE,Par,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
 ENTACAPONE,Sandoz,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-NORMOSOL-R AND DEXTROSE,Icu Medical,"Other (vitamins, fluids, diagnostics)",,false,,,false,,,,,,,No Orange Book entry
-EGRIFTA WR,Theratechnologies,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-DOPRAM,Hikma,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-PODOFILOX,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TOPROL-XL,Aralez,Unclassified,,,,,false,,,,,,,No Orange Book entry
-METROGEL,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
-JAVADIN,Azurity,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+CYTOGAM,Kamada,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+AMRIX,Cephalon,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
+LIQREV,Cmp,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VECTICAL,Galderma L P,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
 NIPENT,Pfizer,Oncology,,false,,,false,,,,,,,No Orange Book entry
 PATANASE,Novartis,Unclassified,,,,,false,,,,,,,No Orange Book entry
-TUDORZA,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
-OLOPATADINE,Sandoz,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
-IOPIDINE,Alcon,Unclassified,,,,,false,,,,,,,No Orange Book entry
 NYMALIZE,Azurity,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-ZELAPAR,Bausch Health,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
-CAPEX,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PALIVAZUMAB,AstraZeneca,Infectious disease (non-HIV),,,,,false,,,,,,,No Orange Book entry
+OLOPATADINE,Sandoz,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+TUDORZA,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
+METROGEL,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TOPROL-XL,Aralez,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DOPRAM,Hikma,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+PODOFILOX,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EGRIFTA WR,Theratechnologies,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+NORMOSOL-R AND DEXTROSE,Icu Medical,"Other (vitamins, fluids, diagnostics)",,false,,,false,,,,,,,No Orange Book entry
 ZALTRAP,Sanofi,Eye & skin,,true,,,false,,,,,,,Biologic (not in Orange Book)
 SORILUX,Mayne,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
-ELEVIDYS,Sarepta,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
-UNMATCHED NDC,Baxter,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ELOXATIN,Sanofi,Unclassified,,,,,false,,,,,,,No Orange Book entry
-MERILOG,Sanofi,Diabetes & obesity,,true,,,false,,,,,,,Biologic (not in Orange Book)
-DEXYCU,Eyepoint,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ZOKINVY,Eiger Biopharmaceuticals,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-EXTRANEAL,Vantive,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-INTEGRILIN,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
-AVAPRO,Sanofi,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-BREXAFEMME,Scynexis,Unclassified,,,,,false,,,,,,,No Orange Book entry
-NIPRIDE RTU,Exela Sciences,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
-CASODEX,Ani,Oncology,,false,,,false,,,,,,,No Orange Book entry
-DIASTAT,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
-VOYXACT,Otsuka,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-HYLENEX,Halozyme,Unclassified,,,,,false,,,,,,,No Orange Book entry
-ATRALIN,Bausch Health,Eye & skin,,false,,,false,,,,,,,No Orange Book entry
-RYANODEX,Eagle,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
-INDOMETHACIN,Fresenius Kabi,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
-KLARON,Bausch Health,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
-LANOXIN,GSK (incl. ViiV),Unclassified,,false,,,false,,,,,,,No Orange Book entry
-DYNA-HEX,Xttrium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-METROCREAM,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
-PROLASTIN-C,Grifols,Rare & genetic disease,,true,,,false,,,,,,,Biologic (not in Orange Book)
-PLERIXAFOR,Fresenius Kabi,Hematology,,false,,,false,,,,,,,No Orange Book entry
-QFITLIA,Sanofi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-AKEEGA,Johnson & Johnson,Oncology,,false,,,false,,,,,,,No Orange Book entry
-PROVOCHOLINE INHALATION SOLUTION,Methapharm,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-HULIO,Viatris,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
-TPN ELECTROLYTES,Pfizer,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
-FORZINITY,Stealth Biotherapeutics,Unclassified,,false,,,false,,,,,,,No Orange Book entry
-ATELVIA,AbbVie,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+PALIVAZUMAB,AstraZeneca,Infectious disease (non-HIV),,,,,false,,,,,,,No Orange Book entry
+CAPEX,Galderma L P,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZELAPAR,Bausch Health,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+IOPIDINE,Alcon,Unclassified,,,,,false,,,,,,,No Orange Book entry
+SYMJEPI,Uswm,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ESMOLOL,West Ward,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LUNESTA,Sumitomo,Unclassified,,,,,false,,,,,,,No Orange Book entry
+AGRYLIN,Takeda,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+BILDYOS,Organon,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+CORVERT,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+LEUPROLIDE ACETATE DEPOT,Cipla,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+FOSAMAX,Organon,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+ATGAM,Pfizer,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
+PROCARDIA,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+COLISTIMETHATE,Endo,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BRONCHITOL,Chiesi,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BICNU,Heritage,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HEXTEND,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+ORLYNVAH,Iterum,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+RIOMET,Sun Pharma,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+CARMUSTINE,Heritage,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+BREKIYA,Amneal,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+VIZIMPRO,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+CDLD,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HYDROCODONEBITARTRATE,Lehigh Valley Technologies,"Pain, addiction & anesthesia",,,,,false,,,,,,,No Orange Book entry
+ELYXYB,Biodelivery Sciences International,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TRIBENZOR,Daiichi Sankyo,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+LUMISIGHT,Lumicell,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+SYMBYAX,Eli Lilly,Unclassified,,,,,false,,,,,,,No Orange Book entry
+AXUMIN,Blue Earth Diagnostics,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+UNDECATREX,Trifluent,Unclassified,,,,,false,,,,,,,No Orange Book entry
+COREG,Woodward Services,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DYANAVEL,Tris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+KYBELLA,Kythera Biopharmaceuticals,Rare & genetic disease,,false,,,false,,,,,,,No Orange Book entry
+NICARDIPINE,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MONONESSA,Teva,Unclassified,,,,,false,,,,,,,No Orange Book entry
+RETISERT,Bausch Lomb,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HALCION,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+CLOBETASOL,Teva,Eye & skin,,,,,false,,,,,,,No Orange Book entry
+LABETALOL HCL IN SODIUM CHLORIDE,Hikma,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+MICROGESTIN,Mayne,Unclassified,,,,,false,,,,,,,No Orange Book entry
+AZULFIDINE,Pfizer,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
+DRISDOL,Validus,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PEG,Lannett,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EVOMELA,Acrotech Biopharma,Oncology,,false,,,false,,,,,,,No Orange Book entry
+GONAL-F,Emd Serono,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+KYMRIAH,Novartis,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+RYONCIL,Mesoblast,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ANKTIVA,Altor Bioscience,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
+AZELEX,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LUMIFY PRESERVATIVE FREE EYE DROPS,Bausch Lomb,Eye & skin,,false,,,false,,,,,,,No Orange Book entry
+DUONEB,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ROCTAVIAN,Biomarin,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TECHNESCAN PYP,Curium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+REMDESIVIR,Gilead,Unclassified,,,,,false,,,,,,,No Orange Book entry
+BRYHALI,Bausch Health,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+OXAPROZIN,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+LOPID,Pfizer,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+ZOLADEX,AstraZeneca,Unclassified,,,,,false,,,,,,,No Orange Book entry
+GAMUNEX,Grifols,Unclassified,,,,,false,,,,,,,No Orange Book entry
+QUINIDINE,Eli Lilly,Unclassified,,,,,false,,,,,,,No Orange Book entry
+OCTREOSCAN,Curium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+BACTRIM,Sun Pharma,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+ARTISS,Baxter,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ORAPRED,Shionogi,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ELZONRIS,Stemline,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+METYROSINE,Oceanside,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+VISTASEAL,Grifols,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+NAPRELAN,Almatica,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZOCOR,Organon,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+HYPERHEP B,Grifols,Hematology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+AVELOX,Bayer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+RENOVA,Bausch Health,Eye & skin,,false,,,false,,,,,,,No Orange Book entry
+ZOLEDRONIC,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MEPRON,GSK (incl. ViiV),Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+KETOCONAZOLE,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HYDROCORTISONE BUTYRATE,Oceanside,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
+ACTONEL,AbbVie,Endocrine & women's health,,false,,,false,,,,,,,No Orange Book entry
+TECARTUS,Gilead,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ATACAND HCT,Ani,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+CICLOPIROX,Leading,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ABRILADA,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+OSENI,Takeda,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+AZILECT,Teva,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+TOBI,Viatris,Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+ISORDIL,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZESTORETIC,Almatica,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+AVTOZMA,Celltrion,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ZITUVIMET XR,Zydus,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+HEPAGAM,Saol,Unclassified,,,,,false,,,,,,,No Orange Book entry
+GATIFLOXACIN,Pacific,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EMAGILITY,Eli Lilly,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
+METHENAMINE,County Line,Unclassified,,,,,false,,,,,,,No Orange Book entry
+RAPIVAB,Biocryst,Unclassified,,,,,false,,,,,,,No Orange Book entry
+IDACIO,Fresenius Kabi,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ALOPRIM,Viatris,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+FURADANTIN,Casper,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VANOS,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EDECRIN,Bausch Health,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+APOKYN,Mdd Operations,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+THALLOUS,Lantheus Medical Imaging,Unclassified,,,,,false,,,,,,,No Orange Book entry
+FLUOCINONIDE,Alvogen,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ARIXTRA,Viatris,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+ASCLERA,Merz,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ZIAGEN,GSK (incl. ViiV),HIV,,false,,,false,,,,,,,No Orange Book entry
+PALSONIFY,Crinetics,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+COMBIVENT,Boehringer Ingelheim,Unclassified,,,,,false,,,,,,,No Orange Book entry
+DIVALPROEX,Zydus,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
+EPIVIR,GSK (incl. ViiV),HIV,,false,,,false,,,,,,,No Orange Book entry
+DELZICOL,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+KEYTRUDA QLEX,Merck (MSD),Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+REZLIDHIA,Rigel,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+TEVIMBRA,Beone Medicines,Oncology,,true,,,false,,,,,,,Biologic (not in Orange Book)
+MYCOBUTIN,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PROSCAR,Organon,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
+CARBOCAINE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+VIAGRA,Pfizer,Urology & renal,,false,,,false,,,,,,,No Orange Book entry
+LYNOZYFIC,Regeneron,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PRAXBIND,Boehringer Ingelheim,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DOPTELET SPRINKLE,Akarx,Hematology,,false,,,false,,,,,,,No Orange Book entry
+MIDAZOLAM,Exela Sciences,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ROBINUL,Casper,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EZALLORTM,Sun Pharma,Unclassified,,,,,false,,,,,,,No Orange Book entry
+KOGENATE,Bayer,Hematology,,,,,false,,,,,,,No Orange Book entry
+MITOMYCIN,Urogen,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PRALATREXATE,Fresenius Kabi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+LACOSAMIDE,Vistapharm,Unclassified,,,,,false,,,,,,,No Orange Book entry
+CROMOLYN,Viatris,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+ZEPATIER,Merck (MSD),Infectious disease (non-HIV),,false,,,false,,,,,,,No Orange Book entry
+CLARINEX,Organon,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+BOMYNTRA,Fresenius Kabi,Endocrine & women's health,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ZOLGENSMA,Novartis,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+NEOMYCIN-POLYMYXIN,Rising,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TIKOSYN,Pfizer,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+ANGIOMAX,Sandoz,Unclassified,,,,,false,,,,,,,No Orange Book entry
+CAFFEINE CITRATE,Hikma,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+CAFCIT,Hikma,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MEMANTINE,Apotex,Neurology & psychiatry,,,,,false,,,,,,,No Orange Book entry
+RAPAMUNE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+TORISEL,Pfizer,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
+GANIRELIX,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
+ANAFRANIL,Spec Gx,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+QVAR,Teva,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+ARAVA,Sanofi,Immunology & inflammation,,false,,,false,,,,,,,No Orange Book entry
+KEBILIDI,Ptc,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ARTHROTEC,Pfizer,"Pain, addiction & anesthesia",,false,,,false,,,,,,,No Orange Book entry
+DEXEDRINE,Amneal,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+PIROXICAM,Viatris,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ELEPSIA XR 1000 MG,Tripoint,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+THIOGUANINE,Woodward Services,Unclassified,,,,,false,,,,,,,No Orange Book entry
+HEMOCYTE-F,Unmatched,Unclassified,,,,,false,,,,,,,No Orange Book entry
+FINACEA,Leo,Unclassified,,,,,false,,,,,,,No Orange Book entry
+MULPLETA,Shionogi,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+VASCEPA,Amarin Ireland,Cardiovascular,,false,,,false,,,,,,,No Orange Book entry
+PERIKABIVEN,Fresenius Kabi,Gastroenterology,,false,,,false,,,,,,,No Orange Book entry
+ZYKADIA,Novartis,Oncology,,false,,,false,,,,,,,No Orange Book entry
+"XENON, XE-133",Curium,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+NARDIL,Pfizer,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+TECHNELITE,Lantheus Medical Imaging,Unclassified,,false,,,false,,,,,,,No Orange Book entry
+IOPIDINE 1%,Harrow Eye,Neurology & psychiatry,,false,,,false,,,,,,,No Orange Book entry
+BECONASE,GSK (incl. ViiV),Unclassified,,,,,false,,,,,,,No Orange Book entry
+BRYNOVIN,Azurity,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+NAMENDA,AbbVie,Unclassified,,,,,false,,,,,,,No Orange Book entry
+FUZEON,Roche,Unclassified,,,,,false,,,,,,,No Orange Book entry
+EMRELIS,AbbVie,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+RESTORA,Unmatched,Unclassified,,,,,false,,,,,,,No Orange Book entry
+GLYCEROL PHENYLBUTYRATE,Lupin,Rare & genetic disease,,false,,,false,,,,,,,No Orange Book entry
+LENMELDY,Orchard Europe,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+TABLOID,Aspen Global Incorporated,Unclassified,,,,,false,,,,,,,No Orange Book entry
+THROMBATE,Grifols,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ALTACE,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ISUPREL,Bausch Health,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ACTOS,Takeda,Diabetes & obesity,,false,,,false,,,,,,,No Orange Book entry
+CARVEDILOL,Apotex,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
+FOLLISTIM,Merck (MSD),Unclassified,,,,,false,,,,,,,No Orange Book entry
+IMULDOSA,Accord Biopharma,Immunology & inflammation,,true,,,false,,,,,,,Biologic (not in Orange Book)
+DILANTIN,Pfizer,Unclassified,,,,,false,,,,,,,No Orange Book entry
+ANTIVENIN,Merck (MSD),Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+UNITUXIN,United,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+ZEVALIN,Acrotech Biopharma,Unclassified,,true,,,false,,,,,,,Biologic (not in Orange Book)
+AMLODIPINE,Sun Pharma,Cardiovascular,,,,,false,,,,,,,No Orange Book entry
+NAPROSYN,Athena Bioscience,Unclassified,,,,,false,,,,,,,No Orange Book entry
+PROVENTIL,Sandoz,Respiratory & allergy,,,,,false,,,,,,,No Orange Book entry
+TOPICORT,Taro,Respiratory & allergy,,false,,,false,,,,,,,No Orange Book entry
+APTIVUS,Boehringer Ingelheim,Unclassified,,,,,false,,,,,,,No Orange Book entry
