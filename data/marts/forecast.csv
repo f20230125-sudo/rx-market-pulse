@@ -1,0 +1,163 @@
+segment,year,kind,spend,low,high,method
+All market,2019,actual,73049292884,,,
+All market,2020,actual,77713603185,,,
+All market,2021,actual,87883139068,,,
+All market,2022,actual,100073226793,,,
+All market,2023,actual,111742371484,,,
+All market,2024,actual,108317862645,,,
+All market,2025,actual,116891569123,,,
+All market,2026,forecast,119554476127,109110228881,129998723373,drift
+All market,2027,forecast,122278046819,107171166301,137384927338,drift
+Cardiovascular,2019,actual,3008773699,,,
+Cardiovascular,2020,actual,3449960664,,,
+Cardiovascular,2021,actual,4113967580,,,
+Cardiovascular,2022,actual,4774597298,,,
+Cardiovascular,2023,actual,5194162041,,,
+Cardiovascular,2024,actual,5332477047,,,
+Cardiovascular,2025,actual,5613903565,,,
+Cardiovascular,2026,forecast,5836327784,5330713043,6341942526,drift
+Cardiovascular,2027,forecast,6067564505,5324186936,6810942074,drift
+Diabetes & obesity,2019,actual,7015441448,,,
+Diabetes & obesity,2020,actual,7973567678,,,
+Diabetes & obesity,2021,actual,9724667978,,,
+Diabetes & obesity,2022,actual,11889356999,,,
+Diabetes & obesity,2023,actual,15410516055,,,
+Diabetes & obesity,2024,actual,15377275435,,,
+Diabetes & obesity,2025,actual,18377268415,,,
+Diabetes & obesity,2026,forecast,20068404531,17271488502,22865320561,drift
+Diabetes & obesity,2027,forecast,21915164502,17595735759,26234593246,drift
+Endocrine & women's health,2019,actual,2795068607,,,
+Endocrine & women's health,2020,actual,2846846951,,,
+Endocrine & women's health,2021,actual,3042056671,,,
+Endocrine & women's health,2022,actual,3198521161,,,
+Endocrine & women's health,2023,actual,3186383066,,,
+Endocrine & women's health,2024,actual,3129250323,,,
+Endocrine & women's health,2025,actual,3398245338,,,
+Endocrine & women's health,2026,forecast,3398245338,3190906603,3605584074,naive
+Endocrine & women's health,2027,forecast,3398245338,3105024086,3691466590,naive
+Eye & skin,2019,actual,754669964,,,
+Eye & skin,2020,actual,809626344,,,
+Eye & skin,2021,actual,962344262,,,
+Eye & skin,2022,actual,1062653377,,,
+Eye & skin,2023,actual,1229253251,,,
+Eye & skin,2024,actual,1289992162,,,
+Eye & skin,2025,actual,1476823549,,,
+Eye & skin,2026,forecast,1627145282,1544214579,1710075986,log-trend
+Eye & skin,2027,forecast,1804687443,1674608796,1934766090,log-trend
+Gastroenterology,2019,actual,1872816766,,,
+Gastroenterology,2020,actual,2068945101,,,
+Gastroenterology,2021,actual,2347979060,,,
+Gastroenterology,2022,actual,2733523935,,,
+Gastroenterology,2023,actual,3046674705,,,
+Gastroenterology,2024,actual,2829417259,,,
+Gastroenterology,2025,actual,2903586634,,,
+Gastroenterology,2026,forecast,2834582747,2512660336,3156505157,drift
+Gastroenterology,2027,forecast,2767218740,2322771146,3211666334,drift
+HIV,2019,actual,5212808440,,,
+HIV,2020,actual,5616563579,,,
+HIV,2021,actual,5950908585,,,
+HIV,2022,actual,6245988202,,,
+HIV,2023,actual,6582491514,,,
+HIV,2024,actual,6382105261,,,
+HIV,2025,actual,6638337813,,,
+HIV,2026,forecast,6666438388,6327730285,7005146490,drift
+HIV,2027,forecast,6694657915,6213624657,7175691173,drift
+Hematology,2019,actual,3933722148,,,
+Hematology,2020,actual,4132684884,,,
+Hematology,2021,actual,4525980625,,,
+Hematology,2022,actual,4571557276,,,
+Hematology,2023,actual,4906163302,,,
+Hematology,2024,actual,4574603916,,,
+Hematology,2025,actual,4608627266,,,
+Hematology,2026,forecast,4608627266,4286428896,4930825636,naive
+Hematology,2027,forecast,4608627266,4152969961,5064284571,naive
+Immunology & inflammation,2019,actual,6330818453,,,
+Immunology & inflammation,2020,actual,7824769339,,,
+Immunology & inflammation,2021,actual,10513534298,,,
+Immunology & inflammation,2022,actual,13428508458,,,
+Immunology & inflammation,2023,actual,16539185074,,,
+Immunology & inflammation,2024,actual,16791466505,,,
+Immunology & inflammation,2025,actual,18742379881,,,
+Immunology & inflammation,2026,forecast,19951706649,17311289373,22592123926,drift
+Immunology & inflammation,2027,forecast,21239063596,17264011012,25214116180,drift
+Infectious disease (non-HIV),2019,actual,4756353825,,,
+Infectious disease (non-HIV),2020,actual,3916038519,,,
+Infectious disease (non-HIV),2021,actual,3814791914,,,
+Infectious disease (non-HIV),2022,actual,4121506558,,,
+Infectious disease (non-HIV),2023,actual,4172443186,,,
+Infectious disease (non-HIV),2024,actual,3869629108,,,
+Infectious disease (non-HIV),2025,actual,3406019010,,,
+Infectious disease (non-HIV),2026,forecast,3406019010,3060654139,3751383881,naive
+Infectious disease (non-HIV),2027,forecast,3406019010,2917599326,3894438694,naive
+Neurology & psychiatry,2019,actual,14931494701,,,
+Neurology & psychiatry,2020,actual,15302193460,,,
+Neurology & psychiatry,2021,actual,17060601823,,,
+Neurology & psychiatry,2022,actual,19280030936,,,
+Neurology & psychiatry,2023,actual,20254335129,,,
+Neurology & psychiatry,2024,actual,20175297197,,,
+Neurology & psychiatry,2025,actual,21906779629,,,
+Neurology & psychiatry,2026,forecast,22409627970,20367217456,24452038485,log-trend
+Neurology & psychiatry,2027,forecast,23275878718,20275821939,26275935498,log-trend
+Oncology,2019,actual,5088974625,,,
+Oncology,2020,actual,5685536673,,,
+Oncology,2021,actual,6317824169,,,
+Oncology,2022,actual,6988138406,,,
+Oncology,2023,actual,8068882973,,,
+Oncology,2024,actual,7848969352,,,
+Oncology,2025,actual,8650779846,,,
+Oncology,2026,forecast,9168131365,8463105235,9873157496,log-trend
+Oncology,2027,forecast,9747402004,8687347339,10807456668,log-trend
+"Other (vitamins, fluids, diagnostics)",2019,actual,738833891,,,
+"Other (vitamins, fluids, diagnostics)",2020,actual,831454322,,,
+"Other (vitamins, fluids, diagnostics)",2021,actual,874885273,,,
+"Other (vitamins, fluids, diagnostics)",2022,actual,1183167657,,,
+"Other (vitamins, fluids, diagnostics)",2023,actual,1475865087,,,
+"Other (vitamins, fluids, diagnostics)",2024,actual,905972455,,,
+"Other (vitamins, fluids, diagnostics)",2025,actual,632719185,,,
+"Other (vitamins, fluids, diagnostics)",2026,forecast,632719185,309565031,955873339,naive
+"Other (vitamins, fluids, diagnostics)",2027,forecast,632719185,175710198,1089728172,naive
+"Pain, addiction & anesthesia",2019,actual,3620402051,,,
+"Pain, addiction & anesthesia",2020,actual,4024804466,,,
+"Pain, addiction & anesthesia",2021,actual,4342746914,,,
+"Pain, addiction & anesthesia",2022,actual,5060504960,,,
+"Pain, addiction & anesthesia",2023,actual,5508613288,,,
+"Pain, addiction & anesthesia",2024,actual,4610441435,,,
+"Pain, addiction & anesthesia",2025,actual,4572586941,,,
+"Pain, addiction & anesthesia",2026,forecast,4572586941,3827135572,5318038309,naive
+"Pain, addiction & anesthesia",2027,forecast,4572586941,3518359505,5626814376,naive
+Rare & genetic disease,2019,actual,3021060639,,,
+Rare & genetic disease,2020,actual,3822914665,,,
+Rare & genetic disease,2021,actual,4581771084,,,
+Rare & genetic disease,2022,actual,5416923036,,,
+Rare & genetic disease,2023,actual,5994996989,,,
+Rare & genetic disease,2024,actual,6302085057,,,
+Rare & genetic disease,2025,actual,6655279601,,,
+Rare & genetic disease,2026,forecast,7012210972,6447014620,7577407323,drift
+Rare & genetic disease,2027,forecast,7388285040,6546108740,8230461339,drift
+Respiratory & allergy,2019,actual,6350354588,,,
+Respiratory & allergy,2020,actual,6372513717,,,
+Respiratory & allergy,2021,actual,6855139112,,,
+Respiratory & allergy,2022,actual,7541784674,,,
+Respiratory & allergy,2023,actual,7731687295,,,
+Respiratory & allergy,2024,actual,6660182585,,,
+Respiratory & allergy,2025,actual,6716087867,,,
+Respiratory & allergy,2026,forecast,6716087867,5917006568,7515169166,naive
+Respiratory & allergy,2027,forecast,6716087867,5586016256,7846159477,naive
+Unclassified,2019,actual,2897084549,,,
+Unclassified,2020,actual,2288343960,,,
+Unclassified,2021,actual,2149316739,,,
+Unclassified,2022,actual,1941172161,,,
+Unclassified,2023,actual,1810471216,,,
+Unclassified,2024,actual,1601214346,,,
+Unclassified,2025,actual,1958771689,,,
+Unclassified,2026,forecast,2037416952,1770894943,2303938960,drift
+Unclassified,2027,forecast,2119219845,1727167394,2511272295,drift
+Urology & renal,2019,actual,720614493,,,
+Urology & renal,2020,actual,746838862,,,
+Urology & renal,2021,actual,704622981,,,
+Urology & renal,2022,actual,635291699,,,
+Urology & renal,2023,actual,630247311,,,
+Urology & renal,2024,actual,637483204,,,
+Urology & renal,2025,actual,633372895,,,
+Urology & renal,2026,forecast,633372895,601410601,665335188,naive
+Urology & renal,2027,forecast,633372895,588171386,678574403,naive

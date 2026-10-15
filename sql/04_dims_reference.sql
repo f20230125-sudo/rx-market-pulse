@@ -2,10 +2,11 @@
 
 -- ---------------------------------------------------------------- states
 create or replace table dim_state as
-select r.state, e.state_name, r.census_region, r.census_division, e.expanded_medicaid
+select r.state, r.state_name, r.census_region, r.census_division, cast(r.is_state as boolean) as is_state,
+       e.expanded_medicaid
 from read_csv('{ref_dir}/states.csv', header = true) r
-join (
-    select distinct on (state) state, state_name, expanded_medicaid
+left join (
+    select distinct on (state) state, expanded_medicaid
     from stg_enrollment
     order by state, year desc, month desc
 ) e using (state);

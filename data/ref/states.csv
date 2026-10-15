@@ -1,52 +1,53 @@
-state,census_region,census_division
-AL,South,East South Central
-AK,West,Pacific
-AZ,West,Mountain
-AR,South,West South Central
-CA,West,Pacific
-CO,West,Mountain
-CT,Northeast,New England
-DE,South,South Atlantic
-DC,South,South Atlantic
-FL,South,South Atlantic
-GA,South,South Atlantic
-HI,West,Pacific
-ID,West,Mountain
-IL,Midwest,East North Central
-IN,Midwest,East North Central
-IA,Midwest,West North Central
-KS,Midwest,West North Central
-KY,South,East South Central
-LA,South,West South Central
-ME,Northeast,New England
-MD,South,South Atlantic
-MA,Northeast,New England
-MI,Midwest,East North Central
-MN,Midwest,West North Central
-MS,South,East South Central
-MO,Midwest,West North Central
-MT,West,Mountain
-NE,Midwest,West North Central
-NV,West,Mountain
-NH,Northeast,New England
-NJ,Northeast,Middle Atlantic
-NM,West,Mountain
-NY,Northeast,Middle Atlantic
-NC,South,South Atlantic
-ND,Midwest,West North Central
-OH,Midwest,East North Central
-OK,South,West South Central
-OR,West,Pacific
-PA,Northeast,Middle Atlantic
-RI,Northeast,New England
-SC,South,South Atlantic
-SD,Midwest,West North Central
-TN,South,East South Central
-TX,South,West South Central
-UT,West,Mountain
-VT,Northeast,New England
-VA,South,South Atlantic
-WA,West,Pacific
-WV,South,South Atlantic
-WI,Midwest,East North Central
-WY,West,Mountain
+state,state_name,census_region,census_division,is_state
+AL,Alabama,South,East South Central,true
+AK,Alaska,West,Pacific,true
+AZ,Arizona,West,Mountain,true
+AR,Arkansas,South,West South Central,true
+CA,California,West,Pacific,true
+CO,Colorado,West,Mountain,true
+CT,Connecticut,Northeast,New England,true
+DE,Delaware,South,South Atlantic,true
+DC,District of Columbia,South,South Atlantic,true
+FL,Florida,South,South Atlantic,true
+GA,Georgia,South,South Atlantic,true
+HI,Hawaii,West,Pacific,true
+ID,Idaho,West,Mountain,true
+IL,Illinois,Midwest,East North Central,true
+IN,Indiana,Midwest,East North Central,true
+IA,Iowa,Midwest,West North Central,true
+KS,Kansas,Midwest,West North Central,true
+KY,Kentucky,South,East South Central,true
+LA,Louisiana,South,West South Central,true
+ME,Maine,Northeast,New England,true
+MD,Maryland,South,South Atlantic,true
+MA,Massachusetts,Northeast,New England,true
+MI,Michigan,Midwest,East North Central,true
+MN,Minnesota,Midwest,West North Central,true
+MS,Mississippi,South,East South Central,true
+MO,Missouri,Midwest,West North Central,true
+MT,Montana,West,Mountain,true
+NE,Nebraska,Midwest,West North Central,true
+NV,Nevada,West,Mountain,true
+NH,New Hampshire,Northeast,New England,true
+NJ,New Jersey,Northeast,Middle Atlantic,true
+NM,New Mexico,West,Mountain,true
+NY,New York,Northeast,Middle Atlantic,true
+NC,North Carolina,South,South Atlantic,true
+ND,North Dakota,Midwest,West North Central,true
+OH,Ohio,Midwest,East North Central,true
+OK,Oklahoma,South,West South Central,true
+OR,Oregon,West,Pacific,true
+PA,Pennsylvania,Northeast,Middle Atlantic,true
+RI,Rhode Island,Northeast,New England,true
+SC,South Carolina,South,South Atlantic,true
+SD,South Dakota,Midwest,West North Central,true
+TN,Tennessee,South,East South Central,true
+TX,Texas,South,West South Central,true
+UT,Utah,West,Mountain,true
+VT,Vermont,Northeast,New England,true
+VA,Virginia,South,South Atlantic,true
+WA,Washington,West,Pacific,true
+WV,West Virginia,South,South Atlantic,true
+WI,Wisconsin,Midwest,East North Central,true
+WY,Wyoming,West,Mountain,true
+PR,Puerto Rico,Territory,Puerto Rico,false

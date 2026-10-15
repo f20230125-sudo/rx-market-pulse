@@ -17,6 +17,7 @@ from __future__ import annotations
 import sys
 import time
 import zipfile
+from datetime import datetime
 from pathlib import Path
 
 import duckdb
@@ -139,8 +140,10 @@ def model(con: duckdb.DuckDBPyConnection) -> None:
 def marts(con: duckdb.DuckDBPyConnection) -> None:
     print("marts")
     MARTS.mkdir(parents=True, exist_ok=True)
-    for name in sorted(p.name for p in SQL_DIR.glob("0[6-9]*.sql")):
-        _run_sql(con, name, marts_dir=MARTS.as_posix(), ref_dir=REF.as_posix())
+    # The Orange Book is a monthly download; its file date is the "as of" date for protection status.
+    as_of = datetime.fromtimestamp((RAW / "orange_book.zip").stat().st_mtime).date().isoformat()
+    for name in sorted(p.name for p in SQL_DIR.glob("[0-9][0-9]*.sql") if int(p.name[:2]) >= 6):
+        _run_sql(con, name, marts_dir=MARTS.as_posix(), ref_dir=REF.as_posix(), as_of=as_of)
 
 
 LAYERS = {"stage": stage, "model": model, "marts": marts}
