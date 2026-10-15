@@ -1,0 +1,18 @@
+priority,area,pattern
+10,HIV,Human Immunodeficiency Virus|\bHIV\b
+15,Immunology & inflammation,Janus Kinase
+20,Oncology,Kinase Inhibitor|Programmed Death|PD-L1|CTLA-4|HER2|CD38|CD30|CD19|CD22|CD33|BCMA|Poly\(ADP|Androgen Receptor Inhibitor|Thalidomide Analog|Antimetabolite|Alkylating|Aromatase Inhibitor|Estrogen Receptor Antagonist|Proteasome|Hedgehog|BCL-2|Histone Deacetylase|Topoisomerase|Vinca|Taxane|Anthracycline|Platinum|Nucleoside Metabolic Inhibitor|Epidermal Growth Factor|mTOR Inhibitor|Cyclin-dependent|CD20-directed
+25,Rare & genetic disease,Insulin-like Growth Factor-1 Receptor
+30,Immunology & inflammation,Interleukin[- ](4|17|12|23|6|1|13|31)|Tumor Necrosis Factor|Phosphodiesterase 4|Integrin Receptor|Selective T Cell Costimulation|B Lymphocyte Stimulator|Lymphocyte Function|Calcineurin|Immunosuppressant
+40,Respiratory & allergy,Interleukin[- ]5|beta2-Agonist|Thymic Stromal|Anti-IgE|beta2-Adrenergic Agonist|Leukotriene|Histamine-1|Antihistamine|Methylxanthine|Anticholinergic|Corticosteroid
+50,Diabetes & obesity,GLP-1|Glucagon-Like Peptide 1|Sodium-Glucose|Insulin|Dipeptidyl Peptidase 4|Biguanide|Glucose-dependent Insulinotropic|Antihypoglycemic|Sulfonylurea|Thiazolidinedione|Amylin|alpha-Glucosidase Inhibitor
+60,Cardiovascular,Factor Xa|Angiotensin|beta-Adrenergic Blocker|Calcium Channel|HMG-CoA|PCSK9|P2Y12|Endothelin|Prostacycl|Soluble Guanylate|Diuretic|Nitrate|Vasodilator|Antiarrhythmic|Thrombin Inhibitor|Vitamin K Antagonist|Cholesterol Absorption|Bile Acid Sequestrant|Fibrate|Platelet Aggregation|alpha-Adrenergic Blocker|Central alpha-2|Aldosterone|Neprilysin
+70,Neurology & psychiatry,Antipsychotic|Central Nervous System (Stimulant|Stimulation|Depression)|Anti-epileptic|Vesicular Monoamine|Calcitonin Gene|Serotonin Reuptake|Benzodiazepine|Aminoketone|Mood Stabilizer|Norepinephrine Reuptake|AMPA|Histamine-3|gamma-Aminobutyric|Central Nervous System Depressant|Disorganized Electrical|Cholinesterase|NMDA|Dopamine|Sphingosine|Acetylcholine Release|Serotonin-1|Barbiturate|Tricyclic|Monoamine Oxidase|Orexin
+80,Gastroenterology,Laxative|Intestinal Motility|Guanylate Cyclase-C|Proton Pump|Histamine-2|Ileal Bile|Aminosalicylate|Serotonin-3|Substance P
+90,"Pain, addiction & anesthesia",Opioid|Nonsteroidal|Anesthetic|Neuromuscular Blocker|Muscle Relaxant|Cyclooxygenase
+100,Rare & genetic disease,Antisense|Survival of Motor|Lysosomal|Alkaline Phosphatase|Nitrogen Binding|Kallikrein|Cystine Depleting|Hemoglobin S|Cystic Fibrosis|Deoxyribonuclease|Complement Inhibitor|Uric Acid|Chaperone|Enzyme
+110,Hematology,Thrombopoietin|Erythropoiesis|Coagulation Factor|Leukocyte Growth|\bIron\b|Immunoglobulin|Hematopoietic|Hemostatic
+120,Endocrine & women's health,Growth Hormone|Progesterone|Thyroxine|Progestin|Estrogen|Androgen|Gonadotropin|Somatostatin|Parathyroid|RANK Ligand|Bisphosphonate|Vitamin D|Corticotropin|Thyroid
+130,Infectious disease (non-HIV),Antibacterial|Antimicrobial|Antifungal|Antiviral|Hepatitis|Antiparasitic|Antiprotozoal|Penicillin|Cephalosporin|Macrolide|Lincosamide|Aminoglycoside|Rifamycin|Fluoroquinolone|Azole|Polymerase|Neuraminidase|Cytomegalovirus|Herpes|Influenza|Protease Inhibitor|NS5A|NS3|Nucleoside Analog
+140,Eye & skin,Retinoid|Vascular Endothelial Growth Factor|Keratolytic|Ophthalmic
+150,Urology & renal,beta3|Phosphate Binder|Antimuscarinic|5-alpha Reductase|Potassium Binder|Calcimimetic

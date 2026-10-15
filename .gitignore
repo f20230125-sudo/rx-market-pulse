@@ -1,0 +1,12 @@
+# Raw downloads and the built warehouse are rebuilt from public sources; marts and reference files are committed.
+data/raw/
+data/warehouse/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+node_modules/
+.next/
+out/
+*.log
+~$*.xlsx
