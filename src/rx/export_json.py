@@ -206,18 +206,9 @@ def export_states(con, areas) -> None:
 
 
 def export_forecast() -> None:
-    fc: dict = {}
-    for r in csv.DictReader(open(MARTS / "forecast.csv", encoding="utf-8")):
-        seg = ALL if r["segment"] == "All market" else r["segment"]
-        slot = fc.setdefault(seg, {"actual": [], "forecast": [], "backtest": []})
-        if r["kind"] == "actual":
-            slot["actual"].append(float(r["spend"]))
-        else:
-            slot["forecast"].append({"year": int(r["year"]), "spend": float(r["spend"]), "low": float(r["low"]), "high": float(r["high"]), "method": r["method"]})
-    for r in csv.DictReader(open(MARTS / "forecast_backtest.csv", encoding="utf-8")):
-        seg = ALL if r["segment"] == "All market" else r["segment"]
-        fc[seg]["backtest"].append({"method": r["method"], "mape": float(r["mape_pct"]), "beatsNaive": r["beats_naive"] == "True", "chosen": r["chosen"] == "True"})
-    _write("forecast.json", fc)
+    from .quarterly import export
+    with connect() as con:
+        export(con)
 
 
 def export_quality() -> None:

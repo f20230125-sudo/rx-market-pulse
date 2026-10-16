@@ -1,0 +1,10 @@
+{
+  "repository": "f20230125-sudo/trial-pipeline-benchmark",
+  "commit": "dacf6c12d6c60311e99b94928b4903e8f93f2c33",
+  "files": {
+    "meta.json": "95c232d682e3661533e0be75bb3abe0cb7f2e3a7d8a11d25f63c669d74834ad6",
+    "revenue.json": "fc4e2952a9b16956e3a7e7817670326ca6712d2d1951b1587f22e3878290fe72",
+    "msd_active.json": "b3d3d7d87bd8e2de1eed2b79276f636843b46ee821948696163fa017b40bad9f"
+  },
+  "source": "https://github.com/f20230125-sudo/trial-pipeline-benchmark/tree/dacf6c12d6c60311e99b94928b4903e8f93f2c33"
+}

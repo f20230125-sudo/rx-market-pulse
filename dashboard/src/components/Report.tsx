@@ -8,6 +8,7 @@ import { OwnerBars, ProductRows } from "./charts/Companies";
 import { ErosionChart, ProtectedList, ProtectionChart } from "./charts/Lifecycle";
 import { StateCallout, TileMap } from "./charts/States";
 import { ForecastChart, QualityTable } from "./charts/Outlook";
+import { QuarterlyAudit } from "./QuarterlyAudit";
 import { areaGrowth, kpis, medianAt, medianCurve, protectionBars, stateRows, topOwners, waterfall } from "@/lib/derive";
 import { count, pct, signedPct, usd } from "@/lib/format";
 import { ALL, type Dataset } from "@/lib/schema";
@@ -92,6 +93,7 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
             <li>US Medicaid only, before manufacturer rebates</li>
             <li>99.9% of spend matched to a manufacturer</li>
             <li><a href="#quality">How far to trust it</a></li>
+            <li><a href="/ask">Ask the commercial analyst</a></li>
           </ul>
         </div>
       </header>
@@ -206,9 +208,10 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
         <Section
           id="outlook" num="7"
           title={<>A range, not a prediction: {usd(lastFc.low, 0)} to {usd(lastFc.high, 0)} by {lastFc.year}</>}
-          dek="With seven annual points the forecast is deliberately simple. What makes it honest is the backtest: each method forecast the years it had not yet seen, and the range comes from how far it missed."
+          dek="Built from 28 quarters. Model selection ends in 2023; the separate 2024–2025 test shows how the frozen choice performs. Annual figures sum quarterly forecasts."
         >
           <ForecastChart data={fc} years={years} scope={scope} />
+          <QuarterlyAudit data={fc.quarterly} />
         </Section>
 
         <Section
