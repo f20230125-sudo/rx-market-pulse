@@ -116,9 +116,9 @@ export function Intelligence({ mode }: { mode: string }) {
               style={{
                 font: "inherit",
                 padding: "10px 18px",
-                background: "var(--teal)",
+                  background: "var(--teal-text)",
                 color: "var(--paper)",
-                border: "1px solid var(--teal)",
+                  border: "1px solid var(--teal-text)",
                 borderRadius: 6,
                 cursor: busy ? "wait" : "pointer",
               }}
