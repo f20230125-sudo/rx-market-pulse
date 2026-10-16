@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState, type ReactNode } from "react";
+import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 import { SpendColumns, ShareBars } from "./charts/Market";
 import { AreaIncrease, Waterfall } from "./charts/Growth";
@@ -81,6 +82,7 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
         <div className="shell">
           <div className="mast-top">
             <p className="kicker"><b>Rx Market Pulse</b> · a commercial-analytics case study by Mohammad Uzair Khan</p>
+            <Link className="analyst-link" href="/ask">Ask the analyst <span aria-hidden="true">→</span></Link>
           </div>
           <h1>What Medicaid pays for prescription drugs, and why the bill keeps growing</h1>
           <p className="lede">
@@ -93,7 +95,6 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
             <li>US Medicaid only, before manufacturer rebates</li>
             <li>99.9% of spend matched to a manufacturer</li>
             <li><a href="#quality">How far to trust it</a></li>
-            <li><a href="/ask">Ask the commercial analyst</a></li>
           </ul>
         </div>
       </header>
@@ -110,6 +111,7 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
           <nav aria-label="Sections">
             <a href="#growth">Growth</a><a href="#sellers">Companies</a><a href="#generics">Generics</a><a href="#protection">Patents</a><a href="#states">States</a><a href="#outlook">Outlook</a><a href="#quality">Quality</a>
           </nav>
+          <Link className="analyst-link" href="/ask">Ask the analyst <span aria-hidden="true">→</span></Link>
           <ThemeToggle />
         </div>
       </div>
