@@ -195,13 +195,20 @@ table mart_review_queue
 		summarizeBy: none
 		sourceColumn: next_step
 
+	column review_rank
+		dataType: int64
+		formatString: 0
+		lineageTag: 3e13d49b-12f1-5edf-b659-a16415862baf
+		summarizeBy: none
+		sourceColumn: review_rank
+
 	partition mart_review_queue = m
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents(DataFolder & "mart_review_queue.csv"), [Delimiter=",", Columns=29, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Source = Csv.Document(File.Contents(DataFolder & "mart_review_queue.csv"), [Delimiter=",", Columns=30, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
 				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
-				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"plan_key", type text}, {"contract_id", type text}, {"plan_id", type text}, {"plan_name", type text}, {"organization", type text}, {"formulary_id", type text}, {"region_code", Int64.Type}, {"region", type text}, {"suppressed", type text}, {"formulary_complete", Int64.Type}, {"plan_source_row", Int64.Type}, {"enrollment", Int64.Type}, {"enrollment_source_row", Int64.Type}, {"brand", type text}, {"catalog_strengths", Int64.Type}, {"listed_strengths", Int64.Type}, {"listing", type text}, {"all_strengths_listed", Int64.Type}, {"any_strength_listed", Int64.Type}, {"pa", type text}, {"st", type text}, {"ql", type text}, {"any_no_pa_st", Int64.Type}, {"indication_note", type text}, {"listed_competitors", type text}, {"investigation", type text}, {"lost_strengths", type text}, {"next_step", type text}}, "en-US")
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"plan_key", type text}, {"contract_id", type text}, {"plan_id", type text}, {"plan_name", type text}, {"organization", type text}, {"formulary_id", type text}, {"region_code", Int64.Type}, {"region", type text}, {"suppressed", type text}, {"formulary_complete", Int64.Type}, {"plan_source_row", Int64.Type}, {"enrollment", Int64.Type}, {"enrollment_source_row", Int64.Type}, {"brand", type text}, {"catalog_strengths", Int64.Type}, {"listed_strengths", Int64.Type}, {"listing", type text}, {"all_strengths_listed", Int64.Type}, {"any_strength_listed", Int64.Type}, {"pa", type text}, {"st", type text}, {"ql", type text}, {"any_no_pa_st", Int64.Type}, {"indication_note", type text}, {"listed_competitors", type text}, {"investigation", type text}, {"lost_strengths", type text}, {"next_step", type text}, {"review_rank", Int64.Type}}, "en-US")
 				in
 				    Typed
 

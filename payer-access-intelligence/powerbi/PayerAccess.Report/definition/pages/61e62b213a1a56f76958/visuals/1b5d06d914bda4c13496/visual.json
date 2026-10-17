@@ -23,6 +23,21 @@
                       "Entity": "mart_review_queue"
                     }
                   },
+                  "Property": "review_rank"
+                }
+              },
+              "queryRef": "mart_review_queue.review_rank",
+              "nativeQueryRef": "review_rank",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
                   "Property": "plan_key"
                 }
               },
@@ -148,10 +163,10 @@
                     "Entity": "mart_review_queue"
                   }
                 },
-                "Property": "enrollment"
+                "Property": "review_rank"
               }
             },
-            "direction": "Descending"
+            "direction": "Ascending"
           }
         ]
       }
