@@ -1,0 +1,239 @@
+{
+  "engine": "LibreOffice Calc",
+  "microsoft_excel_validated": false,
+  "status": "passed",
+  "scenarios": [
+    {
+      "scenario": 0,
+      "brand": "BELSOMRA",
+      "view": "Any strength",
+      "region": "All regions",
+      "month": "2026-08",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 367,
+        "F12": 277,
+        "C16": 0.7547683923705722,
+        "F16": 0.8050750882923637,
+        "C20": 18946429,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 367,
+        "F12": 277,
+        "C16": 0.754768392370572,
+        "F16": 0.805075088292364,
+        "C20": 18946429,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 1,
+      "brand": "DAYVIGO",
+      "view": "Any strength",
+      "region": "All regions",
+      "month": "2026-08",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 367,
+        "F12": 76,
+        "C16": 0.20708446866485014,
+        "F16": 0.177493922469506,
+        "C20": 18946429,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 367,
+        "F12": 76,
+        "C16": 0.20708446866485,
+        "F16": 0.177493922469506,
+        "C20": 18946429,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 2,
+      "brand": "QUVIVIQ",
+      "view": "All strengths",
+      "region": "All regions",
+      "month": "2026-01",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 367,
+        "F12": 39,
+        "C16": 0.10626702997275204,
+        "F16": 0.09981103681187044,
+        "C20": 18594627,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 367,
+        "F12": 39,
+        "C16": 0.106267029972752,
+        "F16": 0.0998110368118704,
+        "C20": 18594627,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 3,
+      "brand": "BELSOMRA",
+      "view": "10 mg",
+      "region": "All regions",
+      "month": "2026-08",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 367,
+        "F12": 277,
+        "C16": 0.7547683923705722,
+        "F16": 0.8050750882923637,
+        "C20": 18946429,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 367,
+        "F12": 277,
+        "C16": 0.754768392370572,
+        "F16": 0.805075088292364,
+        "C20": 18946429,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 4,
+      "brand": "BELSOMRA",
+      "view": "Any strength",
+      "region": "AL / TN",
+      "month": "2026-08",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 12,
+        "F12": 8,
+        "C16": 0.6666666666666666,
+        "F16": 0.8397238336708958,
+        "C20": 603839,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 12,
+        "F12": 8,
+        "C16": 0.666666666666667,
+        "F16": 0.839723833670896,
+        "C20": 603839,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 5,
+      "brand": "BELSOMRA",
+      "view": "Any strength",
+      "region": "All regions",
+      "month": "2026-08",
+      "minimum_enrollment": 10000,
+      "expected": {
+        "C12": 278,
+        "F12": 216,
+        "C16": 0.7769784172661871,
+        "F16": 0.8070877899048968,
+        "C20": 18487399,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 278,
+        "F12": 216,
+        "C16": 0.776978417266187,
+        "F16": 0.807087789904897,
+        "C20": 18487399,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 6,
+      "brand": "DAYVIGO",
+      "view": "20 mg",
+      "region": "All regions",
+      "month": "2026-08",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 0,
+        "F12": 0,
+        "C16": null,
+        "F16": null,
+        "C20": 0,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 0,
+        "F12": 0,
+        "C16": null,
+        "F16": null,
+        "C20": 0,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "scenario": 7,
+      "brand": "BELSOMRA",
+      "view": "All strengths",
+      "region": "All regions",
+      "month": "2026-01",
+      "minimum_enrollment": 0,
+      "expected": {
+        "C12": 367,
+        "F12": 277,
+        "C16": 0.7547683923705722,
+        "F16": 0.7953722330649601,
+        "C20": 18594627,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "actual": {
+        "C12": 367,
+        "F12": 277,
+        "C16": 0.754768392370572,
+        "F16": 0.79537223306496,
+        "C20": 18594627,
+        "F20": 0,
+        "C24": 0,
+        "F24": 0
+      },
+      "status": "PASS"
+    }
+  ]
+}

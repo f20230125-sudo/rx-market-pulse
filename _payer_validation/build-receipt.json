@@ -1,0 +1,24 @@
+{
+  "mode": "real",
+  "snapshots": [
+    "2026-01",
+    "2026-08"
+  ],
+  "rows": {
+    "dim_snapshot": 2,
+    "dim_brand": 3,
+    "dim_plan": 367,
+    "fact_brand": 2202,
+    "fact_strength": 5872,
+    "fact_change": 2936,
+    "fact_brand_change": 1101,
+    "mart_summary": 6,
+    "mart_change_summary": 3,
+    "mart_review_queue": 70,
+    "mart_quality": 9,
+    "mart_source_counts": 6,
+    "mart_quarantine": 4
+  },
+  "status": "passed",
+  "source_manifest_sha256": "d3954595dd341da4e8f74362b199bb54831cda524df3d3a4d78991d44d0a9906"
+}

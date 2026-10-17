@@ -1,0 +1,7 @@
+{
+  "validator": "Microsoft published Power BI JSON schemas",
+  "status": "passed",
+  "files": 53,
+  "errors": [],
+  "desktop_rendered": false
+}
