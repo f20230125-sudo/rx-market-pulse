@@ -1,0 +1,66 @@
+[
+  {
+    "brand": "BELSOMRA",
+    "ingredient": "suvorexant",
+    "strength_mg": 10.0,
+    "rxcui": "1547110",
+    "name": "suvorexant 10 MG Oral Tablet [Belsomra]",
+    "setid": "e5b72731-1acb-45b7-9c13-290ad12d3951"
+  },
+  {
+    "brand": "BELSOMRA",
+    "ingredient": "suvorexant",
+    "strength_mg": 15.0,
+    "rxcui": "1547114",
+    "name": "suvorexant 15 MG Oral Tablet [Belsomra]",
+    "setid": "e5b72731-1acb-45b7-9c13-290ad12d3951"
+  },
+  {
+    "brand": "BELSOMRA",
+    "ingredient": "suvorexant",
+    "strength_mg": 20.0,
+    "rxcui": "1547118",
+    "name": "suvorexant 20 MG Oral Tablet [Belsomra]",
+    "setid": "e5b72731-1acb-45b7-9c13-290ad12d3951"
+  },
+  {
+    "brand": "BELSOMRA",
+    "ingredient": "suvorexant",
+    "strength_mg": 5.0,
+    "rxcui": "1547575",
+    "name": "suvorexant 5 MG Oral Tablet [Belsomra]",
+    "setid": "e5b72731-1acb-45b7-9c13-290ad12d3951"
+  },
+  {
+    "brand": "DAYVIGO",
+    "ingredient": "lemborexant",
+    "strength_mg": 5.0,
+    "rxcui": "2272414",
+    "name": "lemborexant 5 MG Oral Tablet [Dayvigo]",
+    "setid": "7074cb65-77b3-45d2-8e8d-da8dc0f70bfd"
+  },
+  {
+    "brand": "DAYVIGO",
+    "ingredient": "lemborexant",
+    "strength_mg": 10.0,
+    "rxcui": "2288427",
+    "name": "lemborexant 10 MG Oral Tablet [Dayvigo]",
+    "setid": "7074cb65-77b3-45d2-8e8d-da8dc0f70bfd"
+  },
+  {
+    "brand": "QUVIVIQ",
+    "ingredient": "daridorexant",
+    "strength_mg": 25.0,
+    "rxcui": "2591508",
+    "name": "daridorexant 25 MG Oral Tablet [Quviviq]",
+    "setid": "3a2d1503-b816-40c9-9fac-7e03c5a3bcef"
+  },
+  {
+    "brand": "QUVIVIQ",
+    "ingredient": "daridorexant",
+    "strength_mg": 50.0,
+    "rxcui": "2599098",
+    "name": "daridorexant 50 MG Oral Tablet [Quviviq]",
+    "setid": "3a2d1503-b816-40c9-9fac-7e03c5a3bcef"
+  }
+]
