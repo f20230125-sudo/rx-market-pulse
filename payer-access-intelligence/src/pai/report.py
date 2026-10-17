@@ -149,12 +149,12 @@ def report(preview=False):
     page=page_header(memo,'PORTFOLIO CASE STUDY / 2 OF 2','A reproducible answer, with practical limits',
                      'Independent work using public US data. No MSD affiliation or internal data is claimed.',2,preview)
     text(page,(30,149,397,178),'Data and harmonization',15,INK,True)
-    text(page,(30,187,397,346),f"Original CMS archives and NLM product references are downloaded and hashed. {full_rows:,} formulary records become a 367-plan cohort with eight product strengths. Package records are reduced before enrollment joins. Shared formularies stay shared, missing source access stays unknown, and unkeyed enrollment rows are quarantined.",12)
+    text(page,(30,187,397,346),f"Original CMS archives and NLM product references are downloaded and hashed. {full_rows:,} formulary records become a {b['plan_count']}-plan cohort with eight product strengths. Package records are reduced before enrollment joins. Shared formularies stay shared, missing source access stays unknown, and unkeyed enrollment rows are quarantined.",12)
     text(page,(439,149,812,178),'Business use',15,INK,True)
     text(page,(439,187,812,346),'Use the Power BI report to compare brands, inspect a region and trace a strength-level difference. Use Excel to change the brand, strength view, region, snapshot and enrollment threshold. Use the investigation queue to prepare payer questions supported by exact plan and formulary identifiers.',12)
     line(page,363,842)
     text(page,(30,382,812,412),'Validation and delivery status',15,INK,True)
-    text(page,(30,421,812,520),'Delivered: source manifests, normalized marts, automated analytical tests, independent source audit, live-formula Excel workbook, four-page Power BI project and static PDF report. Desktop validation is recorded separately: this environment cannot automate Excel because its logon session is unavailable. The Power BI project is not described as a Desktop-validated PBIX.',12)
+    text(page,(30,421,812,520),'Delivered: source manifests, SQL marts, source audit, live-formula workbook, Power BI project and PDF report. Eight workbook scenarios passed LibreOffice Calc; 53 Power BI JSON files passed Microsoft schemas, and the model passed Microsoft TMDL parsing. Excel COM and Desktop rendering remain pending because an interactive logon session is unavailable. No Desktop-validated PBIX is claimed.',12)
     memo.save(out/'Payer-Access-Case-Study.pdf');memo.close()
     md='# Payer Access Intelligence\n\n'+ '\n\n'.join(findings)+'\n\nThese are descriptive US standalone PDP findings. Enrollment is not drug users, and the queue is not a revenue estimate.\n'
     (out/'findings.md').write_text(md,encoding='utf-8')

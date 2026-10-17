@@ -37,6 +37,11 @@ jobs:
       - name: Evaluate eight workbook scenarios in LibreOffice Calc
         working-directory: payer-access-intelligence
         run: python tools/verify_calc.py
+      - name: Build reviewable portfolio deliverables
+        working-directory: payer-access-intelligence
+        run: |
+          pai report
+          python tools/package.py
       - name: Record results on this isolated branch
         if: always()
         run: |
@@ -46,7 +51,8 @@ jobs:
           done
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _payer_validation
+          git add _payer_validation payer-access-intelligence/data/extracts payer-access-intelligence/data/marts payer-access-intelligence/powerbi payer-access-intelligence/excel
+          git add payer-access-intelligence/outputs/*.pdf payer-access-intelligence/outputs/*.png payer-access-intelligence/outputs/findings.md
           git diff --cached --quiet || git commit -m "Record payer access analytical and spreadsheet validation"
           git push origin HEAD:work/payer-access-source-check
       - uses: actions/upload-artifact@v4

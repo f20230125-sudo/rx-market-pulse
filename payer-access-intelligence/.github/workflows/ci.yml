@@ -1,0 +1,37 @@
+name: Verify payer access analysis
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  analytical-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e '.[test]' jsonschema
+      - run: |
+          pai import-slices
+          pai build
+          pai export
+          python -m pytest -q --junitxml=outputs/tests.xml
+          python -c "from pai.verify import source_audit; from pai.config import ROOT; import duckdb; print(source_audit(ROOT,duckdb.connect(str(ROOT/'data/warehouse/access.duckdb'),read_only=True)))"
+          python tools/validate_pbir.py
+      - name: Independently recalculate workbook scenarios
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libreoffice-calc
+          python tools/verify_calc.py
+      - run: pai report
+      - uses: actions/upload-artifact@v4
+        with:
+          name: payer-access-report
+          path: |
+            outputs/*.pdf
+            outputs/*.json
+            outputs/source-audit.csv
+            outputs/tests.xml
+            excel/Payer-Access-Intelligence.xlsx
+            powerbi/

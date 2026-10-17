@@ -9,7 +9,7 @@ import pytest
 from pai.build import prepare
 from pai.config import ROOT
 from pai.fetch import formulary_url, unpack_tables
-from pai.normalize import enrollment, flag, identifier, ndc11
+from pai.normalize import enrollment, flag, identifier, ndc11, text_encoding
 from pai.preview import seed
 
 
@@ -94,3 +94,60 @@ def test_nested_archive_selection(tmp_path):
     result=unpack_tables(outer,tmp_path/'out')
     assert set(result)=={'plans','formulary'}
     assert not (tmp_path/'out/pharmacy network.txt').exists()
+
+
+def test_original_windows_encoding_is_preserved(tmp_path):
+    p=tmp_path/'plans.txt';p.write_bytes('PLAN_NAME\nDÓCUMENT\n'.encode('cp1252'))
+    assert text_encoding(p)=='cp1252'
+    p.write_bytes('PLAN_NAME\nDÓCUMENT\n'.encode('utf-8-sig'))
+    assert text_encoding(p)=='utf-8-sig'
+
+
+def test_blank_plan_id_is_quarantined(tmp_path):
+    seed(tmp_path)
+    p=tmp_path/'data/raw/2026-01/enrollment.csv'
+    with p.open('a',encoding='utf-8') as f:f.write('S9999,,*\n')
+    prepare(tmp_path/'data/raw',tmp_path/'stage')
+    rows=list(csv.DictReader((tmp_path/'stage/quarantine.csv').open(encoding='utf-8-sig')))
+    assert len(rows)==1 and rows[0]['contract_id']=='S9999'
+    assert 'Blank plan ID' in rows[0]['reason']
+
+
+def test_conflicting_plan_assignment_rejected(tmp_path):
+    seed(tmp_path)
+    p=tmp_path/'data/raw/2026-01/plans.txt'
+    rows=list(csv.DictReader(p.open(encoding='utf-8-sig'),delimiter='|'))
+    with p.open('a',encoding='utf-8',newline='') as f:
+        row=rows[0].copy();row['FORMULARY_ID']='99999999'
+        csv.DictWriter(f,fieldnames=list(rows[0]),delimiter='|').writerow(row)
+    with pytest.raises(ValueError,match='Conflicting duplicate plan'):prepare(tmp_path/'data/raw',tmp_path/'stage')
+
+
+def test_fixed_cohort_uses_latest_weights(warehouse):
+    denominator=warehouse.execute('SELECT fixed_enrollment_denominator FROM mart_change_summary WHERE brand=\'BELSOMRA\'').fetchone()[0]
+    # Plans 5 and 6 have unknown access, plan 7 unknown enrollment; entry and exit are excluded.
+    assert denominator==sum(i*1000+100 for i in [1,2,3,4,8,9,10])
+    before,after=warehouse.execute("SELECT baseline_rate_fixed_weights,latest_rate_fixed_weights FROM mart_change_summary WHERE brand='BELSOMRA'").fetchone()
+    assert before>after
+
+
+def test_tampered_transport_is_rejected(tmp_path):
+    seed(tmp_path)
+    p=tmp_path/'data/raw/manifest.json';m=json.loads(p.read_text())
+    m.update(transport='filtered',ci_run_url='https://github.com/example/repo/actions/runs/1',
+             transport_files=[{'path':'2026-01/plans.txt','sha256':'0'*64}])
+    p.write_text(json.dumps(m))
+    with pytest.raises(ValueError,match='Transport integrity'):prepare(tmp_path/'data/raw',tmp_path/'stage')
+
+
+def test_single_snapshot_has_no_change_events(tmp_path):
+    seed(tmp_path)
+    p=tmp_path/'data/raw/manifest.json';m=json.loads(p.read_text());m['snapshots']=m['snapshots'][:1];p.write_text(json.dumps(m))
+    prepare(tmp_path/'data/raw',tmp_path/'stage')
+    con=duckdb.connect()
+    for n in ['plans','drugs','enrollment','products','indications','source_counts','quarantine']:
+        con.execute(f'CREATE TABLE raw_{n} AS SELECT * FROM read_csv(?,header=true,all_varchar=true)',[str(tmp_path/f'stage/{n}.csv')])
+    con.execute((ROOT/'sql/model.sql').read_text())
+    assert con.execute('SELECT count(*) FROM fact_change').fetchone()[0]==0
+    assert con.execute('SELECT count(*) FROM fact_brand_change').fetchone()[0]==0
+    con.close()

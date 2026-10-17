@@ -1,0 +1,10 @@
+{
+  "2026-01": {
+    "formulary": "https://data.cms.gov/sites/default/files/2026-01/5fbb3f65-72cc-49db-a13e-91c4dbe0b883/2026_20260122.zip",
+    "enrollment": "https://www.cms.gov/files/zip/monthly-enrollment-plan-january-2026.zip"
+  },
+  "2026-08": {
+    "formulary": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+    "enrollment": "https://www.cms.gov/files/zip/monthly-enrollment-plan-august-2026.zip"
+  }
+}
