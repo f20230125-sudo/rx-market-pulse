@@ -1,0 +1,238 @@
+table fact_change
+	lineageTag: 9fa9ef98-424f-539d-9d77-c6acbad5d07d
+
+	measure 'Plans losing a strength' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COALESCE(CALCULATE(DISTINCTCOUNT(fact_change[plan_key]),fact_change[listing_change]="Listing lost"),0),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: e0646aff-2e0d-50cb-85c4-f543e8ce9c18
+
+	measure 'Plans gaining a strength' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COALESCE(CALCULATE(DISTINCTCOUNT(fact_change[plan_key]),fact_change[listing_change]="Listing gained"),0),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 23319abc-b412-5dd9-94d9-be11690baa9b
+
+	measure 'Plans with added PA' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COALESCE(CALCULATE(DISTINCTCOUNT(fact_change[plan_key]),fact_change[pa_added]=1),0),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: bfc7888d-7664-586f-afd2-15df9449b191
+
+	measure 'Plans with added ST' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COALESCE(CALCULATE(DISTINCTCOUNT(fact_change[plan_key]),fact_change[st_added]=1),0),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: b6d8ed0c-90f9-5c66-8950-e9e0f88abe32
+
+	measure 'Comparable plans' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(DISTINCTCOUNT(fact_change[plan_key]),fact_change[comparable]=1),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: c99f5eff-fd84-515c-8ffa-968b8eeaee64
+
+	measure 'Comparable reported enrollment' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(SUMX(VALUES(fact_change[plan_key]),CALCULATE(MAX(fact_change[latest_enrollment]),fact_change[comparable]=1)),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 10468b8c-d87b-573e-8d99-980df20aff03
+
+	measure 'Enrollment with listing lost' = VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COALESCE(SUMX(VALUES(fact_change[plan_key]),CALCULATE(MAX(fact_change[latest_enrollment]),fact_change[listing_change]="Listing lost")),0),dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 62ddbe9e-ebff-5f49-b23b-13c76f4fa937
+
+	column plan_key
+		dataType: string
+		lineageTag: b29861cd-cc26-5d8e-9263-196d244a3199
+		summarizeBy: none
+		sourceColumn: plan_key
+
+	column brand
+		dataType: string
+		lineageTag: 7671da0b-4e5f-5040-b1b5-ab4a0afb08bf
+		summarizeBy: none
+		sourceColumn: brand
+
+	column strength_mg
+		dataType: int64
+		formatString: 0
+		lineageTag: a5412a11-63a7-51a0-818a-cc95dd6ef13a
+		summarizeBy: none
+		sourceColumn: strength_mg
+
+	column strength_key
+		dataType: string
+		lineageTag: 019b6a9d-6256-52b5-8e32-dc785ce3b2db
+		summarizeBy: none
+		sourceColumn: strength_key
+
+	column baseline_month
+		dataType: string
+		lineageTag: 7af5cc14-1e04-5282-8271-be63b73a3b6c
+		summarizeBy: none
+		sourceColumn: baseline_month
+
+	column latest_month
+		dataType: string
+		lineageTag: cca838d5-6da0-5145-b5e8-ebe25665dec2
+		summarizeBy: none
+		sourceColumn: latest_month
+
+	column baseline_listing
+		dataType: string
+		lineageTag: 601b45e2-3025-552c-9ee9-c719334be556
+		summarizeBy: none
+		sourceColumn: baseline_listing
+
+	column latest_listing
+		dataType: string
+		lineageTag: e194c490-a6ca-50db-9d70-3f05d76f949a
+		summarizeBy: none
+		sourceColumn: latest_listing
+
+	column baseline_pa
+		dataType: string
+		lineageTag: e5d98d80-6e34-56d8-b4b1-a11d2dabfcab
+		summarizeBy: none
+		sourceColumn: baseline_pa
+
+	column latest_pa
+		dataType: string
+		lineageTag: 75d05a0c-e20d-59d0-8c3f-7d6de87942d4
+		summarizeBy: none
+		sourceColumn: latest_pa
+
+	column baseline_st
+		dataType: string
+		lineageTag: 12704b85-4379-5d25-99ac-491e17a71f24
+		summarizeBy: none
+		sourceColumn: baseline_st
+
+	column latest_st
+		dataType: string
+		lineageTag: 242cf7be-6c16-5e06-acea-caa37bb57e23
+		summarizeBy: none
+		sourceColumn: latest_st
+
+	column baseline_ql
+		dataType: string
+		lineageTag: 56fe2dbe-6c03-5ea3-9648-7c068d999e8c
+		summarizeBy: none
+		sourceColumn: baseline_ql
+
+	column latest_ql
+		dataType: string
+		lineageTag: 2ab5b05a-a415-5641-9d58-5ccb3841de69
+		summarizeBy: none
+		sourceColumn: latest_ql
+
+	column baseline_tiers
+		dataType: string
+		lineageTag: 99ccdea6-896b-562c-add2-1313be27e453
+		summarizeBy: none
+		sourceColumn: baseline_tiers
+
+	column latest_tiers
+		dataType: string
+		lineageTag: e2282ec2-3e7d-571a-be35-a40ab95a1ffd
+		summarizeBy: none
+		sourceColumn: latest_tiers
+
+	column baseline_ql_details
+		dataType: string
+		lineageTag: d192ff96-e1bb-53ba-bc5c-a672cd8f271b
+		summarizeBy: none
+		sourceColumn: baseline_ql_details
+
+	column latest_ql_details
+		dataType: string
+		lineageTag: 4a637bc8-4147-549d-bb8b-29ae51d89cf1
+		summarizeBy: none
+		sourceColumn: latest_ql_details
+
+	column latest_enrollment
+		dataType: int64
+		formatString: 0
+		lineageTag: f3196a82-fad7-53f7-88b2-d87e5570d677
+		summarizeBy: none
+		sourceColumn: latest_enrollment
+
+	column region
+		dataType: string
+		lineageTag: 290260e5-138c-5136-b487-bdd0e4478765
+		summarizeBy: none
+		sourceColumn: region
+
+	column listing_change
+		dataType: string
+		lineageTag: 14ce55f6-b0e4-5e22-b3d8-ac23974f57ce
+		summarizeBy: none
+		sourceColumn: listing_change
+
+	column pa_added
+		dataType: int64
+		formatString: 0
+		lineageTag: 59ff5d98-d79d-56dd-a89f-df39edda04f0
+		summarizeBy: none
+		sourceColumn: pa_added
+
+	column st_added
+		dataType: int64
+		formatString: 0
+		lineageTag: 8264a178-47b0-5110-9240-bb5ff525db5c
+		summarizeBy: none
+		sourceColumn: st_added
+
+	column ql_added
+		dataType: int64
+		formatString: 0
+		lineageTag: 8210600d-7364-520e-8894-af5a110ba09c
+		summarizeBy: none
+		sourceColumn: ql_added
+
+	column tier_changed
+		dataType: int64
+		formatString: 0
+		lineageTag: 91f5e977-b9ae-5262-b75c-6b3376a9c666
+		summarizeBy: none
+		sourceColumn: tier_changed
+
+	column comparable
+		dataType: int64
+		formatString: 0
+		lineageTag: 1dfa6c3d-dfe7-5aac-8679-7f2e70db14c6
+		summarizeBy: none
+		sourceColumn: comparable
+
+	column baseline_formulary_id
+		dataType: string
+		lineageTag: 60aaf6b3-c6ad-59bd-a599-3bcddda49ee2
+		summarizeBy: none
+		sourceColumn: baseline_formulary_id
+
+	column latest_formulary_id
+		dataType: string
+		lineageTag: 0ef5a27d-c2da-5766-87ff-477039978ef6
+		summarizeBy: none
+		sourceColumn: latest_formulary_id
+
+	column baseline_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: 70ae98c7-6f0f-578a-8697-df6a3392530a
+		summarizeBy: none
+		sourceColumn: baseline_source_row
+
+	column latest_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: 2404c7a2-aff1-522a-91f9-5057cdf46d49
+		summarizeBy: none
+		sourceColumn: latest_source_row
+
+	partition fact_change = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_change.csv"), [Delimiter=",", Columns=30, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"plan_key", type text}, {"brand", type text}, {"strength_mg", Int64.Type}, {"strength_key", type text}, {"baseline_month", type text}, {"latest_month", type text}, {"baseline_listing", type text}, {"latest_listing", type text}, {"baseline_pa", type text}, {"latest_pa", type text}, {"baseline_st", type text}, {"latest_st", type text}, {"baseline_ql", type text}, {"latest_ql", type text}, {"baseline_tiers", type text}, {"latest_tiers", type text}, {"baseline_ql_details", type text}, {"latest_ql_details", type text}, {"latest_enrollment", Int64.Type}, {"region", type text}, {"listing_change", type text}, {"pa_added", Int64.Type}, {"st_added", Int64.Type}, {"ql_added", Int64.Type}, {"tier_changed", Int64.Type}, {"comparable", Int64.Type}, {"baseline_formulary_id", type text}, {"latest_formulary_id", type text}, {"baseline_source_row", Int64.Type}, {"latest_source_row", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

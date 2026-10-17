@@ -1,0 +1,44 @@
+table mart_quality
+	lineageTag: c8091af8-1f4c-5008-8929-87f27a9ba985
+
+	column check_id
+		dataType: string
+		lineageTag: 002fdee2-58a7-5019-8ac1-cefd4c2fa965
+		summarizeBy: none
+		sourceColumn: check_id
+
+	column check_name
+		dataType: string
+		lineageTag: 625ed2e1-3d87-5f63-a000-6b9862fddb0c
+		summarizeBy: none
+		sourceColumn: check_name
+
+	column severity
+		dataType: string
+		lineageTag: 98c9d66e-5545-5769-9307-1d24019eb8f8
+		summarizeBy: none
+		sourceColumn: severity
+
+	column status
+		dataType: string
+		lineageTag: 2b92cfaf-ce6b-516d-a41a-88014db1402b
+		summarizeBy: none
+		sourceColumn: status
+
+	column detail
+		dataType: string
+		lineageTag: a3b04055-474d-5e05-b442-6b09c0b67ebd
+		summarizeBy: none
+		sourceColumn: detail
+
+	partition mart_quality = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "mart_quality.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"check_id", type text}, {"check_name", type text}, {"severity", type text}, {"status", type text}, {"detail", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

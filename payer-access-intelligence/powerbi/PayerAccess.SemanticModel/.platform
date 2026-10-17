@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "PayerAccess"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "74c83940-9376-5851-8e3b-547834d98329"
+  }
+}

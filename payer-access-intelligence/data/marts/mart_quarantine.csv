@@ -1,0 +1,5 @@
+﻿month,source,source_row,contract_id,reason,reported_value
+2026-01,enrollment,7010,S3875,Blank plan ID; cannot assign enrollment to a plan,*
+2026-01,enrollment,7579,S6939,Blank plan ID; cannot assign enrollment to a plan,*
+2026-08,enrollment,7008,S3875,Blank plan ID; cannot assign enrollment to a plan,*
+2026-08,enrollment,7577,S6939,Blank plan ID; cannot assign enrollment to a plan,*

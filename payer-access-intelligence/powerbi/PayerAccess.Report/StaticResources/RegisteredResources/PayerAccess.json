@@ -1,0 +1,80 @@
+{
+  "name": "PayerAccess",
+  "dataColors": [
+    "#087F8C",
+    "#B87822",
+    "#60758A",
+    "#A8472A",
+    "#6FBFB2",
+    "#8A7A4A",
+    "#2D9C8B",
+    "#B9B29E"
+  ],
+  "background": "#F7F8FA",
+  "foreground": "#102B46",
+  "tableAccent": "#087F8C",
+  "textClasses": {
+    "title": {
+      "fontFace": "Georgia",
+      "fontSize": 12,
+      "color": "#102B46"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#102B46"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#102B46"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F7F8FA"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "Georgia",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#102B46"
+              }
+            },
+            "alignment": "left"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F7F8FA"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

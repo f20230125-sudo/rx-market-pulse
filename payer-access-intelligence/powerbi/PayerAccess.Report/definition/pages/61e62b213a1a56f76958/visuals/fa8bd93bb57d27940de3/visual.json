@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "fa8bd93bb57d27940de3",
+  "position": {
+    "x": 28,
+    "y": 42,
+    "z": 1,
+    "height": 44,
+    "width": 1210,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Turn differences into a reviewable investigation list",
+                    "textStyle": {
+                      "fontSize": "25pt",
+                      "fontWeight": "bold",
+                      "color": "#102B46"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

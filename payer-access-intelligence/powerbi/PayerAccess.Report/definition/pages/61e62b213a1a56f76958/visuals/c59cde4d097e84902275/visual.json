@@ -1,0 +1,124 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "c59cde4d097e84902275",
+  "position": {
+    "x": 28,
+    "y": 496,
+    "z": 7,
+    "height": 158,
+    "width": 1224,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_quality"
+                    }
+                  },
+                  "Property": "check_id"
+                }
+              },
+              "queryRef": "mart_quality.check_id",
+              "nativeQueryRef": "check_id",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_quality"
+                    }
+                  },
+                  "Property": "check_name"
+                }
+              },
+              "queryRef": "mart_quality.check_name",
+              "nativeQueryRef": "check_name",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_quality"
+                    }
+                  },
+                  "Property": "status"
+                }
+              },
+              "queryRef": "mart_quality.status",
+              "nativeQueryRef": "status",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_quality"
+                    }
+                  },
+                  "Property": "detail"
+                }
+              },
+              "queryRef": "mart_quality.detail",
+              "nativeQueryRef": "detail",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Source and model quality gates'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

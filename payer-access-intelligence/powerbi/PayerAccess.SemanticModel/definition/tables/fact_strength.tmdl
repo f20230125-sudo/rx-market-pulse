@@ -1,0 +1,184 @@
+table fact_strength
+	lineageTag: 3f211202-53aa-5751-a53a-9714c24d3a39
+
+	column month
+		dataType: string
+		lineageTag: a2d7210c-381d-5e2e-9c01-b466e4289355
+		summarizeBy: none
+		sourceColumn: month
+
+	column plan_key
+		dataType: string
+		lineageTag: 3d481886-6999-50a2-ab2e-15d67fde22e4
+		summarizeBy: none
+		sourceColumn: plan_key
+
+	column contract_id
+		dataType: string
+		lineageTag: 5916a6bf-351f-5643-af8f-50bc5a7e956e
+		summarizeBy: none
+		sourceColumn: contract_id
+
+	column plan_id
+		dataType: string
+		lineageTag: 623d937f-24e8-57e1-b422-65b4cb871f1d
+		summarizeBy: none
+		sourceColumn: plan_id
+
+	column plan_name
+		dataType: string
+		lineageTag: f8438f18-027d-5e83-a97e-90042c9daeee
+		summarizeBy: none
+		sourceColumn: plan_name
+
+	column organization
+		dataType: string
+		lineageTag: 377dcd2b-8664-597a-8bd2-129535eb1596
+		summarizeBy: none
+		sourceColumn: organization
+
+	column formulary_id
+		dataType: string
+		lineageTag: eaeff7e0-4b54-58d4-a407-58396d3a5739
+		summarizeBy: none
+		sourceColumn: formulary_id
+
+	column region_code
+		dataType: int64
+		formatString: 0
+		lineageTag: d98e844c-d9b4-59ab-9228-43444e091145
+		summarizeBy: none
+		sourceColumn: region_code
+
+	column region
+		dataType: string
+		lineageTag: e678b0e6-97a6-5b7a-9ccc-1a2dfafc90e7
+		summarizeBy: none
+		sourceColumn: region
+
+	column suppressed
+		dataType: string
+		lineageTag: acc17988-c7c9-58d3-8fe6-c838b72b919a
+		summarizeBy: none
+		sourceColumn: suppressed
+
+	column formulary_complete
+		dataType: int64
+		formatString: 0
+		lineageTag: 43fb4098-61a8-57f5-8eb5-02d8d2433d23
+		summarizeBy: none
+		sourceColumn: formulary_complete
+
+	column plan_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: 8175f0c0-dfda-59c6-837e-50ff4b04d8a1
+		summarizeBy: none
+		sourceColumn: plan_source_row
+
+	column enrollment
+		dataType: int64
+		formatString: 0
+		lineageTag: 0d7a9440-f462-502c-b1eb-4c19308f5118
+		summarizeBy: none
+		sourceColumn: enrollment
+
+	column enrollment_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: a22e97eb-5a56-558c-9bc7-8f5405cb82e6
+		summarizeBy: none
+		sourceColumn: enrollment_source_row
+
+	column brand
+		dataType: string
+		lineageTag: b5408ac8-3ad6-5269-a110-506e9c68d8ba
+		summarizeBy: none
+		sourceColumn: brand
+
+	column strength_mg
+		dataType: int64
+		formatString: 0
+		lineageTag: 467841f8-64d0-563d-b495-47423aa29cd9
+		summarizeBy: none
+		sourceColumn: strength_mg
+
+	column strength_key
+		dataType: string
+		lineageTag: 5230771e-0f60-5018-a7ce-129cd6712361
+		summarizeBy: none
+		sourceColumn: strength_key
+
+	column listing
+		dataType: string
+		lineageTag: 2692d554-44bb-5931-97aa-eadbd86b7e38
+		summarizeBy: none
+		sourceColumn: listing
+
+	column pa
+		dataType: string
+		lineageTag: f76afc6f-ff51-5e02-a01c-ced69813329f
+		summarizeBy: none
+		sourceColumn: pa
+
+	column st
+		dataType: string
+		lineageTag: f48956aa-2b15-5982-8a78-a71a16b0f107
+		summarizeBy: none
+		sourceColumn: st
+
+	column ql
+		dataType: string
+		lineageTag: b9ff01ee-faa8-5aee-9ac0-81f38076f1e1
+		summarizeBy: none
+		sourceColumn: ql
+
+	column tiers
+		dataType: string
+		lineageTag: 92097ef1-feb8-555b-baf1-8dd373424b76
+		summarizeBy: none
+		sourceColumn: tiers
+
+	column rxcuis
+		dataType: string
+		lineageTag: de070dd5-8ce0-5619-84e2-ae43657fade5
+		summarizeBy: none
+		sourceColumn: rxcuis
+
+	column package_count
+		dataType: int64
+		formatString: 0
+		lineageTag: acea50ab-2e29-55dd-be50-168bddfb3b16
+		summarizeBy: none
+		sourceColumn: package_count
+
+	column quantity_limit_details
+		dataType: string
+		lineageTag: ecfa8224-e70f-569f-9905-9773fbecaf31
+		summarizeBy: none
+		sourceColumn: quantity_limit_details
+
+	column first_drug_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: a98a8167-0d4c-509e-accc-ea3497f8cafd
+		summarizeBy: none
+		sourceColumn: first_drug_source_row
+
+	column indication_note
+		dataType: string
+		lineageTag: 5e35c5ea-4f03-5631-a8a4-ca2dda0e76db
+		summarizeBy: none
+		sourceColumn: indication_note
+
+	partition fact_strength = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_strength.csv"), [Delimiter=",", Columns=27, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"plan_key", type text}, {"contract_id", type text}, {"plan_id", type text}, {"plan_name", type text}, {"organization", type text}, {"formulary_id", type text}, {"region_code", Int64.Type}, {"region", type text}, {"suppressed", type text}, {"formulary_complete", Int64.Type}, {"plan_source_row", Int64.Type}, {"enrollment", Int64.Type}, {"enrollment_source_row", Int64.Type}, {"brand", type text}, {"strength_mg", Int64.Type}, {"strength_key", type text}, {"listing", type text}, {"pa", type text}, {"st", type text}, {"ql", type text}, {"tiers", type text}, {"rxcuis", type text}, {"package_count", Int64.Type}, {"quantity_limit_details", type text}, {"first_drug_source_row", Int64.Type}, {"indication_note", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

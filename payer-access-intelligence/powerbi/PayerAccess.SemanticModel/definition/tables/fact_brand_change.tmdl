@@ -1,0 +1,65 @@
+table fact_brand_change
+	lineageTag: 1a16f83b-424e-59e9-a2bd-e9f2c07a7417
+
+	measure 'Paired plans' = COUNTROWS(fact_brand_change)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: b48af82c-c884-5bca-9490-8a25197d559d
+
+	measure 'Fixed enrollment denominator' = SUM(fact_brand_change[latest_enrollment])
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 15949218-5645-5e36-8d75-8fe746bd47e8
+
+	measure 'January with August weights' = DIVIDE(CALCULATE(SUM(fact_brand_change[latest_enrollment]),fact_brand_change[baseline_listing]="Listed"),[Fixed enrollment denominator])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 4534e31c-b384-5cbe-9e20-e53e87be2d70
+
+	measure 'August with August weights' = DIVIDE(CALCULATE(SUM(fact_brand_change[latest_enrollment]),fact_brand_change[latest_listing]="Listed"),[Fixed enrollment denominator])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: e14ff437-b99e-5930-be1f-407667059a5b
+
+	column brand
+		dataType: string
+		lineageTag: 3eba7dd6-7a3e-5ea0-a732-f2bb9c73ec6b
+		summarizeBy: none
+		sourceColumn: brand
+
+	column plan_key
+		dataType: string
+		lineageTag: ba649f18-37f0-5516-9b99-f8efe5829b96
+		summarizeBy: none
+		sourceColumn: plan_key
+
+	column baseline_listing
+		dataType: string
+		lineageTag: d05f84f9-34f0-5f2e-9dc1-a8c8724a2a08
+		summarizeBy: none
+		sourceColumn: baseline_listing
+
+	column latest_listing
+		dataType: string
+		lineageTag: a2ea5225-e6a1-5489-9f12-d25413aab46a
+		summarizeBy: none
+		sourceColumn: latest_listing
+
+	column latest_enrollment
+		dataType: int64
+		formatString: 0
+		lineageTag: 8dc52c2f-ef21-53d3-98ef-ac6b3724664d
+		summarizeBy: none
+		sourceColumn: latest_enrollment
+
+	partition fact_brand_change = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_brand_change.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"brand", type text}, {"plan_key", type text}, {"baseline_listing", type text}, {"latest_listing", type text}, {"latest_enrollment", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

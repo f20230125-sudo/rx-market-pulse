@@ -1,0 +1,199 @@
+{
+  "mode": "real",
+  "contract_year": "2026",
+  "sources": [
+    {
+      "url": "https://data.cms.gov/sites/default/files/2026-01/5fbb3f65-72cc-49db-a13e-91c4dbe0b883/2026_20260122.zip",
+      "path": "data/raw/2026-01/formulary.zip",
+      "sha256": "1132f0864863a712c2a7898f7cbfc19a42ba62577829e8b87bee15d8f3e6c7e6",
+      "bytes": 2302450366,
+      "fetched_at": "2026-10-17T06:04:50.960821+00:00"
+    },
+    {
+      "url": "https://www.cms.gov/files/zip/monthly-enrollment-plan-january-2026.zip",
+      "path": "data/raw/2026-01/enrollment.zip",
+      "sha256": "211774465b82d8e5b745716aae61674de89cdb32b8dddbf6b856392f3b88305b",
+      "bytes": 624827,
+      "fetched_at": "2026-10-17T06:04:51.590491+00:00"
+    },
+    {
+      "url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+      "path": "data/raw/2026-08/formulary.zip",
+      "sha256": "37532d0916c7b5f348123e993b8eb8c76f08c97d70c099cb1fc6f6b3cdacb696",
+      "bytes": 2294444179,
+      "fetched_at": "2026-10-17T06:05:11.691130+00:00"
+    },
+    {
+      "url": "https://www.cms.gov/files/zip/monthly-enrollment-plan-august-2026.zip",
+      "path": "data/raw/2026-08/enrollment.zip",
+      "sha256": "3e309ebcadc84ffc61e9f67e45330c20001d6dd016dad31847dcc245b483584a",
+      "bytes": 624389,
+      "fetched_at": "2026-10-17T06:05:12.447642+00:00"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e5b72731-1acb-45b7-9c13-290ad12d3951.xml",
+      "path": "data/raw/products/BELSOMRA.xml",
+      "sha256": "e0a8766ba5bad38305b8ce2defd4d7ae4f7d8c6bed78c895d78b13c53922e9d5",
+      "bytes": 227568,
+      "fetched_at": "2026-10-17T06:05:12.966274+00:00"
+    },
+    {
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1547105/allrelated.json",
+      "path": "data/raw/products/BELSOMRA_rxnorm.json",
+      "sha256": "c3f075fe75a36f6b3f4d119814d87b0b9a0ebacc7886a6d467f903ca1b5a449f",
+      "bytes": 4011,
+      "fetched_at": "2026-10-17T06:05:13.396048+00:00"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7074cb65-77b3-45d2-8e8d-da8dc0f70bfd.xml",
+      "path": "data/raw/products/DAYVIGO.xml",
+      "sha256": "24d48baa276dac17d7de21c4ab9d0f409db8e3bf059066f0a9567532b137a9f0",
+      "bytes": 220671,
+      "fetched_at": "2026-10-17T06:05:13.516042+00:00"
+    },
+    {
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2272409/allrelated.json",
+      "path": "data/raw/products/DAYVIGO_rxnorm.json",
+      "sha256": "6ef243af36e117bfed25d685e009952dd8d745d711630ea21d35101fa7a9bb8f",
+      "bytes": 2938,
+      "fetched_at": "2026-10-17T06:05:13.654046+00:00"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3a2d1503-b816-40c9-9fac-7e03c5a3bcef.xml",
+      "path": "data/raw/products/QUVIVIQ.xml",
+      "sha256": "f6754c3a9b36d2cb114b91d57c5e89ba49d0e7c3afbee2f91dbbc419fb73d1d9",
+      "bytes": 191774,
+      "fetched_at": "2026-10-17T06:05:13.720246+00:00"
+    },
+    {
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2591503/allrelated.json",
+      "path": "data/raw/products/QUVIVIQ_rxnorm.json",
+      "sha256": "8f961dadb38a01e0754631611b6e2698e0ad7d5d769660a44a87cb962ea8bb02",
+      "bytes": 3349,
+      "fetched_at": "2026-10-17T06:05:13.858232+00:00"
+    },
+    {
+      "url": "https://data.cms.gov/sites/default/files/2025-10/0564eb37-402d-4110-bd98-2d5399dc30e7/PUFRecordLayout-2026.pdf",
+      "path": "data/raw/PUFRecordLayout-2026.pdf",
+      "sha256": "673b295d2087c56f98b96a1c4acdc3fce5a88fbc354535abfa70048e7c429677",
+      "bytes": 238333,
+      "fetched_at": "2026-10-17T06:05:13.873433+00:00"
+    },
+    {
+      "url": "https://data.cms.gov/sites/default/files/2023-10/4eeb19e1-525b-4a4e-9766-b33ff084fc5c/AGREEMENT-FOR-USE.pdf",
+      "path": "data/raw/AGREEMENT-FOR-USE.pdf",
+      "sha256": "e3098f964bf987ebaaa18e58313decf5f3d161063c98209aad0b3a8bedac6a3f",
+      "bytes": 121759,
+      "fetched_at": "2026-10-17T06:05:13.887190+00:00"
+    }
+  ],
+  "snapshots": [
+    {
+      "month": "2026-01",
+      "formulary_url": "https://data.cms.gov/sites/default/files/2026-01/5fbb3f65-72cc-49db-a13e-91c4dbe0b883/2026_20260122.zip",
+      "enrollment_url": "https://www.cms.gov/files/zip/monthly-enrollment-plan-january-2026.zip",
+      "members": {
+        "formulary": {
+          "member": "basic drugs formulary file  20260131.txt",
+          "sha256": "5cfb1e88b3f4d677d8e2d7c69d84a738f990bb4524772df536a816195ef95957",
+          "bytes": 57508862
+        },
+        "indications": {
+          "member": "Indication Based Coverage Formulary File  20260131.txt",
+          "sha256": "1b9537e856faf428bf0f2b530f729270420c5358dae8628867766d56a18d1ad7",
+          "bytes": 14071
+        },
+        "plans": {
+          "member": "plan information  20260131.txt",
+          "sha256": "1969e0d009e0444ac4f164bbd4f6c1e68f5b4ffd125f93bb66aa93abd8db0e6d",
+          "bytes": 13739867
+        }
+      },
+      "enrollment_sha256": "8b55eee1b43b1a5df5feea49c360e9f3b2003bbbb38c9856c755605d0986f972",
+      "full_row_counts": {
+        "plans.txt": 112653,
+        "formulary.txt": 1118219,
+        "enrollment.csv": 7606,
+        "indications.txt": 367
+      }
+    },
+    {
+      "month": "2026-08",
+      "formulary_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+      "enrollment_url": "https://www.cms.gov/files/zip/monthly-enrollment-plan-august-2026.zip",
+      "members": {
+        "formulary": {
+          "member": "basic drugs formulary file  20260831.txt",
+          "sha256": "3c8c9abb8ff645155b597615a14c0ea6d3c3fb224b8f2c25681bf58ce37eb258",
+          "bytes": 58859439
+        },
+        "indications": {
+          "member": "Indication Based Coverage Formulary File  20260831.txt",
+          "sha256": "ca58d5e0bbcc633a83de7f6e5959cffd7e28d6c5309ce669ee9310a7495cd8a6",
+          "bytes": 15421
+        },
+        "plans": {
+          "member": "plan information  20260831.txt",
+          "sha256": "5ba1ee7cbd97171a00a10f380b19ae602979741484931fc06e1ecd0ef6572a7a",
+          "bytes": 13689317
+        }
+      },
+      "enrollment_sha256": "88b7799e3cf2fb1e6599384718d99f209b36b109fa0b99d07e8994efe949c032",
+      "full_row_counts": {
+        "plans.txt": 112294,
+        "formulary.txt": 1125804,
+        "enrollment.csv": 7604,
+        "indications.txt": 397
+      }
+    }
+  ],
+  "status": "complete",
+  "transport": "filtered",
+  "ci_run_url": "https://github.com/f20230125-sudo/rx-market-pulse/actions/runs/39008455037",
+  "transport_files": [
+    {
+      "path": "2026-01/plans.txt",
+      "sha256": "a26ccccc554ed885289035ff82103fc6e2bc95ba40f05dde407ac4b9c8ba05cc"
+    },
+    {
+      "path": "2026-01/formulary.txt",
+      "sha256": "3405fe1de20e289c5f86c582c33f8d3175293a9602cc758f960d3944dca9b39e"
+    },
+    {
+      "path": "2026-01/enrollment.csv",
+      "sha256": "311e66657f93d73fefea4b3024e7e54f2bcabc5b683adb51a38e093d3ae82aab"
+    },
+    {
+      "path": "2026-01/indications.txt",
+      "sha256": "46ae878636bfb1a3eaba36c3d0457178e4b3a3ebedd5d9f42400d6f97c1b2a80"
+    },
+    {
+      "path": "2026-01/formulary_ids.json",
+      "sha256": "cf033d6f7700d16bd1ccb71fa1ceb493b9403d0e5fa1fa659d517f9609cd9982"
+    },
+    {
+      "path": "2026-08/plans.txt",
+      "sha256": "2736f8747bd937a1404e502bdbfbc4f0d2a0e754640db54d69c5e2f7f38fc391"
+    },
+    {
+      "path": "2026-08/formulary.txt",
+      "sha256": "20faf341145cd0731f1026a6540ae6f350a7ba45a07a72ce6490a4c1914f4cfd"
+    },
+    {
+      "path": "2026-08/enrollment.csv",
+      "sha256": "fb9fbea33b6b3ba493c95c7ecbabbd85e871dcfce5a83dc776d2a05768ece46a"
+    },
+    {
+      "path": "2026-08/indications.txt",
+      "sha256": "46ae878636bfb1a3eaba36c3d0457178e4b3a3ebedd5d9f42400d6f97c1b2a80"
+    },
+    {
+      "path": "2026-08/formulary_ids.json",
+      "sha256": "7bdac54f944e23534d25edd8fc75cdfbeea1fc0126d17c0e1c6ccf26f329ecb4"
+    },
+    {
+      "path": "products/catalog.json",
+      "sha256": "9bbb3c388d3aff37b72d456fd6e516fe9fd201b42de7bfb87d9aa9e293aba7db"
+    }
+  ]
+}

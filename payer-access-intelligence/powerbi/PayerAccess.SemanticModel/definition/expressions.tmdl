@@ -1,0 +1,4 @@
+expression DataFolder = "\home\runner\work\rx-market-pulse\rx-market-pulse\payer-access-intelligence\powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 2f5c9dd4-dde6-5444-b2e3-44d7438b7d5e
+
+	annotation PBI_ResultType = Text

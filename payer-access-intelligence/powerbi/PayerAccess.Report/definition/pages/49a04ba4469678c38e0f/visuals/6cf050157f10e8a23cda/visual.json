@@ -1,0 +1,229 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "6cf050157f10e8a23cda",
+  "position": {
+    "x": 28,
+    "y": 360,
+    "z": 9,
+    "height": 176,
+    "width": 1224,
+    "tabOrder": 9
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "plan_key"
+                }
+              },
+              "queryRef": "fact_change.plan_key",
+              "nativeQueryRef": "plan_key",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "fact_change.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "strength_mg"
+                }
+              },
+              "queryRef": "fact_change.strength_mg",
+              "nativeQueryRef": "strength_mg",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "listing_change"
+                }
+              },
+              "queryRef": "fact_change.listing_change",
+              "nativeQueryRef": "listing_change",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "baseline_pa"
+                }
+              },
+              "queryRef": "fact_change.baseline_pa",
+              "nativeQueryRef": "baseline_pa",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "latest_pa"
+                }
+              },
+              "queryRef": "fact_change.latest_pa",
+              "nativeQueryRef": "latest_pa",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "baseline_st"
+                }
+              },
+              "queryRef": "fact_change.baseline_st",
+              "nativeQueryRef": "baseline_st",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "latest_st"
+                }
+              },
+              "queryRef": "fact_change.latest_st",
+              "nativeQueryRef": "latest_st",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "latest_enrollment"
+                }
+              },
+              "queryRef": "fact_change.latest_enrollment",
+              "nativeQueryRef": "latest_enrollment",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "baseline_formulary_id"
+                }
+              },
+              "queryRef": "fact_change.baseline_formulary_id",
+              "nativeQueryRef": "baseline_formulary_id",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_change"
+                    }
+                  },
+                  "Property": "latest_formulary_id"
+                }
+              },
+              "queryRef": "fact_change.latest_formulary_id",
+              "nativeQueryRef": "latest_formulary_id",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Change evidence: one row per plan and strength'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

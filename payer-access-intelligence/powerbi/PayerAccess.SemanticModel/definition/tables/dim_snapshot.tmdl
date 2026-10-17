@@ -1,0 +1,27 @@
+table dim_snapshot
+	lineageTag: d74b861b-0d6f-555c-b6ff-ed52c3c7cb4d
+
+	column month
+		dataType: string
+		lineageTag: 83526def-95cf-5983-8cd3-756410b34079
+		summarizeBy: none
+		sourceColumn: month
+
+	column contract_year
+		dataType: int64
+		formatString: 0
+		lineageTag: d80f2661-33a1-5b03-bf38-5628cacf30d7
+		summarizeBy: none
+		sourceColumn: contract_year
+
+	partition dim_snapshot = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_snapshot.csv"), [Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"contract_year", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,43 @@
+relationship 31a4576a-09e8-5aa2-ba9d-b19a8105b064
+	fromColumn: fact_brand.month
+	toColumn: dim_snapshot.month
+
+relationship d847aae4-2bdf-562a-9d46-bde439638acb
+	fromColumn: fact_brand.brand
+	toColumn: dim_brand.brand
+
+relationship 2f27f050-3ac2-5ab9-b3a7-f0d15c80f8c4
+	fromColumn: fact_brand.plan_key
+	toColumn: dim_plan.plan_key
+
+relationship d7c9082e-d007-5146-b7eb-688fa65b2ce9
+	fromColumn: fact_strength.month
+	toColumn: dim_snapshot.month
+
+relationship 58980363-afe2-52e8-b04f-f75918f29912
+	fromColumn: fact_strength.brand
+	toColumn: dim_brand.brand
+
+relationship db07b10d-e0b6-51fa-8e65-8bccb308075a
+	fromColumn: fact_strength.plan_key
+	toColumn: dim_plan.plan_key
+
+relationship 088a7aa9-26f3-5cbb-944f-a950c7cad3f8
+	fromColumn: fact_change.brand
+	toColumn: dim_brand.brand
+
+relationship 720c4b73-9735-5d5c-9495-7afe7fa49f54
+	fromColumn: fact_change.plan_key
+	toColumn: dim_plan.plan_key
+
+relationship a09107d0-7063-54fc-92c7-733d53619da2
+	fromColumn: mart_review_queue.plan_key
+	toColumn: dim_plan.plan_key
+
+relationship 4933b211-ffee-5bbf-b502-e4c43eee5d30
+	fromColumn: fact_brand_change.brand
+	toColumn: dim_brand.brand
+
+relationship 5812770f-16e1-50ea-ad8d-0e1ea7215837
+	fromColumn: fact_brand_change.plan_key
+	toColumn: dim_plan.plan_key

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PayerAccess"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0920be09-9475-5a62-b899-823b17e6703a"
+  }
+}

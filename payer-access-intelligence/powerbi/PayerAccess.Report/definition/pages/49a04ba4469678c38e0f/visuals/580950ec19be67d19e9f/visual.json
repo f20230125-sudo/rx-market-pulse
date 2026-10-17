@@ -1,0 +1,139 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "580950ec19be67d19e9f",
+  "position": {
+    "x": 28,
+    "y": 552,
+    "z": 10,
+    "height": 104,
+    "width": 1224,
+    "tabOrder": 10
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_brand"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "dim_brand.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand_change"
+                    }
+                  },
+                  "Property": "Paired plans"
+                }
+              },
+              "queryRef": "fact_brand_change.Paired plans",
+              "nativeQueryRef": "Paired plans",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand_change"
+                    }
+                  },
+                  "Property": "Fixed enrollment denominator"
+                }
+              },
+              "queryRef": "fact_brand_change.Fixed enrollment denominator",
+              "nativeQueryRef": "Fixed enrollment denominator",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand_change"
+                    }
+                  },
+                  "Property": "January with August weights"
+                }
+              },
+              "queryRef": "fact_brand_change.January with August weights",
+              "nativeQueryRef": "January with August weights",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand_change"
+                    }
+                  },
+                  "Property": "August with August weights"
+                }
+              },
+              "queryRef": "fact_brand_change.August with August weights",
+              "nativeQueryRef": "August with August weights",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Same August weights at both dates: isolate listing change'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

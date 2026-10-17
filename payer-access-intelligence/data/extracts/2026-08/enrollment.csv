@@ -1,0 +1,655 @@
+﻿Contract Number,Plan ID,Organization Type,Plan Type,Offers Part D,Organization Name,Organization Marketing Name,Plan Name,Parent Organization,Contract Effective Date,Enrollment,ORIGINAL_SOURCE_ROW
+S0262,830,PDP,Medicare Prescription Drug Plan,Yes,KAISER PERMANENTE INSURANCE COMPANY,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,21737,6950
+S0262,832,PDP,Medicare Prescription Drug Plan,Yes,KAISER PERMANENTE INSURANCE COMPANY,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,2528,6951
+S0262,833,PDP,Medicare Prescription Drug Plan,Yes,KAISER PERMANENTE INSURANCE COMPANY,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,2388,6952
+S0262,834,PDP,Medicare Prescription Drug Plan,Yes,KAISER PERMANENTE INSURANCE COMPANY,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,1367,6953
+S0262,835,PDP,Medicare Prescription Drug Plan,Yes,KAISER PERMANENTE INSURANCE COMPANY,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,9323,6954
+S0262,836,PDP,Medicare Prescription Drug Plan,Yes,KAISER PERMANENTE INSURANCE COMPANY,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,2591,6955
+S0375,801,PDP,Medicare Prescription Drug Plan,Yes,"CAREFIRST ADVANTAGE PPO, INC",CareFirst BlueCross BlueShield Group Prescription Drug Plan,CareFirst BlueCross BlueShield Group Medicare Rx (PDP),"CareFirst, Inc.",01/01/2025,554,6956
+S0375,802,PDP,Medicare Prescription Drug Plan,Yes,"CAREFIRST ADVANTAGE PPO, INC",CareFirst BlueCross BlueShield Group Prescription Drug Plan,CareFirst BlueCross BlueShield Group Medicare Rx (PDP),"CareFirst, Inc.",01/01/2025,*,6957
+S0586,801,PDP,Medicare Prescription Drug Plan,Yes,"MVP HEALTH PLAN, INC.",MVP Health Care,MVP RxCare - Employer Group (PDP),"MVP Health Care, Inc.",01/01/2011,236,6958
+S1030,001,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Enhanced Plus (PDP),BlueCross BlueShield of Alabama,01/01/2007,19076,6959
+S1030,006,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Essential (PDP),BlueCross BlueShield of Alabama,01/01/2007,11889,6960
+S1030,801,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Employer Group Plan 801 (PDP),BlueCross BlueShield of Alabama,01/01/2007,*,6961
+S1030,802,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Employer Group Plan 802 (PDP),BlueCross BlueShield of Alabama,01/01/2007,*,6962
+S1030,803,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Employer Group Plan 803 (PDP),BlueCross BlueShield of Alabama,01/01/2007,*,6963
+S1030,804,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Employer Group Plan 804 (PDP),BlueCross BlueShield of Alabama,01/01/2007,*,6964
+S1030,805,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF ALABAMA & UTIC INSURANCE COMPANY,BlueRx (PDP),BlueRx Employer Group Plan 805 (PDP),BlueCross BlueShield of Alabama,01/01/2007,*,6965
+S1140,801,PDP,Medicare Prescription Drug Plan,Yes,Highmark Western and Northeastern New York Inc.,Highmark Blue Cross Blue Shield or Highmark Blue Shield,Group PDP (PDP),Highmark Health,01/01/2013,*,6966
+S1140,802,PDP,Medicare Prescription Drug Plan,Yes,Highmark Western and Northeastern New York Inc.,Highmark Blue Cross Blue Shield or Highmark Blue Shield,Group PDP Enhanced (PDP),Highmark Health,01/01/2013,3181,6967
+S1822,801,PDP,Medicare Prescription Drug Plan,Yes,"HEALTHPARTNERS, INC.",HealthPartners,HealthPartners Retiree National Choice PDP CY (PDP),"HealthPartners, Inc.",01/01/2009,586,6968
+S1822,802,PDP,Medicare Prescription Drug Plan,Yes,"HEALTHPARTNERS, INC.",HealthPartners,HealthPartners Retiree National Choice PDP NCY (PDP),"HealthPartners, Inc.",01/01/2009,*,6969
+S1822,803,PDP,Medicare Prescription Drug Plan,Yes,"HEALTHPARTNERS, INC.",HealthPartners,HealthPartners EGWP PDP CY (PDP),"HealthPartners, Inc.",01/01/2009,1069,6970
+S1822,804,PDP,Medicare Prescription Drug Plan,Yes,"HEALTHPARTNERS, INC.",HealthPartners,HealthPartners EGWP II PDP CY (PDP),"HealthPartners, Inc.",01/01/2009,1065,6971
+S2135,801,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS BLUE SHIELD ASSOCIATION,Blue Cross Blue Shield Association,FEHB Standard Option (PDP),"BlueCross BlueShield Association, Federal Employee",01/01/2024,371755,6972
+S2135,802,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS BLUE SHIELD ASSOCIATION,Blue Cross Blue Shield Association,FEHB Basic Option (PDP),"BlueCross BlueShield Association, Federal Employee",01/01/2024,214429,6973
+S2135,804,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS BLUE SHIELD ASSOCIATION,Blue Cross Blue Shield Association,PSHB Standard Option (PDP),"BlueCross BlueShield Association, Federal Employee",01/01/2024,136118,6974
+S2135,805,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS BLUE SHIELD ASSOCIATION,Blue Cross Blue Shield Association,PSHB Basic Option (PDP),"BlueCross BlueShield Association, Federal Employee",01/01/2024,151497,6975
+S2135,806,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS BLUE SHIELD ASSOCIATION,Blue Cross Blue Shield Association,PSHB Blue Focus (PDP),"BlueCross BlueShield Association, Federal Employee",01/01/2024,12678,6976
+S2135,807,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS BLUE SHIELD ASSOCIATION,Blue Cross Blue Shield Association,Triple-S Optimo PSHB (PDP),"BlueCross BlueShield Association, Federal Employee",01/01/2024,1845,6977
+S2468,003,PDP,Medicare Prescription Drug Plan,Yes,CALIFORNIA PHYSICIANS' SERVICE,Blue Shield of California,Blue Shield Rx Plus (PDP),California Physicians' Service,01/01/2006,11005,6978
+S2468,004,PDP,Medicare Prescription Drug Plan,Yes,CALIFORNIA PHYSICIANS' SERVICE,Blue Shield of California,Blue Shield Rx Enhanced (PDP),California Physicians' Service,01/01/2006,28011,6979
+S2468,801,PDP,Medicare Prescription Drug Plan,Yes,CALIFORNIA PHYSICIANS' SERVICE,Blue Shield of California,Blue Shield of California Medicare Rx Plan (PDP),California Physicians' Service,01/01/2006,4367,6980
+S2468,802,PDP,Medicare Prescription Drug Plan,Yes,CALIFORNIA PHYSICIANS' SERVICE,Blue Shield of California,Blue Shield of California Medicare Rx Plan (PDP),California Physicians' Service,01/01/2006,1022,6981
+S2893,001,PDP,Medicare Prescription Drug Plan,Yes,ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT,Blue MedicareRx,Blue MedicareRx Value Plus (PDP),"Elevance Health, Inc. & BCBSMA & BCBSRI & BCBSVT",01/01/2006,160933,6982
+S2893,003,PDP,Medicare Prescription Drug Plan,Yes,ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT,Blue MedicareRx,Blue MedicareRx Premier (PDP),"Elevance Health, Inc. & BCBSMA & BCBSRI & BCBSVT",01/01/2006,13591,6983
+S2893,801,PDP,Medicare Prescription Drug Plan,Yes,ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT,Blue MedicareRx,Blue MedicareRx (PDP),"Elevance Health, Inc. & BCBSMA & BCBSRI & BCBSVT",01/01/2006,85267,6984
+S2893,802,PDP,Medicare Prescription Drug Plan,Yes,ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT,Blue MedicareRx,Blue MedicareRx (PDP),"Elevance Health, Inc. & BCBSMA & BCBSRI & BCBSVT",01/01/2006,*,6985
+S3285,801,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,1948,6986
+S3285,802,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,6987
+S3285,803,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,3481,6988
+S3285,804,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,225,6989
+S3285,805,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,2969,6990
+S3285,806,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,6991
+S3285,807,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,2344,6992
+S3285,808,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,32,6993
+S3285,809,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,1220,6994
+S3285,810,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,1943,6995
+S3285,811,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,Retiree RxCare Premier (PDP),"MedImpact Holdings, Inc.",01/01/2019,7831,6996
+S3285,812,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,Retiree RxCare Premier Plus (PDP),"MedImpact Holdings, Inc.",01/01/2019,7483,6997
+S3285,813,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,6998
+S3285,814,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,6999
+S3285,815,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,VibrantRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,376,7000
+S3285,816,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,Rightway MedicareRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,7001
+S3285,817,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,Rightway MedicareRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,7002
+S3285,818,PDP,Medicare Prescription Drug Plan,Yes,MG INSURANCE COMPANY,MG Insurance Company,Rightway MedicareRx (PDP),"MedImpact Holdings, Inc.",01/01/2019,*,7003
+S3389,802,PDP,Medicare Prescription Drug Plan,Yes,"UPMC HEALTH BENEFITS, INC.",UPMC Health Plan,UPMC Employer Group (PDP),UPMC Health System,01/01/2006,1723,7004
+S3389,803,PDP,Medicare Prescription Drug Plan,Yes,"UPMC HEALTH BENEFITS, INC.",UPMC Health Plan,UPMC Employer Group (PDP),UPMC Health System,01/01/2006,*,7005
+S3389,804,PDP,Medicare Prescription Drug Plan,Yes,"UPMC HEALTH BENEFITS, INC.",UPMC Health Plan,UPMC PSHB Employer Group (PDP),UPMC Health System,01/01/2006,456,7006
+S3521,801,PDP,Medicare Prescription Drug Plan,Yes,"EXCELLUS HEALTH PLAN, INC.","Excellus Health Plan, Inc",Simply Prescriptions- Employer Group (PDP),"Lifetime Healthcare, Inc.",01/01/2006,5034,7007
+S3875,,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,,"Prime Therapeutics, LLC.",01/01/2014,*,7008
+S3875,802,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7009
+S3875,803,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7010
+S3875,804,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7011
+S3875,805,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7012
+S3875,806,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7013
+S3875,807,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7014
+S3875,808,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7015
+S3875,809,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7016
+S3875,810,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7017
+S3875,811,PDP,Medicare Prescription Drug Plan,Yes,GRANITE ALLIANCE INSURANCE COMPANY,Granite Alliance,Granite Alliance Insurance Company (PDP),"Prime Therapeutics, LLC.",01/01/2014,*,7018
+S3994,801,PDP,Medicare Prescription Drug Plan,Yes,HAWAII MEDICAL SERVICE ASSOCIATION (HMSA),HMSAs Medicare Rx Plan,Medicare Rx EGWP CY (PDP),Hawaii Medical Service Association,01/01/2007,1487,7019
+S3994,802,PDP,Medicare Prescription Drug Plan,Yes,HAWAII MEDICAL SERVICE ASSOCIATION (HMSA),HMSAs Medicare Rx Plan,Medicare Rx EGWP NCY (PDP),Hawaii Medical Service Association,01/01/2007,*,7020
+S4501,801,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-1 (PDP),"Independent Health Association, Inc.",01/01/2015,6667,7021
+S4501,802,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-2 (PDP),"Independent Health Association, Inc.",01/01/2015,619,7022
+S4501,803,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-3 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7023
+S4501,804,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-4 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7024
+S4501,805,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-5 (LV) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7025
+S4501,806,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-6 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7026
+S4501,807,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-7 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7027
+S4501,808,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimemsions PDP-8 (WD) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7028
+S4501,809,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-9 (WD) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7029
+S4501,810,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-10 (WD) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7030
+S4501,811,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-11 (WD) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7031
+S4501,812,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-12 (WD) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7032
+S4501,813,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-13 (WD) (PDP),"Independent Health Association, Inc.",01/01/2015,*,7033
+S4501,814,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-14 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7034
+S4501,815,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-15 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7035
+S4501,816,PDP,Medicare Prescription Drug Plan,Yes,INDEPENDENT HEALTH BENEFITS CORPORATION,Pharmacy Benefit Dimensions PDP,Pharmacy Benefit Dimensions PDP-16 (PDP),"Independent Health Association, Inc.",01/01/2015,*,7036
+S4802,012,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,26206,7037
+S4802,013,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,199992,7038
+S4802,014,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,20559,7039
+S4802,020,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,63476,7040
+S4802,021,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,13752,7041
+S4802,069,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,46211,7042
+S4802,070,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,37613,7043
+S4802,071,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,58629,7044
+S4802,072,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,52281,7045
+S4802,073,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,28069,7046
+S4802,074,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,29361,7047
+S4802,075,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,32716,7048
+S4802,076,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,149115,7049
+S4802,077,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,160330,7050
+S4802,078,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,85235,7051
+S4802,079,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,110815,7052
+S4802,080,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,80155,7053
+S4802,081,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,65339,7054
+S4802,082,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,64777,7055
+S4802,083,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,179042,7056
+S4802,084,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,55398,7057
+S4802,085,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,107196,7058
+S4802,086,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,64523,7059
+S4802,087,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,171626,7060
+S4802,088,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,12919,7061
+S4802,089,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,65931,7062
+S4802,090,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,15833,7063
+S4802,091,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,28946,7064
+S4802,092,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,36775,7065
+S4802,093,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,31525,7066
+S4802,094,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,566715,7067
+S4802,095,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,3807,7068
+S4802,096,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,3865,7069
+S4802,097,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Classic (PDP),Centene Corporation,01/01/2006,22236,7070
+S4802,132,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,126942,7071
+S4802,133,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,53945,7072
+S4802,134,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,170841,7073
+S4802,135,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,217933,7074
+S4802,136,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,90981,7075
+S4802,137,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,213097,7076
+S4802,138,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,168338,7077
+S4802,139,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,183757,7078
+S4802,140,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,163131,7079
+S4802,141,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,338749,7080
+S4802,142,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,174653,7081
+S4802,143,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,207240,7082
+S4802,144,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,150124,7083
+S4802,145,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,191757,7084
+S4802,146,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,508038,7085
+S4802,147,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,197979,7086
+S4802,148,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,145923,7087
+S4802,149,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,291370,7088
+S4802,150,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,242898,7089
+S4802,151,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,282935,7090
+S4802,152,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,163070,7091
+S4802,153,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,43787,7092
+S4802,154,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,75038,7093
+S4802,155,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,474194,7094
+S4802,156,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,58244,7095
+S4802,157,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,44045,7096
+S4802,158,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,470857,7097
+S4802,159,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,24805,7098
+S4802,160,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,145477,7099
+S4802,161,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,44005,7100
+S4802,162,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,71919,7101
+S4802,163,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,468726,7102
+S4802,164,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,4120,7103
+S4802,165,PDP,Medicare Prescription Drug Plan,Yes,"WELLCARE PRESCRIPTION INSURANCE, INC.",Wellcare,Wellcare Value Script (PDP),Centene Corporation,01/01/2006,5486,7104
+S4983,801,PDP,Medicare Prescription Drug Plan,Yes,KAISER FOUNDATION HEALTH PLAN OF WASHINGTON OPTIONS INC,Kaiser Permanente,Kaiser Permanente Medicare Part D Group Plan (PDP),"Kaiser Foundation Health Plan, Inc.",01/01/2025,6726,7105
+S5540,002,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,Blue Cross and Blue Shield of North Carolina,Blue Medicare Rx Standard (PDP),CuraCor Solutions Corp.,01/01/2006,6731,7106
+S5540,004,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,Blue Cross and Blue Shield of North Carolina,Blue Medicare Rx Enhanced (PDP),CuraCor Solutions Corp.,01/01/2006,23575,7107
+S5540,803,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,Blue Cross and Blue Shield of North Carolina,Blue Medicare Rx EGWP Complete (PDP),CuraCor Solutions Corp.,01/01/2006,13,7108
+S5540,804,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,Blue Cross and Blue Shield of North Carolina,Blue Medicare Rx EGWP HCE COE (PDP),CuraCor Solutions Corp.,01/01/2006,*,7109
+S5584,001,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY,Blue Cross Blue Shield of Michigan,Prescription Blue Select (PDP),Blue Cross Blue Shield of Michigan Mutual Ins. Co.,01/01/2006,2744,7110
+S5584,002,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY,Blue Cross Blue Shield of Michigan,Prescription Blue Premium (PDP),Blue Cross Blue Shield of Michigan Mutual Ins. Co.,01/01/2006,19335,7111
+S5584,801,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY,Blue Cross Blue Shield of Michigan,Prescription Blue Employer Plan CY (PDP),Blue Cross Blue Shield of Michigan Mutual Ins. Co.,01/01/2006,2548,7112
+S5584,802,PDP,Medicare Prescription Drug Plan,Yes,BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY,Blue Cross Blue Shield of Michigan,Prescription Blue Employer Plan non-CY (PDP),Blue Cross Blue Shield of Michigan Mutual Ins. Co.,01/01/2006,*,7113
+S5593,002,PDP,Medicare Prescription Drug Plan,Yes,HM HEALTH INSURANCE COMPANY,Highmark Blue Shield,Blue Rx PDP Plus (PDP),Highmark Health,01/01/2006,7330,7114
+S5593,003,PDP,Medicare Prescription Drug Plan,Yes,HM HEALTH INSURANCE COMPANY,Highmark Blue Shield,Blue Rx PDP Complete (PDP),Highmark Health,01/01/2006,7347,7115
+S5593,801,PDP,Medicare Prescription Drug Plan,Yes,HM HEALTH INSURANCE COMPANY,Highmark Blue Shield,Blue Rx PDP Employer Group Calendar (PDP),Highmark Health,01/01/2006,2846,7116
+S5593,802,PDP,Medicare Prescription Drug Plan,Yes,HM HEALTH INSURANCE COMPANY,Highmark Blue Shield,Blue Rx PDP Employer Group Calendar Performance (PDP),Highmark Health,01/01/2006,*,7117
+S5593,807,PDP,Medicare Prescription Drug Plan,Yes,HM HEALTH INSURANCE COMPANY,Highmark Blue Shield,Blue Rx PDP ASO 1 CALENDAR (PDP),Highmark Health,01/01/2006,*,7118
+S5593,808,PDP,Medicare Prescription Drug Plan,Yes,HM HEALTH INSURANCE COMPANY,Highmark Blue Shield,Blue Rx PDP ASO 2 CALENDAR (PDP),Highmark Health,01/01/2006,*,7119
+S5596,803,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,830,7120
+S5596,804,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,*,7121
+S5596,844,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,54977,7122
+S5596,845,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,3899,7123
+S5596,846,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,*,7124
+S5596,847,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,*,7125
+S5596,848,PDP,Medicare Prescription Drug Plan,Yes,"ANTHEM INSURANCE COMPANIES, INC.","Anthem Insurance Companies, Inc.",Blue MedicareRx (PDP),"Elevance Health, Inc.",01/01/2006,*,7126
+S5601,002,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,13823,7127
+S5601,004,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,119126,7128
+S5601,006,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,75166,7129
+S5601,008,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,40302,7130
+S5601,010,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,49701,7131
+S5601,012,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,183006,7132
+S5601,014,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,46799,7133
+S5601,016,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,45913,7134
+S5601,018,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,28918,7135
+S5601,020,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,49015,7136
+S5601,022,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,103752,7137
+S5601,024,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,51746,7138
+S5601,026,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,34013,7139
+S5601,028,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,58477,7140
+S5601,030,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,132838,7141
+S5601,032,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,31254,7142
+S5601,034,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,54521,7143
+S5601,036,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,29893,7144
+S5601,038,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,25649,7145
+S5601,040,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,25449,7146
+S5601,042,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,27137,7147
+S5601,044,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,108647,7148
+S5601,048,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,19092,7149
+S5601,050,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,171861,7150
+S5601,052,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,7979,7151
+S5601,054,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,14571,7152
+S5601,056,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,22162,7153
+S5601,058,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,8228,7154
+S5601,060,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,42216,7155
+S5601,062,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,33541,7156
+S5601,064,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,159907,7157
+S5601,066,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,5922,7158
+S5601,068,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Choice (PDP),CVS Health Corporation,01/01/2006,2029,7159
+S5601,801,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group (PDP),CVS Health Corporation,01/01/2006,165717,7160
+S5601,802,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group (PDP),CVS Health Corporation,01/01/2006,*,7161
+S5601,803,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group FI AET (PDP),CVS Health Corporation,01/01/2006,2194,7162
+S5601,804,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group FI (PDP),CVS Health Corporation,01/01/2006,111,7163
+S5601,805,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF (PDP),CVS Health Corporation,01/01/2006,516155,7164
+S5601,806,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF AET (PDP),CVS Health Corporation,01/01/2006,*,7165
+S5601,807,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF (PDP),CVS Health Corporation,01/01/2006,109514,7166
+S5601,808,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF - Non Calendar (PDP),CVS Health Corporation,01/01/2006,94,7167
+S5601,809,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF (PDP),CVS Health Corporation,01/01/2006,4166,7168
+S5601,810,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF - Non Calendar (PDP),CVS Health Corporation,01/01/2006,*,7169
+S5601,811,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group - State of NY (PDP),CVS Health Corporation,01/01/2006,316313,7170
+S5601,812,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF- Titanium (PDP),CVS Health Corporation,01/01/2006,161818,7171
+S5601,813,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF (PDP),CVS Health Corporation,01/01/2006,410075,7172
+S5601,814,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,AMRx SilverScript-FI-Standalone MA+PDP Signature+ (PDP),CVS Health Corporation,01/01/2006,*,7173
+S5601,815,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF (PDP),CVS Health Corporation,01/01/2006,*,7174
+S5601,816,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,Aetna Medicare Rx offered by SilverScript - FI (PDP),CVS Health Corporation,01/01/2006,163117,7175
+S5601,818,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,Aetna Medicare Rx offered by SilverScript - SF (PDP),CVS Health Corporation,01/01/2006,237,7176
+S5601,820,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,Aetna Medicare Rx offered by SilverScript - DC (PDP),CVS Health Corporation,01/01/2006,53927,7177
+S5601,822,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,AMRx SilverScript - FI - Standalone MA+PDP (PDP),CVS Health Corporation,01/01/2006,147229,7178
+S5601,823,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,AMRx SilverScript-SF-Standalone MA+PDP (PDP),CVS Health Corporation,01/01/2006,*,7179
+S5601,824,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group-SF-Standalone MA+PDP (PDP),CVS Health Corporation,01/01/2006,1873,7180
+S5601,825,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group SF AET - Standalone MA+PDP (PDP),CVS Health Corporation,01/01/2006,*,7181
+S5601,826,PDP,Medicare Prescription Drug Plan,Yes,SILVERSCRIPT INSURANCE COMPANY,Aetna Medicare,SilverScript Group - CalPERS (PDP),CVS Health Corporation,01/01/2006,*,7182
+S5609,802,PDP,Medicare Prescription Drug Plan,Yes,ASURIS NORTHWEST HEALTH,Asuris Northwest Health,Asuris Medicare Script (PDP),"Cambia Health Solutions, Inc.",01/01/2006,272,7183
+S5609,804,PDP,Medicare Prescription Drug Plan,Yes,ASURIS NORTHWEST HEALTH,Asuris Northwest Health,Asuris Medicare Script 02 (PDP),"Cambia Health Solutions, Inc.",01/01/2006,*,7184
+S5609,805,PDP,Medicare Prescription Drug Plan,Yes,ASURIS NORTHWEST HEALTH,Asuris Northwest Health,Asuris Medicare Script 03 (PDP),"Cambia Health Solutions, Inc.",01/01/2006,*,7185
+S5617,003,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,30045,7186
+S5617,008,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,10341,7187
+S5617,013,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,172698,7188
+S5617,018,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,3890,7189
+S5617,068,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,9957,7190
+S5617,088,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,1709,7191
+S5617,103,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,3605,7192
+S5617,108,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,19209,7193
+S5617,113,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,1477,7194
+S5617,118,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,12533,7195
+S5617,123,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,10274,7196
+S5617,128,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,12194,7197
+S5617,133,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,4249,7198
+S5617,138,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,43916,7199
+S5617,143,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,559,7200
+S5617,148,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,95555,7201
+S5617,153,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,3331,7202
+S5617,158,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,568788,7203
+S5617,214,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,19726,7204
+S5617,215,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,16005,7205
+S5617,216,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,7138,7206
+S5617,217,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,7835,7207
+S5617,218,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,1592,7208
+S5617,219,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,2238,7209
+S5617,220,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,14070,7210
+S5617,221,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,55966,7211
+S5617,222,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,6092,7212
+S5617,223,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,24255,7213
+S5617,224,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,5965,7214
+S5617,225,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,15130,7215
+S5617,226,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,5529,7216
+S5617,227,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,11058,7217
+S5617,348,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Assurance Rx (PDP),Health Care Service Corporation,01/01/2006,393,7218
+S5617,353,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,19868,7219
+S5617,354,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,26724,7220
+S5617,355,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,12654,7221
+S5617,356,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,18978,7222
+S5617,358,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,8231,7223
+S5617,359,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,10755,7224
+S5617,360,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,14794,7225
+S5617,362,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,11560,7226
+S5617,363,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,8344,7227
+S5617,364,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,14255,7228
+S5617,365,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,14647,7229
+S5617,366,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,6463,7230
+S5617,367,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,22863,7231
+S5617,368,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,11517,7232
+S5617,369,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,4083,7233
+S5617,370,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,3618,7234
+S5617,371,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,7522,7235
+S5617,372,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,30068,7236
+S5617,373,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,7616,7237
+S5617,375,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,20039,7238
+S5617,377,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,8283,7239
+S5617,378,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,6479,7240
+S5617,379,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,7031,7241
+S5617,380,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,17296,7242
+S5617,381,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,5589,7243
+S5617,382,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,46213,7244
+S5617,385,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring Extra Rx (PDP),Health Care Service Corporation,01/01/2006,1819,7245
+S5617,801,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring RX (PDP),Health Care Service Corporation,01/01/2006,29666,7246
+S5617,802,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring RX FY (PDP),Health Care Service Corporation,01/01/2006,*,7247
+S5617,805,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring RX (PDP),Health Care Service Corporation,01/01/2006,3381,7248
+S5617,807,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,HealthSpring,HealthSpring RX (PDP),Health Care Service Corporation,01/01/2006,*,7249
+S5660,801,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,Express Scripts Medicare,Express Scripts Medicare (PDP),Health Care Service Corporation,01/01/2006,821547,7250
+S5660,802,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,Express Scripts Medicare,Express Scripts Medicare (PDP),Health Care Service Corporation,01/01/2006,85975,7251
+S5660,803,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,Express Scripts Medicare,Express Scripts Medicare (PDP),Health Care Service Corporation,01/01/2006,53369,7252
+S5660,804,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,Express Scripts Medicare,Express Scripts Medicare FY (PDP),Health Care Service Corporation,01/01/2006,*,7253
+S5660,814,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,Express Scripts Medicare,Express Scripts Medicare (PDP),Health Care Service Corporation,01/01/2006,13558,7254
+S5660,815,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY,Express Scripts Medicare,Express Scripts Medicare (PDP),Health Care Service Corporation,01/01/2006,*,7255
+S5715,001,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Value (PDP),Health Care Service Corporation,01/01/2006,65530,7256
+S5715,005,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Value (PDP),Health Care Service Corporation,01/01/2006,22597,7257
+S5715,010,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Value (PDP),Health Care Service Corporation,01/01/2006,8672,7258
+S5715,012,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Basic (PDP),Health Care Service Corporation,01/01/2006,27319,7259
+S5715,013,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Basic (PDP),Health Care Service Corporation,01/01/2006,698,7260
+S5715,014,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Basic (PDP),Health Care Service Corporation,01/01/2006,14746,7261
+S5715,015,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Basic (PDP),Health Care Service Corporation,01/01/2006,38062,7262
+S5715,020,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross MedicareRx Value (PDP),Health Care Service Corporation,01/01/2006,2950,7263
+S5715,801,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,3539,7264
+S5715,802,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,1562,7265
+S5715,803,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,1584,7266
+S5715,807,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,3147,7267
+S5715,809,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7268
+S5715,811,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,2765,7269
+S5715,813,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7270
+S5715,815,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7271
+S5715,817,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7272
+S5715,818,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7273
+S5715,819,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,2540,7274
+S5715,820,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7275
+S5715,821,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7276
+S5715,822,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7277
+S5715,823,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7278
+S5715,824,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7279
+S5715,825,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,2765,7280
+S5715,826,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7281
+S5715,827,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7282
+S5715,828,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7283
+S5715,829,PDP,Medicare Prescription Drug Plan,Yes,MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION,"Blue Cross and Blue Shield of IL, NM, OK, TX",Blue Cross Group MedicareRx (PDP),Health Care Service Corporation,01/01/2006,*,7284
+S5726,013,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF KANSAS,Blue Cross and Blue Shield of Kansas,Blue MedicareRx Value (PDP),Blue Cross Blue Shield of Kansas,01/01/2006,13654,7285
+S5726,014,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF KANSAS,Blue Cross and Blue Shield of Kansas,Blue MedicareRx Plus (PDP),Blue Cross Blue Shield of Kansas,01/01/2006,15155,7286
+S5726,020,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF KANSAS,Blue Cross and Blue Shield of Kansas,Blue MedicareRx Essentials (PDP),Blue Cross Blue Shield of Kansas,01/01/2006,121897,7287
+S5726,805,PDP,Medicare Prescription Drug Plan,Yes,BLUE CROSS AND BLUE SHIELD OF KANSAS,Blue Cross and Blue Shield of Kansas,Blue MedicareRx (PDP),Blue Cross Blue Shield of Kansas,01/01/2006,*,7288
+S5743,001,PDP,Medicare Prescription Drug Plan,Yes,"WELLMARK  IA & SD, & BCBS MN, MT, NE, ND,& WY",MedicareBlue Rx,MedicareBlue Rx Standard (PDP),"BCBS MN, MT, NE, ND, WY, Wellmark IA and SD",01/01/2006,84980,7289
+S5743,802,PDP,Medicare Prescription Drug Plan,Yes,"WELLMARK  IA & SD, & BCBS MN, MT, NE, ND,& WY",MedicareBlue Rx,Group MedicareBlue Rx (PDP),"BCBS MN, MT, NE, ND, WY, Wellmark IA and SD",01/01/2006,38270,7290
+S5743,805,PDP,Medicare Prescription Drug Plan,Yes,"WELLMARK  IA & SD, & BCBS MN, MT, NE, ND,& WY",MedicareBlue Rx,Group MedicareBlue Rx MN (PDP),"BCBS MN, MT, NE, ND, WY, Wellmark IA and SD",01/01/2006,*,7291
+S5795,002,PDP,Medicare Prescription Drug Plan,Yes,USABLE MUTUAL INSURANCE COMPANY,Arkansas Blue Medicare,BlueMedicare Premier Rx (PDP),USAble Mutual Insurance Company,01/01/2006,3487,7292
+S5795,003,PDP,Medicare Prescription Drug Plan,Yes,USABLE MUTUAL INSURANCE COMPANY,Arkansas Blue Medicare,BlueMedicare Value Rx (PDP),USAble Mutual Insurance Company,01/01/2006,14068,7293
+S5795,804,PDP,Medicare Prescription Drug Plan,Yes,USABLE MUTUAL INSURANCE COMPANY,Arkansas Blue Medicare,BlueMedicare Def Std Employer CY (PDP),USAble Mutual Insurance Company,01/01/2006,1826,7294
+S5795,809,PDP,Medicare Prescription Drug Plan,Yes,USABLE MUTUAL INSURANCE COMPANY,Arkansas Blue Medicare,BlueMedicare Def Std Employer NCY (PDP),USAble Mutual Insurance Company,01/01/2006,*,7295
+S5795,811,PDP,Medicare Prescription Drug Plan,Yes,USABLE MUTUAL INSURANCE COMPANY,Arkansas Blue Medicare,BlueMedicare Group Basic CY (PDP),USAble Mutual Insurance Company,01/01/2006,*,7296
+S5795,812,PDP,Medicare Prescription Drug Plan,Yes,USABLE MUTUAL INSURANCE COMPANY,Arkansas Blue Medicare,BlueMedicare Group Basic NCY (PDP),USAble Mutual Insurance Company,01/01/2006,*,7297
+S5805,803,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,758,7298
+S5805,804,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7299
+S5805,807,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7300
+S5805,808,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7301
+S5805,809,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7302
+S5805,810,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7303
+S5805,811,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7304
+S5805,812,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7305
+S5805,813,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,89,7306
+S5805,814,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7307
+S5805,815,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7308
+S5805,816,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7309
+S5805,818,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7310
+S5805,819,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7311
+S5805,820,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7312
+S5805,821,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7313
+S5805,822,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7314
+S5805,823,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7315
+S5805,824,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7316
+S5805,825,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7317
+S5805,826,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7318
+S5805,827,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7319
+S5805,828,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7320
+S5805,829,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7321
+S5805,830,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7322
+S5805,831,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7323
+S5805,832,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7324
+S5805,833,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7325
+S5805,834,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7326
+S5805,835,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7327
+S5805,836,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,86,7328
+S5805,837,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7329
+S5805,838,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7330
+S5820,034,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,14,7331
+S5820,035,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,2712,7332
+S5820,036,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,342,7333
+S5820,037,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,5181,7334
+S5820,038,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,4875,7335
+S5820,803,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,69968,7336
+S5820,804,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7337
+S5820,807,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7338
+S5820,808,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7339
+S5820,810,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7340
+S5820,811,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7341
+S5820,812,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7342
+S5820,813,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7343
+S5820,814,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7344
+S5820,815,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7345
+S5820,816,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7346
+S5820,817,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7347
+S5820,818,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,291,7348
+S5820,819,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,1168,7349
+S5820,820,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7350
+S5820,821,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7351
+S5820,822,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7352
+S5820,823,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7353
+S5820,824,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7354
+S5820,825,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7355
+S5820,826,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,638,7356
+S5820,827,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7357
+S5820,828,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7358
+S5820,829,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7359
+S5820,830,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7360
+S5820,831,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7361
+S5820,832,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7362
+S5820,833,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7363
+S5820,834,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,272226,7364
+S5820,835,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7365
+S5820,836,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7366
+S5857,802,PDP,Medicare Prescription Drug Plan,Yes,PRIORITY HEALTH INSURANCE COMPANY,Priority Health Medicare,PriorityMedicare Rx EG Non-Calendar Year (PDP),Corewell Health,01/01/2006,16,7367
+S5857,803,PDP,Medicare Prescription Drug Plan,Yes,PRIORITY HEALTH INSURANCE COMPANY,Priority Health Medicare,PriorityMedicare Rx EG Calendar Year (PDP),Corewell Health,01/01/2006,*,7368
+S5877,803,PDP,Medicare Prescription Drug Plan,Yes,EDUCATORS MUTUAL INSURANCE ASSOCIATION,EMI Health,Alpine School District Retiree Plan (PDP),Educators Mutual Insurance Association,01/01/2006,1082,7369
+S5877,804,PDP,Medicare Prescription Drug Plan,Yes,EDUCATORS MUTUAL INSURANCE ASSOCIATION,EMI Health,Educators Mutual Retiree Plan (PDP),Educators Mutual Insurance Association,01/01/2006,14,7370
+S5884,101,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,28281,7371
+S5884,102,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,63145,7372
+S5884,103,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,37921,7373
+S5884,104,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,40404,7374
+S5884,105,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,9881,7375
+S5884,106,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,97541,7376
+S5884,107,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,29173,7377
+S5884,108,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,34823,7378
+S5884,109,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,7100,7379
+S5884,110,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,9473,7380
+S5884,111,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,43928,7381
+S5884,112,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,14783,7382
+S5884,113,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,63051,7383
+S5884,114,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,21746,7384
+S5884,115,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,1923,7385
+S5884,116,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,16444,7386
+S5884,131,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,86347,7387
+S5884,132,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,36313,7388
+S5884,133,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,53796,7389
+S5884,134,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,17654,7390
+S5884,135,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,54975,7391
+S5884,136,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,31191,7392
+S5884,137,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,71009,7393
+S5884,138,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,46812,7394
+S5884,139,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,20721,7395
+S5884,140,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,22283,7396
+S5884,141,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,14330,7397
+S5884,142,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,33964,7398
+S5884,143,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,23038,7399
+S5884,144,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,38888,7400
+S5884,145,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,126475,7401
+S5884,146,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,10290,7402
+S5884,147,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,41295,7403
+S5884,148,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,4207,7404
+S5884,149,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,16954,7405
+S5884,150,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,20055,7406
+S5884,151,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,16086,7407
+S5884,152,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,22882,7408
+S5884,153,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,24714,7409
+S5884,154,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,18426,7410
+S5884,155,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,8604,7411
+S5884,156,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,14208,7412
+S5884,157,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,36977,7413
+S5884,158,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,28170,7414
+S5884,159,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,14269,7415
+S5884,160,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,21848,7416
+S5884,161,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,26326,7417
+S5884,162,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,12612,7418
+S5884,163,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,19022,7419
+S5884,164,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,12860,7420
+S5884,165,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,8430,7421
+S5884,166,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,11603,7422
+S5884,167,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,9702,7423
+S5884,168,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,48287,7424
+S5884,169,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,11019,7425
+S5884,170,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,8235,7426
+S5884,171,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,43125,7427
+S5884,172,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,3408,7428
+S5884,173,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,9495,7429
+S5884,174,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,11830,7430
+S5884,175,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,4171,7431
+S5884,176,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,23197,7432
+S5884,177,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,10291,7433
+S5884,178,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,39725,7434
+S5884,179,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,569,7435
+S5884,180,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,1599,7436
+S5884,181,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,7040,7437
+S5884,182,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,15908,7438
+S5884,183,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,34958,7439
+S5884,184,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,54748,7440
+S5884,185,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,70294,7441
+S5884,186,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,106619,7442
+S5884,187,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,36253,7443
+S5884,188,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,15659,7444
+S5884,189,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,28070,7445
+S5884,190,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,99424,7446
+S5884,191,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,48357,7447
+S5884,192,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,62566,7448
+S5884,193,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,65283,7449
+S5884,194,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,119992,7450
+S5884,195,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,76379,7451
+S5884,196,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,143603,7452
+S5884,197,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,45750,7453
+S5884,198,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,56127,7454
+S5884,199,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,21872,7455
+S5884,200,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,22250,7456
+S5884,201,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,121745,7457
+S5884,202,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,29446,7458
+S5884,203,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,12615,7459
+S5884,204,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,121862,7460
+S5884,205,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,2677,7461
+S5884,206,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,13960,7462
+S5884,207,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,57256,7463
+S5884,208,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,7829,7464
+S5884,209,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,54148,7465
+S5884,210,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,32246,7466
+S5884,211,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,40305,7467
+S5884,212,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,660,7468
+S5884,213,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,3425,7469
+S5884,216,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Basic Rx Plan (PDP),Humana Inc.,01/01/2006,4993,7470
+S5884,217,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Premier Rx Plan (PDP),Humana Inc.,01/01/2006,12104,7471
+S5884,218,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Value Rx Plan (PDP),Humana Inc.,01/01/2006,9209,7472
+S5884,834,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Medicare Employer (PDP),Humana Inc.,01/01/2006,377740,7473
+S5884,837,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Medicare Employer (PDP),Humana Inc.,01/01/2006,*,7474
+S5884,838,PDP,Medicare Prescription Drug Plan,Yes,Humana Insurance Co. & Humana Insurance Co. of NY,Humana,Humana Medicare Employer (PDP),Humana Inc.,01/01/2006,4928,7475
+S5904,001,PDP,Medicare Prescription Drug Plan,Yes,"BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",Florida Blue,BlueMedicare Premier Rx (PDP),Guidewell Mutual Holding Corporation,01/01/2006,41327,7476
+S5904,002,PDP,Medicare Prescription Drug Plan,Yes,"BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",Florida Blue,BlueMedicare Complete Rx (PDP),Guidewell Mutual Holding Corporation,01/01/2006,5682,7477
+S5904,801,PDP,Medicare Prescription Drug Plan,Yes,"BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",Florida Blue,BlueMedicare Group Rx (PDP),Guidewell Mutual Holding Corporation,01/01/2006,63,7478
+S5904,802,PDP,Medicare Prescription Drug Plan,Yes,"BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",Florida Blue,BlueMedicare Group Rx (PDP),Guidewell Mutual Holding Corporation,01/01/2006,*,7479
+S5916,802,PDP,Medicare Prescription Drug Plan,Yes,REGENCE BLUESHIELD OF IDAHO AND REGENCE BC BS UTAH,Regence BlueShield of Idaho and Regence BC BS Utah,Regence Medicare Script (PDP),"Cambia Health Solutions, Inc.",01/01/2006,1108,7480
+S5916,804,PDP,Medicare Prescription Drug Plan,Yes,REGENCE BLUESHIELD OF IDAHO AND REGENCE BC BS UTAH,Regence BlueShield of Idaho and Regence BC BS Utah,Regence Medicare Script 02 (PDP),"Cambia Health Solutions, Inc.",01/01/2006,*,7481
+S5916,805,PDP,Medicare Prescription Drug Plan,Yes,REGENCE BLUESHIELD OF IDAHO AND REGENCE BC BS UTAH,Regence BlueShield of Idaho and Regence BC BS Utah,Regence Medicare Script 03 (PDP),"Cambia Health Solutions, Inc.",01/01/2006,*,7482
+S5921,348,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,32480,7483
+S5921,349,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,19078,7484
+S5921,350,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,20581,7485
+S5921,351,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,26105,7486
+S5921,352,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,18019,7487
+S5921,353,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,11346,7488
+S5921,354,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,4256,7489
+S5921,355,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,9043,7490
+S5921,356,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,26642,7491
+S5921,357,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,15591,7492
+S5921,358,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,19298,7493
+S5921,359,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,12729,7494
+S5921,360,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,11654,7495
+S5921,361,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,32689,7496
+S5921,362,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,24309,7497
+S5921,363,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,5907,7498
+S5921,364,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,1879,7499
+S5921,365,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,2818,7500
+S5921,366,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,6473,7501
+S5921,367,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,19151,7502
+S5921,368,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,4554,7503
+S5921,369,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,1627,7504
+S5921,370,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,102283,7505
+S5921,371,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,20587,7506
+S5921,372,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,9820,7507
+S5921,373,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,5177,7508
+S5921,374,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,26062,7509
+S5921,375,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,5335,7510
+S5921,376,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,50004,7511
+S5921,377,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,1544,7512
+S5921,378,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,3821,7513
+S5921,379,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,14000,7514
+S5921,380,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,12800,7515
+S5921,381,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Saver from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,6688,7516
+S5921,382,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,137396,7517
+S5921,383,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,202566,7518
+S5921,384,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,28325,7519
+S5921,385,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,66190,7520
+S5921,386,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,95121,7521
+S5921,387,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,73304,7522
+S5921,388,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,73204,7523
+S5921,389,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,54423,7524
+S5921,390,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,48974,7525
+S5921,391,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,29570,7526
+S5921,392,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,44445,7527
+S5921,393,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,49231,7528
+S5921,394,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,40732,7529
+S5921,395,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,63886,7530
+S5921,396,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,56567,7531
+S5921,397,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,24459,7532
+S5921,398,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,71661,7533
+S5921,399,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,32537,7534
+S5921,400,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,9192,7535
+S5921,401,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,15250,7536
+S5921,402,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,15639,7537
+S5921,403,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,116422,7538
+S5921,404,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,19264,7539
+S5921,405,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,9879,7540
+S5921,406,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,33233,7541
+S5921,407,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,11522,7542
+S5921,408,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,25932,7543
+S5921,409,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,58214,7544
+S5921,410,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,15910,7545
+S5921,411,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,55356,7546
+S5921,412,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,13250,7547
+S5921,413,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,151735,7548
+S5921,414,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,2679,7549
+S5921,415,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,AARP Medicare Rx Preferred from UHC (PDP),"UnitedHealth Group, Inc.",01/01/2006,4870,7550
+S5921,802,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,15859,7551
+S5921,837,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7552
+S5921,890,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7553
+S5921,891,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7554
+S5921,892,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7555
+S5921,893,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7556
+S5921,894,PDP,Medicare Prescription Drug Plan,Yes,UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY,UnitedHealthcare,UnitedHealthcare MedicareRx for Groups (PDP),"UnitedHealth Group, Inc.",01/01/2006,*,7557
+S5953,001,PDP,Medicare Prescription Drug Plan,Yes,BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA,Blue Cross Blue Shield of South Carolina,BlueCross Rx Value (PDP),BlueCross BlueShield of South Carolina (BCBSSC),01/01/2006,13847,7558
+S5953,801,PDP,Medicare Prescription Drug Plan,Yes,BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA,Blue Cross Blue Shield of South Carolina,Group Blue Rx Plus (PDP),BlueCross BlueShield of South Carolina (BCBSSC),01/01/2006,628,7559
+S5953,802,PDP,Medicare Prescription Drug Plan,Yes,BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA,Blue Cross Blue Shield of South Carolina,Group Blue Rx Plus (PDP),BlueCross BlueShield of South Carolina (BCBSSC),01/01/2006,*,7560
+S5960,803,PDP,Medicare Prescription Drug Plan,Yes,WELLPOINT LIFE AND HEALTH INSURANCE COMPANY,Wellpoint,MedicareRx Rewards (PDP),"Elevance Health, Inc.",01/01/2006,*,7561
+S5960,804,PDP,Medicare Prescription Drug Plan,Yes,WELLPOINT LIFE AND HEALTH INSURANCE COMPANY,Wellpoint,MedicareRx Rewards (PDP),"Elevance Health, Inc.",01/01/2006,6585,7562
+S5960,805,PDP,Medicare Prescription Drug Plan,Yes,WELLPOINT LIFE AND HEALTH INSURANCE COMPANY,Wellpoint,MedicareRx Rewards (PDP),"Elevance Health, Inc.",01/01/2006,7414,7563
+S5966,803,PDP,Medicare Prescription Drug Plan,Yes,"EMBLEMHEALTH PLAN, INC",EmblemHealth,EmblemHealth National Drug Plan (PDP),"EmblemHealth, Inc.",01/01/2006,104607,7564
+S5966,804,PDP,Medicare Prescription Drug Plan,Yes,"EMBLEMHEALTH PLAN, INC",EmblemHealth,EmblemHealth National Drug Plan (PDP),"EmblemHealth, Inc.",01/01/2006,*,7565
+S5975,801,PDP,Medicare Prescription Drug Plan,Yes,"MODA HEALTH PLAN, INC.","Moda Health Plan, Inc.",Moda Health Rx (PDP),"Moda Partners, Inc.",01/01/2006,23051,7566
+S5975,807,PDP,Medicare Prescription Drug Plan,Yes,"MODA HEALTH PLAN, INC.","Moda Health Plan, Inc.",ArrayRx (PDP),"Moda Partners, Inc.",01/01/2006,*,7567
+S5975,808,PDP,Medicare Prescription Drug Plan,Yes,"MODA HEALTH PLAN, INC.","Moda Health Plan, Inc.",UMP Classic Medicare with Part D (PDP),"Moda Partners, Inc.",01/01/2006,34718,7568
+S5975,810,PDP,Medicare Prescription Drug Plan,Yes,"MODA HEALTH PLAN, INC.","Moda Health Plan, Inc.",ArrayRx Flex (PDP),"Moda Partners, Inc.",01/01/2006,*,7569
+S5993,001,PDP,Medicare Prescription Drug Plan,Yes,HORIZON INSURANCE COMPANY,Horizon Blue Cross Blue Shield of New Jersey,Horizon Medicare Blue Rx Standard (PDP),"Horizon Mutual Holdings, Inc",01/01/2006,16294,7570
+S5993,003,PDP,Medicare Prescription Drug Plan,Yes,HORIZON INSURANCE COMPANY,Horizon Blue Cross Blue Shield of New Jersey,Horizon Medicare Blue Rx Enhanced (PDP),"Horizon Mutual Holdings, Inc",01/01/2006,15293,7571
+S5993,801,PDP,Medicare Prescription Drug Plan,Yes,HORIZON INSURANCE COMPANY,Horizon Blue Cross Blue Shield of New Jersey,Horizon Medicare Blue Group Rx (PDP),"Horizon Mutual Holdings, Inc",01/01/2006,4635,7572
+S5993,804,PDP,Medicare Prescription Drug Plan,Yes,HORIZON INSURANCE COMPANY,Horizon Blue Cross Blue Shield of New Jersey,Horizon Medicare Blue Group Rx Plus (PDP),"Horizon Mutual Holdings, Inc",01/01/2006,*,7573
+S5993,806,PDP,Medicare Prescription Drug Plan,Yes,HORIZON INSURANCE COMPANY,Horizon Blue Cross Blue Shield of New Jersey,Horizon Medicare Group RX ASO (PDP),"Horizon Mutual Holdings, Inc",01/01/2006,*,7574
+S6875,801,PDP,Medicare Prescription Drug Plan,Yes,QCC INSURANCE COMPANY,Independence Blue Cross,Select Option Rx Group Option I CY (PDP),"Independence Health Group, Inc.",01/01/2006,6021,7575
+S6875,802,PDP,Medicare Prescription Drug Plan,Yes,QCC INSURANCE COMPANY,Independence Blue Cross,Select Option Rx Group Option CY (PDP),"Independence Health Group, Inc.",01/01/2006,16,7576
+S6939,,PDP,Medicare Prescription Drug Plan,Yes,"MASS GENERAL BRIGHAM HEALTH PLAN, INC",Mass General Brigham Health Plan,,Mass General Brigham Incorporated,01/01/2026,*,7577
+S6939,801,PDP,Medicare Prescription Drug Plan,Yes,"MASS GENERAL BRIGHAM HEALTH PLAN, INC",Mass General Brigham Health Plan,Mass General Brigham Medicare Group Rx (PDP),Mass General Brigham Incorporated,01/01/2026,*,7578
+S8067,801,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Rx (CY) (PDP),CAPITAL BLUE CROSS,01/01/2006,*,7579
+S8067,803,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Custom Rx (CY) (PDP),CAPITAL BLUE CROSS,01/01/2006,1334,7580
+S8067,804,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Standard Rx (CY) (PDP),CAPITAL BLUE CROSS,01/01/2006,*,7581
+S8067,805,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Complete Rx (CY) (PDP),CAPITAL BLUE CROSS,01/01/2006,*,7582
+S8067,806,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Custom Rx (FY) (PDP),CAPITAL BLUE CROSS,01/01/2006,*,7583
+S8067,807,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Standard Rx (FY) (PDP),CAPITAL BLUE CROSS,01/01/2006,*,7584
+S8067,808,PDP,Medicare Prescription Drug Plan,Yes,Avalon Insurance Company,Avalon Insurance Company,SecureRx Group PDP Rx (FY) (PDP),CAPITAL BLUE CROSS,01/01/2006,*,7585
+S8841,803,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE Silver 2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,382622,7586
+S8841,804,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE Silver 2026 - NCY (PDP),"UnitedHealth Group, Inc.",01/01/2007,*,7587
+S8841,807,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE Bronze 2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,9426,7588
+S8841,808,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE Bronze 2026 - NCY (PDP),"UnitedHealth Group, Inc.",01/01/2007,*,7589
+S8841,810,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",MPSERS 2026 (PDP),"UnitedHealth Group, Inc.",01/01/2007,169628,7590
+S8841,812,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE Gold 5-Tier 2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,*,7591
+S8841,813,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE Gold 5-Tier 2026 - NCY (PDP),"UnitedHealth Group, Inc.",01/01/2007,*,7592
+S8841,818,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx CORE PDP Basic 2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,*,7593
+S8841,819,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx Copper 2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,4333,7594
+S8841,820,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx Compass Rose 2026  -  CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,5666,7595
+S8841,821,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",URMBT 2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,434464,7596
+S8841,822,PDP,Medicare Prescription Drug Plan,Yes,"OPTUM INSURANCE OF OHIO, INC.","Optum Insurance of Ohio, Inc.",OptumRx Deere  2026 - CY (PDP),"UnitedHealth Group, Inc.",01/01/2007,19035,7597
+S9701,801,PDP,Medicare Prescription Drug Plan,Yes,"DEAN HEALTH INSURANCE, INC.",Navitus MedicareRx,Navitus MedicareRx (PDP),Medica Holding Company,01/01/2015,85031,7598
+S9701,802,PDP,Medicare Prescription Drug Plan,Yes,"DEAN HEALTH INSURANCE, INC.",Navitus MedicareRx,Navitus MedicareRx (PDP),Medica Holding Company,01/01/2015,*,7599
+S9701,803,PDP,Medicare Prescription Drug Plan,Yes,"DEAN HEALTH INSURANCE, INC.",Navitus MedicareRx,Navitus MedicareRx (PDP),Medica Holding Company,01/01/2015,1368,7600
+S9701,804,PDP,Medicare Prescription Drug Plan,Yes,"DEAN HEALTH INSURANCE, INC.",Navitus MedicareRx,Navitus MedicareRx (PDP),Medica Holding Company,01/01/2015,*,7601
+S9701,807,PDP,Medicare Prescription Drug Plan,Yes,"DEAN HEALTH INSURANCE, INC.",Navitus MedicareRx,Navitus MedicareRx (PDP),Medica Holding Company,01/01/2015,588,7602
+S9701,808,PDP,Medicare Prescription Drug Plan,Yes,"DEAN HEALTH INSURANCE, INC.",Navitus MedicareRx,Navitus MedicareRx (PDP),Medica Holding Company,01/01/2015,14629,7603

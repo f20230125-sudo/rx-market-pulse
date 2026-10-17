@@ -1,0 +1,139 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "bf56d4549525aa8a66b4",
+  "position": {
+    "x": 650,
+    "y": 360,
+    "z": 11,
+    "height": 294,
+    "width": 602,
+    "tabOrder": 11
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_brand"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "dim_brand.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "Plans"
+                }
+              },
+              "queryRef": "fact_brand.Plans",
+              "nativeQueryRef": "Plans",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "Listed plans"
+                }
+              },
+              "queryRef": "fact_brand.Listed plans",
+              "nativeQueryRef": "Listed plans",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "Unknown access plans"
+                }
+              },
+              "queryRef": "fact_brand.Unknown access plans",
+              "nativeQueryRef": "Unknown access plans",
+              "active": true
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "Reported enrollment"
+                }
+              },
+              "queryRef": "fact_brand.Reported enrollment",
+              "nativeQueryRef": "Reported enrollment",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'What sits behind the percentages'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

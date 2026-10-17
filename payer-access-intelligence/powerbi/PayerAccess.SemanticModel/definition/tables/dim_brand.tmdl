@@ -1,0 +1,20 @@
+table dim_brand
+	lineageTag: 7a228dc7-2f22-5fcb-91c2-3c8e4e5001fe
+
+	column brand
+		dataType: string
+		lineageTag: 3ffeb72a-d4c8-5d57-85d6-7ebfc454e964
+		summarizeBy: none
+		sourceColumn: brand
+
+	partition dim_brand = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_brand.csv"), [Delimiter=",", Columns=1, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"brand", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,229 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "056703fb1975cda12163",
+  "position": {
+    "x": 28,
+    "y": 224,
+    "z": 6,
+    "height": 180,
+    "width": 1224,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_plan"
+                    }
+                  },
+                  "Property": "plan_key"
+                }
+              },
+              "queryRef": "dim_plan.plan_key",
+              "nativeQueryRef": "plan_key",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_plan"
+                    }
+                  },
+                  "Property": "plan_name"
+                }
+              },
+              "queryRef": "dim_plan.plan_name",
+              "nativeQueryRef": "plan_name",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_plan"
+                    }
+                  },
+                  "Property": "region"
+                }
+              },
+              "queryRef": "dim_plan.region",
+              "nativeQueryRef": "region",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "fact_brand.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "listing"
+                }
+              },
+              "queryRef": "fact_brand.listing",
+              "nativeQueryRef": "listing",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "listed_strengths"
+                }
+              },
+              "queryRef": "fact_brand.listed_strengths",
+              "nativeQueryRef": "listed_strengths",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "catalog_strengths"
+                }
+              },
+              "queryRef": "fact_brand.catalog_strengths",
+              "nativeQueryRef": "catalog_strengths",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "pa"
+                }
+              },
+              "queryRef": "fact_brand.pa",
+              "nativeQueryRef": "pa",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "st"
+                }
+              },
+              "queryRef": "fact_brand.st",
+              "nativeQueryRef": "st",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "ql"
+                }
+              },
+              "queryRef": "fact_brand.ql",
+              "nativeQueryRef": "ql",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_brand"
+                    }
+                  },
+                  "Property": "enrollment"
+                }
+              },
+              "queryRef": "fact_brand.enrollment",
+              "nativeQueryRef": "enrollment",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Plan-brand access: select a row to inspect strengths below'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "55cd1b281294d2153999",
+  "position": {
+    "x": 28,
+    "y": 426,
+    "z": 7,
+    "height": 228,
+    "width": 1224,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "plan_key"
+                }
+              },
+              "queryRef": "fact_strength.plan_key",
+              "nativeQueryRef": "plan_key",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "fact_strength.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "strength_mg"
+                }
+              },
+              "queryRef": "fact_strength.strength_mg",
+              "nativeQueryRef": "strength_mg",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "listing"
+                }
+              },
+              "queryRef": "fact_strength.listing",
+              "nativeQueryRef": "listing",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "pa"
+                }
+              },
+              "queryRef": "fact_strength.pa",
+              "nativeQueryRef": "pa",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "st"
+                }
+              },
+              "queryRef": "fact_strength.st",
+              "nativeQueryRef": "st",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "ql"
+                }
+              },
+              "queryRef": "fact_strength.ql",
+              "nativeQueryRef": "ql",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "tiers"
+                }
+              },
+              "queryRef": "fact_strength.tiers",
+              "nativeQueryRef": "tiers",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "quantity_limit_details"
+                }
+              },
+              "queryRef": "fact_strength.quantity_limit_details",
+              "nativeQueryRef": "quantity_limit_details",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "rxcuis"
+                }
+              },
+              "queryRef": "fact_strength.rxcuis",
+              "nativeQueryRef": "rxcuis",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "first_drug_source_row"
+                }
+              },
+              "queryRef": "fact_strength.first_drug_source_row",
+              "nativeQueryRef": "first_drug_source_row",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_strength"
+                    }
+                  },
+                  "Property": "indication_note"
+                }
+              },
+              "queryRef": "fact_strength.indication_note",
+              "nativeQueryRef": "indication_note",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Strength detail and original drug-file row references'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

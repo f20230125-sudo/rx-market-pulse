@@ -1,0 +1,254 @@
+table fact_brand
+	lineageTag: bb80f8c2-085b-5bb2-ad9f-8f21df9d7288
+
+	measure 'Selected brand' = SELECTEDVALUE(dim_brand[brand],"BELSOMRA")
+		formatString: @
+		displayFolder: Measures
+		lineageTag: 17ef3862-2cbe-5639-9487-ed92009e3eec
+
+	measure 'Selected snapshot' = SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month]))
+		formatString: @
+		displayFolder: Measures
+		lineageTag: 2ef2834e-c6d8-56f4-a8cf-9acbcfedafd3
+
+	measure Plans = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COUNTROWS(fact_brand),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: d0ac8e2d-d76a-5a04-aeac-e047a652a0ba
+
+	measure 'Known access plans' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(COUNTROWS(fact_brand),fact_brand[listing]<>"Unknown"),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: a165d4a4-0cec-569d-bc20-34d06b72b84c
+
+	measure 'Listed plans' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(COUNTROWS(fact_brand),fact_brand[listing]="Listed"),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: cbbb03f6-c577-5c5a-aaa0-32382ce93d7e
+
+	measure 'All strengths listed' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(COUNTROWS(fact_brand),fact_brand[all_strengths_listed]=1),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 201a23e0-d3be-5623-91d7-34396e766295
+
+	measure 'Unknown access plans' = [Plans]-[Known access plans]
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 54948153-e5cc-5734-8a18-e3a0b0d9e41b
+
+	measure 'Plan listing rate' = DIVIDE([Listed plans],[Known access plans])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 865b6b2f-12f4-5e52-bb16-85af09261e36
+
+	measure 'Reported enrollment' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(SUM(fact_brand[enrollment]),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: a437b3f5-0d82-579a-a7dc-c1e4ccdbf4dc
+
+	measure 'Known access enrollment' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(SUM(fact_brand[enrollment]),fact_brand[listing]<>"Unknown"),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 4e9b9f41-c098-54ae-b3c6-b1ab764edc06
+
+	measure 'Listed enrollment' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(SUM(fact_brand[enrollment]),fact_brand[listing]="Listed"),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: a82d1263-3b35-576a-a9c6-6fe5baf74b9c
+
+	measure 'Enrollment weighted listing' = DIVIDE(COALESCE([Listed enrollment],0),[Known access enrollment])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 37f18381-1e24-5eff-8ebf-150f704d8ad5
+
+	measure 'Plans with enrollment' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(COUNT(fact_brand[enrollment]),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 2f99ad3b-49fe-5144-b906-53884017db79
+
+	measure 'Enrollment completeness' = DIVIDE([Plans with enrollment],[Plans])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 90f6f887-f56a-5bdd-aec8-7aba533e75c9
+
+	measure 'No PA or ST plans' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(COUNTROWS(fact_brand),fact_brand[any_no_pa_st]=1),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: b05dfd08-d573-5378-9edc-4c2af50a1e1b
+
+	measure 'PA applies across listed strengths' = VAR m=SELECTEDVALUE(dim_snapshot[month],MAXX(ALL(dim_snapshot),dim_snapshot[month])) VAR b=SELECTEDVALUE(dim_brand[brand],"BELSOMRA") RETURN CALCULATE(CALCULATE(COUNTROWS(fact_brand),fact_brand[listing]="Listed",fact_brand[pa]="Yes"),dim_snapshot[month]=m,dim_brand[brand]=b)
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 24090aab-64a0-5b6e-8815-aa82836b9002
+
+	column month
+		dataType: string
+		lineageTag: 52b3b55a-c30f-5456-bd9f-35da08c98bc1
+		summarizeBy: none
+		sourceColumn: month
+
+	column plan_key
+		dataType: string
+		lineageTag: e8e9aed8-66bb-5968-8fed-d328913ca51c
+		summarizeBy: none
+		sourceColumn: plan_key
+
+	column contract_id
+		dataType: string
+		lineageTag: 680237fa-2daa-58ea-ab95-87fe8dd33170
+		summarizeBy: none
+		sourceColumn: contract_id
+
+	column plan_id
+		dataType: string
+		lineageTag: 90a07e61-c444-5ea5-baa4-d5842814cc1a
+		summarizeBy: none
+		sourceColumn: plan_id
+
+	column plan_name
+		dataType: string
+		lineageTag: f7160be1-7510-5077-b804-164b9e72f0b0
+		summarizeBy: none
+		sourceColumn: plan_name
+
+	column organization
+		dataType: string
+		lineageTag: f5b48f28-caa2-5b25-a2d6-80b496508ab7
+		summarizeBy: none
+		sourceColumn: organization
+
+	column formulary_id
+		dataType: string
+		lineageTag: 89db5d0d-608b-5ef1-b710-14be7bfd4f3a
+		summarizeBy: none
+		sourceColumn: formulary_id
+
+	column region_code
+		dataType: int64
+		formatString: 0
+		lineageTag: 759c195a-dd10-57e1-8b18-9a69c3aa2cae
+		summarizeBy: none
+		sourceColumn: region_code
+
+	column region
+		dataType: string
+		lineageTag: 81504c22-e2b2-50f7-aafc-2403eb9dc5e4
+		summarizeBy: none
+		sourceColumn: region
+
+	column suppressed
+		dataType: string
+		lineageTag: 47ef071c-223a-557a-8cae-7cb35c3c0cd7
+		summarizeBy: none
+		sourceColumn: suppressed
+
+	column formulary_complete
+		dataType: int64
+		formatString: 0
+		lineageTag: b55eb588-15ab-5d2a-b55f-06f5175c6ccb
+		summarizeBy: none
+		sourceColumn: formulary_complete
+
+	column plan_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: e58af634-d16b-59aa-b8fa-9cfa8c148767
+		summarizeBy: none
+		sourceColumn: plan_source_row
+
+	column enrollment
+		dataType: int64
+		formatString: 0
+		lineageTag: 176ed300-c9cc-5eaa-800b-21a743f84f91
+		summarizeBy: none
+		sourceColumn: enrollment
+
+	column enrollment_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: db80a81a-3f3f-55dc-bf10-3170edc90827
+		summarizeBy: none
+		sourceColumn: enrollment_source_row
+
+	column brand
+		dataType: string
+		lineageTag: aa0dc124-2a08-51ab-94e0-5bac4c6157bc
+		summarizeBy: none
+		sourceColumn: brand
+
+	column catalog_strengths
+		dataType: int64
+		formatString: 0
+		lineageTag: e179e50e-8437-50fb-8705-ae8d2adb21a5
+		summarizeBy: none
+		sourceColumn: catalog_strengths
+
+	column listed_strengths
+		dataType: int64
+		formatString: 0
+		lineageTag: d3f815a4-7fd1-5357-8517-42b369cd122f
+		summarizeBy: none
+		sourceColumn: listed_strengths
+
+	column listing
+		dataType: string
+		lineageTag: af2a1856-d38b-52fb-9002-0ac436562ce8
+		summarizeBy: none
+		sourceColumn: listing
+
+	column all_strengths_listed
+		dataType: int64
+		formatString: 0
+		lineageTag: c9e50616-95cc-586e-bf9d-9192c53cc557
+		summarizeBy: none
+		sourceColumn: all_strengths_listed
+
+	column any_strength_listed
+		dataType: int64
+		formatString: 0
+		lineageTag: 08a21ace-6dc0-570a-8999-511b6130ff56
+		summarizeBy: none
+		sourceColumn: any_strength_listed
+
+	column pa
+		dataType: string
+		lineageTag: bd0cd23f-77a1-59f2-b391-324905cefd53
+		summarizeBy: none
+		sourceColumn: pa
+
+	column st
+		dataType: string
+		lineageTag: 0c093b68-7d0d-5e04-b855-e5e4c6c10513
+		summarizeBy: none
+		sourceColumn: st
+
+	column ql
+		dataType: string
+		lineageTag: 83449138-88d5-5d2e-977d-52668a048270
+		summarizeBy: none
+		sourceColumn: ql
+
+	column any_no_pa_st
+		dataType: int64
+		formatString: 0
+		lineageTag: 1514c38f-90f3-50e8-991d-7a61e036bf38
+		summarizeBy: none
+		sourceColumn: any_no_pa_st
+
+	column indication_note
+		dataType: string
+		lineageTag: 835a63b1-3d92-57bd-9ffa-0ad6b8640726
+		summarizeBy: none
+		sourceColumn: indication_note
+
+	partition fact_brand = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_brand.csv"), [Delimiter=",", Columns=25, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"plan_key", type text}, {"contract_id", type text}, {"plan_id", type text}, {"plan_name", type text}, {"organization", type text}, {"formulary_id", type text}, {"region_code", Int64.Type}, {"region", type text}, {"suppressed", type text}, {"formulary_complete", Int64.Type}, {"plan_source_row", Int64.Type}, {"enrollment", Int64.Type}, {"enrollment_source_row", Int64.Type}, {"brand", type text}, {"catalog_strengths", Int64.Type}, {"listed_strengths", Int64.Type}, {"listing", type text}, {"all_strengths_listed", Int64.Type}, {"any_strength_listed", Int64.Type}, {"pa", type text}, {"st", type text}, {"ql", type text}, {"any_no_pa_st", Int64.Type}, {"indication_note", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,10 @@
+﻿check_id,check_name,severity,status,detail
+Q01,Unique plan-brand-snapshot keys,error,PASS,Enrollment joins only after package-to-strength reduction
+Q02,Complete eight-strength product catalogue,error,PASS,"Four BELSOMRA, two DAYVIGO, two QUVIVIQ strengths"
+Q03,Enrollment invariant across brands,error,PASS,A plan has one reported enrollment per snapshot
+Q04,Unknown source access retained,error,PASS,Suppressed or missing formularies cannot become unlisted
+Q05,Missing enrollment disclosed,info,PASS,0 plan-months have no published enrollment
+Q06,Matched-plan change comparability,error,PASS,"Entry, exit and unknown access are excluded from paired change rates"
+Q07,Indication-specific listings disclosed,info,PASS,0 rows require indication review
+Q08,Mixed restriction flags disclosed,info,PASS,Mixed package-level flags are never coerced to Yes or No
+Q09,Unkeyed enrollment rows quarantined,info,REVIEW,4 source rows excluded with recorded reasons

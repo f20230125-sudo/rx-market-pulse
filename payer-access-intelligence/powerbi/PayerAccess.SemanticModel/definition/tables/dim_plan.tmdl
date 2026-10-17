@@ -1,0 +1,57 @@
+table dim_plan
+	lineageTag: 857db841-8243-5e05-815f-1d654bf8e161
+
+	column plan_key
+		dataType: string
+		lineageTag: 0e902ced-8371-5c3c-908a-306922645726
+		summarizeBy: none
+		sourceColumn: plan_key
+
+	column contract_id
+		dataType: string
+		lineageTag: a25da61d-e826-5719-a53c-143e03a76858
+		summarizeBy: none
+		sourceColumn: contract_id
+
+	column plan_id
+		dataType: string
+		lineageTag: 6184e7fc-f5ac-535a-acf5-ef2df8c8d53c
+		summarizeBy: none
+		sourceColumn: plan_id
+
+	column plan_name
+		dataType: string
+		lineageTag: d5598258-bef9-5791-97e5-dd1923830e71
+		summarizeBy: none
+		sourceColumn: plan_name
+
+	column organization
+		dataType: string
+		lineageTag: 9af797a0-45a0-50d1-bab3-1a788bf67bf9
+		summarizeBy: none
+		sourceColumn: organization
+
+	column region_code
+		dataType: int64
+		formatString: 0
+		lineageTag: ffaaba3b-f7e7-5877-9fcf-5afb48db9d5f
+		summarizeBy: none
+		sourceColumn: region_code
+
+	column region
+		dataType: string
+		lineageTag: 68db542c-c98f-549f-94f7-1584d627daf2
+		summarizeBy: none
+		sourceColumn: region
+
+	partition dim_plan = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_plan.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"plan_key", type text}, {"contract_id", type text}, {"plan_id", type text}, {"plan_name", type text}, {"organization", type text}, {"region_code", Int64.Type}, {"region", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

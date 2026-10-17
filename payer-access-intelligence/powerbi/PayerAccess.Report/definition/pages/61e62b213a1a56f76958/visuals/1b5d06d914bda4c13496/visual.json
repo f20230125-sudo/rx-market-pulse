@@ -1,0 +1,201 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "1b5d06d914bda4c13496",
+  "position": {
+    "x": 28,
+    "y": 230,
+    "z": 6,
+    "height": 244,
+    "width": 1224,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "plan_key"
+                }
+              },
+              "queryRef": "mart_review_queue.plan_key",
+              "nativeQueryRef": "plan_key",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "organization"
+                }
+              },
+              "queryRef": "mart_review_queue.organization",
+              "nativeQueryRef": "organization",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "region"
+                }
+              },
+              "queryRef": "mart_review_queue.region",
+              "nativeQueryRef": "region",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "investigation"
+                }
+              },
+              "queryRef": "mart_review_queue.investigation",
+              "nativeQueryRef": "investigation",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "enrollment"
+                }
+              },
+              "queryRef": "mart_review_queue.enrollment",
+              "nativeQueryRef": "enrollment",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "listed_competitors"
+                }
+              },
+              "queryRef": "mart_review_queue.listed_competitors",
+              "nativeQueryRef": "listed_competitors",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "lost_strengths"
+                }
+              },
+              "queryRef": "mart_review_queue.lost_strengths",
+              "nativeQueryRef": "lost_strengths",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mart_review_queue"
+                    }
+                  },
+                  "Property": "next_step"
+                }
+              },
+              "queryRef": "mart_review_queue.next_step",
+              "nativeQueryRef": "next_step",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "mart_review_queue"
+                  }
+                },
+                "Property": "enrollment"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Investigate the payer document and criteria; this is not a sales opportunity estimate'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#102B46'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

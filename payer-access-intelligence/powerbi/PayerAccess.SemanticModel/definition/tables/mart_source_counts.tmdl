@@ -1,0 +1,38 @@
+table mart_source_counts
+	lineageTag: 15f1bfcb-9902-54b2-be53-f290c70eeecc
+
+	column month
+		dataType: string
+		lineageTag: 83aacb34-8de8-56ae-98dc-4fa94ecdec36
+		summarizeBy: none
+		sourceColumn: month
+
+	column source
+		dataType: string
+		lineageTag: 232c62f3-4e42-57b3-b6bf-a8a47b7fa268
+		summarizeBy: none
+		sourceColumn: source
+
+	column source_rows
+		dataType: string
+		lineageTag: 9cba9db0-54fc-5170-a6ee-c30cb6bba6bf
+		summarizeBy: none
+		sourceColumn: source_rows
+
+	column retained_rows
+		dataType: string
+		lineageTag: 6c2cc432-b050-5793-9924-0dd7485198fa
+		summarizeBy: none
+		sourceColumn: retained_rows
+
+	partition mart_source_counts = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "mart_source_counts.csv"), [Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"source", type text}, {"source_rows", type text}, {"retained_rows", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

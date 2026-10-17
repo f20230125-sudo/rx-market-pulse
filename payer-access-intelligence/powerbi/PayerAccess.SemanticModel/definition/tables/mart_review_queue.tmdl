@@ -1,0 +1,208 @@
+table mart_review_queue
+	lineageTag: 42c53352-c265-512c-bbc7-606a0938e103
+
+	measure 'Investigation plans' = DISTINCTCOUNT(mart_review_queue[plan_key])
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 992c9516-7a4f-531b-b083-362000fe87a1
+
+	measure 'Associated enrollment' = SUM(mart_review_queue[enrollment])
+		formatString: #,0
+		displayFolder: Measures
+		lineageTag: 92af9a67-41b0-5b18-ad26-6c181e802f71
+
+	column month
+		dataType: string
+		lineageTag: 2084214e-03ba-5233-a282-614a5a8b5ebe
+		summarizeBy: none
+		sourceColumn: month
+
+	column plan_key
+		dataType: string
+		lineageTag: 325d82d2-481a-5806-b791-38e8ac50d270
+		summarizeBy: none
+		sourceColumn: plan_key
+
+	column contract_id
+		dataType: string
+		lineageTag: 3c718abe-bb0a-50e9-84dc-d69bac8b8ed7
+		summarizeBy: none
+		sourceColumn: contract_id
+
+	column plan_id
+		dataType: string
+		lineageTag: 745d972a-948e-589c-b36f-1993909ee213
+		summarizeBy: none
+		sourceColumn: plan_id
+
+	column plan_name
+		dataType: string
+		lineageTag: 8ae3bc7c-c520-5913-a4b6-739ed79898be
+		summarizeBy: none
+		sourceColumn: plan_name
+
+	column organization
+		dataType: string
+		lineageTag: f13db74d-0431-5588-ab2b-4546500bdf7b
+		summarizeBy: none
+		sourceColumn: organization
+
+	column formulary_id
+		dataType: string
+		lineageTag: 24fc17ff-d2c8-51d1-8661-5ab5c17855f7
+		summarizeBy: none
+		sourceColumn: formulary_id
+
+	column region_code
+		dataType: int64
+		formatString: 0
+		lineageTag: 97cd802c-1fbb-5054-a32d-9b8985aa5910
+		summarizeBy: none
+		sourceColumn: region_code
+
+	column region
+		dataType: string
+		lineageTag: 0e2de764-9f6a-5b51-9172-e532ce256f1b
+		summarizeBy: none
+		sourceColumn: region
+
+	column suppressed
+		dataType: string
+		lineageTag: 1848fbaf-c74d-5372-ba07-166b5682cc51
+		summarizeBy: none
+		sourceColumn: suppressed
+
+	column formulary_complete
+		dataType: int64
+		formatString: 0
+		lineageTag: 911e0a00-83ce-5767-a48f-d7c213a36d4b
+		summarizeBy: none
+		sourceColumn: formulary_complete
+
+	column plan_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: f4f6d769-400e-5226-a4b7-9825b2a33db8
+		summarizeBy: none
+		sourceColumn: plan_source_row
+
+	column enrollment
+		dataType: int64
+		formatString: 0
+		lineageTag: b64e9e76-8117-5da0-8e75-1a8aca677ff3
+		summarizeBy: none
+		sourceColumn: enrollment
+
+	column enrollment_source_row
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c9d56cb-803c-5c33-9656-61de8666fdd3
+		summarizeBy: none
+		sourceColumn: enrollment_source_row
+
+	column brand
+		dataType: string
+		lineageTag: 340a376f-3eaa-5898-8e0f-c9cd2b73b882
+		summarizeBy: none
+		sourceColumn: brand
+
+	column catalog_strengths
+		dataType: int64
+		formatString: 0
+		lineageTag: 28438a7c-aa89-540c-9f60-d80799fd899b
+		summarizeBy: none
+		sourceColumn: catalog_strengths
+
+	column listed_strengths
+		dataType: int64
+		formatString: 0
+		lineageTag: 457a0514-bbdc-58ad-8e81-f64580c5aa6f
+		summarizeBy: none
+		sourceColumn: listed_strengths
+
+	column listing
+		dataType: string
+		lineageTag: 9f96bc36-0c1c-5c31-8245-012edc620d2f
+		summarizeBy: none
+		sourceColumn: listing
+
+	column all_strengths_listed
+		dataType: int64
+		formatString: 0
+		lineageTag: a526d8e7-1040-52f4-a80c-5ba2f3e252af
+		summarizeBy: none
+		sourceColumn: all_strengths_listed
+
+	column any_strength_listed
+		dataType: int64
+		formatString: 0
+		lineageTag: 336afba9-01d1-5663-bac3-6602cda36b2f
+		summarizeBy: none
+		sourceColumn: any_strength_listed
+
+	column pa
+		dataType: string
+		lineageTag: 2c026676-7814-56cd-a1d0-9fa68f36d5a7
+		summarizeBy: none
+		sourceColumn: pa
+
+	column st
+		dataType: string
+		lineageTag: 3186fa86-ce28-5223-ac99-e272e0e00455
+		summarizeBy: none
+		sourceColumn: st
+
+	column ql
+		dataType: string
+		lineageTag: a6a5d231-847f-5e1a-8698-6ad66c9710ba
+		summarizeBy: none
+		sourceColumn: ql
+
+	column any_no_pa_st
+		dataType: int64
+		formatString: 0
+		lineageTag: 27690bb9-fdeb-5e5e-8d2b-114e38f7db08
+		summarizeBy: none
+		sourceColumn: any_no_pa_st
+
+	column indication_note
+		dataType: string
+		lineageTag: ffca18b3-f875-5c18-9657-05e70f7b7979
+		summarizeBy: none
+		sourceColumn: indication_note
+
+	column listed_competitors
+		dataType: string
+		lineageTag: e2993222-0f71-501b-9730-39a309168a19
+		summarizeBy: none
+		sourceColumn: listed_competitors
+
+	column investigation
+		dataType: string
+		lineageTag: c8a38c4e-541e-5e77-9d94-3964f2fa4161
+		summarizeBy: none
+		sourceColumn: investigation
+
+	column lost_strengths
+		dataType: string
+		lineageTag: 35d2e6b0-857e-51d7-8980-cb28b561a7a9
+		summarizeBy: none
+		sourceColumn: lost_strengths
+
+	column next_step
+		dataType: string
+		lineageTag: d2c4ff5e-f403-594e-b86a-515245cd4f6c
+		summarizeBy: none
+		sourceColumn: next_step
+
+	partition mart_review_queue = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "mart_review_queue.csv"), [Delimiter=",", Columns=29, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month", type text}, {"plan_key", type text}, {"contract_id", type text}, {"plan_id", type text}, {"plan_name", type text}, {"organization", type text}, {"formulary_id", type text}, {"region_code", Int64.Type}, {"region", type text}, {"suppressed", type text}, {"formulary_complete", Int64.Type}, {"plan_source_row", Int64.Type}, {"enrollment", Int64.Type}, {"enrollment_source_row", Int64.Type}, {"brand", type text}, {"catalog_strengths", Int64.Type}, {"listed_strengths", Int64.Type}, {"listing", type text}, {"all_strengths_listed", Int64.Type}, {"any_strength_listed", Int64.Type}, {"pa", type text}, {"st", type text}, {"ql", type text}, {"any_no_pa_st", Int64.Type}, {"indication_note", type text}, {"listed_competitors", type text}, {"investigation", type text}, {"lost_strengths", type text}, {"next_step", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
