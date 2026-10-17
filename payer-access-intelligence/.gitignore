@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+data/raw/
+data/warehouse/
+outputs/preview/
+**/.pbi/
+*.pbix
+*.zip
+*.log
+data/stage/
+outputs/test-run*/
+outputs/source-transfer.json
+outputs/calc-validation/

@@ -1,0 +1,56 @@
+name: Payer access analytical validation
+on:
+  push:
+    branches: [work/payer-access-source-check]
+    paths:
+      - payer-access-intelligence/**
+      - .github/workflows/payer-access-validation.yml
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install './payer-access-intelligence[test]' jsonschema
+      - name: Import verified original-source slices
+        run: |
+          mkdir -p payer-access-intelligence/data/extracts
+          cp -R _payer_source_transport/. payer-access-intelligence/data/extracts/
+          cd payer-access-intelligence
+          pai import-slices
+          pai build
+          pai export
+          python -m pytest -q --junitxml=outputs/tests.xml
+          python -c "from pai.verify import source_audit; from pai.config import ROOT; import duckdb; print(source_audit(ROOT,duckdb.connect(str(ROOT/'data/warehouse/access.duckdb'),read_only=True)))"
+      - name: Validate Microsoft's Power BI report schemas
+        working-directory: payer-access-intelligence
+        run: python tools/validate_pbir.py
+      - name: Install independent spreadsheet calculation engine
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libreoffice-calc
+      - name: Evaluate eight workbook scenarios in LibreOffice Calc
+        working-directory: payer-access-intelligence
+        run: python tools/verify_calc.py
+      - name: Record results on this isolated branch
+        if: always()
+        run: |
+          mkdir -p _payer_validation
+          for file in build-receipt.json export-receipt.json pbir-schema-validation.json calc-validation.json source-audit.csv tests.xml; do
+            if [ -f "payer-access-intelligence/outputs/$file" ]; then cp "payer-access-intelligence/outputs/$file" _payer_validation/; fi
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _payer_validation
+          git diff --cached --quiet || git commit -m "Record payer access analytical and spreadsheet validation"
+          git push origin HEAD:work/payer-access-source-check
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: payer-access-validation
+          path: _payer_validation
