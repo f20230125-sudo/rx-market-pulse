@@ -11,7 +11,6 @@ BELSOMRA vs DAYVIGO and QUVIVIQ, using January and August 2026 public Medicare s
 | Deliverable | Open |
 |---|---|
 | Four-page analytical report | [PDF](outputs/Payer-Access-Analytical-Report.pdf) |
-| Two-page interview case study | [PDF](outputs/Payer-Access-Case-Study.pdf) |
 | Working Excel analysis | [Workbook](excel/Payer-Access-Intelligence.xlsx) |
 | Four-page Power BI project | [PayerAccess.pbip](powerbi/PayerAccess.pbip) |
 | Findings and interpretation | [Findings](outputs/findings.md) |
@@ -37,7 +36,7 @@ flowchart LR
     C --> D[DuckDB + SQL: plan / strength / brand grains]
     D --> E[Power BI: 4 pages, 29 DAX measures]
     D --> F[Excel: live formulas and dropdown inputs]
-    D --> G[PDF case study + analytical report]
+    D --> G[PDF analytical report]
     C --> H[Source audit and quality receipts]
 ```
 
@@ -68,13 +67,5 @@ pai report
 ```
 
 Network acquisition errors never trigger a switch to fictional data. `pai preview` creates isolated, conspicuously labeled acceptance fixtures under `outputs/preview/`; those fixtures are excluded from the portfolio package and real findings.
-
-## Interview walkthrough
-
-1. Open the report: explain the difference between the share of plans and the share of members.
-2. Show the fixed-enrollment comparison: explain why a better headline did not mean better listing.
-3. Filter Excel by brand, strength, region, snapshot and enrollment threshold; trace the selected rows in `Access`.
-4. Inspect the 70-plan queue and its concentration. Propose checking current payer documents before action.
-5. Show the four quarantined source records and a source-audit row. Explain the treatment of missing and suppressed data.
 
 This is independent portfolio work using public US data. It does not represent MSD's internal systems, the UAE market, clinical recommendations or measured commercial impact.

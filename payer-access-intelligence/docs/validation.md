@@ -14,6 +14,6 @@ Evidence lives in `outputs/`; this file distinguishes implementation checks from
 | Workbook calculation | CI checks eight input scenarios / 64 headline values with LibreOffice Calc; all eight scenarios / 64 values passed; receipt `calc-validation.json` |
 | Microsoft Excel calculation | Pending: COM activation fails with logon-session error `-2147023584`; no connected document-control session is available |
 | Power BI Desktop visuals, DAX and PBIX | Pending: no usable interactive application session. No PBIX or Desktop screenshots are claimed |
-| PDF report layout | Four static analytical pages and two case-study pages rendered and inspected; generated directly from SQL marts, not exported from Desktop |
+| PDF report layout | Four static analytical pages rendered and inspected; generated directly from SQL marts, not exported from Desktop |
 
 Fictional acceptance fixtures are isolated under `outputs/preview/`. They exercise suppression, missing enrollment, mixed flags, partial strength listing, and entries/exits that do not occur in the real two-snapshot cohort. They are not used for portfolio findings.

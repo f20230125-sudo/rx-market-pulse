@@ -133,33 +133,10 @@ def report(preview=False):
     for i,page in enumerate(doc):
         page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False).save(str(out/f'Report-{i+1:02d}.png'))
     doc.close()
-    # Two-page interview case study; uses the same numerical findings.
-    memo=fitz.open()
-    page=page_header(memo,'PORTFOLIO CASE STUDY / 1 OF 2','Payer Access Intelligence',
-                     'Business question: which payer access differences should a Commercial Operations analyst investigate first?',1,preview)
-    text(page,(30,147,812,179),'Why this project',15,INK,True)
-    text(page,(30,187,812,249),'A spend dashboard shows where money moved. This analysis asks whether a product is listed, what restrictions apply, and whether a changing headline represents a real change in access. It demonstrates data harmonization, SQL analysis, Excel reporting and a Power BI semantic model.',12)
     findings=[f"BELSOMRA is listed by {b['listed_plans']} / {b['known_plans']} plans ({b['plan_listing_rate']:.1%}), associated with {b['listed_enrollment']:,} members ({b['enrollment_listing_rate']:.1%} of the observed cohort).",
               f"The member-weighted rate changed from {p['enrollment_listing_rate']:.1%} to {b['enrollment_listing_rate']:.1%}. Fixed August weights show {'no listing expansion' if stable else 'the matched-plan listing component separately'}; the headline must be interpreted with enrollment composition.",
               f"The review queue contains {queue_n} plans with {queue_members:,} reported members. The top two contract organizations contain {top2/queue_members:.1%} of queue enrollment; payer-document checks can begin there." if queue_members else 'The review queue contains no qualifying events.']
-    text(page,(30,271,812,304),'Three findings to explain in an interview',15,INK,True)
-    for i,value in enumerate(findings):
-        text(page,(30,318+i*74,63,350+i*74),f'0{i+1}',18,TEAL,True)
-        text(page,(76,317+i*74,812,382+i*74),value,12)
-    page=page_header(memo,'PORTFOLIO CASE STUDY / 2 OF 2','A reproducible answer, with practical limits',
-                     'Independent work using public US data. No MSD affiliation or internal data is claimed.',2,preview)
-    text(page,(30,149,397,178),'Data and harmonization',15,INK,True)
-    text(page,(30,187,397,346),f"Original CMS archives and NLM product references are downloaded and hashed. {full_rows:,} formulary records become a {b['plan_count']}-plan cohort with eight product strengths. Package records are reduced before enrollment joins. Shared formularies stay shared, missing source access stays unknown, and unkeyed enrollment rows are quarantined.",12)
-    text(page,(439,149,812,178),'Business use',15,INK,True)
-    text(page,(439,187,812,346),'Use the Power BI report to compare brands, inspect a region and trace a strength-level difference. Use Excel to change the brand, strength view, region, snapshot and enrollment threshold. Use the investigation queue to prepare payer questions supported by exact plan and formulary identifiers.',12)
-    line(page,363,842)
-    text(page,(30,382,812,412),'Validation and delivery status',15,INK,True)
-    text(page,(30,421,812,520),'Delivered: source manifests, SQL marts, source audit, live-formula workbook, Power BI project and PDF report. Eight workbook scenarios passed LibreOffice Calc; 53 Power BI JSON files passed Microsoft schemas, and the model passed Microsoft TMDL parsing. Excel COM and Desktop rendering remain pending because an interactive logon session is unavailable. No Desktop-validated PBIX is claimed.',12)
-    memo.save(out/'Payer-Access-Case-Study.pdf')
-    for i,page in enumerate(memo):
-        page.get_pixmap(matrix=fitz.Matrix(1.4,1.4),alpha=False).save(str(out/f'Case-Study-{i+1:02d}.png'))
-    memo.close()
     md='# Payer Access Intelligence\n\n'+ '\n\n'.join(findings)+'\n\nThese are descriptive US standalone PDP findings. Enrollment is not drug users, and the queue is not a revenue estimate.\n'
     (out/'findings.md').write_text(md,encoding='utf-8')
-    dump_json(out/'report-receipt.json',{'mode':'preview' if preview else 'real','pdf_pages':4,'case_study_pages':2,'renderer':'PyMuPDF','desktop_export':False})
+    dump_json(out/'report-receipt.json',{'mode':'preview' if preview else 'real','pdf_pages':4,'renderer':'PyMuPDF','desktop_export':False})
     con.close();print('Generated vector reports and four page previews:',out)

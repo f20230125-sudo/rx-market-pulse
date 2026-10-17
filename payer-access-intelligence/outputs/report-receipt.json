@@ -1,0 +1,6 @@
+{
+  "mode": "real",
+  "pdf_pages": 4,
+  "renderer": "PyMuPDF",
+  "desktop_export": false
+}
