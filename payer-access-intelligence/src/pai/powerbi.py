@@ -114,8 +114,8 @@ def generate(base, con, preview=False):
         slicer('dim_plan','region',28,136,350,'PDP region'),
         V('card',410,136,300,72,{'Values':[M('mart_review_queue','Investigation plans')]},title='BELSOMRA plans to investigate'),
         V('card',760,136,350,72,{'Values':[M('mart_review_queue','Associated enrollment')]},title='Associated reported enrollment'),
-        V('tableEx',28,230,1224,244,{'Values':[*core.cols('mart_review_queue','plan_key','organization','region','investigation','enrollment','listed_competitors','lost_strengths','next_step')]},
-          title='Investigate the payer document and criteria; this is not a sales opportunity estimate',sort=(core.col_ref('mart_review_queue','enrollment'),'Descending')),
+        V('tableEx',28,230,1224,244,{'Values':[*core.cols('mart_review_queue','review_rank','plan_key','organization','region','investigation','enrollment','listed_competitors','lost_strengths','next_step')]},
+          title='Investigate the payer document and criteria; this is not a sales opportunity estimate',sort=(core.col_ref('mart_review_queue','review_rank'),'Ascending')),
         V('tableEx',28,496,1224,158,{'Values':[*core.cols('mart_quality','check_id','check_name','status','detail')]},title='Source and model quality gates'),footer()]))
     core.pages=lambda:pages
     for table in tables:core.write_csv(table)

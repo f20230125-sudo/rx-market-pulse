@@ -149,6 +149,10 @@ WHERE a.month=(SELECT max(month) FROM dim_snapshot) AND a.brand='BELSOMRA' AND a
   AND (coalesce(ch.lost_strength,false) OR coalesce(ch.added_pa,false) OR coalesce(ch.added_st,false)
        OR (a.listing='Unlisted' AND c.competitor_listed));
 
+CREATE OR REPLACE TABLE mart_review_queue AS
+SELECT *, row_number() OVER(ORDER BY investigation, enrollment DESC NULLS LAST, plan_key) review_rank
+FROM mart_review_queue;
+
 CREATE OR REPLACE TABLE mart_source_counts AS SELECT * FROM raw_source_counts;
 CREATE OR REPLACE TABLE mart_quarantine AS SELECT * FROM raw_quarantine;
 CREATE OR REPLACE TABLE mart_quality AS

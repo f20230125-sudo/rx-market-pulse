@@ -89,7 +89,7 @@ def workbook(base,con,preview=False):
     summary.set_landscape();summary.set_paper(9);summary.fit_to_pages(1,1);summary.print_area('A1:H34');summary.set_margins(.3,.3,.3,.3)
     for sheet_name,table in [('Plan comparison','fact_brand'),('Changes','fact_change'),('Fixed enrollment weights','mart_change_summary'),('Investigations','mart_review_queue'),('Quality','mart_quality'),('Quarantine','mart_quarantine'),('Source counts','mart_source_counts')]:
         ws=wb.add_worksheet(sheet_name);ws.hide_gridlines(2);ws.freeze_panes(2,2);ws.set_column(0,40,19)
-        content=query_dicts(con,f'SELECT * FROM {table} ORDER BY ALL')
+        content=query_dicts(con,f'SELECT * FROM {table} ORDER BY '+('review_rank' if table=='mart_review_queue' else 'ALL'))
         columns=[x[0] for x in con.execute(f'SELECT * FROM {table} LIMIT 0').description]
         ws.merge_range(0,0,0,min(7,len(columns)-1),sheet_name+' | '+('FICTIONAL FIXTURES' if preview else 'Original CMS source analysis'),header)
         if content:

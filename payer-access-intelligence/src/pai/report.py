@@ -155,7 +155,10 @@ def report(preview=False):
     line(page,363,842)
     text(page,(30,382,812,412),'Validation and delivery status',15,INK,True)
     text(page,(30,421,812,520),'Delivered: source manifests, SQL marts, source audit, live-formula workbook, Power BI project and PDF report. Eight workbook scenarios passed LibreOffice Calc; 53 Power BI JSON files passed Microsoft schemas, and the model passed Microsoft TMDL parsing. Excel COM and Desktop rendering remain pending because an interactive logon session is unavailable. No Desktop-validated PBIX is claimed.',12)
-    memo.save(out/'Payer-Access-Case-Study.pdf');memo.close()
+    memo.save(out/'Payer-Access-Case-Study.pdf')
+    for i,page in enumerate(memo):
+        page.get_pixmap(matrix=fitz.Matrix(1.4,1.4),alpha=False).save(str(out/f'Case-Study-{i+1:02d}.png'))
+    memo.close()
     md='# Payer Access Intelligence\n\n'+ '\n\n'.join(findings)+'\n\nThese are descriptive US standalone PDP findings. Enrollment is not drug users, and the queue is not a revenue estimate.\n'
     (out/'findings.md').write_text(md,encoding='utf-8')
     dump_json(out/'report-receipt.json',{'mode':'preview' if preview else 'real','pdf_pages':4,'case_study_pages':2,'renderer':'PyMuPDF','desktop_export':False})
