@@ -12,4 +12,6 @@ outputs/preview/
 data/stage/
 outputs/test-run*/
 outputs/source-transfer.json
+outputs/*transfer.json
 outputs/calc-validation/
+outputs/portable-check/

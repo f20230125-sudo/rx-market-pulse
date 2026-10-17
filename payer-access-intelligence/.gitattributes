@@ -1,0 +1,7 @@
+* text=auto eol=lf
+data/extracts/** -text
+data/marts/*.csv -text
+powerbi/data/*.csv -text
+*.xlsx binary
+*.pdf binary
+*.png binary

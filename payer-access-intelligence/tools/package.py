@@ -9,9 +9,9 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def main():
     directories=['src','sql','tests','tools','docs','data/extracts','data/marts','powerbi','excel','.github']
-    files=[ROOT/n for n in ['README.md','LICENSE','pyproject.toml','.gitignore','data/source-map.json']]
+    files=[ROOT/n for n in ['README.md','LICENSE','pyproject.toml','.gitignore','.gitattributes','data/source-map.json']]
     for directory in directories:files.extend(p for p in (ROOT/directory).rglob('*') if p.is_file())
-    files.extend(p for p in (ROOT/'outputs').iterdir() if p.is_file() and p.suffix in ['.json','.csv','.pdf','.png','.md','.xml'] and p.name not in ['source-transfer.json','package-receipt.json'])
+    files.extend(p for p in (ROOT/'outputs').iterdir() if p.is_file() and p.suffix in ['.json','.csv','.pdf','.png','.md','.xml'] and not p.name.endswith('transfer.json') and p.name!='package-receipt.json')
     files=[p for p in files if '__pycache__' not in p.parts and '.pbi' not in p.parts and p.suffix not in ['.pyc','.log']]
     archive=ROOT.parent/'Payer-Access-Intelligence-Portfolio.zip'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
