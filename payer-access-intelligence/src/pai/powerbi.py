@@ -1,5 +1,6 @@
 """Four-page Power BI report, with explicit filters and non-additive enrollment."""
 import json
+import shutil
 
 from . import pbi_core as core
 from .io import query_dicts
@@ -8,6 +9,14 @@ from .io import query_dicts
 def generate(base, con, preview=False):
     pbi=base/'powerbi'
     core.PBI=pbi;core.DATA=pbi/'data';core.MODEL=pbi/'PayerAccess.SemanticModel';core.REPORT=pbi/'PayerAccess.Report'
+    # These directories are generated. Remove old tables/visuals before writing a new model.
+    for path in [core.MODEL/'definition',core.REPORT/'definition']:
+        resolved=path.resolve()
+        if not resolved.is_relative_to(pbi.resolve()):
+            raise ValueError('Generated directory escaped Power BI project')
+        if resolved.exists():shutil.rmtree(resolved)
+    if core.DATA.exists():
+        for path in core.DATA.glob('*.csv'):path.unlink()
     names=['dim_snapshot','dim_brand','dim_plan','fact_brand','fact_strength','fact_change','fact_brand_change','mart_review_queue','mart_quality','mart_source_counts']
     tables=[]
     for name in names:

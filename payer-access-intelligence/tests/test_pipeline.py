@@ -151,3 +151,18 @@ def test_single_snapshot_has_no_change_events(tmp_path):
     assert con.execute('SELECT count(*) FROM fact_change').fetchone()[0]==0
     assert con.execute('SELECT count(*) FROM fact_brand_change').fetchone()[0]==0
     con.close()
+
+
+def test_regeneration_removes_obsolete_tables_and_visuals(tmp_path,warehouse):
+    from pai.powerbi import generate
+    generate(tmp_path,warehouse,True)
+    model=tmp_path/'powerbi/PayerAccess.SemanticModel/definition/tables'
+    report=tmp_path/'powerbi/PayerAccess.Report/definition'
+    (model/'obsolete.tmdl').write_text('table obsolete\n')
+    (report/'obsolete.json').write_text('{}')
+    stale=tmp_path/'powerbi/data/obsolete.csv';stale.write_text('value\n1\n')
+    receipt=generate(tmp_path,warehouse,True)
+    assert not (model/'obsolete.tmdl').exists()
+    assert not (report/'obsolete.json').exists()
+    assert not stale.exists()
+    assert len(list(model.glob('*.tmdl')))==receipt['tables']
