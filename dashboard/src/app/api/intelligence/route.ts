@@ -3,6 +3,7 @@ import { answer } from "@/lib/intelligence/agent";
 import { loadPipeline } from "@/lib/intelligence/load";
 import { provider } from "@/lib/intelligence/provider";
 import { loadDataset } from "@/lib/load";
+import { readBoundedJson, RequestBodyError } from "@/lib/request-body";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -27,8 +28,10 @@ export async function POST(request: Request) {
     );
   let input;
   try {
-    input = Input.parse(await request.json());
-  } catch {
+    input = Input.parse(await readBoundedJson(request, 4096));
+  } catch (error) {
+    if (error instanceof RequestBodyError && error.status === 413)
+      return Response.json({ error: "Question too large" }, { status: 413 });
     return Response.json(
       { error: "Enter a question of 5–1000 characters." },
       { status: 400 },

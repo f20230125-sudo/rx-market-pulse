@@ -1,7 +1,7 @@
 name: Check warehouse logic and commercial analyst
 on:
   push:
-    branches: [main]
+    branches: [main, feat/msd-commercial-agent]
   pull_request:
 jobs:
   pipeline:
