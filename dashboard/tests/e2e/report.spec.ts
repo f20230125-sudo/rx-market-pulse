@@ -28,6 +28,35 @@ test("the area filter rescopes the numbers and the headline", async ({ page }) =
   await expect(page.locator("#market h2")).toContainText("of prescriptions");
   // The tile map and bridge follow the same scope.
   await expect(page.locator("#states")).toContainText("Diabetes & obesity");
+  await expect(page.locator(".report-context")).toContainText("Diabetes & obesity · 2019–2025");
+});
+
+test("phone navigation reaches sections without hiding their headings, and keeps the theme available", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await open(page);
+  const navigation = page.getByRole("navigation", { name: "Sections" });
+  await expect(navigation).toBeVisible();
+  const quality = navigation.getByRole("link", { name: "Quality", exact: true });
+  await quality.click();
+  await expect(quality).toHaveAttribute("aria-current", "location");
+  await expect(page).toHaveURL(/#quality$/);
+  const toolbar = await page.locator(".report-toolbar").boundingBox();
+  const heading = await page.locator("#quality h2").boundingBox();
+  expect(heading!.y).toBeGreaterThanOrEqual(toolbar!.y + toolbar!.height);
+  const theme = page.getByRole("button", { name: "Switch between light and dark theme" });
+  await expect(theme).toBeVisible();
+  await theme.click();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
+});
+
+test("the compact toolbar fits small phones, tablets and desktop screens", async ({ page }) => {
+  await open(page);
+  for (const width of [320, 390, 768, 1024, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth), `width ${width}`).toBeLessThanOrEqual(0);
+    await expect(page.locator("#area")).toBeVisible();
+    await expect(page.getByRole("navigation", { name: "Sections" })).toBeVisible();
+  }
 });
 
 test("choosing a different pair of years changes the bridge", async ({ page }) => {

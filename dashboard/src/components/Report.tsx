@@ -3,6 +3,7 @@
 import { useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
+import { ReportNavigation } from "./ReportNavigation";
 import { SpendColumns, ShareBars } from "./charts/Market";
 import { AreaIncrease, Waterfall } from "./charts/Growth";
 import { OwnerBars, ProductRows } from "./charts/Companies";
@@ -78,11 +79,10 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
   return (
     <>
       <a className="skip" href="#main">Skip to the report</a>
-      <header className="mast">
+      <header className="mast report-mast">
         <div className="shell">
           <div className="mast-top">
             <p className="kicker"><b>Rx Market Pulse</b> · a commercial-analytics case study by Mohammad Uzair Khan</p>
-            <Link className="analyst-link" href="/ask">Ask the analyst <span aria-hidden="true">→</span></Link>
           </div>
           <h1>What Medicaid pays for prescription drugs, and why the bill keeps growing</h1>
           <p className="lede">
@@ -99,7 +99,7 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
         </div>
       </header>
 
-      <div className="bar">
+      <div className="bar report-toolbar">
         <div className="shell bar-in">
           <div className="field">
             <label htmlFor="area">Therapeutic area</label>
@@ -108,15 +108,18 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
               {meta.areas.map((a) => (<option key={a} value={a}>{a}</option>))}
             </select>
           </div>
-          <nav aria-label="Sections">
-            <a href="#growth">Growth</a><a href="#sellers">Companies</a><a href="#generics">Generics</a><a href="#protection">Patents</a><a href="#states">States</a><a href="#outlook">Outlook</a><a href="#quality">Quality</a>
-          </nav>
+          <ReportNavigation />
           <Link className="analyst-link" href="/ask">Ask the analyst <span aria-hidden="true">→</span></Link>
           <ThemeToggle />
+          <div className="report-context">
+            <b>Report scope</b>
+            <span aria-live="polite">{scope} · {years[0]}–{years[years.length - 1]}</span>
+            <a href="#quality">Source notes &amp; quality checks <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </div>
 
-      <main id="main" className="shell">
+      <main id="main" className="shell market-report">
         <dl className="ledger" aria-label={`Key numbers, ${scope}`}>
           <div>
             <dt className="led-label">Spend in {k.y1}, {scope.toLowerCase()}</dt>
