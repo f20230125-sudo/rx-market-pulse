@@ -1,0 +1,407 @@
+{
+  "date": "2026-10-16T12:05:25.872Z",
+  "kind": "20 curated smoke questions, not a benchmark accuracy estimate",
+  "model": "resolved model IDs recorded per question",
+  "passed": 20,
+  "total": 20,
+  "results": [
+    {
+      "question": "Break down diabetes spending growth between 2022 and 2025.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "growth_bridge"
+      ],
+      "selected": [
+        "change",
+        "volume",
+        "mix",
+        "price",
+        "newProducts",
+        "lostProducts"
+      ],
+      "seconds": 7.157,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3154,
+        "outputTokens": 112,
+        "apiEquivalentUsd": 0.013728
+      }
+    },
+    {
+      "question": "What was total Medicaid reimbursement in 2025?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "market_summary"
+      ],
+      "selected": [
+        "spend"
+      ],
+      "seconds": 7.379,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 2868,
+        "outputTokens": 65,
+        "apiEquivalentUsd": 0.012114
+      }
+    },
+    {
+      "question": "What share of immunology spending was on brands in 2023?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "market_summary"
+      ],
+      "selected": [
+        "brand_share"
+      ],
+      "seconds": 8.945,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 2896,
+        "outputTokens": 73,
+        "apiEquivalentUsd": 0.012306000000000001
+      }
+    },
+    {
+      "question": "How many oncology prescriptions were reported nationally in 2019?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "market_summary"
+      ],
+      "selected": [
+        "rx"
+      ],
+      "seconds": 9.544,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 2880,
+        "outputTokens": 66,
+        "apiEquivalentUsd": 0.012172
+      }
+    },
+    {
+      "question": "Give the five highest scoring oncology states in 2025 using Balanced weights.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "rank_territories"
+      ],
+      "selected": [
+        "rank_1",
+        "rank_2",
+        "rank_3",
+        "rank_4",
+        "rank_5"
+      ],
+      "seconds": 10.034,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3371,
+        "outputTokens": 116,
+        "apiEquivalentUsd": 0.014636000000000001
+      }
+    },
+    {
+      "question": "Use Growth-led weights to rank diabetes territories for 2025.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "rank_territories"
+      ],
+      "selected": [
+        "rank_1",
+        "rank_2",
+        "rank_3",
+        "rank_4",
+        "rank_5"
+      ],
+      "seconds": 6.341,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3426,
+        "outputTokens": 118,
+        "apiEquivalentUsd": 0.014876
+      }
+    },
+    {
+      "question": "Does JANUVIA have active late-stage studies and when does core protection end?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "product_pipeline"
+      ],
+      "selected": [
+        "JANUVIA_late",
+        "JANUVIA_protection"
+      ],
+      "seconds": 8.225,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3085,
+        "outputTokens": 85,
+        "apiEquivalentUsd": 0.013182
+      }
+    },
+    {
+      "question": "Is KEYTRUDA covered by the Orange Book protection dates?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "product_pipeline"
+      ],
+      "selected": [
+        "KEYTRUDA_protection"
+      ],
+      "seconds": 6.739,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 4399,
+        "outputTokens": 120,
+        "apiEquivalentUsd": 0.018788
+      }
+    },
+    {
+      "question": "Show MSD brands whose core protection ends through 2028.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "product_pipeline"
+      ],
+      "selected": [
+        "JANUVIA_spend",
+        "JANUVIA_late",
+        "JANUVIA_protection",
+        "JANUMET_spend",
+        "JANUMET_late",
+        "JANUMET_protection",
+        "BRIDION_spend",
+        "BRIDION_late",
+        "BRIDION_protection",
+        "DIFICID_spend",
+        "DIFICID_late",
+        "DIFICID_protection"
+      ],
+      "seconds": 7.91,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3523,
+        "outputTokens": 232,
+        "apiEquivalentUsd": 0.016404
+      }
+    },
+    {
+      "question": "Compare the quarterly forecast method and baseline on the independent test.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "forecast_outlook"
+      ],
+      "selected": [
+        "test_wape",
+        "baseline_wape",
+        "method"
+      ],
+      "seconds": 6.819,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3640,
+        "outputTokens": 81,
+        "apiEquivalentUsd": 0.015362
+      }
+    },
+    {
+      "question": "What is the 2027 forecast for diabetes, including the empirical range?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "forecast_outlook"
+      ],
+      "selected": [
+        "2027_spend",
+        "2027_low",
+        "2027_high"
+      ],
+      "seconds": 8.72,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3672,
+        "outputTokens": 200,
+        "apiEquivalentUsd": 0.01668
+      }
+    },
+    {
+      "question": "Show 2025 total market spend and JANUVIA active late-stage study count together.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "market_summary",
+        "product_pipeline"
+      ],
+      "selected": [
+        "spend",
+        "JANUVIA_late"
+      ],
+      "seconds": 14.336,
+      "usage": {
+        "calls": 3,
+        "inputTokens": 5056,
+        "outputTokens": 114,
+        "apiEquivalentUsd": 0.021352
+      }
+    },
+    {
+      "question": "Show the volume and new-product contributions to oncology growth from 2019 to 2025.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "growth_bridge"
+      ],
+      "selected": [
+        "volume",
+        "newProducts"
+      ],
+      "seconds": 6.092,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3128,
+        "outputTokens": 82,
+        "apiEquivalentUsd": 0.013323999999999999
+      }
+    },
+    {
+      "question": "Rank 2024 states by the Size-led opportunity score across all areas.",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "rank_territories"
+      ],
+      "selected": [
+        "rank_1",
+        "rank_2",
+        "rank_3",
+        "rank_4",
+        "rank_5"
+      ],
+      "seconds": 10.055,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3396,
+        "outputTokens": 111,
+        "apiEquivalentUsd": 0.014685999999999998
+      }
+    },
+    {
+      "question": "What is the 2025 Medicaid reimbursement for WINREVAIR and how many active late-stage studies does it have?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "product_pipeline"
+      ],
+      "selected": [
+        "WINREVAIR_spend",
+        "WINREVAIR_late"
+      ],
+      "seconds": 9.151,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 3393,
+        "outputTokens": 158,
+        "apiEquivalentUsd": 0.015144
+      }
+    },
+    {
+      "question": "What did HIV prescriptions total nationally in 2020?",
+      "passed": true,
+      "refused": false,
+      "model": "claude-sonnet-5",
+      "tools": [
+        "market_summary"
+      ],
+      "selected": [
+        "rx"
+      ],
+      "seconds": 7.84,
+      "usage": {
+        "calls": 2,
+        "inputTokens": 2870,
+        "outputTokens": 65,
+        "apiEquivalentUsd": 0.012122
+      }
+    },
+    {
+      "question": "Show current UAE sales for MSD.",
+      "passed": true,
+      "refused": true,
+      "tools": [],
+      "selected": [],
+      "seconds": 0,
+      "usage": {
+        "calls": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "apiEquivalentUsd": 0
+      }
+    },
+    {
+      "question": "What is MSD net revenue from this database?",
+      "passed": true,
+      "refused": true,
+      "tools": [],
+      "selected": [],
+      "seconds": 0,
+      "usage": {
+        "calls": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "apiEquivalentUsd": 0
+      }
+    },
+    {
+      "question": "Retrieve private patient records.",
+      "passed": true,
+      "refused": true,
+      "tools": [],
+      "selected": [],
+      "seconds": 0,
+      "usage": {
+        "calls": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "apiEquivalentUsd": 0
+      }
+    },
+    {
+      "question": "Give actual total reimbursement for 2035.",
+      "passed": true,
+      "refused": true,
+      "model": "claude-sonnet-5",
+      "tools": [],
+      "selected": [],
+      "seconds": 3.861,
+      "usage": {
+        "calls": 1,
+        "inputTokens": 1256,
+        "outputTokens": 23,
+        "apiEquivalentUsd": 0.0052499999999999995
+      }
+    }
+  ]
+}

@@ -10,6 +10,9 @@ const ACTUAL = "var(--teal)";
 const FORE = "var(--ochre)";
 
 const METHOD_NAMES: Record<string, string> = {
+  'seasonal-naive': 'same quarter last year',
+  'seasonal-drift': 'seasonal pattern with recent annual growth',
+  'seasonal-trend': 'trend with quarter effects',
   naive: "same as last year",
   drift: "recent growth continues",
   "log-trend": "four-year trend",
@@ -36,14 +39,14 @@ export function ForecastChart({ data, years, scope }: { data: ForecastT[string];
   const forePts = [{ year: years[lastA], spend: data.actual[lastA], low: data.actual[lastA], high: data.actual[lastA] }, ...data.forecast];
   const forePath = forePts.map((f, i) => `${i ? "L" : "M"}${x(f.year).toFixed(1)},${y(f.spend).toFixed(1)}`).join(" ");
   const band = `${forePts.map((f, i) => `${i ? "L" : "M"}${x(f.year).toFixed(1)},${y(f.high).toFixed(1)}`).join(" ")} ${[...forePts].reverse().map((f) => `L${x(f.year).toFixed(1)},${y(f.low).toFixed(1)}`).join(" ")} Z`;
-  const chosen = data.backtest.find((b) => b.chosen);
-  const naive = data.backtest.find((b) => b.method === "naive");
+  const chosen = data.quarterly.methods.find((b) => b.chosen);
+  const naive = data.quarterly.methods.find((b) => b.method === "seasonal-naive");
   const last = data.forecast[data.forecast.length - 1];
 
   return (
     <Frame
       title={`Where spend may go, ${scope}`}
-      sub={chosen && naive ? `Method: ${METHOD_NAMES[chosen.method] ?? chosen.method}. In a backtest on past years it missed by ${chosen.mape.toFixed(1)}% on average, against ${naive.mape.toFixed(1)}% for "same as last year".` : undefined}
+      sub={chosen && naive ? `Method selected before the test: ${METHOD_NAMES[chosen.method] ?? chosen.method}. Test WAPE ${chosen.test.wape?.toFixed(1)}%, against ${naive.test.wape?.toFixed(1)}% for same quarter last year.` : undefined}
       view={view}
       onView={setView}
       legend={
@@ -53,7 +56,7 @@ export function ForecastChart({ data, years, scope }: { data: ForecastT[string];
           <li><i style={{ background: FORE, opacity: 0.22 }} />Range from backtest errors</li>
         </ul>
       }
-      source="Seven annual points are few, and 2024 is a visible dip, so treat this as a range, not a prediction. Backtest: forecast each year from the years before it (origins 2021 to 2024) and compare with what happened."
+      source="Annual forecasts sum eight quarterly predictions. Bands are sums of quarterly empirical error bounds, not calibrated annual confidence intervals. See the independent test and quarterly detail below."
       table={
         <table className="tbl">
           <caption>Forecast and backtest, {scope}</caption>

@@ -56,7 +56,7 @@ I took seven years of public US Medicaid pharmacy claims, 36 million rows, and b
 
 **Merck (MSD), outside in.** Public data shows only Medicaid pharmacy spend, before rebates, so it says little about total sales. It does show product-level shape: Keytruda about $0.9B and growing 14% a year, Januvia $0.3B and falling about 10% a year with its core patent ending in November 2026, and Winrevair, new since 2024, at $0.2B. Orange Book dates are where protection ends, not when a generic launches.
 
-**Forecast.** Seven annual points, so the method is simple and the backtest is the point: forecast each year from the years before it and compare. Recent growth continued beat "same as last year" (6.3% against 8.3% average miss), and the range comes from those misses.
+**Forecast.** The revised forecast uses 28 quarters. Model choice uses only rolling 2022–2023 validation, then stays frozen for 2024–2025 testing. Seasonal drift wins validation but loses the test to same-quarter-last-year (9.01% versus 5.54% WAPE). That failure stays visible. Final forecasts refit through 2025Q4; error scenarios are empirical and their annual sums do not claim calibrated coverage. The quarterly table and error by horizon make the small sample and overlapping cases explicit.
 
 **Power BI.** A star schema, 28 DAX measures and six pages, written as a Power BI project and checked by opening it in Power BI Desktop. Desktop rejected the first versions with clear errors (a measure used inside a filter, a measure named like a column); each was fixed in the generator. Walk through the measures in `powerbi/README.md` before the interview.
 

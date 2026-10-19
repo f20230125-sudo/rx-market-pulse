@@ -1,13 +1,16 @@
 "use client";
 
 import { useMemo, useState, type ReactNode } from "react";
+import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
+import { ReportNavigation } from "./ReportNavigation";
 import { SpendColumns, ShareBars } from "./charts/Market";
 import { AreaIncrease, Waterfall } from "./charts/Growth";
 import { OwnerBars, ProductRows } from "./charts/Companies";
 import { ErosionChart, ProtectedList, ProtectionChart } from "./charts/Lifecycle";
 import { StateCallout, TileMap } from "./charts/States";
 import { ForecastChart, QualityTable } from "./charts/Outlook";
+import { QuarterlyAudit } from "./QuarterlyAudit";
 import { areaGrowth, kpis, medianAt, medianCurve, protectionBars, stateRows, topOwners, waterfall } from "@/lib/derive";
 import { count, pct, signedPct, usd } from "@/lib/format";
 import { ALL, type Dataset } from "@/lib/schema";
@@ -76,7 +79,7 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
   return (
     <>
       <a className="skip" href="#main">Skip to the report</a>
-      <header className="mast">
+      <header className="mast report-mast">
         <div className="shell">
           <div className="mast-top">
             <p className="kicker"><b>Rx Market Pulse</b> · a commercial-analytics case study by Mohammad Uzair Khan</p>
@@ -96,7 +99,7 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
         </div>
       </header>
 
-      <div className="bar">
+      <div className="bar report-toolbar">
         <div className="shell bar-in">
           <div className="field">
             <label htmlFor="area">Therapeutic area</label>
@@ -105,14 +108,18 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
               {meta.areas.map((a) => (<option key={a} value={a}>{a}</option>))}
             </select>
           </div>
-          <nav aria-label="Sections">
-            <a href="#growth">Growth</a><a href="#sellers">Companies</a><a href="#generics">Generics</a><a href="#protection">Patents</a><a href="#states">States</a><a href="#outlook">Outlook</a><a href="#quality">Quality</a>
-          </nav>
+          <ReportNavigation />
+          <Link className="analyst-link" href="/ask">Ask the analyst <span aria-hidden="true">→</span></Link>
           <ThemeToggle />
+          <div className="report-context">
+            <b>Report scope</b>
+            <span aria-live="polite">{scope} · {years[0]}–{years[years.length - 1]}</span>
+            <a href="#quality">Source notes &amp; quality checks <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </div>
 
-      <main id="main" className="shell">
+      <main id="main" className="shell market-report">
         <dl className="ledger" aria-label={`Key numbers, ${scope}`}>
           <div>
             <dt className="led-label">Spend in {k.y1}, {scope.toLowerCase()}</dt>
@@ -206,9 +213,10 @@ export function Report({ data, repoUrl }: { data: Dataset; repoUrl?: string }) {
         <Section
           id="outlook" num="7"
           title={<>A range, not a prediction: {usd(lastFc.low, 0)} to {usd(lastFc.high, 0)} by {lastFc.year}</>}
-          dek="With seven annual points the forecast is deliberately simple. What makes it honest is the backtest: each method forecast the years it had not yet seen, and the range comes from how far it missed."
+          dek="Built from 28 quarters. Model selection ends in 2023; the separate 2024–2025 test shows how the frozen choice performs. Annual figures sum quarterly forecasts."
         >
           <ForecastChart data={fc} years={years} scope={scope} />
+          <QuarterlyAudit data={fc.quarterly} />
         </Section>
 
         <Section

@@ -115,6 +115,17 @@ export const Forecast = z.record(
     actual: nums,
     forecast: z.array(z.object({ year: z.number(), spend: z.number(), low: z.number(), high: z.number(), method: z.string() })),
     backtest: z.array(z.object({ method: z.string(), mape: z.number(), beatsNaive: z.boolean(), chosen: z.boolean() })),
+    quarterly: z.object({
+      actual: z.array(z.object({ period: z.string(), spend: z.number() })),
+      forecast: z.array(z.object({ period: z.string(), spend: z.number(), low: z.number(), high: z.number(), method: z.string(), calibrationN: z.number() })),
+      chosen: z.string(), selectionEnds: z.string(), testStarts: z.string(), testEnds: z.string(),
+      holdoutCoverage: z.number(), holdoutCases: z.number(), bandDescription: z.string(),
+      methods: z.array(z.object({ method: z.string(), chosen: z.boolean(),
+        selection: z.object({ n: z.number(), wape: z.number().nullable() }),
+        test: z.object({ n: z.number(), wape: z.number().nullable(), mape: z.number().nullable() }),
+        byHorizon: z.array(z.object({ horizon: z.number(), n: z.number(), wape: z.number().nullable() })),
+      })),
+    }),
   }),
 );
 

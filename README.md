@@ -4,6 +4,8 @@
 
 The three projects share one pipeline, so every number agrees across them.
 
+**New: [Commercial Intelligence Agent](docs/commercial-intelligence.md)** at `/ask` in the dashboard. It investigates spending, territory rankings, forecasts and MSD product pipelines using five typed tools. It supports explicit guided mode or real-model inference, and passed 20 real-model smoke questions. [Evaluation artifact](docs/intelligence-evaluation.json).
+
 | | Project | What it is | Tools |
 |---|---|---|---|
 | 1 | **Market Pulse** | Report and dashboard: where spend grew and why, who sells it, what happens when generics arrive, when patents end, state comparisons, a backtested forecast | DuckDB, SQL, Python, Next.js/TypeScript, Power BI |
@@ -21,7 +23,7 @@ All figures are national Medicaid pharmacy spend, **gross of manufacturer rebate
 - **Two years after generics arrive, the median brand keeps 19% of its spend** (48 molecules). The spread is wide: one brand kept 3% after a year, another kept 76% after two.
 - **$13.1B** of 2025 brand spend sits on products whose core patent or exclusivity ends in 2026–2028 (FDA Orange Book).
 - Per-enrollee spend differs **3.5×** between the highest and lowest state, but states such as California (2022), New York (2023) and North Carolina changed how they report pharmacy spend, so their growth is not demand. The model flags and neutralises them.
-- A deliberately simple forecast puts 2027 spend at **$107B–$137B**. Its backtest error (6.3%) beats "same as last year" (8.3%), and the range comes from how far it missed.
+- The forecast now uses **28 quarters**, with model selection on 2022–2023 and a separate 2024–2025 test. The frozen seasonal-drift choice **lost to the seasonal baseline** on that test (9.01% versus 5.54% WAPE). Its 2027 empirical scenario range is about **$117B–$140B**; these are summed quarterly error bounds, not a calibrated annual confidence interval. See [forecast methodology](docs/quarterly-forecast.md).
 
 ## The data-quality findings that shaped the build
 
@@ -43,7 +45,7 @@ pip install -r requirements.txt
 python -m rx.fetch            # downloads ~3 GB of public files into data/raw (about 10 minutes)
 python -m rx.build            # stage, model and marts into DuckDB (about 90 seconds)
 python -m rx.dq               # data-quality scorecard
-python -m rx.forecast         # backtested forecast
+python -m rx.forecast         # quarterly forecast, separate model selection and test
 pytest                        # 116 tests: unit tests plus data tests against the built warehouse
 
 python -m rx.export_json      # JSON for the dashboard

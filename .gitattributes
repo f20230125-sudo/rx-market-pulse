@@ -1,0 +1,4 @@
+# Pinned snapshot hashes must survive Windows and Linux checkouts unchanged.
+dashboard/public/data/pipeline/*.json text eol=lf
+# Generated evaluation data remains available but is collapsed in code review.
+data/marts/forecast_evaluation.json linguist-generated=true
