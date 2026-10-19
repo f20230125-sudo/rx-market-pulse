@@ -3,6 +3,8 @@ import { expect, test, type Page } from "@playwright/test";
 
 async function open(page: Page, scheme: "light" | "dark" = "light") {
   await page.emulateMedia({ colorScheme: scheme });
+
+  if (scheme === "dark") await page.addInitScript(() => localStorage.setItem("rx-theme", "dark"));
   const errors: string[] = [];
   page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
   page.on("pageerror", (e) => errors.push(String(e)));
@@ -157,3 +159,9 @@ for (const scheme of ["light", "dark"] as const) {
     expect(bad.map((v) => `${v.id}: ${v.nodes.slice(0, 3).map((n) => n.target.join(" ")).join(" | ")}`)).toEqual([]);
   });
 }
+
+test("opens in light mode even when the system prefers dark", async ({ page }) => {
+  await page.emulateMedia({ colorScheme: "dark" });
+  await page.goto("/");
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+});
